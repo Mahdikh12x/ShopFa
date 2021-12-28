@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "2a26349c-99b5-4cc1-a2d4-3f1674302ecb": {
+      "ProjectGuid": "2a26349c-99b5-4cc1-a2d4-3f1674302ecb",
+      "DisplayName": "0_Freamwork",
+      "ColorIndex": 0
+    },
+    "59da42c0-06f1-42eb-a6d1-579b6542ee32": {
+      "ProjectGuid": "59da42c0-06f1-42eb-a6d1-579b6542ee32",
+      "DisplayName": "ShopManagement.Application.Contracts",
+      "ColorIndex": 1
+    },
+    "546233b1-a365-479f-b09d-16e44472cba7": {
+      "ProjectGuid": "546233b1-a365-479f-b09d-16e44472cba7",
+      "DisplayName": "ShopManagement.Application",
+      "ColorIndex": 2
+    },
+    "9b3a201a-2103-4161-98d9-ff85bf27ea12": {
+      "ProjectGuid": "9b3a201a-2103-4161-98d9-ff85bf27ea12",
+      "DisplayName": "ServiceHost",
+      "ColorIndex": 3
+    },
+    "b0613f3f-c0c6-4787-81ef-311ba2f12252": {
+      "ProjectGuid": "b0613f3f-c0c6-4787-81ef-311ba2f12252",
+      "DisplayName": "ShopManagement.infrastructure.EFCore",
+      "ColorIndex": 4
+    },
+    "f292a749-a82b-4408-9825-45de64ed7e76": {
+      "ProjectGuid": "f292a749-a82b-4408-9825-45de64ed7e76",
+      "DisplayName": "ShopManagement.Domain",
+      "ColorIndex": 5
+    }
+  },
+  "NextColorIndex": 6
+}

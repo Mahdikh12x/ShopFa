@@ -1,0 +1,12 @@
+C:\Users\Mahdi\source\repos\ShopFa\ShopManagement.Application\bin\Debug\net6.0\ShopManagement.Application.deps.json
+C:\Users\Mahdi\source\repos\ShopFa\ShopManagement.Application\bin\Debug\net6.0\ShopManagement.Application.dll
+C:\Users\Mahdi\source\repos\ShopFa\ShopManagement.Application\bin\Debug\net6.0\ref\ShopManagement.Application.dll
+C:\Users\Mahdi\source\repos\ShopFa\ShopManagement.Application\bin\Debug\net6.0\ShopManagement.Application.pdb
+C:\Users\Mahdi\source\repos\ShopFa\ShopManagement.Application\obj\Debug\net6.0\ShopManagement.Application.csproj.AssemblyReference.cache
+C:\Users\Mahdi\source\repos\ShopFa\ShopManagement.Application\obj\Debug\net6.0\ShopManagement.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mahdi\source\repos\ShopFa\ShopManagement.Application\obj\Debug\net6.0\ShopManagement.Application.AssemblyInfoInputs.cache
+C:\Users\Mahdi\source\repos\ShopFa\ShopManagement.Application\obj\Debug\net6.0\ShopManagement.Application.AssemblyInfo.cs
+C:\Users\Mahdi\source\repos\ShopFa\ShopManagement.Application\obj\Debug\net6.0\ShopManagement.Application.csproj.CoreCompileInputs.cache
+C:\Users\Mahdi\source\repos\ShopFa\ShopManagement.Application\obj\Debug\net6.0\ShopManagement.Application.dll
+C:\Users\Mahdi\source\repos\ShopFa\ShopManagement.Application\obj\Debug\net6.0\ref\ShopManagement.Application.dll
+C:\Users\Mahdi\source\repos\ShopFa\ShopManagement.Application\obj\Debug\net6.0\ShopManagement.Application.pdb
