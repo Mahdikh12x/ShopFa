@@ -15,12 +15,12 @@ namespace ShopManagement.Application
 
         public OperationResult Create(CreateProductCategory command)
         {
-            var operation=new OperationResult();
+            var operation = new OperationResult();
             if (_productCategoryRepository.Exists(x => x.Name == command.Name))
-                operation.Failed("این رکورد از قبل موجود میباشد لطفا دوباره اقدام نمایید.");
-            var slug=command.Slug.Slugify();
-            var productCategory=new ProductCategory(command.Name,command.Description,command.MetaDescription,command.Picture,
-                command.PictureTitle,command.PictureAlt,slug,command.Keywords);
+             return   operation.Failed("این رکورد از قبل موجود میباشد لطفا دوباره اقدام نمایید.");
+            var slug = command.Slug.Slugify();
+            var productCategory = new ProductCategory(command.Name, command.Description, command.MetaDescription, command.Picture,
+                command.PictureTitle, command.PictureAlt, slug, command.Keywords);
 
             _productCategoryRepository.Create(productCategory);
             _productCategoryRepository.SaveChanges();
@@ -31,10 +31,10 @@ namespace ShopManagement.Application
         {
             var operation = new OperationResult();
             var productCategory = _productCategoryRepository.Get(command.Id);
-            if (productCategory != null)
-                operation.Failed("این مقدار وجود ندارد لطفا دوباره اقدام نمایید .");
+            if (productCategory == null)
+                return operation.Failed("این مقدار وجود ندارد لطفا دوباره اقدام نمایید .");
             if (_productCategoryRepository.Exists(x => x.Name == command.Name))
-                operation.Failed("این نام تکراری میباشد لطفا ئوباره اقدام نمایید .");
+                return operation.Failed("این نام تکراری میباشد لطفا ئوباره اقدام نمایید .");
 
             var slug = command.Slug.Slugify();
             productCategory.Edit(command.Name, command.Description, command.MetaDescription,
@@ -47,13 +47,13 @@ namespace ShopManagement.Application
 
         public EditProductCategory GetDetails(long id)
         {
-           return _productCategoryRepository.GetDetails(id);
+            return _productCategoryRepository.GetDetails(id);
         }
 
 
         public List<ProductCategoryViewModel> Search(ProductCategorySearchModel searchModel)
         {
-           return _productCategoryRepository.Search(searchModel);
+            return _productCategoryRepository.Search(searchModel);
 
         }
     }

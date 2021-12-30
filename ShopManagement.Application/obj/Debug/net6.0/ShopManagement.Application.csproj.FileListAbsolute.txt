@@ -10,3 +10,10 @@ C:\Users\Mahdi\source\repos\ShopFa\ShopManagement.Application\obj\Debug\net6.0\S
 C:\Users\Mahdi\source\repos\ShopFa\ShopManagement.Application\obj\Debug\net6.0\ShopManagement.Application.dll
 C:\Users\Mahdi\source\repos\ShopFa\ShopManagement.Application\obj\Debug\net6.0\ref\ShopManagement.Application.dll
 C:\Users\Mahdi\source\repos\ShopFa\ShopManagement.Application\obj\Debug\net6.0\ShopManagement.Application.pdb
+C:\Users\Mahdi\source\repos\ShopFa\ShopManagement.Application\bin\Debug\net6.0\0_Framework.dll
+C:\Users\Mahdi\source\repos\ShopFa\ShopManagement.Application\bin\Debug\net6.0\ShopManagement.Application.Contracts.dll
+C:\Users\Mahdi\source\repos\ShopFa\ShopManagement.Application\bin\Debug\net6.0\ShopManagement.Domain.dll
+C:\Users\Mahdi\source\repos\ShopFa\ShopManagement.Application\bin\Debug\net6.0\ShopManagement.Application.Contracts.pdb
+C:\Users\Mahdi\source\repos\ShopFa\ShopManagement.Application\bin\Debug\net6.0\ShopManagement.Domain.pdb
+C:\Users\Mahdi\source\repos\ShopFa\ShopManagement.Application\bin\Debug\net6.0\0_Framework.pdb
+C:\Users\Mahdi\source\repos\ShopFa\ShopManagement.Application\obj\Debug\net6.0\ShopManagement.Application.csproj.CopyComplete
