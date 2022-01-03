@@ -5,7 +5,27 @@
       "ProjectGuid": "6f25aba6-6107-4231-8b29-555045bc7eeb",
       "DisplayName": "ServiceHost",
       "ColorIndex": 0
+    },
+    "0cc39c32-4490-43f1-8b09-77558fcb7edd": {
+      "ProjectGuid": "0cc39c32-4490-43f1-8b09-77558fcb7edd",
+      "DisplayName": "0_Framework",
+      "ColorIndex": 1
+    },
+    "b88f28d4-1046-4872-8540-a48128b13c21": {
+      "ProjectGuid": "b88f28d4-1046-4872-8540-a48128b13c21",
+      "DisplayName": "ShopManagement.Application",
+      "ColorIndex": 2
+    },
+    "c6bc6757-c7ca-4773-9533-ad5e432517cc": {
+      "ProjectGuid": "c6bc6757-c7ca-4773-9533-ad5e432517cc",
+      "DisplayName": "ShopManagement.Application.Contracts",
+      "ColorIndex": 3
+    },
+    "1379b344-bc1f-44e4-a90e-ffb3f3e7d394": {
+      "ProjectGuid": "1379b344-bc1f-44e4-a90e-ffb3f3e7d394",
+      "DisplayName": "ShopManagement.Domain",
+      "ColorIndex": 4
     }
   },
-  "NextColorIndex": 1
+  "NextColorIndex": 5
 }
