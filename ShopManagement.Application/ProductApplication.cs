@@ -33,7 +33,7 @@ namespace ShopManagement.Application
             var product = _productRepository.Get(command.Id);
             if (product == null)
                 return operation.Failed(ApplicationValidationMessages.NotExisted);
-            if (_productRepository.Exists(x => x.Name == command.Name))
+            if (_productRepository.Exists(x => x.Name == command.Name&&x.Id !=command.Id))
                 return operation.Failed(ApplicationValidationMessages.Duplicated);
             var slug = command.Slug.Slugify();
             product.Edit(command.Name, command.Code, command.ShortDescription, command.Description, command.UnitPrice,

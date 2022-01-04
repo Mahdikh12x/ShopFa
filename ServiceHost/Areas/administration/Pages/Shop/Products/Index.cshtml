@@ -62,6 +62,7 @@
                                     <th>نام</th>
                                     <th>گروه محصول</th>
                                     <th>کد محصول</th>
+                                    <th>موجودی</th>
                                     <th>تاریخ تولید</th>
                                     <th>عملیات</th>
                                 </tr>
@@ -77,12 +78,36 @@
                                         <td>@item.Name</td>
                                         <td>@item.Category</td>
                                         <td>@item.Code</td>
+                                         <td class="text-center">
+                                            @if (item.IsInStock)
+                                            {
+                                                <i class="fa fa-check fa-3x text-success"></i>
+                                            }
+                                            else
+                                            {
+                                                <i class="fa fa-remove fa-3x text-danger"></i>
+                                            }
+                                        </td>
                                         <td>@item.CreationDate</td>
                                         <td>
-                                            <a class="btn btn-warning pull-right m-rl-5" 
-                                               href="#showmodal=@Url.Page("./Index","Edit",new {id=item.Id})">
+                                            <a class="btn btn-warning pull-right m-rl-5"
+                                           href="#showmodal=@Url.Page("./Index","Edit",new {id=item.Id})">
                                                 <i class="fa fa-edit"></i> ویرایش
                                             </a>
+                                        <td>
+                                                @if (item.IsInStock)
+                                                {
+                                                <a asp-page="./Index" asp-page-handler="NotInStock" asp-route-id="@item.Id"
+                                           class="btn btn-danger btn-custom waves-effect waves-light m-b-5">اتمام موجودی!</a>
+
+                                                }
+                                                else
+                                                {
+                                                    <a asp-page="./Index" asp-page-handler="InStock" asp-route-id="@item.Id"
+                                             class="btn btn-success btn-custom waves-effect waves-light m-b-5">موجود شد!</a>
+
+                                                }
+                                        </td>
                                         </td>
                                     </tr>
                                 }
@@ -96,12 +121,12 @@
 </div>
 
 @section Scripts {
-    <script src="~/adminTheme/assets/datatables/jquery.dataTables.min.js"></script>
-    <script src="~/adminTheme/assets/datatables/dataTables.bootstrap.js"></script>
+<script src="~/adminTheme/assets/datatables/jquery.dataTables.min.js"></script>
+<script src="~/adminTheme/assets/datatables/dataTables.bootstrap.js"></script>
 
-    <script type="text/javascript">
-        $(document).ready(function () {
-            $('#datatable').dataTable();
-        });
-    </script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#datatable').dataTable();
+    });
+</script>
 }

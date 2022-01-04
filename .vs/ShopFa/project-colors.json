@@ -25,7 +25,22 @@
       "ProjectGuid": "1379b344-bc1f-44e4-a90e-ffb3f3e7d394",
       "DisplayName": "ShopManagement.Domain",
       "ColorIndex": 4
+    },
+    "1f317a0d-bcbd-454f-a79a-98f731885cc1": {
+      "ProjectGuid": "1f317a0d-bcbd-454f-a79a-98f731885cc1",
+      "DisplayName": "ShopManagement.Infrastructure.EFCore",
+      "ColorIndex": 5
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "8596dae1-1344-4d72-bc45-a88e70be1805": {
+      "ProjectGuid": "8596dae1-1344-4d72-bc45-a88e70be1805",
+      "DisplayName": "ShopManagement.Infrastructure.Configuration",
+      "ColorIndex": 6
     }
   },
-  "NextColorIndex": 5
+  "NextColorIndex": 7
 }

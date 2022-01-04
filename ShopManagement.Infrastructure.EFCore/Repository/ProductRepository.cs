@@ -5,11 +5,11 @@ using ShopManagement.Domain.ProductAgg;
 
 namespace ShopManagement.Infrastructure.EFCore.Repository
 {
-    public class ProductReository : BaseRepository<long, Product>, IProductRepository
+    public class ProductRepository : BaseRepository<long, Product>, IProductRepository
     {
         private readonly ShopContext _context;
 
-        public ProductReository(ShopContext context) : base(context)
+        public ProductRepository(ShopContext context) : base(context)
         {
             _context = context;
         }
@@ -45,7 +45,8 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
                 Name = x.Name,
                 Category = x.ProductCategory.Name,
                 CreationDate = x.CreationDate.ToString(),
-                Picture = x.Picture
+                Picture = x.Picture,
+                IsInStock = x.IsInStock
 
             }).ToList();
 

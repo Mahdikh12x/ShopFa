@@ -18,7 +18,7 @@ namespace ShopManagement.Infrastructure.Configuration
             services.AddTransient<IProductCategoryRepository, ProductCategoryRepository>();
 
             services.AddTransient<IProductApplication, ProductApplication>();
-            services.AddTransient<IProductRepository,ProductReository>();
+            services.AddTransient<IProductRepository,ProductRepository>();
             services.AddDbContext<ShopContext>(x => x.UseSqlServer(connectionStrings));
         }
     }
