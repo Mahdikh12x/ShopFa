@@ -24,7 +24,7 @@ namespace ShopManagement.Application.Contracts.Product
         public string PictureAlt { get; set; }
         public string PictureTitle { get; set; }
       
-        [Required(ErrorMessage = ValidationMessages.Required)]
+        [Range(1,100000,ErrorMessage = ValidationMessages.Required)]
         public long CategoryId { get; set; }
       
         [Required(ErrorMessage = ValidationMessages.Required)]

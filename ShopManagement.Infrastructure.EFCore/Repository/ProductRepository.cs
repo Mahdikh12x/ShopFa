@@ -28,9 +28,10 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
                 PictureAlt = x.PictureAlt,
                 PictureTitle = x.PictureTitle,
                 MetaDescription = x.MetaDescription,
-                ShortDescription = x.ShortDescripion,
+                ShortDescription = x.ShortDescription,
                 Slug = x.Slug,
                 UnitPrice = x.UnitePrice
+
             }).FirstOrDefault(x => x.Id == id);
             return product;
         }
@@ -47,17 +48,18 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
                 CreationDate = x.CreationDate.ToString(),
                 Picture = x.Picture,
                 IsInStock = x.IsInStock
+                
 
             }).ToList();
 
             if (!string.IsNullOrWhiteSpace(searchModel.Name))
                 query = query.Where(x => x.Name.Contains(searchModel.Name)).ToList();
-            
-            if (!string.IsNullOrWhiteSpace(searchModel.Code))
-                 query = query.Where(x => x.Code.Contains(searchModel.Code)).ToList();
 
-            if (searchModel.CategoryId > 0)
-                 query = query.Where(x => x.Code == searchModel.Code).ToList();
+            if (!string.IsNullOrWhiteSpace(searchModel.Code))
+                query = query.Where(x => x.Code.Contains(searchModel.Code)).ToList();
+
+            if (searchModel.CategoryId != 0)
+                query = query.Where(x => x.CategoryId == searchModel.CategoryId).ToList();
 
             return query.OrderByDescending(x => x.Id).ToList();
         }

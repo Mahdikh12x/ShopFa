@@ -1,5 +1,6 @@
 ﻿using _0_Framework.Domain;
 using ShopManagement.Domain.ProductCategoryAgg;
+using ShopManagement.Domain.ProductPictureAgg;
 
 namespace ShopManagement.Domain.ProductAgg
 {
@@ -7,7 +8,7 @@ namespace ShopManagement.Domain.ProductAgg
     {
         public string Name { get; private set; }
         public string Code { get; private set; }
-        public string ShortDescripion { get; private set; }
+        public string ShortDescription { get; private set; }
         public string Description { get; private set; }
         public double UnitePrice { get; private set; }
         public bool IsInStock { get; private set; }
@@ -19,15 +20,15 @@ namespace ShopManagement.Domain.ProductAgg
         public string Slug { get; private set; }
         public string MetaDescription { get; private set; }
         public ProductCategory ProductCategory { get; private set; }
-
-
+        public List<ProductPicture> ProductPictures { get; private set; }
+        
         public Product(string name, string code,
-            string shortDescripion, string description, double unitePrice, string picture,
+            string shortDescription, string description, double unitePrice, string picture,
             string pictureAlt, string pictureTitle, long categoryId, string keywords, string slug, string metaDescription)
         {
             Name = name;
             Code = code;
-            ShortDescripion = shortDescripion;
+            ShortDescription = shortDescription;
             Description = description;
             UnitePrice = unitePrice;
             Picture = picture;
@@ -40,12 +41,12 @@ namespace ShopManagement.Domain.ProductAgg
             IsInStock = true;
         }
         public void Edit(string name, string code,
-            string shortDescripion, string description, double unitePrice, string picture,
+            string shortDescription, string description, double unitePrice, string picture,
             string pictureAlt, string pictureTitle, long categoryId, string keywords, string slug, string metaDescription)
         {
             Name = name;
             Code = code;
-            ShortDescripion = shortDescripion;
+            ShortDescription = shortDescription;
             Description = description;
             UnitePrice = unitePrice;
             Picture = picture;
