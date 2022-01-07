@@ -3,6 +3,6 @@
 public class ProductPictureSearchModel
 {
     public string Product { get; set; }
-    public long CategoryId { get; set; }
+    public long ProductId { get; set; }
 
 }

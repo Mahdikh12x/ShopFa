@@ -58,6 +58,11 @@ namespace ShopManagement.Application
             return operation.Succedded();
         }
 
+        public List<ProductViewModel> GetProducts()
+        {
+            return _productRepository.GetProducts();
+        }
+
         public OperationResult NotInStock(long id)
         {
             var operation = new OperationResult();

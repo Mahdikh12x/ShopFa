@@ -24,10 +24,7 @@ namespace _0_Framework.Infrastructure
            return _context.Set<T>().Any(expression);
         }
 
-        public T Get(TKey key)
-        {
-            return _context.Find<T>(key);
-        }
+        public T Get(TKey key) => _context.Find<T>(key);
 
         public List<T> Get()
         {

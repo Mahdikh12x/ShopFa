@@ -17,7 +17,7 @@ namespace ShopManagement.Infrastructure.EFCore.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Name = table.Column<string>(type: "nvarchar(255)", maxLength: 255, nullable: false),
                     Code = table.Column<string>(type: "nvarchar(15)", maxLength: 15, nullable: false),
-                    ShortDescripion = table.Column<string>(type: "nvarchar(500)", maxLength: 500, nullable: false),
+                    ShortDescription = table.Column<string>(type: "nvarchar(500)", maxLength: 500, nullable: false),
                     Description = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     UnitePrice = table.Column<double>(type: "float", nullable: false),
                     IsInStock = table.Column<bool>(type: "bit", nullable: false),

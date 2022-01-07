@@ -13,7 +13,7 @@ namespace ServiceHost.Areas.administration.Pages.Shop.Products
         private readonly IProductApplication _productApplication;
         private readonly IProductCategoryApplication _productCategoryApplication;
         public SelectList ProductCategories;
-        public IndexModel(IProductApplication productApplication, IProductCategoryApplication productCategoryApplication = null)
+        public IndexModel(IProductApplication productApplication, IProductCategoryApplication productCategoryApplication)
         {
             _productApplication = productApplication;
             _productCategoryApplication = productCategoryApplication;
@@ -63,5 +63,6 @@ namespace ServiceHost.Areas.administration.Pages.Shop.Products
             var result = _productApplication.InStock(id);
             return RedirectToPage("./Index", result);
         }
+
     }
 }

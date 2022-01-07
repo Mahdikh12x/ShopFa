@@ -30,12 +30,12 @@ namespace ShopManagement.Domain.ProductPictureAgg
 
         public void Remove()
         {
-            IsRemoved = false;
+            IsRemoved = true;
         }
 
         public void Restore()
         {
-            IsRemoved = true;
+            IsRemoved = false;
         }
     }
 }
