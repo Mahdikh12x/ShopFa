@@ -7,7 +7,7 @@
     <div class="col-sm-12">
         <h4 class="page-title pull-right">@ViewData["title"]</h4>
         <p class="pull-left">
-            <a class="btn btn-success btn-lg" href="#showmodal=@Url.Page("./Index","Create")">ایجاد عکس محصول جدید</a>
+            <a class="btn btn-success btn-lg" href="#showmodal=@Url.Page("./Index", "Create")">ایجاد عکس محصول جدید</a>
         </p>
     </div>
 </div>
@@ -19,11 +19,12 @@
                 <h3 class="panel-title">جستجو در عکس محصولات</h3>
             </div>
             <div class="panel-body">
-                <form class="form-inline" role="form" method="get">
+     <form class="form-inline" role="form" method="get">
+                   
                     <div class="form-group">
                         <label class="sr-only" asp-for="SearchModel.ProductId"></label>
                         <select class="form-control" asp-for="SearchModel.ProductId" asp-items="Model.Products">
-                            <option value="0"> محصول ...</option>
+                            <option value="0">نام محصول...</option>
                         </select>
                     </div>
                     <button type="submit" class="btn btn-success waves-effect waves-light m-l-10">جستجو</button>
@@ -33,6 +34,7 @@
         </div>
     </div>
 </div>
+
 <div class="row" id="ProductCategoriesDiv">
     <div class="col-md-12">
         <div class="panel panel-default">
@@ -47,8 +49,8 @@
                                 <tr>
                                     <th>#</th>
                                     <th>عکس</th>
-                                    <th> محصول</th>
-                                    <th>موجودی</th>
+                                    <th>نام محصول</th>
+                                    <th>فعال بودن</th>
                                     <th>تاریخ تولید</th>
                                     <th>عملیات</th>
                                 </tr>
@@ -57,12 +59,13 @@
                                 @foreach (var item in Model.ProductPictures)
                                 {
                                     <tr>
+
                                         <td>@item.Id</td>
                                         <td>
                                             <img src="@item.Picture" style="width: 70px; height: 70px" />
                                         </td>
                                         <td>@item.Product</td>
-                                        <td>@item.CreationDate</td>
+                                
                                         <td class="text-center">
                                             @if (!item.IsRemoved)
                                             {
@@ -72,30 +75,35 @@
                                             {
                                                 <i class="fa fa-remove fa-3x text-danger"></i>
                                             }
+
                                         </td>
-                                        <td>@item.CreationDate</td>
+                                        <th>@item.CreationDate</th>
+
                                         <td>
                                             <a class="btn btn-warning pull-right m-rl-5"
-                                           href="#showmodal=@Url.Page("./Index","Edit",new {id=item.Id})">
+                                           href="#showmodal=@Url.Page("./Index", "Edit", new { id = item.Id})">
                                                 <i class="fa fa-edit"></i> ویرایش
                                             </a>
-                                        <td>
-                                                @if (!item.IsRemoved)
-                                                {
+
+                                            @if (!item.IsRemoved)
+                                            {
                                                 <a asp-page="./Index" asp-page-handler="Remove" asp-route-id="@item.Id"
-                                           class="btn btn-danger btn-custom waves-effect waves-light m-b-5">غیرفعالسازی</a>
+                                           class="btn btn-danger btn-custom waves-effect waves-light m-b-5">غیرفعال سازی!</a>
 
-                                                }
-                                                else
-                                                {
+                                            }
+                                            else
+                                            {
                                                 <a asp-page="./Index" asp-page-handler="Restore" asp-route-id="@item.Id"
-                                           class="btn btn-success btn-custom waves-effect waves-light m-b-5">فعالسازی</a>
+                                           class="btn btn-success btn-custom waves-effect waves-light m-b-5">فعالسازی!</a>
 
-                                                }
-                                        </td>
+                                            }
+
                                         </td>
                                     </tr>
+
                                 }
+
+
                             </tbody>
                         </table>
                     </div>
@@ -115,3 +123,5 @@
     });
 </script>
 }
+
+
