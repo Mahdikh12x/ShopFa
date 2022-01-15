@@ -33,7 +33,7 @@ namespace ShopManagement.Application
             var productCategory = _productCategoryRepository.Get(command.Id);
             if (productCategory == null)
                 return operation.Failed(ApplicationValidationMessages.NotExisted);
-            if (_productCategoryRepository.Exists(x => x.Name == command.Name))
+            if (_productCategoryRepository.Exists(x => x.Name == command.Name&&x.Id !=command.Id))
                 return operation.Failed(ApplicationValidationMessages.Duplicated);
 
             var slug = command.Slug.Slugify();

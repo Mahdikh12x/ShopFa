@@ -22,7 +22,8 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
                 IsRemoved = x.IsRemoved,
                 CreationDate = x.CreationDate.ToString(CultureInfo.InvariantCulture),
                 Picture = x.Picture,
-                Product = x.Product.Name
+                Product = x.Product.Name,
+                ProductId = x.ProductId
             }
             ).ToList();
 
@@ -42,6 +43,7 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
                         PictureAlt = x.PictureAlt,
                         PictureTitle = x.PictureTitle,
                         ProductId = x.ProductId,
+                        
                         
                     })
                 .FirstOrDefault(x => x.Id==id);

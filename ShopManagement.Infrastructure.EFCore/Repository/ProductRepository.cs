@@ -56,9 +56,8 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
                 Category = x.ProductCategory.Name,
                 CreationDate = x.CreationDate.ToString(),
                 Picture = x.Picture,
-                IsInStock = x.IsInStock
-                
-
+                IsInStock = x.IsInStock,
+                CategoryId = x.CategoryId
             }).ToList();
 
             if (!string.IsNullOrWhiteSpace(searchModel.Name))
