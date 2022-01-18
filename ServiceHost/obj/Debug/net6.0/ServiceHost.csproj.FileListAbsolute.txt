@@ -273,3 +273,5 @@ C:\Users\Mahdi\source\repos\ShopFa\ServiceHost\obj\Debug\net6.0\ServiceHost.dll
 C:\Users\Mahdi\source\repos\ShopFa\ServiceHost\obj\Debug\net6.0\ref\ServiceHost.dll
 C:\Users\Mahdi\source\repos\ShopFa\ServiceHost\obj\Debug\net6.0\ServiceHost.pdb
 C:\Users\Mahdi\source\repos\ShopFa\ServiceHost\obj\Debug\net6.0\ServiceHost.genruntimeconfig.cache
+C:\Users\Mahdi\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\01_ShopFaQuery.dll
+C:\Users\Mahdi\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\01_ShopFaQuery.pdb

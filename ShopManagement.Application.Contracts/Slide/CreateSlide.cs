@@ -19,4 +19,6 @@ public class CreateSlide
     public string Text { get;  set; }
     [Required(ErrorMessage = ValidationMessages.Required)]
     public string BtnText { get;  set; }
+    [Required(ErrorMessage = ValidationMessages.Required)]
+    public string Link { get; set; }
 }

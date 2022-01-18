@@ -10,8 +10,8 @@
       data-callback=""
       data-action="Refresh">
     <div class="modal-body">
-        
-        
+
+
         <div class="row">
             <div class="col-md-12">
                 <div class="form-group">
@@ -52,7 +52,7 @@
                     <span asp-validation-for="Title" class="error"></span>
                 </div>
             </div>
-        </div> 
+        </div>
         <div class="row">
             <div class="col-md-6">
                 <div class="form-group">
@@ -69,7 +69,16 @@
                 </div>
             </div>
         </div>
-        <input type="hidden" asp-for="Id" value="@Model.Id"/>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label asp-for="Link" class="control-label">لینک اسلایدر</label>
+                    <input type="text" class="form-control" asp-for="Link">
+                    <span asp-validation-for="Text" class="error"></span>
+                </div>
+            </div>
+        </div>
+        <input type="hidden" asp-for="Id" value="@Model.Id" />
     </div>
     <div class="modal-footer">
         <button type="button" class="btn btn-default waves-effect" data-dismiss="modal">بستن</button>
