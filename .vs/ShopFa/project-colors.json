@@ -40,7 +40,17 @@
       "ProjectGuid": "8596dae1-1344-4d72-bc45-a88e70be1805",
       "DisplayName": "ShopManagement.Infrastructure.Configuration",
       "ColorIndex": 6
+    },
+    "4907e235-a9a0-4047-a868-c9aa20c68db7": {
+      "ProjectGuid": "4907e235-a9a0-4047-a868-c9aa20c68db7",
+      "DisplayName": "01_ShopfaQuery",
+      "ColorIndex": 7
+    },
+    "3643a95e-5909-4e82-a354-a9495d191dea": {
+      "ProjectGuid": "3643a95e-5909-4e82-a354-a9495d191dea",
+      "DisplayName": "01_ShopFaQuery",
+      "ColorIndex": 8
     }
   },
-  "NextColorIndex": 7
+  "NextColorIndex": 9
 }

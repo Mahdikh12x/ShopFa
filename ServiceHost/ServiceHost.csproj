@@ -22,4 +22,12 @@
     <Folder Include="Pages\Components\Slide\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <UpToDateCheckInput Remove="Pages\Components\ProductCategory\Default.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="Pages\Components\ProductCategory\Default.cshtml" />
+  </ItemGroup>
+
 </Project>
