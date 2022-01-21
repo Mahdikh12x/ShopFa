@@ -1,10 +1,12 @@
+using DiscountManagement.Infrastructure.Configuration;
 using ShopManagement.Infrastructure.Configuration;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddRazorPages();
-ShopManagementBootstrapper.Configure(builder.Services, builder.Configuration.GetConnectionString("ShopfaDB"));
-
+var connectionString = builder.Configuration.GetConnectionString("ShopfaDB");
+ShopManagementBootstrapper.Configure(builder.Services, connectionString);
+DiscountManagementBootstrapper.Configure(builder.Services,connectionString);
 var app = builder.Build();
 
 if (!app.Environment.IsDevelopment())

@@ -1,4 +1,5 @@
 ﻿using System.Globalization;
+using _0_Framework.Application;
 using _0_Framework.Infrastructure;
 using ShopManagement.Application.Contracts.Slide;
 using ShopManagement.Domain.SlideAgg;
@@ -36,7 +37,7 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
             return _context.Slides.Select(x => new SlideViewModel
             {
                 Picture = x.Picture,
-                CreationDate = x.CreationDate.ToString(CultureInfo.InvariantCulture),
+                CreationDate = x.CreationDate.ToFarsi(),
                 Id = x.Id,
                 IsRemoved = x.IsRemoved,
                 Title = x.Title

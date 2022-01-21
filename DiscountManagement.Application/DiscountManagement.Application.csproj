@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="6.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DiscountManagement.Application.Contracts\DiscountManagement.Application.Contracts.csproj" />
+    <ProjectReference Include="..\DiscountManagement.Domain\DiscountManagement.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

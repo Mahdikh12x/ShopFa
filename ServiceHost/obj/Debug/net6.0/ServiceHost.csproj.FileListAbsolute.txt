@@ -275,3 +275,13 @@ C:\Users\Mahdi\source\repos\ShopFa\ServiceHost\obj\Debug\net6.0\ServiceHost.pdb
 C:\Users\Mahdi\source\repos\ShopFa\ServiceHost\obj\Debug\net6.0\ServiceHost.genruntimeconfig.cache
 C:\Users\Mahdi\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\01_ShopFaQuery.dll
 C:\Users\Mahdi\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\01_ShopFaQuery.pdb
+C:\Users\Mahdi\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\DiscountManagement.Application.Contracts.dll
+C:\Users\Mahdi\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\DiscountManagement.Application.dll
+C:\Users\Mahdi\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\DiscountManagement.Domain.dll
+C:\Users\Mahdi\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\DiscountManagement.Infrastructure.Configuration.dll
+C:\Users\Mahdi\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\DiscountManagement.Infrastructure.EFCore.dll
+C:\Users\Mahdi\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\DiscountManagement.Infrastructure.Configuration.pdb
+C:\Users\Mahdi\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\DiscountManagement.Application.pdb
+C:\Users\Mahdi\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\DiscountManagement.Application.Contracts.pdb
+C:\Users\Mahdi\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\DiscountManagement.Domain.pdb
+C:\Users\Mahdi\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\DiscountManagement.Infrastructure.EFCore.pdb
