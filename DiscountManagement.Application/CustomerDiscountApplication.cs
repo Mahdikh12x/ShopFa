@@ -32,10 +32,12 @@ namespace DiscountManagement.Application
         {
             var operation = new OperationResult();
             var customerDiscount = _customerDiscount.Get(command.Id);
-            if (_customerDiscount.Exists(x => x.DiscountRate == command.DiscountRate && x.ProductId == command.ProductId&&x.Id!=command.Id))
-                return operation.Failed(ApplicationValidationMessages.Duplicated);
             if (customerDiscount == null)
                 return operation.Failed(ApplicationValidationMessages.NotExisted);
+
+            if (_customerDiscount.Exists(x => 
+                    x.ProductId == command.ProductId && x.DiscountRate == command.DiscountRate && x.Id != command.Id))
+                return operation.Failed(ApplicationValidationMessages.Duplicated);
             var startDate = command.StartDate.ToGeorgianDateTime();
             var endDate = command.EndDate.ToGeorgianDateTime();
             customerDiscount.Edit(command.ProductId,startDate,endDate,command.Reason,command.DiscountRate);

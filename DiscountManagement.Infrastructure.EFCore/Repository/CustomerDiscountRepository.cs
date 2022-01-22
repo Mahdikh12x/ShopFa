@@ -1,4 +1,5 @@
-﻿using _0_Framework.Application;
+﻿using System.Globalization;
+using _0_Framework.Application;
 using _0_Framework.Infrastructure;
 using DiscountManagement.Application.Contracts.CustomerDiscount;
 using DiscountManagement.Domain.CustomerDiscountAgg;
@@ -24,10 +25,10 @@ namespace DiscountManagement.Infrastructure.EFCore.Repository
             {
                 Id = x.Id,
                 DiscountRate = x.DiscountRate,
-                EndDate = x.EndDate.ToFarsi(),
+                EndDate = x.EndDate.ToString(CultureInfo.InvariantCulture),
                 ProductId = x.ProductId,
                 Reason = x.Reason,
-                StartDate = x.StartDate.ToFarsi()
+                StartDate = x.StartDate.ToString(CultureInfo.InvariantCulture)
             }).FirstOrDefault(x => x.Id == id);
         }
 

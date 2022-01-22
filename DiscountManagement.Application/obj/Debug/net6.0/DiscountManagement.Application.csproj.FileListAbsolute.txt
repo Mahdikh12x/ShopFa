@@ -17,3 +17,5 @@ C:\Users\Mahdi\source\repos\ShopFa\DiscountManagement.Application\obj\Debug\net6
 C:\Users\Mahdi\source\repos\ShopFa\DiscountManagement.Application\obj\Debug\net6.0\DiscountManagement.Application.dll
 C:\Users\Mahdi\source\repos\ShopFa\DiscountManagement.Application\obj\Debug\net6.0\ref\DiscountManagement.Application.dll
 C:\Users\Mahdi\source\repos\ShopFa\DiscountManagement.Application\obj\Debug\net6.0\DiscountManagement.Application.pdb
+C:\Users\Mahdi\source\repos\ShopFa\DiscountManagement.Application\bin\Debug\net6.0\ShopManagement.Application.Contracts.dll
+C:\Users\Mahdi\source\repos\ShopFa\DiscountManagement.Application\bin\Debug\net6.0\ShopManagement.Application.Contracts.pdb

@@ -90,6 +90,9 @@
             "projectReferences": {
               "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\0_Framework\\0_Framework.csproj": {
                 "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\0_Framework\\0_Framework.csproj"
+              },
+              "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj": {
+                "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj"
               }
             }
           }
