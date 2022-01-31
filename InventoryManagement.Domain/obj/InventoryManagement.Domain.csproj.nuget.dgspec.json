@@ -64,14 +64,14 @@
         }
       }
     },
-    "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj": {
+    "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\InventoryManagement.Application.Contract\\InventoryManagement.Application.Contract.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj",
-        "projectName": "InventoryManagement.Domain",
-        "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\InventoryManagement.Application.Contract\\InventoryManagement.Application.Contract.csproj",
+        "projectName": "InventoryManagement.Application.Contract",
+        "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\InventoryManagement.Application.Contract\\InventoryManagement.Application.Contract.csproj",
         "packagesPath": "C:\\Users\\Mahdi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\InventoryManagement.Domain\\obj\\",
+        "outputPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\InventoryManagement.Application.Contract\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Mahdi\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -88,11 +88,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\0_Framework\\0_Framework.csproj": {
-                "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\0_Framework\\0_Framework.csproj"
-              },
-              "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\InventoryManagementApplication.Contract\\InventoryManagementApplication.Contract.csproj": {
-                "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\InventoryManagementApplication.Contract\\InventoryManagementApplication.Contract.csproj"
+              "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\ShopManagement.Domain\\ShopManagement.Domain.csproj": {
+                "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\ShopManagement.Domain\\ShopManagement.Domain.csproj"
               }
             }
           }
@@ -125,14 +122,14 @@
         }
       }
     },
-    "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\InventoryManagementApplication.Contract\\InventoryManagementApplication.Contract.csproj": {
+    "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\InventoryManagementApplication.Contract\\InventoryManagementApplication.Contract.csproj",
-        "projectName": "InventoryManagementApplication.Contract",
-        "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\InventoryManagementApplication.Contract\\InventoryManagementApplication.Contract.csproj",
+        "projectUniqueName": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj",
+        "projectName": "InventoryManagement.Domain",
+        "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj",
         "packagesPath": "C:\\Users\\Mahdi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\InventoryManagementApplication.Contract\\obj\\",
+        "outputPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\InventoryManagement.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Mahdi\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -152,8 +149,8 @@
               "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\0_Framework\\0_Framework.csproj": {
                 "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\0_Framework\\0_Framework.csproj"
               },
-              "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\ShopManagement.Domain\\ShopManagement.Domain.csproj": {
-                "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\ShopManagement.Domain\\ShopManagement.Domain.csproj"
+              "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\InventoryManagement.Application.Contract\\InventoryManagement.Application.Contract.csproj": {
+                "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\InventoryManagement.Application.Contract\\InventoryManagement.Application.Contract.csproj"
               }
             }
           }

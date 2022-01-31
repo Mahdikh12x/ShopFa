@@ -31,7 +31,6 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
                 MetaDescription = x.MetaDescription,
                 ShortDescription = x.ShortDescription,
                 Slug = x.Slug,
-                UnitPrice = x.UnitePrice
 
             }).FirstOrDefault(x => x.Id == id);
             return product;
@@ -57,7 +56,6 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
                 Category = x.ProductCategory.Name,
                 CreationDate = x.CreationDate.ToFarsi(),
                 Picture = x.Picture,
-                IsInStock = x.IsInStock,
                 CategoryId = x.CategoryId
             }).ToList();
 

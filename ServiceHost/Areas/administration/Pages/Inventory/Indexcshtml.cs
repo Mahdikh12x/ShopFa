@@ -1,4 +1,4 @@
-using InventoryManagementApplication.Contract.Inventory;
+using InventoryManagement.Application.Contract.Inventory;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
@@ -88,7 +88,7 @@ public class IndexModel : PageModel
 
     public PartialViewResult OnGetLog(long id)
     {
-        var data = _inventoryApplication.GetLog(id);
+        var data = _inventoryApplication.GetOperations(id);
         return Partial("OperationLog", data);
     }
 }

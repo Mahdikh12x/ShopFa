@@ -205,18 +205,17 @@
           "bin/placeholder/0_Framework.dll": {}
         }
       },
-      "InventoryManagementApplication.Contract/1.0.0": {
+      "InventoryManagement.Application.Contract/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "0_Framework": "1.0.0",
           "ShopManagement.Domain": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/InventoryManagementApplication.Contract.dll": {}
+          "bin/placeholder/InventoryManagement.Application.Contract.dll": {}
         },
         "runtime": {
-          "bin/placeholder/InventoryManagementApplication.Contract.dll": {}
+          "bin/placeholder/InventoryManagement.Application.Contract.dll": {}
         }
       },
       "ShopManagement.Application.Contracts/1.0.0": {
@@ -576,10 +575,10 @@
       "path": "../0_Framework/0_Framework.csproj",
       "msbuildProject": "../0_Framework/0_Framework.csproj"
     },
-    "InventoryManagementApplication.Contract/1.0.0": {
+    "InventoryManagement.Application.Contract/1.0.0": {
       "type": "project",
-      "path": "../InventoryManagementApplication.Contract/InventoryManagementApplication.Contract.csproj",
-      "msbuildProject": "../InventoryManagementApplication.Contract/InventoryManagementApplication.Contract.csproj"
+      "path": "../InventoryManagement.Application.Contract/InventoryManagement.Application.Contract.csproj",
+      "msbuildProject": "../InventoryManagement.Application.Contract/InventoryManagement.Application.Contract.csproj"
     },
     "ShopManagement.Application.Contracts/1.0.0": {
       "type": "project",
@@ -595,7 +594,7 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "0_Framework >= 1.0.0",
-      "InventoryManagementApplication.Contract >= 1.0.0"
+      "InventoryManagement.Application.Contract >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -628,8 +627,8 @@
             "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\0_Framework\\0_Framework.csproj": {
               "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\0_Framework\\0_Framework.csproj"
             },
-            "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\InventoryManagementApplication.Contract\\InventoryManagementApplication.Contract.csproj": {
-              "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\InventoryManagementApplication.Contract\\InventoryManagementApplication.Contract.csproj"
+            "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\InventoryManagement.Application.Contract\\InventoryManagement.Application.Contract.csproj": {
+              "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\InventoryManagement.Application.Contract\\InventoryManagement.Application.Contract.csproj"
             }
           }
         }

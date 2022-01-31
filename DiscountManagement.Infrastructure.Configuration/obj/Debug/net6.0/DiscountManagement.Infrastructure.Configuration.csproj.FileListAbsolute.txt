@@ -1,8 +1,3 @@
-C:\Users\Mahdi\source\repos\ShopFa\DiscountManagement.Infrastructure.Configuration\obj\Debug\net6.0\DiscountManagement.Infrastructure.Configuration.csproj.AssemblyReference.cache
-C:\Users\Mahdi\source\repos\ShopFa\DiscountManagement.Infrastructure.Configuration\obj\Debug\net6.0\DiscountManagement.Infrastructure.Configuration.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Mahdi\source\repos\ShopFa\DiscountManagement.Infrastructure.Configuration\obj\Debug\net6.0\DiscountManagement.Infrastructure.Configuration.AssemblyInfoInputs.cache
-C:\Users\Mahdi\source\repos\ShopFa\DiscountManagement.Infrastructure.Configuration\obj\Debug\net6.0\DiscountManagement.Infrastructure.Configuration.AssemblyInfo.cs
-C:\Users\Mahdi\source\repos\ShopFa\DiscountManagement.Infrastructure.Configuration\obj\Debug\net6.0\DiscountManagement.Infrastructure.Configuration.csproj.CoreCompileInputs.cache
 C:\Users\Mahdi\source\repos\ShopFa\DiscountManagement.Infrastructure.Configuration\bin\Debug\net6.0\DiscountManagement.Infrastructure.Configuration.deps.json
 C:\Users\Mahdi\source\repos\ShopFa\DiscountManagement.Infrastructure.Configuration\bin\Debug\net6.0\DiscountManagement.Infrastructure.Configuration.dll
 C:\Users\Mahdi\source\repos\ShopFa\DiscountManagement.Infrastructure.Configuration\bin\Debug\net6.0\ref\DiscountManagement.Infrastructure.Configuration.dll
@@ -23,6 +18,11 @@ C:\Users\Mahdi\source\repos\ShopFa\DiscountManagement.Infrastructure.Configurati
 C:\Users\Mahdi\source\repos\ShopFa\DiscountManagement.Infrastructure.Configuration\bin\Debug\net6.0\ShopManagement.Application.Contracts.pdb
 C:\Users\Mahdi\source\repos\ShopFa\DiscountManagement.Infrastructure.Configuration\bin\Debug\net6.0\ShopManagement.Domain.pdb
 C:\Users\Mahdi\source\repos\ShopFa\DiscountManagement.Infrastructure.Configuration\bin\Debug\net6.0\ShopManagement.Infrastructure.EFCore.pdb
+C:\Users\Mahdi\source\repos\ShopFa\DiscountManagement.Infrastructure.Configuration\obj\Debug\net6.0\DiscountManagement.Infrastructure.Configuration.csproj.AssemblyReference.cache
+C:\Users\Mahdi\source\repos\ShopFa\DiscountManagement.Infrastructure.Configuration\obj\Debug\net6.0\DiscountManagement.Infrastructure.Configuration.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mahdi\source\repos\ShopFa\DiscountManagement.Infrastructure.Configuration\obj\Debug\net6.0\DiscountManagement.Infrastructure.Configuration.AssemblyInfoInputs.cache
+C:\Users\Mahdi\source\repos\ShopFa\DiscountManagement.Infrastructure.Configuration\obj\Debug\net6.0\DiscountManagement.Infrastructure.Configuration.AssemblyInfo.cs
+C:\Users\Mahdi\source\repos\ShopFa\DiscountManagement.Infrastructure.Configuration\obj\Debug\net6.0\DiscountManagement.Infrastructure.Configuration.csproj.CoreCompileInputs.cache
 C:\Users\Mahdi\source\repos\ShopFa\DiscountManagement.Infrastructure.Configuration\obj\Debug\net6.0\DiscountManagement.Infrastructure.Configuration.csproj.CopyComplete
 C:\Users\Mahdi\source\repos\ShopFa\DiscountManagement.Infrastructure.Configuration\obj\Debug\net6.0\DiscountManagement.Infrastructure.Configuration.dll
 C:\Users\Mahdi\source\repos\ShopFa\DiscountManagement.Infrastructure.Configuration\obj\Debug\net6.0\ref\DiscountManagement.Infrastructure.Configuration.dll

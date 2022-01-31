@@ -608,12 +608,38 @@
           "bin/placeholder/0_Framework.dll": {}
         }
       },
+      "InventoryManagement.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "InventoryManagement.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/InventoryManagement.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/InventoryManagement.Application.dll": {}
+        }
+      },
+      "InventoryManagement.Application.Contract/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "ShopManagement.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/InventoryManagement.Application.Contract.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/InventoryManagement.Application.Contract.dll": {}
+        }
+      },
       "InventoryManagement.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "0_Framework": "1.0.0",
-          "InventoryManagementApplication.Contract": "1.0.0"
+          "InventoryManagement.Application.Contract": "1.0.0"
         },
         "compile": {
           "bin/placeholder/InventoryManagement.Domain.dll": {}
@@ -622,7 +648,7 @@
           "bin/placeholder/InventoryManagement.Domain.dll": {}
         }
       },
-      "InventoryManagement.Infrastructure.EFCore/1.0.0": {
+      "InventoryManagement.Infrastructure.EfCore/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
@@ -632,38 +658,10 @@
           "ShopManagement.Infrastructure.EFCore": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/InventoryManagement.Infrastructure.EFCore.dll": {}
+          "bin/placeholder/InventoryManagement.Infrastructure.EfCore.dll": {}
         },
         "runtime": {
-          "bin/placeholder/InventoryManagement.Infrastructure.EFCore.dll": {}
-        }
-      },
-      "InventoryManagementApplication/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "InventoryManagement.Domain": "1.0.0",
-          "InventoryManagementApplication.Contract": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/InventoryManagementApplication.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/InventoryManagementApplication.dll": {}
-        }
-      },
-      "InventoryManagementApplication.Contract/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "0_Framework": "1.0.0",
-          "ShopManagement.Domain": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/InventoryManagementApplication.Contract.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/InventoryManagementApplication.Contract.dll": {}
+          "bin/placeholder/InventoryManagement.Infrastructure.EfCore.dll": {}
         }
       },
       "ShopManagement.Application.Contracts/1.0.0": {
@@ -1877,25 +1875,25 @@
       "path": "../0_Framework/0_Framework.csproj",
       "msbuildProject": "../0_Framework/0_Framework.csproj"
     },
+    "InventoryManagement.Application/1.0.0": {
+      "type": "project",
+      "path": "../InventoryManagement.Application/InventoryManagement.Application.csproj",
+      "msbuildProject": "../InventoryManagement.Application/InventoryManagement.Application.csproj"
+    },
+    "InventoryManagement.Application.Contract/1.0.0": {
+      "type": "project",
+      "path": "../InventoryManagement.Application.Contract/InventoryManagement.Application.Contract.csproj",
+      "msbuildProject": "../InventoryManagement.Application.Contract/InventoryManagement.Application.Contract.csproj"
+    },
     "InventoryManagement.Domain/1.0.0": {
       "type": "project",
       "path": "../InventoryManagement.Domain/InventoryManagement.Domain.csproj",
       "msbuildProject": "../InventoryManagement.Domain/InventoryManagement.Domain.csproj"
     },
-    "InventoryManagement.Infrastructure.EFCore/1.0.0": {
+    "InventoryManagement.Infrastructure.EfCore/1.0.0": {
       "type": "project",
-      "path": "../InventoryManagement.Infrastructure.EFCore/InventoryManagement.Infrastructure.EFCore.csproj",
-      "msbuildProject": "../InventoryManagement.Infrastructure.EFCore/InventoryManagement.Infrastructure.EFCore.csproj"
-    },
-    "InventoryManagementApplication/1.0.0": {
-      "type": "project",
-      "path": "../InventoryApplication/InventoryManagementApplication.csproj",
-      "msbuildProject": "../InventoryApplication/InventoryManagementApplication.csproj"
-    },
-    "InventoryManagementApplication.Contract/1.0.0": {
-      "type": "project",
-      "path": "../InventoryManagementApplication.Contract/InventoryManagementApplication.Contract.csproj",
-      "msbuildProject": "../InventoryManagementApplication.Contract/InventoryManagementApplication.Contract.csproj"
+      "path": "../InventoryManagement.EfCore/InventoryManagement.Infrastructure.EfCore.csproj",
+      "msbuildProject": "../InventoryManagement.EfCore/InventoryManagement.Infrastructure.EfCore.csproj"
     },
     "ShopManagement.Application.Contracts/1.0.0": {
       "type": "project",
@@ -1915,9 +1913,9 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "InventoryManagement.Infrastructure.EFCore >= 1.0.0",
-      "InventoryManagementApplication >= 1.0.0",
-      "InventoryManagementApplication.Contract >= 1.0.0",
+      "InventoryManagement.Application >= 1.0.0",
+      "InventoryManagement.Domain >= 1.0.0",
+      "InventoryManagement.Infrastructure.EfCore >= 1.0.0",
       "Microsoft.Extensions.DependencyInjection.Abstractions >= 6.0.0"
     ]
   },
@@ -1948,14 +1946,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\InventoryApplication\\InventoryManagementApplication.csproj": {
-              "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\InventoryApplication\\InventoryManagementApplication.csproj"
+            "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\InventoryManagement.Application\\InventoryManagement.Application.csproj": {
+              "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\InventoryManagement.Application\\InventoryManagement.Application.csproj"
             },
-            "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\InventoryManagement.Infrastructure.EFCore\\InventoryManagement.Infrastructure.EFCore.csproj": {
-              "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\InventoryManagement.Infrastructure.EFCore\\InventoryManagement.Infrastructure.EFCore.csproj"
+            "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj": {
+              "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj"
             },
-            "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\InventoryManagementApplication.Contract\\InventoryManagementApplication.Contract.csproj": {
-              "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\InventoryManagementApplication.Contract\\InventoryManagementApplication.Contract.csproj"
+            "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\InventoryManagement.EfCore\\InventoryManagement.Infrastructure.EfCore.csproj": {
+              "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\InventoryManagement.EfCore\\InventoryManagement.Infrastructure.EfCore.csproj"
             }
           }
         }

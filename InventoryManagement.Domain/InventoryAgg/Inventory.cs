@@ -5,21 +5,19 @@ namespace InventoryManagement.Domain.InventoryAgg
     public class Inventory:EntityBase
     {
         public long ProductId { get; private set; }
+        public double UnitePrice { get; private set; }
         public bool InStock { get; private set; }
-        public double UnitPrice { get; private set; }
-        public List<InventoryOperation> Operations { get; private set; }    
-        public Inventory(long productId, double unitPrice)
+        public List<InventoryOperation> Operations { get; private set; }
+        public Inventory(long productId,double unitePrice)
         {
             ProductId = productId;
-            UnitPrice = unitPrice;
-            InStock=false;
-
+            UnitePrice = unitePrice;
+            InStock = false;
         }
-
-        public void Edit(long productId, double unitPrice)
+        public void Edit(long productId,double unitePrice)
         {
             ProductId = productId;
-            UnitPrice = unitPrice;
+            UnitePrice = unitePrice;
         }
 
         public long CalculateCurrentCount()
@@ -29,22 +27,20 @@ namespace InventoryManagement.Domain.InventoryAgg
             return plus - minus;
         }
 
-        public void Increase(long count,long operatorId,string description)
+        public void Increase(long count, long operatorId, string description)
         {
             var currentCount = CalculateCurrentCount() + count;
-            var operation = new InventoryOperation(true, count, 0, description, operatorId, currentCount, Id);
-            Operations.Add(operation);
-            InStock = currentCount>0;
-        }
-
-        public void Reduce(long count, long operatorId, long orderId, string description)
-        {
-            var currentCount=CalculateCurrentCount()- count;
-            var operation = new InventoryOperation(false, count, orderId, description, operatorId, currentCount, Id);
+            var operation = new InventoryOperation(true, operatorId, 0, description, count, currentCount, Id);
             Operations.Add(operation);
             InStock = currentCount > 0;
         }
 
+        public void Reduce(long count, long operatorId, string description, long orderId)
+        {
+            var currentCount=CalculateCurrentCount() - count;
+            var operation = new InventoryOperation(false, operatorId, orderId, description, count, currentCount, Id);
+            Operations.Add(operation);
+            InStock= currentCount > 0;
+        }
     }
 }
-

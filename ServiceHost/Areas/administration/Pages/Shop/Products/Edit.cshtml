@@ -29,22 +29,24 @@
             </div>
         </div>
         <div class="row">
+           
             <div class="col-md-6">
                 <div class="form-group">
-                    <label asp-for="UnitPrice" class="control-label">قیمت واحد</label>
-                    <input class="form-control" asp-for="UnitPrice">
-                    <span asp-validation-for="UnitPrice" class="error"></span>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="form-group">
-                    S
+                    
                     <label asp-for="CategoryId" class="control-label">گروه محصول</label>
                     <select class="form-control" asp-for="CategoryId"
                             asp-items='new SelectList(Model.Categories, "Id", "Name")'>
                         <option value="0">گروه محصول</option>
                     </select>
                     <span asp-validation-for="CategoryId" class="error"></span>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group no-margin">
+                        <label asp-for="MetaDescription" class="control-label">توضیحات متا</label>
+                        <textarea class="form-control autogrow" asp-for="MetaDescription"
+                              style="overflow: hidden; word-wrap: break-word; resize: horizontal; height: 104px;"></textarea>
+                        <span asp-validation-for="MetaDescription" class="error"></span>
+                    </div>
                 </div>
             </div>
         </div>
@@ -109,16 +111,7 @@
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-md-12">
-                <div class="form-group no-margin">
-                    <label asp-for="MetaDescription" class="control-label">توضیحات متا</label>
-                    <textarea class="form-control autogrow" asp-for="MetaDescription"
-                              style="overflow: hidden; word-wrap: break-word; resize: horizontal; height: 104px;"></textarea>
-                    <span asp-validation-for="MetaDescription" class="error"></span>
-                </div>
-            </div>
-        </div>
+      
         <input type="hidden" asp-for="Id" value="@Model.Id" />
     </div>
     <div class="modal-footer">

@@ -2,11 +2,13 @@ C:\Users\Mahdi\source\repos\ShopFa\ShopManagement.Infrastructure.Configuration\b
 C:\Users\Mahdi\source\repos\ShopFa\ShopManagement.Infrastructure.Configuration\bin\Debug\net6.0\ShopManagement.Infrastructure.Configuration.dll
 C:\Users\Mahdi\source\repos\ShopFa\ShopManagement.Infrastructure.Configuration\bin\Debug\net6.0\ref\ShopManagement.Infrastructure.Configuration.dll
 C:\Users\Mahdi\source\repos\ShopFa\ShopManagement.Infrastructure.Configuration\bin\Debug\net6.0\ShopManagement.Infrastructure.Configuration.pdb
+C:\Users\Mahdi\source\repos\ShopFa\ShopManagement.Infrastructure.Configuration\bin\Debug\net6.0\01_ShopFaQuery.dll
 C:\Users\Mahdi\source\repos\ShopFa\ShopManagement.Infrastructure.Configuration\bin\Debug\net6.0\0_Framework.dll
 C:\Users\Mahdi\source\repos\ShopFa\ShopManagement.Infrastructure.Configuration\bin\Debug\net6.0\ShopManagement.Application.Contracts.dll
 C:\Users\Mahdi\source\repos\ShopFa\ShopManagement.Infrastructure.Configuration\bin\Debug\net6.0\ShopManagement.Application.dll
 C:\Users\Mahdi\source\repos\ShopFa\ShopManagement.Infrastructure.Configuration\bin\Debug\net6.0\ShopManagement.Domain.dll
 C:\Users\Mahdi\source\repos\ShopFa\ShopManagement.Infrastructure.Configuration\bin\Debug\net6.0\ShopManagement.Infrastructure.EFCore.dll
+C:\Users\Mahdi\source\repos\ShopFa\ShopManagement.Infrastructure.Configuration\bin\Debug\net6.0\01_ShopFaQuery.pdb
 C:\Users\Mahdi\source\repos\ShopFa\ShopManagement.Infrastructure.Configuration\bin\Debug\net6.0\ShopManagement.Application.Contracts.pdb
 C:\Users\Mahdi\source\repos\ShopFa\ShopManagement.Infrastructure.Configuration\bin\Debug\net6.0\ShopManagement.Application.pdb
 C:\Users\Mahdi\source\repos\ShopFa\ShopManagement.Infrastructure.Configuration\bin\Debug\net6.0\ShopManagement.Infrastructure.EFCore.pdb
@@ -21,5 +23,3 @@ C:\Users\Mahdi\source\repos\ShopFa\ShopManagement.Infrastructure.Configuration\o
 C:\Users\Mahdi\source\repos\ShopFa\ShopManagement.Infrastructure.Configuration\obj\Debug\net6.0\ShopManagement.Infrastructure.Configuration.dll
 C:\Users\Mahdi\source\repos\ShopFa\ShopManagement.Infrastructure.Configuration\obj\Debug\net6.0\ref\ShopManagement.Infrastructure.Configuration.dll
 C:\Users\Mahdi\source\repos\ShopFa\ShopManagement.Infrastructure.Configuration\obj\Debug\net6.0\ShopManagement.Infrastructure.Configuration.pdb
-C:\Users\Mahdi\source\repos\ShopFa\ShopManagement.Infrastructure.Configuration\bin\Debug\net6.0\01_ShopFaQuery.dll
-C:\Users\Mahdi\source\repos\ShopFa\ShopManagement.Infrastructure.Configuration\bin\Debug\net6.0\01_ShopFaQuery.pdb

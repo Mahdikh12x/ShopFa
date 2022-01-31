@@ -3,9 +3,13 @@ C:\Users\Mahdi\source\repos\ShopFa\InventoryManagement.Domain\bin\Debug\net6.0\I
 C:\Users\Mahdi\source\repos\ShopFa\InventoryManagement.Domain\bin\Debug\net6.0\ref\InventoryManagement.Domain.dll
 C:\Users\Mahdi\source\repos\ShopFa\InventoryManagement.Domain\bin\Debug\net6.0\InventoryManagement.Domain.pdb
 C:\Users\Mahdi\source\repos\ShopFa\InventoryManagement.Domain\bin\Debug\net6.0\0_Framework.dll
-C:\Users\Mahdi\source\repos\ShopFa\InventoryManagement.Domain\bin\Debug\net6.0\InventoryManagementApplication.Contract.dll
+C:\Users\Mahdi\source\repos\ShopFa\InventoryManagement.Domain\bin\Debug\net6.0\InventoryManagement.Application.Contract.dll
+C:\Users\Mahdi\source\repos\ShopFa\InventoryManagement.Domain\bin\Debug\net6.0\ShopManagement.Application.Contracts.dll
+C:\Users\Mahdi\source\repos\ShopFa\InventoryManagement.Domain\bin\Debug\net6.0\ShopManagement.Domain.dll
 C:\Users\Mahdi\source\repos\ShopFa\InventoryManagement.Domain\bin\Debug\net6.0\0_Framework.pdb
-C:\Users\Mahdi\source\repos\ShopFa\InventoryManagement.Domain\bin\Debug\net6.0\InventoryManagementApplication.Contract.pdb
+C:\Users\Mahdi\source\repos\ShopFa\InventoryManagement.Domain\bin\Debug\net6.0\InventoryManagement.Application.Contract.pdb
+C:\Users\Mahdi\source\repos\ShopFa\InventoryManagement.Domain\bin\Debug\net6.0\ShopManagement.Application.Contracts.pdb
+C:\Users\Mahdi\source\repos\ShopFa\InventoryManagement.Domain\bin\Debug\net6.0\ShopManagement.Domain.pdb
 C:\Users\Mahdi\source\repos\ShopFa\InventoryManagement.Domain\obj\Debug\net6.0\InventoryManagement.Domain.csproj.AssemblyReference.cache
 C:\Users\Mahdi\source\repos\ShopFa\InventoryManagement.Domain\obj\Debug\net6.0\InventoryManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Mahdi\source\repos\ShopFa\InventoryManagement.Domain\obj\Debug\net6.0\InventoryManagement.Domain.AssemblyInfoInputs.cache
@@ -15,7 +19,3 @@ C:\Users\Mahdi\source\repos\ShopFa\InventoryManagement.Domain\obj\Debug\net6.0\I
 C:\Users\Mahdi\source\repos\ShopFa\InventoryManagement.Domain\obj\Debug\net6.0\InventoryManagement.Domain.dll
 C:\Users\Mahdi\source\repos\ShopFa\InventoryManagement.Domain\obj\Debug\net6.0\ref\InventoryManagement.Domain.dll
 C:\Users\Mahdi\source\repos\ShopFa\InventoryManagement.Domain\obj\Debug\net6.0\InventoryManagement.Domain.pdb
-C:\Users\Mahdi\source\repos\ShopFa\InventoryManagement.Domain\bin\Debug\net6.0\ShopManagement.Application.Contracts.dll
-C:\Users\Mahdi\source\repos\ShopFa\InventoryManagement.Domain\bin\Debug\net6.0\ShopManagement.Domain.dll
-C:\Users\Mahdi\source\repos\ShopFa\InventoryManagement.Domain\bin\Debug\net6.0\ShopManagement.Application.Contracts.pdb
-C:\Users\Mahdi\source\repos\ShopFa\InventoryManagement.Domain\bin\Debug\net6.0\ShopManagement.Domain.pdb

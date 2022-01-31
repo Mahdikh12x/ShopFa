@@ -1,5 +1,6 @@
-﻿@model InventoryManagementApplication.Contract.Inventory.EditInventory
+﻿@model InventoryManagement.Application.Contract.Inventory.EditInventory
 @{
+
 }
 <div class="modal-header">
     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
@@ -13,7 +14,7 @@
       data-action="Refresh">
     <div class="modal-body">
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-12">
                 <div class="form-group">
                     <label asp-for="ProductId" class="control-label">انتخاب محصول</label>
                     <select class="form-control" asp-for="ProductId"
@@ -23,11 +24,14 @@
                     <span asp-validation-for="ProductId" class="error"></span>
                 </div>
             </div>
-            <div class="col-md-6">
+        </div>
+        <div class="row">
+
+            <div class="col-md-12">
                 <div class="form-group">
-                    <label asp-for="UnitPrice" class="control-label">قیمت واحد</label>
-                    <input type="text" class="form-control" asp-for="UnitPrice">
-                    <span asp-validation-for="UnitPrice" class="error"></span>
+                    <label asp-for="UnitePrice" class="control-label">قیمت واحد</label>
+                    <input type="text" class="form-control" asp-for="UnitePrice">
+                    <span asp-validation-for="UnitePrice" class="error"></span>
                 </div>
             </div>
         </div>

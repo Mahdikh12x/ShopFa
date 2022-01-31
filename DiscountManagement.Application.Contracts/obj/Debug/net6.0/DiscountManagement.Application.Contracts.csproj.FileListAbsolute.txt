@@ -3,7 +3,9 @@ C:\Users\Mahdi\source\repos\ShopFa\DiscountManagement.Application.Contracts\bin\
 C:\Users\Mahdi\source\repos\ShopFa\DiscountManagement.Application.Contracts\bin\Debug\net6.0\ref\DiscountManagement.Application.Contracts.dll
 C:\Users\Mahdi\source\repos\ShopFa\DiscountManagement.Application.Contracts\bin\Debug\net6.0\DiscountManagement.Application.Contracts.pdb
 C:\Users\Mahdi\source\repos\ShopFa\DiscountManagement.Application.Contracts\bin\Debug\net6.0\0_Framework.dll
+C:\Users\Mahdi\source\repos\ShopFa\DiscountManagement.Application.Contracts\bin\Debug\net6.0\ShopManagement.Application.Contracts.dll
 C:\Users\Mahdi\source\repos\ShopFa\DiscountManagement.Application.Contracts\bin\Debug\net6.0\0_Framework.pdb
+C:\Users\Mahdi\source\repos\ShopFa\DiscountManagement.Application.Contracts\bin\Debug\net6.0\ShopManagement.Application.Contracts.pdb
 C:\Users\Mahdi\source\repos\ShopFa\DiscountManagement.Application.Contracts\obj\Debug\net6.0\DiscountManagement.Application.Contracts.csproj.AssemblyReference.cache
 C:\Users\Mahdi\source\repos\ShopFa\DiscountManagement.Application.Contracts\obj\Debug\net6.0\DiscountManagement.Application.Contracts.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Mahdi\source\repos\ShopFa\DiscountManagement.Application.Contracts\obj\Debug\net6.0\DiscountManagement.Application.Contracts.AssemblyInfoInputs.cache
@@ -13,5 +15,3 @@ C:\Users\Mahdi\source\repos\ShopFa\DiscountManagement.Application.Contracts\obj\
 C:\Users\Mahdi\source\repos\ShopFa\DiscountManagement.Application.Contracts\obj\Debug\net6.0\DiscountManagement.Application.Contracts.dll
 C:\Users\Mahdi\source\repos\ShopFa\DiscountManagement.Application.Contracts\obj\Debug\net6.0\ref\DiscountManagement.Application.Contracts.dll
 C:\Users\Mahdi\source\repos\ShopFa\DiscountManagement.Application.Contracts\obj\Debug\net6.0\DiscountManagement.Application.Contracts.pdb
-C:\Users\Mahdi\source\repos\ShopFa\DiscountManagement.Application.Contracts\bin\Debug\net6.0\ShopManagement.Application.Contracts.dll
-C:\Users\Mahdi\source\repos\ShopFa\DiscountManagement.Application.Contracts\bin\Debug\net6.0\ShopManagement.Application.Contracts.pdb

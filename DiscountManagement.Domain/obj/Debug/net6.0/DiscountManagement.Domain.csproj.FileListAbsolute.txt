@@ -4,8 +4,10 @@ C:\Users\Mahdi\source\repos\ShopFa\DiscountManagement.Domain\bin\Debug\net6.0\re
 C:\Users\Mahdi\source\repos\ShopFa\DiscountManagement.Domain\bin\Debug\net6.0\DiscountManagement.Domain.pdb
 C:\Users\Mahdi\source\repos\ShopFa\DiscountManagement.Domain\bin\Debug\net6.0\0_Framework.dll
 C:\Users\Mahdi\source\repos\ShopFa\DiscountManagement.Domain\bin\Debug\net6.0\DiscountManagement.Application.Contracts.dll
+C:\Users\Mahdi\source\repos\ShopFa\DiscountManagement.Domain\bin\Debug\net6.0\ShopManagement.Application.Contracts.dll
 C:\Users\Mahdi\source\repos\ShopFa\DiscountManagement.Domain\bin\Debug\net6.0\0_Framework.pdb
 C:\Users\Mahdi\source\repos\ShopFa\DiscountManagement.Domain\bin\Debug\net6.0\DiscountManagement.Application.Contracts.pdb
+C:\Users\Mahdi\source\repos\ShopFa\DiscountManagement.Domain\bin\Debug\net6.0\ShopManagement.Application.Contracts.pdb
 C:\Users\Mahdi\source\repos\ShopFa\DiscountManagement.Domain\obj\Debug\net6.0\DiscountManagement.Domain.csproj.AssemblyReference.cache
 C:\Users\Mahdi\source\repos\ShopFa\DiscountManagement.Domain\obj\Debug\net6.0\DiscountManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Mahdi\source\repos\ShopFa\DiscountManagement.Domain\obj\Debug\net6.0\DiscountManagement.Domain.AssemblyInfoInputs.cache
@@ -15,5 +17,3 @@ C:\Users\Mahdi\source\repos\ShopFa\DiscountManagement.Domain\obj\Debug\net6.0\Di
 C:\Users\Mahdi\source\repos\ShopFa\DiscountManagement.Domain\obj\Debug\net6.0\DiscountManagement.Domain.dll
 C:\Users\Mahdi\source\repos\ShopFa\DiscountManagement.Domain\obj\Debug\net6.0\ref\DiscountManagement.Domain.dll
 C:\Users\Mahdi\source\repos\ShopFa\DiscountManagement.Domain\obj\Debug\net6.0\DiscountManagement.Domain.pdb
-C:\Users\Mahdi\source\repos\ShopFa\DiscountManagement.Domain\bin\Debug\net6.0\ShopManagement.Application.Contracts.dll
-C:\Users\Mahdi\source\repos\ShopFa\DiscountManagement.Domain\bin\Debug\net6.0\ShopManagement.Application.Contracts.pdb
