@@ -28,6 +28,12 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+              "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\DiscountManagement.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj": {
+                "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\DiscountManagement.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj"
+              },
+              "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\InventoryManagement.EfCore\\InventoryManagement.Infrastructure.EfCore.csproj": {
+                "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\InventoryManagement.EfCore\\InventoryManagement.Infrastructure.EfCore.csproj"
+              },
               "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj": {
                 "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj"
               }

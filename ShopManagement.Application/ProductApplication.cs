@@ -20,8 +20,9 @@ namespace ShopManagement.Application
                 return operation.Failed(ApplicationValidationMessages.Duplicated);
 
             var slug = command.Slug.Slugify();
-            var product = new Product(command.Name, command.Code, command.ShortDescription, command.Description, command.Picture,
-                command.PictureAlt, command.PictureTitle, command.CategoryId, command.Keywords, slug, command.MetaDescription);
+            var product = new Product(command.Name, command.Code, command.ShortDescription, command.Description,
+                command.Picture, command.PictureAlt, command.PictureTitle, command.CategoryId, command.Keywords, slug,
+                command.MetaDescription);
             _productRepository.Create(product);
             _productRepository.SaveChanges();
             return operation.Succedded();

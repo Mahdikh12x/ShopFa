@@ -31,6 +31,11 @@ public static class Tools
         var pc = new PersianCalendar();
         return $"{pc.GetYear(date)}/{pc.GetMonth(date):00}/{pc.GetDayOfMonth(date):00}";
     }
+     public static string ToDiscount(this DateTime date)
+    {
+        if (date == new DateTime()) return "";
+        return $"{date.Year}/{date.Month}/{date.Date}";
+    }
 
     public static string ToDiscountFormat(this DateTime date)
     {

@@ -21,6 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Pages\Components\ProductCategoryWithProducts\" />
     <Folder Include="Pages\Components\Slide\" />
   </ItemGroup>
 
@@ -29,7 +30,12 @@
   </ItemGroup>
 
   <ItemGroup>
+    <_ContentIncludedByDefault Remove="Pages\Components\LastArrivalProducts\Default.cshtml" />
     <_ContentIncludedByDefault Remove="Pages\Components\ProductCategory\Default.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <UpToDateCheckInput Remove="Pages\Components\LastArrivalProducts\Default.cshtml" />
   </ItemGroup>
 
 </Project>

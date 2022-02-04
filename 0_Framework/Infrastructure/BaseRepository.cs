@@ -7,7 +7,7 @@ namespace _0_Framework.Infrastructure
     public class BaseRepository<TKey, T> : IRepository<TKey, T> where T: class
     {
         private readonly DbContext _context;
-
+            
         public BaseRepository(DbContext context) 
         {
             _context = context;

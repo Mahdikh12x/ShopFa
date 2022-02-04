@@ -11,12 +11,12 @@
       data-ajax="true"
       data-callback=""
       data-action="Refresh">
-    <div class="modal-body">
+     <div class="modal-body">
         <div class="row">
             <div class="col-md-6">
                 <div class="form-group">
                     <label asp-for="Name" class="control-label">نام</label>
-                    <input type="text" class="form-control" asp-for="Name">
+                    <input type="text" class="form-control" asp-for="Name" >
                     <span asp-validation-for="Name" class="error"></span>
                 </div>
             </div>
@@ -29,10 +29,9 @@
             </div>
         </div>
         <div class="row">
-           
-            <div class="col-md-6">
+
+            <div class="col-md-12">
                 <div class="form-group">
-                    
                     <label asp-for="CategoryId" class="control-label">گروه محصول</label>
                     <select class="form-control" asp-for="CategoryId"
                             asp-items='new SelectList(Model.Categories, "Id", "Name")'>
@@ -40,14 +39,7 @@
                     </select>
                     <span asp-validation-for="CategoryId" class="error"></span>
                 </div>
-                <div class="col-md-6">
-                    <div class="form-group no-margin">
-                        <label asp-for="MetaDescription" class="control-label">توضیحات متا</label>
-                        <textarea class="form-control autogrow" asp-for="MetaDescription"
-                              style="overflow: hidden; word-wrap: break-word; resize: horizontal; height: 104px;"></textarea>
-                        <span asp-validation-for="MetaDescription" class="error"></span>
-                    </div>
-                </div>
+               
             </div>
         </div>
         <div class="row">
@@ -78,7 +70,7 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="form-group no-margin">
-                    <label asp-for="ShortDescription" class="control-label"> توضیحات کوتاه</label>
+                    <label asp-for="ShortDescription" class="control-label">توضیحات کوتاه</label>
                     <textarea class="form-control autogrow" asp-for="ShortDescription" onchange="fillField('ShortDescription', 'MetaDescription')"
                               style="overflow: hidden; word-wrap: break-word; resize: horizontal; height: 104px;"></textarea>
                     <span asp-validation-for="ShortDescription" class="error"></span>
@@ -86,12 +78,20 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-6">
                 <div class="form-group no-margin">
                     <label asp-for="Description" class="control-label">توضیحات</label>
                     <textarea class="form-control autogrow" asp-for="Description"
                               style="overflow: hidden; word-wrap: break-word; resize: horizontal; height: 104px;"></textarea>
                     <span asp-validation-for="Description" class="error"></span>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group no-margin">
+                        <label asp-for="MetaDescription" class="control-label">توضیحات متا</label>
+                        <textarea class="form-control autogrow" asp-for="MetaDescription"
+                                  style="overflow: hidden; word-wrap: break-word; resize: horizontal; height: 104px;"></textarea>
+                        <span asp-validation-for="MetaDescription" class="error"></span>
+                    </div>
                 </div>
             </div>
         </div>
@@ -111,11 +111,11 @@
                 </div>
             </div>
         </div>
-      
-        <input type="hidden" asp-for="Id" value="@Model.Id" />
+
+        <input type="hidden" asp-for="Id" value="@Model.Id"/>
     </div>
     <div class="modal-footer">
         <button type="button" class="btn btn-default waves-effect" data-dismiss="modal">بستن</button>
-        <button type="submit" class="btn btn-info waves-effect waves-light">ایجاد</button>
+        <button type="submit" class="btn btn-info waves-effect waves-light">ویرایش</button>
     </div>
 </form>

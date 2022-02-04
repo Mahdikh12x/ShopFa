@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "0xDn6rAaLgcYUM9Bs+Ae2ctXRWoDitgNcyYOUynPGY4=",
+  "Hash": "ZJSL7IH8ta/V32/aaekWBRcZk4UmLxTOTzY6k+54QGU=",
   "Source": "ServiceHost",
   "BasePath": "_content/ServiceHost",
   "Mode": "Default",
@@ -6679,6 +6679,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Theme\\assets\\img\\backgrounds\\category-image-1820x400.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\ServiceHost\\wwwroot\\Theme\\assets\\img\\backgrounds\\parsa-1.jpg",
+      "SourceId": "ServiceHost",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\ServiceHost\\wwwroot\\",
+      "BasePath": "_content/ServiceHost",
+      "RelativePath": "Theme/assets/img/backgrounds/parsa-1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Theme\\assets\\img\\backgrounds\\parsa-1.jpg"
     },
     {
       "Identity": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\ServiceHost\\wwwroot\\Theme\\assets\\img\\banners\\banner7.jpg",

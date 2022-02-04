@@ -85,7 +85,47 @@
       "ProjectGuid": "2a9964c6-953a-4e40-9dca-57d94857dc26",
       "DisplayName": "InventoryManagement.Application",
       "ColorIndex": 15
+    },
+    "1379b344-bc1f-44e4-a90e-ffb3f3e7d394": {
+      "ProjectGuid": "1379b344-bc1f-44e4-a90e-ffb3f3e7d394",
+      "DisplayName": "ShopManagement.Domain",
+      "ColorIndex": 0
+    },
+    "b88f28d4-1046-4872-8540-a48128b13c21": {
+      "ProjectGuid": "b88f28d4-1046-4872-8540-a48128b13c21",
+      "DisplayName": "ShopManagement.Application",
+      "ColorIndex": 1
+    },
+    "c6bc6757-c7ca-4773-9533-ad5e432517cc": {
+      "ProjectGuid": "c6bc6757-c7ca-4773-9533-ad5e432517cc",
+      "DisplayName": "ShopManagement.Application.Contracts",
+      "ColorIndex": 2
+    },
+    "1f317a0d-bcbd-454f-a79a-98f731885cc1": {
+      "ProjectGuid": "1f317a0d-bcbd-454f-a79a-98f731885cc1",
+      "DisplayName": "ShopManagement.Infrastructure.EFCore",
+      "ColorIndex": 3
+    },
+    "3643a95e-5909-4e82-a354-a9495d191dea": {
+      "ProjectGuid": "3643a95e-5909-4e82-a354-a9495d191dea",
+      "DisplayName": "01_ShopFaQuery",
+      "ColorIndex": 4
+    },
+    "0cc39c32-4490-43f1-8b09-77558fcb7edd": {
+      "ProjectGuid": "0cc39c32-4490-43f1-8b09-77558fcb7edd",
+      "DisplayName": "0_Framework",
+      "ColorIndex": 5
+    },
+    "8596dae1-1344-4d72-bc45-a88e70be1805": {
+      "ProjectGuid": "8596dae1-1344-4d72-bc45-a88e70be1805",
+      "DisplayName": "ShopManagement.Infrastructure.Configuration",
+      "ColorIndex": 6
+    },
+    "c58ec2d0-2d32-412c-a460-ae92dd54e271": {
+      "ProjectGuid": "c58ec2d0-2d32-412c-a460-ae92dd54e271",
+      "DisplayName": "DiscountManagement.Application.Contracts",
+      "ColorIndex": 7
     }
   },
-  "NextColorIndex": 0
+  "NextColorIndex": 8
 }
