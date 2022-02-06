@@ -15,7 +15,7 @@
                         <h2 class="breadcrumb-content__title">Shop</h2>
                         <ul class="breadcrumb-content__page-map">
                             <li><a asp-page="/Index">Home</a></li>
-                            <li class="active">گروه محصول  </li>
+                            <li class="active">@Model.ProductCategory.Name گروه محصول   </li>
                         </ul>
                     </div>
                 </div>
@@ -67,7 +67,7 @@
                                 <div class="shop-page-content">
 
                                     <div class="row shop-product-wrap grid three-column">
-                                       @foreach (var product in Model.Products)
+                                       @foreach (var product in Model.ProductCategory.Products)
                                        {
                                            <div class="col-12 col-lg-4 col-md-4 col-sm-6">
                                                <div class="single-grid-product grid-view-product">

@@ -74,24 +74,37 @@ namespace _01_ShopFaQuery.Query
             return categories;
         }
 
-        public List<ProductQueryModel> GetProductsCategoryBy(string slug)
+        public ProductCategoryQueryModel GetProductsCategoryBy(string slug)
         {
             var inventories = _inventoryContext.Inventory.Select(x => new { x.UnitePrice, x.ProductId }).ToList();
             var discounts = _discountContext.CustomerDiscounts.Where(x => x.StartDate < DateTime.Now && x.EndDate > DateTime.Now).Select(x => new { x.ProductId, x.DiscountRate,x.EndDate}).ToList();
-            var products = _shopContext.Products.Include(x => x.ProductCategory)
-                .Where(x => x.ProductCategory.Slug == slug).Select(x => new ProductQueryModel
+
+            var categories = _shopContext.ProductCategories.Include(x => x.Products)
+                .Select(x=>new ProductCategoryQueryModel
                 {
                     Id = x.Id,
                     Name = x.Name,
-                    Category = x.ProductCategory.Name,
                     Picture = x.Picture,
+                    Slug = x.Slug,
                     PictureAlt = x.PictureAlt,
                     PictureTitle = x.PictureTitle,
-                    Slug = x.Slug,
-                    CategorySlug = x.ProductCategory.Slug
-                }).ToList();
+                    Products = MapProducts(x.Products)
+                }).FirstOrDefault(x => x.Slug == slug);
 
-            foreach (var product in products)
+            //var products = _shopContext.Products.Include(x => x.ProductCategory)
+            //    .Where(x => x.ProductCategory.Slug == slug).Select(x => new ProductQueryModel
+            //    {
+            //        Id = x.Id,
+            //        Name = x.Name,
+            //        Category = x.ProductCategory.Name,
+            //        Picture = x.Picture,
+            //        PictureAlt = x.PictureAlt,
+            //        PictureTitle = x.PictureTitle,
+            //        Slug = x.Slug,
+            //        CategorySlug = x.ProductCategory.Slug
+            //    }).ToList();
+
+            foreach (var product in categories.Products)
             {
                 var productInventory = inventories.FirstOrDefault(x => x.ProductId == product.Id);
                 if (productInventory != null)
@@ -110,11 +123,7 @@ namespace _01_ShopFaQuery.Query
                 
 
             }
-
-            return products;
-
-
-
+            return categories;
         }
 
         private static List<ProductQueryModel> MapProducts(IEnumerable<Product> products)
@@ -127,7 +136,6 @@ namespace _01_ShopFaQuery.Query
                 PictureAlt = product.PictureAlt,
                 PictureTitle = product.PictureTitle,
                 Slug = product.Slug,
-                Category = product.ProductCategory.Name
             })
                 .ToList();
         }

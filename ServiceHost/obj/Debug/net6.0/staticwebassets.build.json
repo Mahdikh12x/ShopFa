@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ZJSL7IH8ta/V32/aaekWBRcZk4UmLxTOTzY6k+54QGU=",
+  "Hash": "+nf05CLeCYGrvleSAEpd5FxZBiFozPT08wYrIhCZbYo=",
   "Source": "ServiceHost",
   "BasePath": "_content/ServiceHost",
   "Mode": "Default",
@@ -6339,6 +6339,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\ServiceHost\\wwwroot\\ProductPicture\\لوازم-برقی\\img4-top-eposi1.jpg",
+      "SourceId": "ServiceHost",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\ServiceHost\\wwwroot\\",
+      "BasePath": "_content/ServiceHost",
+      "RelativePath": "ProductPicture/لوازم-برقی/img4-top-eposi1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\ProductPicture\\لوازم-برقی\\img4-top-eposi1.jpg"
     },
     {
       "Identity": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\ServiceHost\\wwwroot\\Theme\\assets\\css\\Custom.css",

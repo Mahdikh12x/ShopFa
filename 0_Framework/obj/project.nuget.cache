@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "hCNGmd4aIfOWSHMSZEQRIF2YyfBvyL+U4KJ9OPtnoR+L0Dj+GB1kojlldJrQ5n6uqeGjWnzWhrv3p+iMLHUOSw==",
+  "dgSpecHash": "Cfl/MHclAoJH2tfv6zRitQthzrk1/ePg3DvejqF27jo+jhK5t1+Fdp0Fypz9v9BOemthJF637V8gaYsttWPgoQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\0_Framework\\0_Framework.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Mahdi\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
     "C:\\Users\\Mahdi\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.1\\microsoft.entityframeworkcore.6.0.1.nupkg.sha512",
     "C:\\Users\\Mahdi\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.1\\microsoft.entityframeworkcore.abstractions.6.0.1.nupkg.sha512",
     "C:\\Users\\Mahdi\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\6.0.1\\microsoft.entityframeworkcore.analyzers.6.0.1.nupkg.sha512",

@@ -23,7 +23,7 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
                 Description = r.Description,
                 Keywords = r.Keywords,
                 MetaDescription = r.MetaDescription,
-                Picture = r.Picture,
+                //Picture = r.Picture,
                 PictureTitle = r.PictureTitle,
                 PictureAlt = r.PictureAlt,
                 Slug = r.Slug

@@ -7,5 +7,5 @@ public interface IProductCategoryQuery
     List<ProductCategoryQueryModel> GetList();
     List<ProductCategoryQueryModel> GetCategoriesWhitProducts();
 
-    List<ProductQueryModel> GetProductsCategoryBy(string slug);
+    ProductCategoryQueryModel GetProductsCategoryBy(string slug);
 }

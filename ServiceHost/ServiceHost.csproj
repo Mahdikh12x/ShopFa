@@ -30,12 +30,17 @@
   </ItemGroup>
 
   <ItemGroup>
+    <_ContentIncludedByDefault Remove="Pages\Components\Footer\Default.cshtml" />
     <_ContentIncludedByDefault Remove="Pages\Components\LastArrivalProducts\Default.cshtml" />
     <_ContentIncludedByDefault Remove="Pages\Components\ProductCategory\Default.cshtml" />
   </ItemGroup>
 
   <ItemGroup>
     <UpToDateCheckInput Remove="Pages\Components\LastArrivalProducts\Default.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <UpToDateCheckInput Remove="Pages\Components\Footer\Default.cshtml" />
   </ItemGroup>
 
 </Project>
