@@ -1,3 +1,4 @@
+using _0_Framework.Application;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using ShopManagement.Application.Contracts.ProductCategory;
@@ -9,8 +10,7 @@ namespace ServiceHost.Areas.administration.Pages.Shop.ProductCategories
         public List<ProductCategoryViewModel> ProductCategories;
         public ProductCategorySearchModel SearchModel;
         private readonly IProductCategoryApplication _productCategoryApplication;
-        public IFormFile Files;
-        public IndexModel(IProductCategoryApplication productCategoryApplication)
+        public IndexModel(IProductCategoryApplication productCategoryApplication, IFileUploader fileUploader)
         {
             _productCategoryApplication = productCategoryApplication;
         }
@@ -22,9 +22,10 @@ namespace ServiceHost.Areas.administration.Pages.Shop.ProductCategories
 
         public IActionResult OnGetCreate()
         {
-            return Partial("./Create",new CreateProductCategory());
+
+            return Partial("./Create");
         }
-        public  JsonResult OnPostCreate(CreateProductCategory command)
+        public JsonResult OnPostCreate(CreateProductCategory command)
         {
             var result = _productCategoryApplication.Create(command);
             return new JsonResult(result);
@@ -35,9 +36,15 @@ namespace ServiceHost.Areas.administration.Pages.Shop.ProductCategories
             var productCategory = _productCategoryApplication.GetDetails(id);
             return Partial("./Edit", productCategory);
         }
-        public JsonResult OnPostEdit(EditProductCategory command)
+        public IActionResult OnPostEdit(EditProductCategory command)
         {
+            if (!ModelState.IsValid)
+            {
+                return RedirectToPage("./index");
+            }
+
             var result = _productCategoryApplication.Edit(command);
+
             return new JsonResult(result);
         }
 

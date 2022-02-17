@@ -8,11 +8,11 @@ namespace ServiceHost.Areas.administration.Pages.Shop.Products
 {
     public class IndexModel : PageModel
     {
-        public List<ProductViewModel> Products;
-        public ProductSearchModel SearchModel;
+        public List<ProductViewModel>? Products;
+        public ProductSearchModel? SearchModel;
         private readonly IProductApplication _productApplication;
         private readonly IProductCategoryApplication _productCategoryApplication;
-        public SelectList ProductCategories;
+        public SelectList? ProductCategories;
         public IndexModel(IProductApplication productApplication, IProductCategoryApplication productCategoryApplication)
         {
             _productApplication = productApplication;

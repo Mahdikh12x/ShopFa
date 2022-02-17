@@ -15,14 +15,13 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
             _context = context;
         }
 
-        public EditProduct GetDetails(long id)
+        public EditProduct? GetDetails(long id)
         {
             var product = _context.Products.Select(x => new EditProduct
             {
                 Name = x.Name,
                 CategoryId = x.CategoryId,
                 Description = x.Description,
-                Picture = x.Picture,
                 Code = x.Code,
                 Keywords = x.Keywords,
                 Id = x.Id,
@@ -34,6 +33,11 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
 
             }).FirstOrDefault(x => x.Id == id);
             return product;
+        }
+
+        public Product? GetProductWithCategory(long id)
+        {
+            return _context.Products.Include(x => x.ProductCategory).FirstOrDefault(x => x.Id == id);
         }
 
         public List<ProductViewModel> GetProducts()

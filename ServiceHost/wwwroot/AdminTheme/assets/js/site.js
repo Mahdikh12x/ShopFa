@@ -50,8 +50,8 @@ $(document).ready(function () {
             const url = form.attr("action");
             var action = form.attr("data-action");
 
-            if (method === "get") {
                 const data = form.serializeArray();
+            if (method === "get") {
                 $.get(url,
                     data,
                     function (data) {
@@ -184,17 +184,38 @@ function handleAjaxCall(method, url, data) {
     }
 }
 
-//jQuery.validator.addMethod("maxFileSize",
-//    function (value, element, params) {
-//        var size = element.files[0].size;
-//        var maxSize = 3 * 1024 * 1024;
-//        if (size > maxSize)
-//            return false;
-//        else {
-//            return true;
-//        }
-//    });
-//jQuery.validator.unobtrusive.adapters.addBool("maxFileSize");
+jQuery.validator.addMethod("MaxFileSize",
+    function (value, element, params) {
+        var size = element.files[0].size;
+        var maxSize = 3 * 1024 * 1024;
+        if (size > maxSize)
+            return false;
+        else {
+            return true;
+        }
+    });
+jQuery.validator.unobtrusive.adapters.addBool("MaxFileSize");
+
+
+jQuery.validator.addMethod("ExtensionFiles",
+    function (value, element, params) {
+        var extention = element.files[0].type.split("/")[1];
+       /* var validateExtensions = element.dataset.valExtensionfiles*/;
+
+        var validFileExtensions = [".jpg", ".jpeg",".png"];
+
+        var ext = extention.toLowerCase();
+        if (!validFileExtensions.includes(ext)) {
+            return false;
+        }
+        else {
+            return true; 
+        }
+    }),
+    jQuery.validator.unobtrusive.adapters.addBool("ExtensionFiles");
+
+
+
 
 //jQuery.validator.addMethod("maxFileSize",
 //    function (value, element, params) {

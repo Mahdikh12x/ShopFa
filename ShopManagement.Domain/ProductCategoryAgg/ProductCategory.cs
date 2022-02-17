@@ -15,11 +15,12 @@ namespace ShopManagement.Domain.ProductCategoryAgg
         public string Slug { get; private set; }
         public string Keywords { get; private set; }
 
-        public List<Product> Products { get; private set; }
+        public List<Product>? Products { get; private set; }
         protected ProductCategory()
         {
-            Products=new List<Product>();
+            Products = new List<Product>();
         }
+
         public ProductCategory(string name, string description, string metaDescription
             , string picture, string pictureTitle, string pictureAlt, string slug, string keywords)
         {
@@ -38,7 +39,8 @@ namespace ShopManagement.Domain.ProductCategoryAgg
             Name = name;
             Description = description;
             MetaDescription = metaDescription;
-            Picture = picture;
+            if (!string.IsNullOrWhiteSpace(picture))
+                Picture = picture;
             PictureTitle = pictureTitle;
             PictureAlt = pictureAlt;
             Slug = slug;

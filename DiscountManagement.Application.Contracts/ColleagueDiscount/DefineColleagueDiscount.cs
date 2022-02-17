@@ -10,6 +10,6 @@ namespace DiscountManagement.Application.Contracts.ColleagueDiscount
         public long ProductId { get; set; }
         [Range(1, 99, ErrorMessage = ValidationMessages.Required)]
         public int DiscountRate { get; set; }
-        public List<ProductViewModel> Products { get; set; }
+        public List<ProductViewModel>? Products { get; set; }
     }
 }

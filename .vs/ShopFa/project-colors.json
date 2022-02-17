@@ -125,7 +125,12 @@
       "ProjectGuid": "c58ec2d0-2d32-412c-a460-ae92dd54e271",
       "DisplayName": "DiscountManagement.Application.Contracts",
       "ColorIndex": 7
+    },
+    "2a7783fd-3b3d-4f40-99c5-c85d2e8410cc": {
+      "ProjectGuid": "2a7783fd-3b3d-4f40-99c5-c85d2e8410cc",
+      "DisplayName": "DiscountManagement.Application",
+      "ColorIndex": 8
     }
   },
-  "NextColorIndex": 8
+  "NextColorIndex": 9
 }

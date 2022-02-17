@@ -26,7 +26,7 @@
                 <form class="form-inline" role="form" method="get">
                     <div class="form-group">
                         <label class="sr-only" asp-for="SearchModel.Name"></label>
-                        <input class="form-control" asp-for="SearchModel.Name" placeholder="نام گروه محصولی">
+                        <input class="form-control" asp-for="SearchModel.Name" placeholder="نام گروه محصولی" required="true">
                     </div>
                     <button type="submit" class="btn btn-success waves-effect waves-light m-l-10">جستجو</button>
                     <a class="btn btn-primary waves-effect waves-light m-l-10" asp-page="./Index">مشاهده همه</a>
@@ -61,7 +61,7 @@
                                     <tr>
                                         <td>@item.Id</td>
                                         <td>
-                                            <img src="~/ProductPicture/@item.Picture" style="width: 70px; height: 70px" />
+                                            <img src="~/UploadPictures/@item.Picture" style="width: 70px; height: 70px" />
                                         </td>
                                         <td>@item.Name</td>
                                         <td>@item.CreationDate</td>

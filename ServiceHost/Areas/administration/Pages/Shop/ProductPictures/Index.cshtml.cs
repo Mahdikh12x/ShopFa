@@ -8,9 +8,9 @@ namespace ServiceHost.Areas.administration.Pages.Shop.ProductPictures
 {
     public class IndexModel : PageModel
     {
-        public List<ProductPictureViewModel> ProductPictures;
-        public ProductPictureSearchModel SearchModel;
-        public SelectList Products;
+        public List<ProductPictureViewModel>? ProductPictures;
+        public ProductPictureSearchModel? SearchModel;
+        public SelectList? Products;
         private readonly IProductPictureApplication _productPictureApplication;
         private readonly IProductApplication _productApplication;
         public IndexModel(IProductPictureApplication productPictureApplication, IProductApplication productApplication)

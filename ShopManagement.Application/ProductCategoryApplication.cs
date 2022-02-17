@@ -21,9 +21,12 @@ namespace ShopManagement.Application
              return   operation.Failed(ApplicationValidationMessages.Duplicated);
             var slug = command.Slug.Slugify();
 
-            var productCategory = new ProductCategory(command.Name, command.Description, command.MetaDescription, "",
-                command.PictureTitle, command.PictureAlt, slug, command.Keywords);
+            var path = $"{command.Slug.Slugify()}";
+            var picturePath = _fileUploader.Upload(command.Picture, path);
 
+            var productCategory = new ProductCategory(command.Name,command.Description,command.MetaDescription,
+                picturePath,command.PictureTitle
+                ,command.PictureAlt,slug,command.Keywords);
             _productCategoryRepository.Create(productCategory);
             _productCategoryRepository.SaveChanges();
             return operation.Succedded();
@@ -39,10 +42,12 @@ namespace ShopManagement.Application
             if (_productCategoryRepository.Exists(x => x.Name == command.Name&&x.Id !=command.Id))
                 return operation.Failed(ApplicationValidationMessages.Duplicated);
 
+            var path = $"{command.Slug.Slugify()}";
+            var picturePath = _fileUploader.Upload(command.Picture, path);
+
             var slug = command.Slug.Slugify();
-            var fileName = _fileUploader.Upload(command.Picture, slug);
             productCategory.Edit(command.Name, command.Description, command.MetaDescription,
-                fileName, command.PictureTitle, command.PictureAlt, slug, command.Keywords);
+                picturePath, command.PictureTitle, command.PictureAlt, slug, command.Keywords);
 
             _productCategoryRepository.SaveChanges();
             return operation.Succedded();

@@ -34,13 +34,18 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
             return query.OrderByDescending(x => x.Id).ToList();
         }
 
+        public ProductPicture GetProductWithCategory(long id)
+        {
+            return _context.ProductPictures.Include(x => x.Product).ThenInclude(x => x.ProductCategory)
+                .FirstOrDefault(x => x.Id == id)!;
+        }
+
         public EditProductPicture GetDetails(long id)
         {
             var productPicture = _context.ProductPictures.Select(
                     x => new EditProductPicture
                     {
                         Id = x.Id,
-                        Picture = x.Picture,
                         PictureAlt = x.PictureAlt,
                         PictureTitle = x.PictureTitle,
                         ProductId = x.ProductId,
