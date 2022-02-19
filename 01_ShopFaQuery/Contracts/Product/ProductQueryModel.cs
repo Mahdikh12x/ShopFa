@@ -14,7 +14,16 @@
         public int DiscountRate { get; set; }
         public string? CategorySlug { get; set; }
         public bool HasDiscount { get; set; }
+        public bool InStock { get; set; }
         public string? DiscountEndDate { get; set; }
+        public string? Code { get; set; }
+        public string? ShortDescription { get; set; }
+        public string? Description { get; set; }
+        public long CategoryId { get; set; }
+        public string? Keywords { get; set; }
+        public string? MetaDescription { get; set; }
+        public List<ProductPictureQueryModel> Pictures { get; set; }
 
     }
 }
+

@@ -50,8 +50,8 @@
                                                 <span class="new">جدید</span>
 
                                         </div>
-                                        <a href="single-product.html">
-                                            <img src="@product.Picture" class="img-fluid" alt="@product.PictureAlt" title="@product.PictureTitle">
+                                        <a asp-page="/ProductDetails" asp-route-id="@product.Slug">
+                                            <img src="~/UploadPictures/@product.Picture" class="img-fluid" alt="@product.PictureAlt" title="@product.PictureTitle">
                                         </a>
                                         <div class="hover-icons">
                                             <a href="javascript:void(0)"><i class="ion-bag"></i></a>
@@ -75,7 +75,7 @@
                                             </span>
                                         </div>
 
-                                        <h3 class="single-grid-product__title"> <a href="single-product.html">@product.Name</a></h3>
+                                        <h3 class="single-grid-product__title"> <a asp-page="/ProductDetails" asp-route-id="@product.Slug">@product.Name</a></h3>
                                         <p class="single-grid-product__price">
                                             @if (product.HasDiscount)
                                             {

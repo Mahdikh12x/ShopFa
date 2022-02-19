@@ -137,7 +137,7 @@ namespace _01_ShopFaQuery.Query
                 Picture = product.Picture,
                 PictureAlt = product.PictureAlt,
                 PictureTitle = product.PictureTitle,
-                Slug = product.Slug,
+                Slug = product.Slug,    
             })
                 .ToList();
         }

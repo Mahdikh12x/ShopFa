@@ -15,7 +15,7 @@
                         <h2 class="breadcrumb-content__title">Shop</h2>
                         <ul class="breadcrumb-content__page-map">
                             <li><a asp-page="/Index">Home</a></li>
-                            <li class="active">@Model.ProductCategory.Name گروه محصول   </li>
+                            <li class="active">@Model.ProductCategory.Name</li>
                         </ul>
                     </div>
                 </div>
@@ -78,8 +78,8 @@
                                                               <span class="sale">-@product.DiscountRate%</span>
                                                           </div>
                                                       }
-                                                       <a asp-page="/ProductDetails">
-                                                           <img src="@product.Picture" class="img-fluid"
+                                                       <a asp-page="/ProductDetails" asp-route-id="@product.Slug">
+                                                           <img src="~/UploadPictures/@product.Picture" class="img-fluid"
                                                                 alt="@product.PictureAlt" title="@product.PictureTitle">
                                                        </a>
 
@@ -96,7 +96,7 @@
                                                    <div class="single-grid-product__content">
                                                        <div class="single-grid-product__category-rating">
                                                            <span class="category">
-                                                               <a asp-page="/ProducCategory" asp-route-id="@product.CategorySlug">@product.Category</a>
+                                                               <a asp-page="/ProductCategory" asp-route-id="@product.CategorySlug">@product.Category</a>
                                                            </span>
                                                            <span class="rating">
                                                                <i class="ion-android-star active"></i>
@@ -108,15 +108,20 @@
                                                        </div>
 
                                                        <h3 class="single-grid-product__title">
-                                                           <a asp-page="/ProductDetails">@product.Name</a>
+                                                           <a asp-page="/ProductDetails" asp-route-id="@product.CategorySlug">@product.Name</a>
                                                        </h3>
                                                        <p class="single-grid-product__price">
                                                            @if (product.HasDiscount)
                                                            {
-                                                               <span class="discounted-price">@product.PriceWithDiscount تومان</span>
-                                                               <span
-                                                                   class="main-price discounted">@product.Price تومان</span>
-                                                           }</p>   
+                                                               <span class="discounted-price">@product.PriceWithDiscount</span>
+                                                               <span class="main-price discounted">@product.Price</span>
+                                                           }
+                                                           else
+                                                           {
+                                                               <span class="main-price">@product.Price</span>
+
+                                                           }
+                                                           </p>   
                                                        <div class="product-countdown" data-countdown="@product.DiscountEndDate"></div>
                                                    </div>
                                                </div>

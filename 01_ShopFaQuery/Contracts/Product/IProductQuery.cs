@@ -3,5 +3,6 @@
     public interface IProductQuery
     {
         List<ProductQueryModel> GetArrivalsProducts();
+        ProductQueryModel? GetProduct(string slug);
     }
 }

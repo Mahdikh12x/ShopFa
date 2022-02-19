@@ -17,7 +17,7 @@
                             <nav>
                                 <ul>
                                     <li>
-                                        <a href="index.html">HOME</a>
+                                        <a asp-page="/Index">HOME</a>
                                     </li>
 
                                     <li class="menu-item-has-children">
@@ -311,8 +311,8 @@
 
             <div class="offcanvas-inner-content">
                 <div class="offcanvas-mobile-search-area">
-                    <form action="#">
-                        <input type="search" placeholder="Search ...">
+                    <form asp-page="/ProductCategory" method="post" >
+                        <input type="search" placeholder="جستجو...">
                         <button type="submit">
                             <i class="fa fa-search"></i>
                         </button>
