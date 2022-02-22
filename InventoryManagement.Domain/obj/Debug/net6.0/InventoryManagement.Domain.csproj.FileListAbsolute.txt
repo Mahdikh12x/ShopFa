@@ -1,6 +1,5 @@
 C:\Users\Mahdi\source\repos\ShopFa\InventoryManagement.Domain\bin\Debug\net6.0\InventoryManagement.Domain.deps.json
 C:\Users\Mahdi\source\repos\ShopFa\InventoryManagement.Domain\bin\Debug\net6.0\InventoryManagement.Domain.dll
-C:\Users\Mahdi\source\repos\ShopFa\InventoryManagement.Domain\bin\Debug\net6.0\ref\InventoryManagement.Domain.dll
 C:\Users\Mahdi\source\repos\ShopFa\InventoryManagement.Domain\bin\Debug\net6.0\InventoryManagement.Domain.pdb
 C:\Users\Mahdi\source\repos\ShopFa\InventoryManagement.Domain\bin\Debug\net6.0\0_Framework.dll
 C:\Users\Mahdi\source\repos\ShopFa\InventoryManagement.Domain\bin\Debug\net6.0\InventoryManagement.Application.Contract.dll
@@ -19,3 +18,4 @@ C:\Users\Mahdi\source\repos\ShopFa\InventoryManagement.Domain\obj\Debug\net6.0\I
 C:\Users\Mahdi\source\repos\ShopFa\InventoryManagement.Domain\obj\Debug\net6.0\InventoryManagement.Domain.dll
 C:\Users\Mahdi\source\repos\ShopFa\InventoryManagement.Domain\obj\Debug\net6.0\ref\InventoryManagement.Domain.dll
 C:\Users\Mahdi\source\repos\ShopFa\InventoryManagement.Domain\obj\Debug\net6.0\InventoryManagement.Domain.pdb
+C:\Users\Mahdi\source\repos\ShopFa\InventoryManagement.Domain\obj\Debug\net6.0\refint\InventoryManagement.Domain.dll

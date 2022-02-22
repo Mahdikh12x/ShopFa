@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "5euX4BByrSWorJqJ4lrX1OJWCR9KCkbj3NfuiY552Qo=",
+  "Hash": "Hbyu/LtU5PAruz9WZnlI1pDU9MrDZryDXCHChH18vJI=",
   "Source": "ServiceHost",
   "BasePath": "_content/ServiceHost",
   "Mode": "Default",
@@ -8175,6 +8175,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Theme\\assets\\js\\vendors.js"
+    },
+    {
+      "Identity": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\ServiceHost\\wwwroot\\UploadPictures\\blog\\راهنمای-خرید-لوازم-خانگی\\2022-02-22-22-22-49-product-2-80x106.jpg",
+      "SourceId": "ServiceHost",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\ServiceHost\\wwwroot\\",
+      "BasePath": "_content/ServiceHost",
+      "RelativePath": "UploadPictures/blog/راهنمای-خرید-لوازم-خانگی/2022-02-22-22-22-49-product-2-80x106.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\UploadPictures\\blog\\راهنمای-خرید-لوازم-خانگی\\2022-02-22-22-22-49-product-2-80x106.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\ServiceHost\\wwwroot\\UploadPictures\\blog\\راهنمای-خرید-لوازم-خانگی1\\2022-02-22-22-28-32-product-3-80x106.jpg",
+      "SourceId": "ServiceHost",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\ServiceHost\\wwwroot\\",
+      "BasePath": "_content/ServiceHost",
+      "RelativePath": "UploadPictures/blog/راهنمای-خرید-لوازم-خانگی1/2022-02-22-22-28-32-product-3-80x106.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\UploadPictures\\blog\\راهنمای-خرید-لوازم-خانگی1\\2022-02-22-22-28-32-product-3-80x106.jpg"
     },
     {
       "Identity": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\ServiceHost\\wwwroot\\UploadPictures\\slides\\2022-02-19-20-13-05-slider2.jpg",

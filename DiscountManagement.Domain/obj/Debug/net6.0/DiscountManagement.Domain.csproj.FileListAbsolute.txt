@@ -1,6 +1,5 @@
 C:\Users\Mahdi\source\repos\ShopFa\DiscountManagement.Domain\bin\Debug\net6.0\DiscountManagement.Domain.deps.json
 C:\Users\Mahdi\source\repos\ShopFa\DiscountManagement.Domain\bin\Debug\net6.0\DiscountManagement.Domain.dll
-C:\Users\Mahdi\source\repos\ShopFa\DiscountManagement.Domain\bin\Debug\net6.0\ref\DiscountManagement.Domain.dll
 C:\Users\Mahdi\source\repos\ShopFa\DiscountManagement.Domain\bin\Debug\net6.0\DiscountManagement.Domain.pdb
 C:\Users\Mahdi\source\repos\ShopFa\DiscountManagement.Domain\bin\Debug\net6.0\0_Framework.dll
 C:\Users\Mahdi\source\repos\ShopFa\DiscountManagement.Domain\bin\Debug\net6.0\DiscountManagement.Application.Contracts.dll
@@ -17,3 +16,4 @@ C:\Users\Mahdi\source\repos\ShopFa\DiscountManagement.Domain\obj\Debug\net6.0\Di
 C:\Users\Mahdi\source\repos\ShopFa\DiscountManagement.Domain\obj\Debug\net6.0\DiscountManagement.Domain.dll
 C:\Users\Mahdi\source\repos\ShopFa\DiscountManagement.Domain\obj\Debug\net6.0\ref\DiscountManagement.Domain.dll
 C:\Users\Mahdi\source\repos\ShopFa\DiscountManagement.Domain\obj\Debug\net6.0\DiscountManagement.Domain.pdb
+C:\Users\Mahdi\source\repos\ShopFa\DiscountManagement.Domain\obj\Debug\net6.0\refint\DiscountManagement.Domain.dll

@@ -1,7 +1,6 @@
 C:\Users\Mahdi\source\repos\ShopFa\InventoryManagement.EfCore\bin\Debug\net6.0\InventoryManagement.Infrastructure.EfCore.deps.json
 C:\Users\Mahdi\source\repos\ShopFa\InventoryManagement.EfCore\bin\Debug\net6.0\InventoryManagement.Infrastructure.EfCore.runtimeconfig.json
 C:\Users\Mahdi\source\repos\ShopFa\InventoryManagement.EfCore\bin\Debug\net6.0\InventoryManagement.Infrastructure.EfCore.dll
-C:\Users\Mahdi\source\repos\ShopFa\InventoryManagement.EfCore\bin\Debug\net6.0\ref\InventoryManagement.Infrastructure.EfCore.dll
 C:\Users\Mahdi\source\repos\ShopFa\InventoryManagement.EfCore\bin\Debug\net6.0\InventoryManagement.Infrastructure.EfCore.pdb
 C:\Users\Mahdi\source\repos\ShopFa\InventoryManagement.EfCore\bin\Debug\net6.0\0_Framework.dll
 C:\Users\Mahdi\source\repos\ShopFa\InventoryManagement.EfCore\bin\Debug\net6.0\InventoryManagement.Application.Contract.dll
@@ -25,3 +24,4 @@ C:\Users\Mahdi\source\repos\ShopFa\InventoryManagement.EfCore\obj\Debug\net6.0\I
 C:\Users\Mahdi\source\repos\ShopFa\InventoryManagement.EfCore\obj\Debug\net6.0\ref\InventoryManagement.Infrastructure.EfCore.dll
 C:\Users\Mahdi\source\repos\ShopFa\InventoryManagement.EfCore\obj\Debug\net6.0\InventoryManagement.Infrastructure.EfCore.pdb
 C:\Users\Mahdi\source\repos\ShopFa\InventoryManagement.EfCore\obj\Debug\net6.0\InventoryManagement.Infrastructure.EfCore.genruntimeconfig.cache
+C:\Users\Mahdi\source\repos\ShopFa\InventoryManagement.EfCore\obj\Debug\net6.0\refint\InventoryManagement.Infrastructure.EfCore.dll
