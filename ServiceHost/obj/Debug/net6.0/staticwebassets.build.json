@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Hbyu/LtU5PAruz9WZnlI1pDU9MrDZryDXCHChH18vJI=",
+  "Hash": "xM9U622WvJetJASJYkF041ccPOMSdJtPpUXFwg1rd3o=",
   "Source": "ServiceHost",
   "BasePath": "_content/ServiceHost",
   "Mode": "Default",
@@ -8192,6 +8192,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\UploadPictures\\blog\\راهنمای-خرید-لوازم-خانگی\\2022-02-22-22-22-49-product-2-80x106.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\ServiceHost\\wwwroot\\UploadPictures\\blog\\راهنمای-خرید-لوازم-خانگی\\راهنمای-تشخیص-لباسیشویی-اصل-lg-از-تقلبی\\2022-02-23-15-32-39-3-1170x743.jpg",
+      "SourceId": "ServiceHost",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\ServiceHost\\wwwroot\\",
+      "BasePath": "_content/ServiceHost",
+      "RelativePath": "UploadPictures/blog/راهنمای-خرید-لوازم-خانگی/راهنمای-تشخیص-لباسیشویی-اصل-lg-از-تقلبی/2022-02-23-15-32-39-3-1170x743.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\UploadPictures\\blog\\راهنمای-خرید-لوازم-خانگی\\راهنمای-تشخیص-لباسیشویی-اصل-lg-از-تقلبی\\2022-02-23-15-32-39-3-1170x743.jpg"
     },
     {
       "Identity": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\ServiceHost\\wwwroot\\UploadPictures\\blog\\راهنمای-خرید-لوازم-خانگی1\\2022-02-22-22-28-32-product-3-80x106.jpg",
