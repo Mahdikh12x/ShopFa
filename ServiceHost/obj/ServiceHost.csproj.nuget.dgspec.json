@@ -28,6 +28,9 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+              "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\BlogManagement.Infrastructure.EfCore\\BlogManagement.Infrastructure.EfCore.csproj": {
+                "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\BlogManagement.Infrastructure.EfCore\\BlogManagement.Infrastructure.EfCore.csproj"
+              },
               "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\DiscountManagement.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj": {
                 "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\DiscountManagement.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj"
               },
@@ -340,6 +343,9 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+              "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\01_ShopFaQuery\\01_ShopFaQuery.csproj": {
+                "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\01_ShopFaQuery\\01_ShopFaQuery.csproj"
+              },
               "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\BlogManagement.Application\\BlogManagement.Application.csproj": {
                 "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\BlogManagement.Application\\BlogManagement.Application.csproj"
               },

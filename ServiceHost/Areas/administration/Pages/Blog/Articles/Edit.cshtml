@@ -18,7 +18,7 @@
                         <div class="col-md-6">
                             <div class="form-group">
                                 <label asp-for="Command.Title" class="control-label">عنوان</label>
-                                <input type="text" class="form-control" asp-for="Command.Title" onchange="makeSlug('Command.Title', 'Command.Slug')">
+                                <input type="text" class="form-control" asp-for="Command.Title" onchange="makeSlug('Command_Title', 'Command_Slug')">
                                 <span asp-validation-for="Command.Title" class="error"></span>
                             </div>
                         </div>

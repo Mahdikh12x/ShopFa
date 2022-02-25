@@ -16,8 +16,7 @@ namespace BlogManagement.Application.Contracts.Article
         [Required(ErrorMessage = ValidationMessages.Required)]
         public string Body { get;  set; }
 
-        [MaxLength(1000,ErrorMessage = ValidationMessages.MaxLength)]
-        [MaxFileSize(3*1021*1024,ErrorMessage = ValidationMessages.MaxFileSize)]
+        [MaxFileSize(3*1024*1024,ErrorMessage = ValidationMessages.MaxFileSize)]
         public IFormFile? Picture { get;  set; }
         [MaxLength(255,ErrorMessage = ValidationMessages.MaxLength)]
         public string? PictureAlt { get;  set; }

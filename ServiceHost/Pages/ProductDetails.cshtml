@@ -1,6 +1,9 @@
 ﻿@page "{id}"
 @model ServiceHost.Pages.ProductDetailsModel
 @{
+    ViewData["title"] = @Model.Product?.Name;
+    ViewData["metaDescription"] = @Model.Product?.MetaDescription;
+    ViewData["keywords"] = @Model.Product?.Keywords;
 }
 
 

@@ -35,3 +35,9 @@ C:\Users\Mahdi\source\repos\ShopFa\ShopManagement.Infrastructure.Configuration\o
 C:\Users\Mahdi\source\repos\ShopFa\ShopManagement.Infrastructure.Configuration\obj\Debug\net6.0\ref\ShopManagement.Infrastructure.Configuration.dll
 C:\Users\Mahdi\source\repos\ShopFa\ShopManagement.Infrastructure.Configuration\obj\Debug\net6.0\ShopManagement.Infrastructure.Configuration.pdb
 C:\Users\Mahdi\source\repos\ShopFa\ShopManagement.Infrastructure.Configuration\obj\Debug\net6.0\refint\ShopManagement.Infrastructure.Configuration.dll
+C:\Users\Mahdi\source\repos\ShopFa\ShopManagement.Infrastructure.Configuration\bin\Debug\net6.0\BlogManagement.Application.Contracts.dll
+C:\Users\Mahdi\source\repos\ShopFa\ShopManagement.Infrastructure.Configuration\bin\Debug\net6.0\BlogManagement.Domain.dll
+C:\Users\Mahdi\source\repos\ShopFa\ShopManagement.Infrastructure.Configuration\bin\Debug\net6.0\BlogManagement.Infrastructure.EfCore.dll
+C:\Users\Mahdi\source\repos\ShopFa\ShopManagement.Infrastructure.Configuration\bin\Debug\net6.0\BlogManagement.Application.Contracts.pdb
+C:\Users\Mahdi\source\repos\ShopFa\ShopManagement.Infrastructure.Configuration\bin\Debug\net6.0\BlogManagement.Domain.pdb
+C:\Users\Mahdi\source\repos\ShopFa\ShopManagement.Infrastructure.Configuration\bin\Debug\net6.0\BlogManagement.Infrastructure.EfCore.pdb

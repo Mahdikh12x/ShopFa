@@ -36,7 +36,7 @@ namespace BlogManagement.Infrastructure.EfCore.Repository
             var query = _context.ArticleCategories.Select(x => new ArticleCategoryViewModel
             {
                 Id = x.Id,
-                Description = x.Description,
+                Description = x.Description.Substring(0, Math.Min(x.Description.Length,75)) + "...",
                 Name = x.Name,
                 ShowOrder = x.ShowOrder,
                 CreationDate = x.CreationDate.ToFarsi(),

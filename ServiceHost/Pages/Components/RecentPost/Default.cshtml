@@ -1,0 +1,26 @@
+﻿@model List<_01_ShopFaQuery.Contracts.Article.ArticleQueryModel>
+
+<div class="single-sidebar-widget">
+
+    <h4 class="single-sidebar-widget__title">اخرین  مقالات</h4>
+    <div class="block-container">
+
+        @foreach (var article in Model)
+        {
+            <div class="single-block d-flex">
+                <div class="image">
+                    <a asp-page="/Article" asp-route-id="@article.Slug">
+                        <img src="~/UploadPictures/@article.Picture"
+                         class="img-fluid" alt="@article.PictureAlt" title="@article.PictureTitle" />
+                    </a>
+                </div>
+                <div class="content">
+                    <p>
+                        <a asp-page="/Article" asp-route-id="@article.Slug">@article.Title</a> <span>@article.PublishDate</span>
+                    </p>
+                </div>
+            </div>
+        }
+
+    </div>
+</div>

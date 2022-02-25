@@ -22,6 +22,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Pages\Components\ArticleCategoriesList\" />
+    <Folder Include="Pages\Components\LastArticles\" />
     <Folder Include="Pages\Components\ProductCategoryWithProducts\" />
     <Folder Include="Pages\Components\Slide\" />
   </ItemGroup>
@@ -34,6 +36,7 @@
     <_ContentIncludedByDefault Remove="Pages\Components\Footer\Default.cshtml" />
     <_ContentIncludedByDefault Remove="Pages\Components\LastArrivalProducts\Default.cshtml" />
     <_ContentIncludedByDefault Remove="Pages\Components\ProductCategory\Default.cshtml" />
+    <_ContentIncludedByDefault Remove="Pages\Components\RecentPost\Default.cshtml" />
   </ItemGroup>
 
   <ItemGroup>
@@ -42,6 +45,10 @@
 
   <ItemGroup>
     <UpToDateCheckInput Remove="Pages\Components\Footer\Default.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <UpToDateCheckInput Remove="Pages\Components\RecentPost\Default.cshtml" />
   </ItemGroup>
 
 </Project>

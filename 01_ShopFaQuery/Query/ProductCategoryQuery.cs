@@ -30,7 +30,8 @@ namespace _01_ShopFaQuery.Query
                 PictureAlt = x.PictureAlt,
                 PictureTitle = x.PictureTitle,
                 Name = x.Name,
-                Slug = x.Slug
+                Slug = x.Slug,
+           
             }).ToList();
         }
 
@@ -48,6 +49,7 @@ namespace _01_ShopFaQuery.Query
                     PictureTitle = x.PictureTitle,
                     Slug = x.Slug,
                     Products = MapProducts(x.Products!)
+                    
                 }).ToList();
             foreach (var category in categories)
             {
@@ -89,7 +91,9 @@ namespace _01_ShopFaQuery.Query
                     Slug = x.Slug,
                     PictureAlt = x.PictureAlt,
                     PictureTitle = x.PictureTitle,
-                    Products = MapProducts(x.Products!)
+                    Products = MapProducts(x.Products!),
+                    MetaDescription = x.MetaDescription,
+                    Keywords = x.Keywords
                 }).FirstOrDefault(x => x.Slug == slug);
 
             //var products = _shopContext.Products.Include(x => x.ProductCategory)

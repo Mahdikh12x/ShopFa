@@ -1,0 +1,211 @@
+﻿@page "{id}"
+@model ServiceHost.Pages.ArticleCategoryModel
+@{
+    ViewData["title"] = @Model.ArticleCategory.Name;
+    ViewData["metaDescription"] = @Model.ArticleCategory.MetaDescription;
+    ViewData["keywords"] = @Model.ArticleCategory.Keywords;
+    ViewData["canonical"] = @Model.ArticleCategory.CanonicalAddress;
+}
+<div class="breadcrumb-area section-space--half">
+    <div class="container wide">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="breadcrumb-wrapper breadcrumb-bg">
+                    <div class="breadcrumb-content">
+                        <h2 class="breadcrumb-content__title">Blog</h2>
+                        <ul class="breadcrumb-content__page-map">
+                            <li>
+                                <a asp-page="/Index">خانه</a>
+                            </li>
+                            <li class="active">@Model.ArticleCategory.Name</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    <div class="page-content-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="page-wrapper">
+                        <div class="page-content-wrapper">
+                            <div class="row">
+
+
+                                <div class="col-lg-9 order-1 order-lg-1">
+                                    <div class="blog-page-content">
+                                        <div class="row">
+                                            @foreach (var article in Model.ArticleCategory.Articles)
+                                            {
+                                                <div class="col-md-6">
+                                                <div class="single-blog-post">
+                                                    <div class="single-blog-post__image">
+                                                        <a asp-page="/Article" asp-route-id="@article.Slug">
+                                                            <img src="~/UploadPictures/@article.Picture"
+                                                                class="img-fluid" alt="@article.PictureAlt" title="@article.PictureTitle">
+                                                        </a>
+
+                                                    </div>
+                                                    <div class="single-blog-post__content">
+                                                        <h3 class="title">
+                                                            <a href="blog-post-left-sidebar.html">@article.Title</a>
+                                                        </h3>
+                                                        <p class="post-meta"> <span class="date">@article.PublishDate</span>
+                                                            <span class="separator">|</span> در <a asp-page="/ArticleCategory" asp-route-id="@Model.ArticleCategory.Slug">@Model.ArticleCategory.Name</a>
+                                                        </p>
+                                                        <p class="short-desc">@article.ShortDescription</p>
+                                                        <a asp-page="/Article" asp-route-id="@article.Slug"
+                                                            class="blog-post-link">ادامه مطلب</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            }
+                                            
+                                           
+                                        </div>
+                                    </div>
+
+                                    <div class="pagination-area">
+                                        <div class="pagination-area__left">
+                                            Showing 1 to 9 of 11 (2 Pages)
+                                        </div>
+                                        <div class="pagination-area__right">
+                                            <ul class="pagination-section">
+                                                <li>
+                                                    <a class="active" href="#">1</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">2</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">></a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">>|</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-3 order-2 order-lg-2">
+                                    <div class="page-sidebar-wrapper">
+
+                                        @await Component.InvokeAsync("ArticleCategoriesList")
+
+                                        @await Component.InvokeAsync("RecentPost")
+                                        <div class="single-sidebar-widget">
+
+                                            <h4 class="single-sidebar-widget__title">Recent Comments</h4>
+                                            <div class="block-container">
+                                                <div class="single-block comment-block d-flex">
+                                                    <div class="image">
+                                                        <a href="blog-post-image-format.html">
+                                                            <img src="assets/img/blog/comment-icon.png"
+                                                                 class="img-fluid" alt="">
+                                                        </a>
+                                                    </div>
+                                                    <div class="content">
+                                                        <p>
+                                                            <span>Admin Says</span>
+                                                            <a
+                                                                href="blog-post-image-format.html">The biggest lie in
+                                                                plant</a>
+                                                        </p>
+                                                    </div>
+                                                </div>
+
+                                                <!--=======  End of single block  =======-->
+                                                <!--=======  single block  =======-->
+
+                                                <div class="single-block comment-block d-flex">
+                                                    <div class="image">
+                                                        <a href="blog-post-image-gallery.html">
+                                                            <img src="assets/img/blog/comment-icon.png"
+                                                                 class="img-fluid" alt="">
+                                                        </a>
+                                                    </div>
+                                                    <div class="content">
+                                                        <p>
+                                                            <span>Admin Says</span>
+                                                            <a
+                                                                href="blog-post-image-gallery.html">How to improve plant
+                                                                quality</a>
+                                                        </p>
+                                                    </div>
+                                                </div>
+
+                                                <!--=======  End of single block  =======-->
+                                                <!--=======  single block  =======-->
+
+                                                <div class="single-block comment-block d-flex">
+                                                    <div class="image">
+                                                        <a href="blog-post-audio-format.html">
+                                                            <img src="assets/img/blog/comment-icon.png"
+                                                                 class="img-fluid" alt="">
+                                                        </a>
+                                                    </div>
+                                                    <div class="content">
+                                                        <p>
+                                                            <span>Admin Says</span>
+                                                            <a
+                                                                href="blog-post-audio-format.html">101 ideas for
+                                                                plant</a>
+                                                        </p>
+                                                    </div>
+                                                </div>
+
+                                                <!--=======  End of single block  =======-->
+                                                <!--=======  single block  =======-->
+
+                                                <div class="single-block comment-block d-flex">
+                                                    <div class="image">
+                                                        <a href="blog-post-video-format.html">
+                                                            <img src="assets/img/blog/comment-icon.png"
+                                                                 class="img-fluid" alt="">
+                                                        </a>
+                                                    </div>
+                                                    <div class="content">
+                                                        <p>
+                                                            <span>Admin Says</span>
+                                                            <a
+                                                                href="blog-post-video-format.html">No more mistakes with
+                                                                plant</a>
+                                                        </p>
+                                                    </div>
+                                                </div>
+
+                                                <!--=======  End of single block  =======-->
+
+                                            </div>
+
+                                            <!--=======  End of block container  =======-->
+                                        </div>
+
+                                        <div class="single-sidebar-widget">
+                                            <h4 class="single-sidebar-widget__title">تگ ها</h4>
+                                            <ul class="single-sidebar-widget__tag-list">
+                                               @foreach (var tag in Model.ArticleCategory.KeywordsList)
+                                               {
+                                                   <li>
+                                                       <a asp-page="/Search" asp-route-id="@tag">@tag</a>
+                                                   </li>
+                                                  
+                                               }
+                                                
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>

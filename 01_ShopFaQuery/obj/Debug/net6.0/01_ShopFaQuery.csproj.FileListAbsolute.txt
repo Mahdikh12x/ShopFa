@@ -31,3 +31,9 @@ C:\Users\Mahdi\source\repos\ShopFa\01_ShopFaQuery\obj\Debug\net6.0\01_ShopFaQuer
 C:\Users\Mahdi\source\repos\ShopFa\01_ShopFaQuery\obj\Debug\net6.0\ref\01_ShopFaQuery.dll
 C:\Users\Mahdi\source\repos\ShopFa\01_ShopFaQuery\obj\Debug\net6.0\01_ShopFaQuery.pdb
 C:\Users\Mahdi\source\repos\ShopFa\01_ShopFaQuery\obj\Debug\net6.0\refint\01_ShopFaQuery.dll
+C:\Users\Mahdi\source\repos\ShopFa\01_ShopFaQuery\bin\Debug\net6.0\BlogManagement.Application.Contracts.dll
+C:\Users\Mahdi\source\repos\ShopFa\01_ShopFaQuery\bin\Debug\net6.0\BlogManagement.Domain.dll
+C:\Users\Mahdi\source\repos\ShopFa\01_ShopFaQuery\bin\Debug\net6.0\BlogManagement.Infrastructure.EfCore.dll
+C:\Users\Mahdi\source\repos\ShopFa\01_ShopFaQuery\bin\Debug\net6.0\BlogManagement.Infrastructure.EfCore.pdb
+C:\Users\Mahdi\source\repos\ShopFa\01_ShopFaQuery\bin\Debug\net6.0\BlogManagement.Application.Contracts.pdb
+C:\Users\Mahdi\source\repos\ShopFa\01_ShopFaQuery\bin\Debug\net6.0\BlogManagement.Domain.pdb

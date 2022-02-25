@@ -41,7 +41,7 @@ namespace DiscountManagement.Infrastructure.EFCore.Repository
                 DiscountRate = x.DiscountRate,
                 StartDate = x.StartDate.ToFarsi(),
                 EndDate = x.EndDate.ToFarsi(),
-                Reason = x.Reason,
+                Reason = x.Reason.Substring(0, Math.Min(x.Reason.Length, 75)) + "...",
                 //Product = products.FirstOrDefault(zx=>x.Id==x.ProductId).Name,
                 ProductId = x.ProductId
             });

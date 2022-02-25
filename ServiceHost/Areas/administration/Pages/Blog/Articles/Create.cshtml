@@ -17,7 +17,7 @@
                         <div class="col-md-6">
                             <div class="form-group">
                                 <label asp-for="Command.Title" class="control-label">عنوان</label>
-                                <input type="text" class="form-control" asp-for="Command.Title" onchange="makeSlug('Command.Title', 'Command.Slug')">
+                                <input type="text" class="form-control" asp-for="Command.Title" onchange="makeSlug('Command_Title', 'Command_Slug')">
                                 <span asp-validation-for="Command.Title" class="error"></span>
                             </div>
                         </div>
@@ -80,7 +80,7 @@
                             <div class="form-group">
                                 <label asp-for="Command.ShortDescription" class="control-label">توضیحات کوتاه</label>
                                 <textarea class="form-control " asp-for="Command.ShortDescription" 
-                                              style="overflow: hidden; word-wrap: break-word; resize: horizontal; height: 104px;" onchange="fillField('Command.ShortDescription', 'Command.MetaDescription')"></textarea>
+                                              style="overflow: hidden; word-wrap: break-word; resize: horizontal; height: 104px;" onchange="fillField('Command_ShortDescription', 'Command_MetaDescription')"></textarea>
                                 
                                 <span asp-validation-for="Command.ShortDescription" class="error"></span>
                             </div>

@@ -4,8 +4,17 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>لوازم خانگی محسن </title>
-
+    @if (ViewData["title"]==null)
+    {
+        <title>لوازم خانگی محسن</title>
+    }
+    <title>لوازم خانگی محسن-@ViewData["title"] </title>
+    <meta name="description" content="@ViewData["metaDescription"]"/>
+    <meta name="keywords" content="@ViewData["keywords"]"/>
+    @if (ViewData["canonical"] != null)
+    {
+    <link rel="canonical" href="@ViewData["canonical"]" />
+    }
     <link href="~/Theme/assets/css/vendors.css" rel="stylesheet">
     <link href="~/Theme/assets/css/style.css" rel="stylesheet">
     <link href="~/Theme/assets/css/Custom.css" rel="stylesheet">
@@ -26,8 +35,8 @@
 
 
         <div class="search-form">
-            <form action="#">
-                <input type="search" placeholder="Search entire store here ...">
+            <form asp-page="/Search" method="get">
+                <input type="search" name="value" placeholder="هرچه میخواهید جست  و جو کنید ....">
                 <button type="submit">
                     <i class="ion-android-search"></i>
                 </button>
