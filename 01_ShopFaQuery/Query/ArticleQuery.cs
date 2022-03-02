@@ -1,6 +1,9 @@
 ﻿using _0_Framework.Application;
+using _0_Framework.Infrastructure;
 using _01_ShopFaQuery.Contracts.Article;
+using _01_ShopFaQuery.Contracts.Comment;
 using BlogManagement.Infrastructure.EfCore;
+using CommentManagement.Infrastructure.EFCore;
 using Microsoft.EntityFrameworkCore;
 
 namespace _01_ShopFaQuery.Query
@@ -8,10 +11,11 @@ namespace _01_ShopFaQuery.Query
     public class ArticleQuery:IArticleQuery
     {
         private readonly BlogContext _context;
-
-        public ArticleQuery(BlogContext context)
+        private readonly CommentContext _commentContext;
+        public ArticleQuery(BlogContext context, CommentContext commentContext)
         {
             _context = context;
+            _commentContext = commentContext;
         }
 
         public List<ArticleQueryModel> GetLastArticles()
@@ -95,6 +99,29 @@ namespace _01_ShopFaQuery.Query
 
           if (!string.IsNullOrWhiteSpace(article.Keywords))
               article.KeywordList = article.Keywords.Split(new Char[] { ',', '،' }, StringSplitOptions.RemoveEmptyEntries).ToList();
+
+          var comments = _commentContext.Comments.Where(x => !x.IsCanceled).Where(x => x.IsConfirmed)
+              .Where(x => x.Type == CommentType.Article).Where(x => x.OwnerRecordId == article.Id)
+              .Select(x => new CommentQueryModel
+              {
+                  CreationDate = x.CreationDate.ToFarsi(),
+                  Description = x.Description,
+                  Id = x.Id,
+                  Name = x.Name,
+                  ParentId = x.ParentId,
+                  Time = x.CreationDate
+              }).ToList();
+
+
+          foreach (var comment in comments)
+          {
+              if (comment.ParentId <= 0) continue;
+              comment.Parent = comments.FirstOrDefault(x => x.Id == comment.ParentId)?.Name;
+              comment.HasParent = true;
+          }
+
+
+          article.Comments = comments;
 
             return article;
         }

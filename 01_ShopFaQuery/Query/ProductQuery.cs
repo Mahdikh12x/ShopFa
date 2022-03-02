@@ -1,7 +1,10 @@
 ﻿using System.Linq;
 using _0_Framework.Application;
+using _0_Framework.Infrastructure;
+using _01_ShopFaQuery.Contracts.Comment;
 using _01_ShopFaQuery.Contracts.Product;
 using _01_ShopFaQuery.Contracts.ProductCategory;
+using CommentManagement.Infrastructure.EFCore;
 using DiscountManagement.Infrastructure.EFCore;
 using InventoryManagement.Infrastructure.EfCore;
 using Microsoft.EntityFrameworkCore;
@@ -15,11 +18,13 @@ namespace _01_ShopFaQuery.Query
         private readonly ShopContext _shopContext;
         private readonly InventoryContext _inventoryContext;
         private readonly DiscountContext _discountContext;
-        public ProductQuery(ShopContext shopContext, InventoryContext inventoryContext, DiscountContext discountContext)
+        private readonly CommentContext _commentContext;
+        public ProductQuery(ShopContext shopContext, InventoryContext inventoryContext, DiscountContext discountContext, CommentContext commentContext)
         {
             _shopContext = shopContext;
             _inventoryContext = inventoryContext;
             _discountContext = discountContext;
+            _commentContext = commentContext;
         }
 
 
@@ -158,10 +163,17 @@ namespace _01_ShopFaQuery.Query
                     PictureTitle = x.PictureTitle,
                     Picture = x.Picture,
                     ShortDescription = x.ShortDescription,
-                    Pictures = MapPictures(x.ProductPictures)
 
                 }).FirstOrDefault(x => x.Slug == slug);
 
+                product!.Pictures = _shopContext.ProductPictures.Where(x=>x.ProductId==product.Id)
+                .Select(x => new ProductPictureQueryModel
+                {
+                    ProductId = x.ProductId,
+                    Picture = x.Picture,
+                    PictureAlt = x.PictureAlt,
+                    PictureTitle = x.PictureTitle
+                }).ToList();
 
             var productInventory = inventories.FirstOrDefault(x => x.ProductId == product.Id);
 
@@ -186,18 +198,22 @@ namespace _01_ShopFaQuery.Query
             }
 
 
+
+            product.Comments = _commentContext.Comments.Where(x => !x.IsCanceled)
+                .Where(x => x.IsConfirmed)
+                .Where(x => x.Type == CommentType.Product).Where(x=>x.OwnerRecordId==product.Id)
+                .Select(x => new CommentQueryModel
+                {
+                    Id = x.Id,
+                    Name = x.Name,
+                    CreationDate = x.CreationDate.ToFarsi(),
+                    Description = x.Description,
+                   
+                }).OrderByDescending(x=>x.Id).ToList();
+
             return product;
         }
 
-        private static List<ProductPictureQueryModel> MapPictures(IEnumerable<ProductPicture> productPictures)
-        {
-            return productPictures.Select(x => new ProductPictureQueryModel
-            {
-                Picture = x.Picture,
-                PictureAlt = x.PictureAlt,
-                PictureTitle = x.PictureTitle,
-                ProductId = x.ProductId
-            }).ToList();
-        }
+       
     }
 }

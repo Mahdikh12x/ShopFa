@@ -1,4 +1,6 @@
-﻿namespace _01_ShopFaQuery.Contracts.Product
+﻿using _01_ShopFaQuery.Contracts.Comment;
+
+namespace _01_ShopFaQuery.Contracts.Product
 {
     public class ProductQueryModel
     {
@@ -22,7 +24,8 @@
         public long CategoryId { get; set; }
         public string? Keywords { get; set; }
         public string? MetaDescription { get; set; }
-        public List<ProductPictureQueryModel> Pictures { get; set; }
+        public List<ProductPictureQueryModel>? Pictures { get; set; }
+        public List<CommentQueryModel>?Comments{ get; set; }
 
     }
 }

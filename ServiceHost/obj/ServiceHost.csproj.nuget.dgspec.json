@@ -31,6 +31,9 @@
               "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\BlogManagement.Infrastructure.EfCore\\BlogManagement.Infrastructure.EfCore.csproj": {
                 "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\BlogManagement.Infrastructure.EfCore\\BlogManagement.Infrastructure.EfCore.csproj"
               },
+              "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\CommentManagement.Infrastructure.EFCore\\CommentManagement.Infrastructure.EFCore.csproj": {
+                "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\CommentManagement.Infrastructure.EFCore\\CommentManagement.Infrastructure.EFCore.csproj"
+              },
               "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\DiscountManagement.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj": {
                 "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\DiscountManagement.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj"
               },
@@ -415,6 +418,333 @@
             "projectReferences": {
               "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\BlogManagement.Domain\\BlogManagement.Domain.csproj": {
                 "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\BlogManagement.Domain\\BlogManagement.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\CommentManagement.Application.Contract\\CommentManagement.Application.Contract.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\CommentManagement.Application.Contract\\CommentManagement.Application.Contract.csproj",
+        "projectName": "CommentManagement.Application.Contract",
+        "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\CommentManagement.Application.Contract\\CommentManagement.Application.Contract.csproj",
+        "packagesPath": "C:\\Users\\Mahdi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\CommentManagement.Application.Contract\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Mahdi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\0_Framework\\0_Framework.csproj": {
+                "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\0_Framework\\0_Framework.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\CommentManagement.Application\\CommentManagement.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\CommentManagement.Application\\CommentManagement.Application.csproj",
+        "projectName": "CommentManagement.Application",
+        "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\CommentManagement.Application\\CommentManagement.Application.csproj",
+        "packagesPath": "C:\\Users\\Mahdi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\CommentManagement.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Mahdi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\CommentManagement.Application.Contract\\CommentManagement.Application.Contract.csproj": {
+                "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\CommentManagement.Application.Contract\\CommentManagement.Application.Contract.csproj"
+              },
+              "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\CommentManagement.Domain\\CommentManagement.Domain.csproj": {
+                "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\CommentManagement.Domain\\CommentManagement.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\CommentManagement.Domain\\CommentManagement.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\CommentManagement.Domain\\CommentManagement.Domain.csproj",
+        "projectName": "CommentManagement.Domain",
+        "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\CommentManagement.Domain\\CommentManagement.Domain.csproj",
+        "packagesPath": "C:\\Users\\Mahdi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\CommentManagement.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Mahdi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\0_Framework\\0_Framework.csproj": {
+                "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\0_Framework\\0_Framework.csproj"
+              },
+              "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\CommentManagement.Application.Contract\\CommentManagement.Application.Contract.csproj": {
+                "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\CommentManagement.Application.Contract\\CommentManagement.Application.Contract.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\CommentManagement.Infrastructure.Configuration\\CommentManagement.Infrastructure.Configuration.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\CommentManagement.Infrastructure.Configuration\\CommentManagement.Infrastructure.Configuration.csproj",
+        "projectName": "CommentManagement.Infrastructure.Configuration",
+        "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\CommentManagement.Infrastructure.Configuration\\CommentManagement.Infrastructure.Configuration.csproj",
+        "packagesPath": "C:\\Users\\Mahdi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\CommentManagement.Infrastructure.Configuration\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Mahdi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\CommentManagement.Application\\CommentManagement.Application.csproj": {
+                "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\CommentManagement.Application\\CommentManagement.Application.csproj"
+              },
+              "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\CommentManagement.Domain\\CommentManagement.Domain.csproj": {
+                "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\CommentManagement.Domain\\CommentManagement.Domain.csproj"
+              },
+              "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\CommentManagement.Infrastructure.EFCore\\CommentManagement.Infrastructure.EFCore.csproj": {
+                "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\CommentManagement.Infrastructure.EFCore\\CommentManagement.Infrastructure.EFCore.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\CommentManagement.Infrastructure.EFCore\\CommentManagement.Infrastructure.EFCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\CommentManagement.Infrastructure.EFCore\\CommentManagement.Infrastructure.EFCore.csproj",
+        "projectName": "CommentManagement.Infrastructure.EFCore",
+        "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\CommentManagement.Infrastructure.EFCore\\CommentManagement.Infrastructure.EFCore.csproj",
+        "packagesPath": "C:\\Users\\Mahdi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\CommentManagement.Infrastructure.EFCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Mahdi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\0_Framework\\0_Framework.csproj": {
+                "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\0_Framework\\0_Framework.csproj"
+              },
+              "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\CommentManagement.Domain\\CommentManagement.Domain.csproj": {
+                "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\CommentManagement.Domain\\CommentManagement.Domain.csproj"
               }
             }
           }
@@ -1149,6 +1479,9 @@
             "projectReferences": {
               "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\BlogManagement.Infrastructure.Configuration\\BlogManagement.Infrastructure.Configuration.csproj": {
                 "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\BlogManagement.Infrastructure.Configuration\\BlogManagement.Infrastructure.Configuration.csproj"
+              },
+              "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\CommentManagement.Infrastructure.Configuration\\CommentManagement.Infrastructure.Configuration.csproj": {
+                "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\CommentManagement.Infrastructure.Configuration\\CommentManagement.Infrastructure.Configuration.csproj"
               },
               "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\DiscountManagement.Infrastructure.Configuration\\DiscountManagement.Infrastructure.Configuration.csproj": {
                 "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\DiscountManagement.Infrastructure.Configuration\\DiscountManagement.Infrastructure.Configuration.csproj"

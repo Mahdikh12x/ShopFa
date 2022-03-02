@@ -771,6 +771,49 @@
           "bin/placeholder/BlogManagement.Infrastructure.EfCore.dll": {}
         }
       },
+      "CommentManagement.Application.Contract/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "0_Framework": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CommentManagement.Application.Contract.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CommentManagement.Application.Contract.dll": {}
+        }
+      },
+      "CommentManagement.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "0_Framework": "1.0.0",
+          "CommentManagement.Application.Contract": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CommentManagement.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CommentManagement.Domain.dll": {}
+        }
+      },
+      "CommentManagement.Infrastructure.EFCore/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "0_Framework": "1.0.0",
+          "CommentManagement.Domain": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "6.0.1",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.1"
+        },
+        "compile": {
+          "bin/placeholder/CommentManagement.Infrastructure.EFCore.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CommentManagement.Infrastructure.EFCore.dll": {}
+        }
+      },
       "DiscountManagement.Application.Contracts/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -2237,6 +2280,21 @@
       "path": "../BlogManagement.Infrastructure.EfCore/BlogManagement.Infrastructure.EfCore.csproj",
       "msbuildProject": "../BlogManagement.Infrastructure.EfCore/BlogManagement.Infrastructure.EfCore.csproj"
     },
+    "CommentManagement.Application.Contract/1.0.0": {
+      "type": "project",
+      "path": "../CommentManagement.Application.Contract/CommentManagement.Application.Contract.csproj",
+      "msbuildProject": "../CommentManagement.Application.Contract/CommentManagement.Application.Contract.csproj"
+    },
+    "CommentManagement.Domain/1.0.0": {
+      "type": "project",
+      "path": "../CommentManagement.Domain/CommentManagement.Domain.csproj",
+      "msbuildProject": "../CommentManagement.Domain/CommentManagement.Domain.csproj"
+    },
+    "CommentManagement.Infrastructure.EFCore/1.0.0": {
+      "type": "project",
+      "path": "../CommentManagement.Infrastructure.EFCore/CommentManagement.Infrastructure.EFCore.csproj",
+      "msbuildProject": "../CommentManagement.Infrastructure.EFCore/CommentManagement.Infrastructure.EFCore.csproj"
+    },
     "DiscountManagement.Application.Contracts/1.0.0": {
       "type": "project",
       "path": "../DiscountManagement.Application.Contracts/DiscountManagement.Application.Contracts.csproj",
@@ -2286,6 +2344,7 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "BlogManagement.Infrastructure.EfCore >= 1.0.0",
+      "CommentManagement.Infrastructure.EFCore >= 1.0.0",
       "DiscountManagement.Infrastructure.EFCore >= 1.0.0",
       "InventoryManagement.Infrastructure.EfCore >= 1.0.0",
       "ShopManagement.Infrastructure.EFCore >= 1.0.0"
@@ -2320,6 +2379,9 @@
           "projectReferences": {
             "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\BlogManagement.Infrastructure.EfCore\\BlogManagement.Infrastructure.EfCore.csproj": {
               "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\BlogManagement.Infrastructure.EfCore\\BlogManagement.Infrastructure.EfCore.csproj"
+            },
+            "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\CommentManagement.Infrastructure.EFCore\\CommentManagement.Infrastructure.EFCore.csproj": {
+              "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\CommentManagement.Infrastructure.EFCore\\CommentManagement.Infrastructure.EFCore.csproj"
             },
             "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\DiscountManagement.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj": {
               "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\DiscountManagement.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj"

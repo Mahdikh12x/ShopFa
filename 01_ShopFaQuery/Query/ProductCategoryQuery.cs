@@ -4,7 +4,6 @@ using _01_ShopFaQuery.Contracts.ProductCategory;
 using DiscountManagement.Infrastructure.EFCore;
 using InventoryManagement.Infrastructure.EfCore;
 using Microsoft.EntityFrameworkCore;
-using ShopManagement.Domain.ProductAgg;
 using ShopManagement.Infrastructure.EFCore;
 
 namespace _01_ShopFaQuery.Query
@@ -31,14 +30,14 @@ namespace _01_ShopFaQuery.Query
                 PictureTitle = x.PictureTitle,
                 Name = x.Name,
                 Slug = x.Slug,
-           
+
             }).ToList();
         }
 
         public List<ProductCategoryQueryModel> GetCategoriesWhitProducts()
         {
             var inventories = _inventoryContext.Inventory.Select(x => new { x.UnitePrice, x.ProductId }).ToList();
-            var discounts = _discountContext.CustomerDiscounts.Where(x=>x.StartDate<DateTime.Now&&x.EndDate>DateTime.Now).Select(x => new { x.ProductId, x.DiscountRate }).ToList();
+            var discounts = _discountContext.CustomerDiscounts.Where(x => x.StartDate < DateTime.Now && x.EndDate > DateTime.Now).Select(x => new { x.ProductId, x.DiscountRate }).ToList();
             var categories = _shopContext.ProductCategories.Include(x => x.Products)!.ThenInclude(x => x.ProductCategory)
                 .Select(x => new ProductCategoryQueryModel
                 {
@@ -48,9 +47,20 @@ namespace _01_ShopFaQuery.Query
                     PictureAlt = x.PictureAlt,
                     PictureTitle = x.PictureTitle,
                     Slug = x.Slug,
-                    Products = MapProducts(x.Products!)
-                    
+                    Products = x.Products!.Select(x => new ProductQueryModel
+                        {
+                            Name = x.Name,
+                            Id = x.Id,
+                            Picture = x.Picture,
+                            PictureAlt = x.PictureAlt,
+                            PictureTitle = x.PictureTitle,
+                            Slug = x.Slug
+                        }).ToList()
                 }).ToList();
+
+
+            
+
             foreach (var category in categories)
             {
                 if (category.Products != null)
@@ -80,10 +90,10 @@ namespace _01_ShopFaQuery.Query
         public ProductCategoryQueryModel? GetProductsCategoryBy(string slug)
         {
             var inventories = _inventoryContext.Inventory.Select(x => new { x.UnitePrice, x.ProductId }).ToList();
-            var discounts = _discountContext.CustomerDiscounts.Where(x => x.StartDate < DateTime.Now && x.EndDate > DateTime.Now).Select(x => new { x.ProductId, x.DiscountRate,x.EndDate}).ToList();
+            var discounts = _discountContext.CustomerDiscounts.Where(x => x.StartDate < DateTime.Now && x.EndDate > DateTime.Now).Select(x => new { x.ProductId, x.DiscountRate, x.EndDate }).ToList();
 
             var categories = _shopContext.ProductCategories.Include(x => x.Products)
-                .Select(x=>new ProductCategoryQueryModel
+                .Select(x => new ProductCategoryQueryModel
                 {
                     Id = x.Id,
                     Name = x.Name,
@@ -91,11 +101,21 @@ namespace _01_ShopFaQuery.Query
                     Slug = x.Slug,
                     PictureAlt = x.PictureAlt,
                     PictureTitle = x.PictureTitle,
-                    Products = MapProducts(x.Products!),
                     MetaDescription = x.MetaDescription,
                     Keywords = x.Keywords
                 }).FirstOrDefault(x => x.Slug == slug);
 
+
+            categories!.Products = _shopContext.Products.Where(x => x.CategoryId == categories.Id)
+                .Select(x => new ProductQueryModel
+                {
+                    Name = x.Name,
+                    Id = x.Id,
+                    Picture = x.Picture,
+                    PictureAlt = x.PictureAlt,
+                    PictureTitle = x.PictureTitle,
+                    Slug = x.Slug
+                }).ToList();
             //var products = _shopContext.Products.Include(x => x.ProductCategory)
             //    .Where(x => x.ProductCategory.Slug == slug).Select(x => new ProductQueryModel
             //    {
@@ -109,7 +129,7 @@ namespace _01_ShopFaQuery.Query
             //        CategorySlug = x.ProductCategory.Slug
             //    }).ToList();
 
-            if (categories?.Products == null) return categories;
+            if (categories.Products == null) return categories;
             {
                 foreach (var product in categories.Products!)
                 {
@@ -132,18 +152,6 @@ namespace _01_ShopFaQuery.Query
             return categories;
         }
 
-        private static List<ProductQueryModel> MapProducts(IEnumerable<Product> products)
-        {
-            return products.Select(product => new ProductQueryModel
-            {
-                Name = product.Name,
-                Id = product.Id,
-                Picture = product.Picture,
-                PictureAlt = product.PictureAlt,
-                PictureTitle = product.PictureTitle,
-                Slug = product.Slug,    
-            })
-                .ToList();
-        }
+
     }
 }

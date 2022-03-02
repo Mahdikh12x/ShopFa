@@ -1,4 +1,6 @@
-﻿namespace _01_ShopFaQuery.Contracts.Article
+﻿using _01_ShopFaQuery.Contracts.Comment;
+
+namespace _01_ShopFaQuery.Contracts.Article
 {
     public class ArticleQueryModel
     {
@@ -19,5 +21,6 @@
         public string MetaDescription { get;  set; }
         public string CanonicalAddress { get;  set; }
         public bool IsActive { get;  set; }
+        public List<CommentQueryModel>? Comments { get; set; }
     }
 }
