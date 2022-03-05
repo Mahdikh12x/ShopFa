@@ -6579,7 +6579,7 @@ h3.comment-counter {
 
 		.comment-container .single-comment.reply-comment {
 			width: 90%;
-			margin-left: 10%;
+			margin-right: 10%;
 		}
 
 		.comment-container .single-comment:last-child {

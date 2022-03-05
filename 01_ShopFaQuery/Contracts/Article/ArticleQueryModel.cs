@@ -17,7 +17,7 @@ namespace _01_ShopFaQuery.Contracts.Article
         public List<string> KeywordList { get; set; }
         public string CategoryName{ get;  set; }
         public string CategorySlug{ get;  set; }
-        public string Keywords { get;  set; }
+        public string Keywords { get;  set; } 
         public string MetaDescription { get;  set; }
         public string CanonicalAddress { get;  set; }
         public bool IsActive { get;  set; }

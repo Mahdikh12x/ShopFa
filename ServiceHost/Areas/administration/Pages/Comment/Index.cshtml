@@ -24,12 +24,19 @@
                         <label class="sr-only" asp-for="SearchModel.Name"></label>
                         <input class="form-control" asp-for="SearchModel.Name" placeholder="نام محصول">
                     </div>
-                  @*  <div class="form-group">
+                    <div class="form-group">
                         <label class="sr-only" asp-for="SearchModel.Type"></label>
-                        <select class="form-control" asp-for="SearchModel.Type" asp-items="Model.Types">
+                        <select class="form-control" asp-for="SearchModel.Type" asp-items="@Html.GetEnumSelectList<IndexModel.CommentTypes>()">
                             <option value="0">جست و جو در دسته ی کامنت ها</option>
                         </select>
-                    </div>*@
+                    </div>
+                    <div class="form-group m-r-10">
+                    <div class="checkbox checkbox-primary">
+                        <input asp-for="SearchModel.Pending">
+                        <label asp-for="SearchModel.Pending">
+                            لیست در انتظار تایید 
+                        </label>
+                    </div>
                     <button type="submit" class="btn btn-success waves-effect waves-light m-l-10">جستجو</button>
                     <a class="btn btn-primary waves-effect waves-light m-l-10" asp-page="./Index">مشاهده همه</a>
                 </form>
@@ -53,6 +60,7 @@
                                     <th>#</th>
                                     <th>نام</th>
                                     <th>ایمیل</th>
+                                    <th>ثبت شده در</th>
                                     <th>پیام</th>
                                     <th>تاریخ</th>
                                     <th>وضعیت</th>
@@ -66,12 +74,13 @@
                                         <td>@item.Id</td>
                                         <td>@item.Name</td>
                                         <td>@item.Email</td>
+                                        <td>@item.Owner</td>
                                         <td>@item.Description</td>
                                         <td>@item.CreationDate</td>
                                         <td class="text-center">
                                             @if (item.IsCanceled)
                                             {
-                                                <span class="text-danger">کنسل شده</span>
+                                                <span class="text-danger">عدم تایید</span>
                                             }
                                             @if (!item.IsCanceled && !item.IsConfirmed)
                                             {

@@ -820,9 +820,11 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "0_Framework": "1.0.0",
+          "BlogManagement.Infrastructure.EfCore": "1.0.0",
           "CommentManagement.Domain": "1.0.0",
           "Microsoft.EntityFrameworkCore": "6.0.1",
-          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.1"
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.1",
+          "ShopManagement.Infrastructure.EFCore": "1.0.0"
         },
         "compile": {
           "bin/placeholder/CommentManagement.Infrastructure.EFCore.dll": {}

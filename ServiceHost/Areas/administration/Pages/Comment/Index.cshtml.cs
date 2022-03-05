@@ -1,3 +1,5 @@
+﻿using System.ComponentModel;
+using System.ComponentModel.DataAnnotations;
 using CommentManagement.Application.Contract.Comment;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
@@ -9,7 +11,13 @@ namespace ServiceHost.Areas.administration.Pages.Comment
     {
         public List<CommentViewModel> Comments;
         public CommentSearchModel SearchModel;
-        public SelectList Types;
+        internal enum CommentTypes
+        {
+            [Display(Name = "محصولات")]
+            Product =1,
+            [Display(Name = "مقالات")]
+            Article= 2
+        }
         private readonly ICommentApplication _commentApplication;
         public IndexModel(ICommentApplication commentApplication)
         {
