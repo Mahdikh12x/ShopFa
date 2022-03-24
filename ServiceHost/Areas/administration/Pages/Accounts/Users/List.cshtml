@@ -1,0 +1,82 @@
+﻿@model List<AccountManagement.Application.Contract.User.UserViewModel>
+@{
+}
+<div class="row">
+    <div class="col-md-12">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">لیست نقش ها (@Model.Count)</h3>
+            </div>
+            <div class="panel-body">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <table id="datatable" class="table table-striped table-bordered">
+                            <thead>
+                                <tr>
+
+                                    <th>#</th>
+                                    <th>نام کاربری</th>
+                                    <th>پروفایل</th>
+                                    <th>موبایل</th>
+                                    <th>نقش</th>
+                                    <th>نام</th>
+                                    <th>تاریخ تولید</th>
+                                    <th>وضعیت</th>
+                                    <th>عملیات</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model)
+                                {
+                                    <tr>
+                                        <td>@item.Id</td>
+                                        <td>
+                                            <img src="~/UploadPictures/@item.ProfilePicture" style="width: 70px; height: 70px" />
+                                        </td>
+                                        <td>@item.Username</td>
+                                        <td>@item.Mobile</td>
+                                        <td>@item.Role</td>
+                                        <td>@item.Fullname</td>
+                                        <td>
+                                            @if (item.IsActive)
+                                            {
+                                                <i class="fa fa-check fa-3x text-success"></i>
+                                            }
+                                            else
+                                            {
+                                                <i class="fa fa-remove fa-3x text-danger"></i>
+                                            }
+                                        </td>
+                                        <td>@item.CreationDate</td>
+                                        <td>
+                                            <a class="btn btn-warning pull-right m-rl-5"
+                                           href="#showmodal=@Url.Page("./Index","Edit",new {id=item.Id})">
+                                                <i class="fa fa-edit"></i> ویرایش
+                                            </a>
+                                            <a class="btn btn-primary pull-right m-rl-5"
+                                           href="#showmodal=@Url.Page("./Index","ChangePassword",new {id=item.Id})">
+                                                <i class="fa fa-key"></i> تغییر کلمه عبور
+                                            </a>
+
+                                            @if (item.IsActive)
+                                            {
+                                                <a asp-page="./Index" asp-page-handler="DeActive" asp-route-id="@item.Id"
+                                           class="btn btn-danger btn-custom waves-effect waves-light m-b-5">غیرفعال سازی!</a>
+
+                                            }
+                                            else
+                                            {
+                                                <a asp-page="./Index" asp-page-handler="Active" asp-route-id="@item.Id"
+                                           class="btn btn-success btn-custom waves-effect waves-light m-b-5">فعالسازی!</a>
+                                            }
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -316,6 +316,15 @@ C:\Users\Mahdi\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\CommentManagemen
 C:\Users\Mahdi\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\CommentManagement.Application.Contract.pdb
 C:\Users\Mahdi\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\CommentManagement.Domain.pdb
 C:\Users\Mahdi\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\CommentManagement.Infrastructure.EFCore.pdb
+C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\obj\Debug\net6.0\ServiceHost.csproj.AssemblyReference.cache
+C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\obj\Debug\net6.0\ServiceHost.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\obj\Debug\net6.0\ServiceHost.AssemblyInfoInputs.cache
+C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\obj\Debug\net6.0\ServiceHost.AssemblyInfo.cs
+C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\obj\Debug\net6.0\ServiceHost.csproj.CoreCompileInputs.cache
+C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\obj\Debug\net6.0\ServiceHost.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\obj\Debug\net6.0\ServiceHost.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\obj\Debug\net6.0\ServiceHost.RazorAssemblyInfo.cache
+C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\obj\Debug\net6.0\ServiceHost.RazorAssemblyInfo.cs
 C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\appsettings.Development.json
 C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\appsettings.json
 C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\ServiceHost.staticwebassets.runtime.json
@@ -561,6 +570,11 @@ C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\runtimes\win\l
 C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
 C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\01_ShopFaQuery.dll
 C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\0_Framework.dll
+C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\AccountManagement.Application.Contract.dll
+C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\AccountManagement.Application.dll
+C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\AccountManagement.Domain.dll
+C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\AccountManagement.Infrastructure.Configuration.dll
+C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\AccountManagement.Infrastructure.EFCore.dll
 C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\BlogManagement.Application.Contracts.dll
 C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\BlogManagement.Application.dll
 C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\BlogManagement.Domain.dll
@@ -586,6 +600,8 @@ C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\ShopManagement
 C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\ShopManagement.Domain.dll
 C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\ShopManagement.Infrastructure.Configuration.dll
 C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\ShopManagement.Infrastructure.EFCore.dll
+C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\AccountManagement.Application.Contract.pdb
+C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\AccountManagement.Infrastructure.Configuration.pdb
 C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\BlogManagement.Infrastructure.Configuration.pdb
 C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\CommentManagement.Infrastructure.Configuration.pdb
 C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\DiscountManagement.Infrastructure.Configuration.pdb
@@ -593,6 +609,9 @@ C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\InventoryManag
 C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\ShopManagement.Infrastructure.Configuration.pdb
 C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\01_ShopFaQuery.pdb
 C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\0_Framework.pdb
+C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\AccountManagement.Application.pdb
+C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\AccountManagement.Domain.pdb
+C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\AccountManagement.Infrastructure.EFCore.pdb
 C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\BlogManagement.Application.pdb
 C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\BlogManagement.Application.Contracts.pdb
 C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\BlogManagement.Domain.pdb
@@ -613,15 +632,6 @@ C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\ShopManagement
 C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\ShopManagement.Application.Contracts.pdb
 C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\ShopManagement.Domain.pdb
 C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\ShopManagement.Infrastructure.EFCore.pdb
-C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\obj\Debug\net6.0\ServiceHost.csproj.AssemblyReference.cache
-C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\obj\Debug\net6.0\ServiceHost.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\obj\Debug\net6.0\ServiceHost.AssemblyInfoInputs.cache
-C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\obj\Debug\net6.0\ServiceHost.AssemblyInfo.cs
-C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\obj\Debug\net6.0\ServiceHost.csproj.CoreCompileInputs.cache
-C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\obj\Debug\net6.0\ServiceHost.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\obj\Debug\net6.0\ServiceHost.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\obj\Debug\net6.0\ServiceHost.RazorAssemblyInfo.cache
-C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\obj\Debug\net6.0\ServiceHost.RazorAssemblyInfo.cs
 C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\obj\Debug\net6.0\staticwebassets.build.json
 C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\obj\Debug\net6.0\staticwebassets.development.json
 C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\obj\Debug\net6.0\scopedcss\Areas\administration\Pages\Shared\_AdminLayout.cshtml.rz.scp.css
@@ -634,13 +644,3 @@ C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\obj\Debug\net6.0\refint\Service
 C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\obj\Debug\net6.0\ServiceHost.pdb
 C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\obj\Debug\net6.0\ServiceHost.genruntimeconfig.cache
 C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\obj\Debug\net6.0\ref\ServiceHost.dll
-C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\AccountManagement.Application.Contract.dll
-C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\AccountManagement.Application.Contract.pdb
-C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\AccountManagement.Application.dll
-C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\AccountManagement.Domain.dll
-C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\AccountManagement.Infrastructure.Configuration.dll
-C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\AccountManagement.Infrastructure.EFCore.dll
-C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\AccountManagement.Infrastructure.Configuration.pdb
-C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\AccountManagement.Application.pdb
-C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\AccountManagement.Domain.pdb
-C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\AccountManagement.Infrastructure.EFCore.pdb

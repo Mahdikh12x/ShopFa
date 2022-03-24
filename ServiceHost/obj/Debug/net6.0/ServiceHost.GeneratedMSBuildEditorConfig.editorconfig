@@ -31,6 +31,26 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5pc3RyYXRpb25cUGFnZXNcQWNjb3VudHNcUm9sZXNcTGlzdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Omen 15/source/repos/ShopFa/ServiceHost/Areas/administration/Pages/Accounts/Users/ChangePassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5pc3RyYXRpb25cUGFnZXNcQWNjb3VudHNcVXNlcnNcQ2hhbmdlUGFzc3dvcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Omen 15/source/repos/ShopFa/ServiceHost/Areas/administration/Pages/Accounts/Users/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5pc3RyYXRpb25cUGFnZXNcQWNjb3VudHNcVXNlcnNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Omen 15/source/repos/ShopFa/ServiceHost/Areas/administration/Pages/Accounts/Users/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5pc3RyYXRpb25cUGFnZXNcQWNjb3VudHNcVXNlcnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Omen 15/source/repos/ShopFa/ServiceHost/Areas/administration/Pages/Accounts/Users/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5pc3RyYXRpb25cUGFnZXNcQWNjb3VudHNcVXNlcnNcTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Omen 15/source/repos/ShopFa/ServiceHost/Areas/administration/Pages/Accounts/Users/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5pc3RyYXRpb25cUGFnZXNcQWNjb3VudHNcVXNlcnNcUmVnaXN0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Omen 15/source/repos/ShopFa/ServiceHost/Areas/administration/Pages/Blog/ArticleCategories/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5pc3RyYXRpb25cUGFnZXNcQmxvZ1xBcnRpY2xlQ2F0ZWdvcmllc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
