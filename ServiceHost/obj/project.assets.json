@@ -3143,6 +3143,79 @@
           "bin/placeholder/0_Framework.dll": {}
         }
       },
+      "AccountManagement.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "AccountManagement.Application.Contract": "1.0.0",
+          "AccountManagement.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/AccountManagement.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AccountManagement.Application.dll": {}
+        }
+      },
+      "AccountManagement.Application.Contract/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "0_Framework": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/AccountManagement.Application.Contract.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AccountManagement.Application.Contract.dll": {}
+        }
+      },
+      "AccountManagement.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "0_Framework": "1.0.0",
+          "AccountManagement.Application.Contract": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/AccountManagement.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AccountManagement.Domain.dll": {}
+        }
+      },
+      "AccountManagement.Infrastructure.Configuration/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "AccountManagement.Application": "1.0.0",
+          "AccountManagement.Application.Contract": "1.0.0",
+          "AccountManagement.Infrastructure.EFCore": "1.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0"
+        },
+        "compile": {
+          "bin/placeholder/AccountManagement.Infrastructure.Configuration.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AccountManagement.Infrastructure.Configuration.dll": {}
+        }
+      },
+      "AccountManagement.Infrastructure.EFCore/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "0_Framework": "1.0.0",
+          "AccountManagement.Domain": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "6.0.1",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.1"
+        },
+        "compile": {
+          "bin/placeholder/AccountManagement.Infrastructure.EFCore.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AccountManagement.Infrastructure.EFCore.dll": {}
+        }
+      },
       "BlogManagement.Application/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -10026,6 +10099,31 @@
       "path": "../0_Framework/0_Framework.csproj",
       "msbuildProject": "../0_Framework/0_Framework.csproj"
     },
+    "AccountManagement.Application/1.0.0": {
+      "type": "project",
+      "path": "../AccountManagement.Application/AccountManagement.Application.csproj",
+      "msbuildProject": "../AccountManagement.Application/AccountManagement.Application.csproj"
+    },
+    "AccountManagement.Application.Contract/1.0.0": {
+      "type": "project",
+      "path": "../AccountManagement.Application.Contract/AccountManagement.Application.Contract.csproj",
+      "msbuildProject": "../AccountManagement.Application.Contract/AccountManagement.Application.Contract.csproj"
+    },
+    "AccountManagement.Domain/1.0.0": {
+      "type": "project",
+      "path": "../AccountManagement.Domain/AccountManagement.Domain.csproj",
+      "msbuildProject": "../AccountManagement.Domain/AccountManagement.Domain.csproj"
+    },
+    "AccountManagement.Infrastructure.Configuration/1.0.0": {
+      "type": "project",
+      "path": "../AccountManagement.Infrastructure.Configuration/AccountManagement.Infrastructure.Configuration.csproj",
+      "msbuildProject": "../AccountManagement.Infrastructure.Configuration/AccountManagement.Infrastructure.Configuration.csproj"
+    },
+    "AccountManagement.Infrastructure.EFCore/1.0.0": {
+      "type": "project",
+      "path": "../AccountManagement.Infrastructure.EFCore/AccountManagement.Infrastructure.EFCore.csproj",
+      "msbuildProject": "../AccountManagement.Infrastructure.EFCore/AccountManagement.Infrastructure.EFCore.csproj"
+    },
     "BlogManagement.Application/1.0.0": {
       "type": "project",
       "path": "../BlogManagement.Application/BlogManagement.Application.csproj",
@@ -10154,6 +10252,8 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "AccountManagement.Application.Contract >= 1.0.0",
+      "AccountManagement.Infrastructure.Configuration >= 1.0.0",
       "BlogManagement.Infrastructure.Configuration >= 1.0.0",
       "CommentManagement.Infrastructure.Configuration >= 1.0.0",
       "DiscountManagement.Infrastructure.Configuration >= 1.0.0",
@@ -10164,19 +10264,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Mahdi\\.nuget\\packages\\": {}
+    "C:\\Users\\Omen 15\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\ServiceHost\\ServiceHost.csproj",
+      "projectUniqueName": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\ServiceHost\\ServiceHost.csproj",
       "projectName": "ServiceHost",
-      "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\ServiceHost\\ServiceHost.csproj",
-      "packagesPath": "C:\\Users\\Mahdi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\ServiceHost\\obj\\",
+      "projectPath": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\ServiceHost\\ServiceHost.csproj",
+      "packagesPath": "C:\\Users\\Omen 15\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\ServiceHost\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Mahdi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Omen 15\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -10190,20 +10290,26 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\BlogManagement.Infrastructure.Configuration\\BlogManagement.Infrastructure.Configuration.csproj": {
-              "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\BlogManagement.Infrastructure.Configuration\\BlogManagement.Infrastructure.Configuration.csproj"
+            "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\AccountManagement.Application.Contract\\AccountManagement.Application.Contract.csproj": {
+              "projectPath": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\AccountManagement.Application.Contract\\AccountManagement.Application.Contract.csproj"
             },
-            "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\CommentManagement.Infrastructure.Configuration\\CommentManagement.Infrastructure.Configuration.csproj": {
-              "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\CommentManagement.Infrastructure.Configuration\\CommentManagement.Infrastructure.Configuration.csproj"
+            "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\AccountManagement.Infrastructure.Configuration\\AccountManagement.Infrastructure.Configuration.csproj": {
+              "projectPath": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\AccountManagement.Infrastructure.Configuration\\AccountManagement.Infrastructure.Configuration.csproj"
             },
-            "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\DiscountManagement.Infrastructure.Configuration\\DiscountManagement.Infrastructure.Configuration.csproj": {
-              "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\DiscountManagement.Infrastructure.Configuration\\DiscountManagement.Infrastructure.Configuration.csproj"
+            "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\BlogManagement.Infrastructure.Configuration\\BlogManagement.Infrastructure.Configuration.csproj": {
+              "projectPath": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\BlogManagement.Infrastructure.Configuration\\BlogManagement.Infrastructure.Configuration.csproj"
             },
-            "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\InventoryManagement.Infrastructure.Configuration\\InventoryManagement.Infrastructure.Configuration.csproj": {
-              "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\InventoryManagement.Infrastructure.Configuration\\InventoryManagement.Infrastructure.Configuration.csproj"
+            "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\CommentManagement.Infrastructure.Configuration\\CommentManagement.Infrastructure.Configuration.csproj": {
+              "projectPath": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\CommentManagement.Infrastructure.Configuration\\CommentManagement.Infrastructure.Configuration.csproj"
             },
-            "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\ShopManagement.Infrastructure.Configuration\\ShopManagement.Infrastructure.Configuration.csproj": {
-              "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\ShopManagement.Infrastructure.Configuration\\ShopManagement.Infrastructure.Configuration.csproj"
+            "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\DiscountManagement.Infrastructure.Configuration\\DiscountManagement.Infrastructure.Configuration.csproj": {
+              "projectPath": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\DiscountManagement.Infrastructure.Configuration\\DiscountManagement.Infrastructure.Configuration.csproj"
+            },
+            "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\InventoryManagement.Infrastructure.Configuration\\InventoryManagement.Infrastructure.Configuration.csproj": {
+              "projectPath": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\InventoryManagement.Infrastructure.Configuration\\InventoryManagement.Infrastructure.Configuration.csproj"
+            },
+            "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\ShopManagement.Infrastructure.Configuration\\ShopManagement.Infrastructure.Configuration.csproj": {
+              "projectPath": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\ShopManagement.Infrastructure.Configuration\\ShopManagement.Infrastructure.Configuration.csproj"
             }
           }
         }
@@ -10247,7 +10353,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

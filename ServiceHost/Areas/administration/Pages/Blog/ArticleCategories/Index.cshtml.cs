@@ -9,9 +9,9 @@ namespace ServiceHost.Areas.administration.Pages.Blog.ArticleCategories
         public List<ArticleCategoryViewModel> ArticleCategories;
         public ArticleCategorySearchModel SearchModel;
         private readonly IArticleCategoryApplication _articleCategoryApplication;
-        public IndexModel(IArticleCategoryApplication productCategoryApplication)
+        public IndexModel(IArticleCategoryApplication articleCategoryApplication)
         {
-            _articleCategoryApplication = productCategoryApplication;
+            _articleCategoryApplication = articleCategoryApplication;
         }
 
         public void OnGet(ArticleCategorySearchModel searchModel)

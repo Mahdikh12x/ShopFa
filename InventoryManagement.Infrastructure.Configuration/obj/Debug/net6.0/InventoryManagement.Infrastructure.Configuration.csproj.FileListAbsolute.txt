@@ -27,3 +27,32 @@ C:\Users\Mahdi\source\repos\ShopFa\InventoryManagement.Infrastructure.Configurat
 C:\Users\Mahdi\source\repos\ShopFa\InventoryManagement.Infrastructure.Configuration\obj\Debug\net6.0\ref\InventoryManagement.Infrastructure.Configuration.dll
 C:\Users\Mahdi\source\repos\ShopFa\InventoryManagement.Infrastructure.Configuration\obj\Debug\net6.0\InventoryManagement.Infrastructure.Configuration.pdb
 C:\Users\Mahdi\source\repos\ShopFa\InventoryManagement.Infrastructure.Configuration\obj\Debug\net6.0\refint\InventoryManagement.Infrastructure.Configuration.dll
+C:\Users\Omen 15\source\repos\ShopFa\InventoryManagement.Infrastructure.Configuration\bin\Debug\net6.0\InventoryManagement.Infrastructure.Configuration.deps.json
+C:\Users\Omen 15\source\repos\ShopFa\InventoryManagement.Infrastructure.Configuration\bin\Debug\net6.0\InventoryManagement.Infrastructure.Configuration.dll
+C:\Users\Omen 15\source\repos\ShopFa\InventoryManagement.Infrastructure.Configuration\bin\Debug\net6.0\InventoryManagement.Infrastructure.Configuration.pdb
+C:\Users\Omen 15\source\repos\ShopFa\InventoryManagement.Infrastructure.Configuration\bin\Debug\net6.0\0_Framework.dll
+C:\Users\Omen 15\source\repos\ShopFa\InventoryManagement.Infrastructure.Configuration\bin\Debug\net6.0\InventoryManagement.Application.Contract.dll
+C:\Users\Omen 15\source\repos\ShopFa\InventoryManagement.Infrastructure.Configuration\bin\Debug\net6.0\InventoryManagement.Application.dll
+C:\Users\Omen 15\source\repos\ShopFa\InventoryManagement.Infrastructure.Configuration\bin\Debug\net6.0\InventoryManagement.Domain.dll
+C:\Users\Omen 15\source\repos\ShopFa\InventoryManagement.Infrastructure.Configuration\bin\Debug\net6.0\InventoryManagement.Infrastructure.EfCore.dll
+C:\Users\Omen 15\source\repos\ShopFa\InventoryManagement.Infrastructure.Configuration\bin\Debug\net6.0\ShopManagement.Application.Contracts.dll
+C:\Users\Omen 15\source\repos\ShopFa\InventoryManagement.Infrastructure.Configuration\bin\Debug\net6.0\ShopManagement.Domain.dll
+C:\Users\Omen 15\source\repos\ShopFa\InventoryManagement.Infrastructure.Configuration\bin\Debug\net6.0\ShopManagement.Infrastructure.EFCore.dll
+C:\Users\Omen 15\source\repos\ShopFa\InventoryManagement.Infrastructure.Configuration\bin\Debug\net6.0\InventoryManagement.Application.pdb
+C:\Users\Omen 15\source\repos\ShopFa\InventoryManagement.Infrastructure.Configuration\bin\Debug\net6.0\InventoryManagement.Domain.pdb
+C:\Users\Omen 15\source\repos\ShopFa\InventoryManagement.Infrastructure.Configuration\bin\Debug\net6.0\InventoryManagement.Infrastructure.EfCore.pdb
+C:\Users\Omen 15\source\repos\ShopFa\InventoryManagement.Infrastructure.Configuration\bin\Debug\net6.0\0_Framework.pdb
+C:\Users\Omen 15\source\repos\ShopFa\InventoryManagement.Infrastructure.Configuration\bin\Debug\net6.0\InventoryManagement.Application.Contract.pdb
+C:\Users\Omen 15\source\repos\ShopFa\InventoryManagement.Infrastructure.Configuration\bin\Debug\net6.0\ShopManagement.Application.Contracts.pdb
+C:\Users\Omen 15\source\repos\ShopFa\InventoryManagement.Infrastructure.Configuration\bin\Debug\net6.0\ShopManagement.Domain.pdb
+C:\Users\Omen 15\source\repos\ShopFa\InventoryManagement.Infrastructure.Configuration\bin\Debug\net6.0\ShopManagement.Infrastructure.EFCore.pdb
+C:\Users\Omen 15\source\repos\ShopFa\InventoryManagement.Infrastructure.Configuration\obj\Debug\net6.0\InventoryManagement.Infrastructure.Configuration.csproj.AssemblyReference.cache
+C:\Users\Omen 15\source\repos\ShopFa\InventoryManagement.Infrastructure.Configuration\obj\Debug\net6.0\InventoryManagement.Infrastructure.Configuration.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Omen 15\source\repos\ShopFa\InventoryManagement.Infrastructure.Configuration\obj\Debug\net6.0\InventoryManagement.Infrastructure.Configuration.AssemblyInfoInputs.cache
+C:\Users\Omen 15\source\repos\ShopFa\InventoryManagement.Infrastructure.Configuration\obj\Debug\net6.0\InventoryManagement.Infrastructure.Configuration.AssemblyInfo.cs
+C:\Users\Omen 15\source\repos\ShopFa\InventoryManagement.Infrastructure.Configuration\obj\Debug\net6.0\InventoryManagement.Infrastructure.Configuration.csproj.CoreCompileInputs.cache
+C:\Users\Omen 15\source\repos\ShopFa\InventoryManagement.Infrastructure.Configuration\obj\Debug\net6.0\InventoryManagement.Infrastructure.Configuration.csproj.CopyComplete
+C:\Users\Omen 15\source\repos\ShopFa\InventoryManagement.Infrastructure.Configuration\obj\Debug\net6.0\InventoryManagement.Infrastructure.Configuration.dll
+C:\Users\Omen 15\source\repos\ShopFa\InventoryManagement.Infrastructure.Configuration\obj\Debug\net6.0\refint\InventoryManagement.Infrastructure.Configuration.dll
+C:\Users\Omen 15\source\repos\ShopFa\InventoryManagement.Infrastructure.Configuration\obj\Debug\net6.0\InventoryManagement.Infrastructure.Configuration.pdb
+C:\Users\Omen 15\source\repos\ShopFa\InventoryManagement.Infrastructure.Configuration\obj\Debug\net6.0\ref\InventoryManagement.Infrastructure.Configuration.dll

@@ -8,6 +8,8 @@
     ".NETCoreApp,Version=v6.0": {
       "ServiceHost/1.0.0": {
         "dependencies": {
+          "AccountManagement.Application.Contract": "1.0.0",
+          "AccountManagement.Infrastructure.Configuration": "1.0.0",
           "BlogManagement.Infrastructure.Configuration": "1.0.0",
           "CommentManagement.Infrastructure.Configuration": "1.0.0",
           "DiscountManagement.Infrastructure.Configuration": "1.0.0",
@@ -2243,6 +2245,54 @@
           "0_Framework.dll": {}
         }
       },
+      "AccountManagement.Application/1.0.0": {
+        "dependencies": {
+          "AccountManagement.Application.Contract": "1.0.0",
+          "AccountManagement.Domain": "1.0.0"
+        },
+        "runtime": {
+          "AccountManagement.Application.dll": {}
+        }
+      },
+      "AccountManagement.Application.Contract/1.0.0": {
+        "dependencies": {
+          "0_Framework": "1.0.0"
+        },
+        "runtime": {
+          "AccountManagement.Application.Contract.dll": {}
+        }
+      },
+      "AccountManagement.Domain/1.0.0": {
+        "dependencies": {
+          "0_Framework": "1.0.0",
+          "AccountManagement.Application.Contract": "1.0.0"
+        },
+        "runtime": {
+          "AccountManagement.Domain.dll": {}
+        }
+      },
+      "AccountManagement.Infrastructure.Configuration/1.0.0": {
+        "dependencies": {
+          "AccountManagement.Application": "1.0.0",
+          "AccountManagement.Application.Contract": "1.0.0",
+          "AccountManagement.Infrastructure.EFCore": "1.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0"
+        },
+        "runtime": {
+          "AccountManagement.Infrastructure.Configuration.dll": {}
+        }
+      },
+      "AccountManagement.Infrastructure.EFCore/1.0.0": {
+        "dependencies": {
+          "0_Framework": "1.0.0",
+          "AccountManagement.Domain": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "6.0.1",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.1"
+        },
+        "runtime": {
+          "AccountManagement.Infrastructure.EFCore.dll": {}
+        }
+      },
       "BlogManagement.Application/1.0.0": {
         "dependencies": {
           "BlogManagement.Application.Contracts": "1.0.0",
@@ -3746,6 +3796,31 @@
       "sha512": ""
     },
     "0_Framework/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AccountManagement.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AccountManagement.Application.Contract/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AccountManagement.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AccountManagement.Infrastructure.Configuration/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AccountManagement.Infrastructure.EFCore/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -10,5 +10,4 @@ public interface IArticleApplication
     OperationResult DeActive(long id);
     EditArticle? GetDetails(long id);
     List<ArticleViewModel> Search(ArticleSearchModel searchModel);
-
 }

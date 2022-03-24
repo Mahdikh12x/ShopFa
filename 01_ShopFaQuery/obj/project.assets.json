@@ -2353,19 +2353,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Mahdi\\.nuget\\packages\\": {}
+    "C:\\Users\\Omen 15\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\01_ShopFaQuery\\01_ShopFaQuery.csproj",
+      "projectUniqueName": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\01_ShopFaQuery\\01_ShopFaQuery.csproj",
       "projectName": "01_ShopFaQuery",
-      "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\01_ShopFaQuery\\01_ShopFaQuery.csproj",
-      "packagesPath": "C:\\Users\\Mahdi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\01_ShopFaQuery\\obj\\",
+      "projectPath": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\01_ShopFaQuery\\01_ShopFaQuery.csproj",
+      "packagesPath": "C:\\Users\\Omen 15\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\01_ShopFaQuery\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Mahdi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Omen 15\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2379,20 +2379,20 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\BlogManagement.Infrastructure.EfCore\\BlogManagement.Infrastructure.EfCore.csproj": {
-              "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\BlogManagement.Infrastructure.EfCore\\BlogManagement.Infrastructure.EfCore.csproj"
+            "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\BlogManagement.Infrastructure.EfCore\\BlogManagement.Infrastructure.EfCore.csproj": {
+              "projectPath": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\BlogManagement.Infrastructure.EfCore\\BlogManagement.Infrastructure.EfCore.csproj"
             },
-            "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\CommentManagement.Infrastructure.EFCore\\CommentManagement.Infrastructure.EFCore.csproj": {
-              "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\CommentManagement.Infrastructure.EFCore\\CommentManagement.Infrastructure.EFCore.csproj"
+            "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\CommentManagement.Infrastructure.EFCore\\CommentManagement.Infrastructure.EFCore.csproj": {
+              "projectPath": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\CommentManagement.Infrastructure.EFCore\\CommentManagement.Infrastructure.EFCore.csproj"
             },
-            "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\DiscountManagement.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj": {
-              "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\DiscountManagement.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj"
+            "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\DiscountManagement.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj": {
+              "projectPath": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\DiscountManagement.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj"
             },
-            "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\InventoryManagement.EfCore\\InventoryManagement.Infrastructure.EfCore.csproj": {
-              "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\InventoryManagement.EfCore\\InventoryManagement.Infrastructure.EfCore.csproj"
+            "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\InventoryManagement.EfCore\\InventoryManagement.Infrastructure.EfCore.csproj": {
+              "projectPath": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\InventoryManagement.EfCore\\InventoryManagement.Infrastructure.EfCore.csproj"
             },
-            "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj": {
-              "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj"
+            "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj": {
+              "projectPath": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj"
             }
           }
         }
@@ -2421,7 +2421,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

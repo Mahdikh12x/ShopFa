@@ -15,3 +15,20 @@ C:\Users\Mahdi\source\repos\ShopFa\DiscountManagement.Application.Contracts\obj\
 C:\Users\Mahdi\source\repos\ShopFa\DiscountManagement.Application.Contracts\obj\Debug\net6.0\ref\DiscountManagement.Application.Contracts.dll
 C:\Users\Mahdi\source\repos\ShopFa\DiscountManagement.Application.Contracts\obj\Debug\net6.0\DiscountManagement.Application.Contracts.pdb
 C:\Users\Mahdi\source\repos\ShopFa\DiscountManagement.Application.Contracts\obj\Debug\net6.0\refint\DiscountManagement.Application.Contracts.dll
+C:\Users\Omen 15\source\repos\ShopFa\DiscountManagement.Application.Contracts\bin\Debug\net6.0\DiscountManagement.Application.Contracts.deps.json
+C:\Users\Omen 15\source\repos\ShopFa\DiscountManagement.Application.Contracts\bin\Debug\net6.0\DiscountManagement.Application.Contracts.dll
+C:\Users\Omen 15\source\repos\ShopFa\DiscountManagement.Application.Contracts\bin\Debug\net6.0\DiscountManagement.Application.Contracts.pdb
+C:\Users\Omen 15\source\repos\ShopFa\DiscountManagement.Application.Contracts\bin\Debug\net6.0\0_Framework.dll
+C:\Users\Omen 15\source\repos\ShopFa\DiscountManagement.Application.Contracts\bin\Debug\net6.0\ShopManagement.Application.Contracts.dll
+C:\Users\Omen 15\source\repos\ShopFa\DiscountManagement.Application.Contracts\bin\Debug\net6.0\0_Framework.pdb
+C:\Users\Omen 15\source\repos\ShopFa\DiscountManagement.Application.Contracts\bin\Debug\net6.0\ShopManagement.Application.Contracts.pdb
+C:\Users\Omen 15\source\repos\ShopFa\DiscountManagement.Application.Contracts\obj\Debug\net6.0\DiscountManagement.Application.Contracts.csproj.AssemblyReference.cache
+C:\Users\Omen 15\source\repos\ShopFa\DiscountManagement.Application.Contracts\obj\Debug\net6.0\DiscountManagement.Application.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Omen 15\source\repos\ShopFa\DiscountManagement.Application.Contracts\obj\Debug\net6.0\DiscountManagement.Application.Contracts.AssemblyInfoInputs.cache
+C:\Users\Omen 15\source\repos\ShopFa\DiscountManagement.Application.Contracts\obj\Debug\net6.0\DiscountManagement.Application.Contracts.AssemblyInfo.cs
+C:\Users\Omen 15\source\repos\ShopFa\DiscountManagement.Application.Contracts\obj\Debug\net6.0\DiscountManagement.Application.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\Omen 15\source\repos\ShopFa\DiscountManagement.Application.Contracts\obj\Debug\net6.0\DiscountManagement.Application.Contracts.csproj.CopyComplete
+C:\Users\Omen 15\source\repos\ShopFa\DiscountManagement.Application.Contracts\obj\Debug\net6.0\DiscountManagement.Application.Contracts.dll
+C:\Users\Omen 15\source\repos\ShopFa\DiscountManagement.Application.Contracts\obj\Debug\net6.0\refint\DiscountManagement.Application.Contracts.dll
+C:\Users\Omen 15\source\repos\ShopFa\DiscountManagement.Application.Contracts\obj\Debug\net6.0\DiscountManagement.Application.Contracts.pdb
+C:\Users\Omen 15\source\repos\ShopFa\DiscountManagement.Application.Contracts\obj\Debug\net6.0\ref\DiscountManagement.Application.Contracts.dll

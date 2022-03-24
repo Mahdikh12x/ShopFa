@@ -17,3 +17,22 @@ C:\Users\Mahdi\source\repos\ShopFa\InventoryManagement.Application.Contract\obj\
 C:\Users\Mahdi\source\repos\ShopFa\InventoryManagement.Application.Contract\obj\Debug\net6.0\ref\InventoryManagement.Application.Contract.dll
 C:\Users\Mahdi\source\repos\ShopFa\InventoryManagement.Application.Contract\obj\Debug\net6.0\InventoryManagement.Application.Contract.pdb
 C:\Users\Mahdi\source\repos\ShopFa\InventoryManagement.Application.Contract\obj\Debug\net6.0\refint\InventoryManagement.Application.Contract.dll
+C:\Users\Omen 15\source\repos\ShopFa\InventoryManagement.Application.Contract\bin\Debug\net6.0\InventoryManagement.Application.Contract.deps.json
+C:\Users\Omen 15\source\repos\ShopFa\InventoryManagement.Application.Contract\bin\Debug\net6.0\InventoryManagement.Application.Contract.dll
+C:\Users\Omen 15\source\repos\ShopFa\InventoryManagement.Application.Contract\bin\Debug\net6.0\InventoryManagement.Application.Contract.pdb
+C:\Users\Omen 15\source\repos\ShopFa\InventoryManagement.Application.Contract\bin\Debug\net6.0\0_Framework.dll
+C:\Users\Omen 15\source\repos\ShopFa\InventoryManagement.Application.Contract\bin\Debug\net6.0\ShopManagement.Application.Contracts.dll
+C:\Users\Omen 15\source\repos\ShopFa\InventoryManagement.Application.Contract\bin\Debug\net6.0\ShopManagement.Domain.dll
+C:\Users\Omen 15\source\repos\ShopFa\InventoryManagement.Application.Contract\bin\Debug\net6.0\ShopManagement.Domain.pdb
+C:\Users\Omen 15\source\repos\ShopFa\InventoryManagement.Application.Contract\bin\Debug\net6.0\0_Framework.pdb
+C:\Users\Omen 15\source\repos\ShopFa\InventoryManagement.Application.Contract\bin\Debug\net6.0\ShopManagement.Application.Contracts.pdb
+C:\Users\Omen 15\source\repos\ShopFa\InventoryManagement.Application.Contract\obj\Debug\net6.0\InventoryManagement.Application.Contract.csproj.AssemblyReference.cache
+C:\Users\Omen 15\source\repos\ShopFa\InventoryManagement.Application.Contract\obj\Debug\net6.0\InventoryManagement.Application.Contract.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Omen 15\source\repos\ShopFa\InventoryManagement.Application.Contract\obj\Debug\net6.0\InventoryManagement.Application.Contract.AssemblyInfoInputs.cache
+C:\Users\Omen 15\source\repos\ShopFa\InventoryManagement.Application.Contract\obj\Debug\net6.0\InventoryManagement.Application.Contract.AssemblyInfo.cs
+C:\Users\Omen 15\source\repos\ShopFa\InventoryManagement.Application.Contract\obj\Debug\net6.0\InventoryManagement.Application.Contract.csproj.CoreCompileInputs.cache
+C:\Users\Omen 15\source\repos\ShopFa\InventoryManagement.Application.Contract\obj\Debug\net6.0\InventoryManagement.Application.Contract.csproj.CopyComplete
+C:\Users\Omen 15\source\repos\ShopFa\InventoryManagement.Application.Contract\obj\Debug\net6.0\InventoryManagement.Application.Contract.dll
+C:\Users\Omen 15\source\repos\ShopFa\InventoryManagement.Application.Contract\obj\Debug\net6.0\refint\InventoryManagement.Application.Contract.dll
+C:\Users\Omen 15\source\repos\ShopFa\InventoryManagement.Application.Contract\obj\Debug\net6.0\InventoryManagement.Application.Contract.pdb
+C:\Users\Omen 15\source\repos\ShopFa\InventoryManagement.Application.Contract\obj\Debug\net6.0\ref\InventoryManagement.Application.Contract.dll

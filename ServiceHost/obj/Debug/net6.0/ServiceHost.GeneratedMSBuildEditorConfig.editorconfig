@@ -8,245 +8,261 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ServiceHost
 build_property.RootNamespace = ServiceHost
-build_property.ProjectDir = C:\Users\Mahdi\source\repos\ShopFa\ServiceHost\
+build_property.ProjectDir = C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Mahdi\source\repos\ShopFa\ServiceHost
+build_property.MSBuildProjectDirectory = C:\Users\Omen 15\source\repos\ShopFa\ServiceHost
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Mahdi/source/repos/ShopFa/ServiceHost/Areas/administration/Pages/Blog/ArticleCategories/Create.cshtml]
+[C:/Users/Omen 15/source/repos/ShopFa/ServiceHost/Areas/administration/Pages/Accounts/Roles/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5pc3RyYXRpb25cUGFnZXNcQWNjb3VudHNcUm9sZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Omen 15/source/repos/ShopFa/ServiceHost/Areas/administration/Pages/Accounts/Roles/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5pc3RyYXRpb25cUGFnZXNcQWNjb3VudHNcUm9sZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Omen 15/source/repos/ShopFa/ServiceHost/Areas/administration/Pages/Accounts/Roles/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5pc3RyYXRpb25cUGFnZXNcQWNjb3VudHNcUm9sZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Omen 15/source/repos/ShopFa/ServiceHost/Areas/administration/Pages/Accounts/Roles/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5pc3RyYXRpb25cUGFnZXNcQWNjb3VudHNcUm9sZXNcTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Omen 15/source/repos/ShopFa/ServiceHost/Areas/administration/Pages/Blog/ArticleCategories/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5pc3RyYXRpb25cUGFnZXNcQmxvZ1xBcnRpY2xlQ2F0ZWdvcmllc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mahdi/source/repos/ShopFa/ServiceHost/Areas/administration/Pages/Blog/ArticleCategories/Edit.cshtml]
+[C:/Users/Omen 15/source/repos/ShopFa/ServiceHost/Areas/administration/Pages/Blog/ArticleCategories/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5pc3RyYXRpb25cUGFnZXNcQmxvZ1xBcnRpY2xlQ2F0ZWdvcmllc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mahdi/source/repos/ShopFa/ServiceHost/Areas/administration/Pages/Blog/ArticleCategories/Index.cshtml]
+[C:/Users/Omen 15/source/repos/ShopFa/ServiceHost/Areas/administration/Pages/Blog/ArticleCategories/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5pc3RyYXRpb25cUGFnZXNcQmxvZ1xBcnRpY2xlQ2F0ZWdvcmllc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mahdi/source/repos/ShopFa/ServiceHost/Areas/administration/Pages/Blog/ArticleCategories/List.cshtml]
+[C:/Users/Omen 15/source/repos/ShopFa/ServiceHost/Areas/administration/Pages/Blog/ArticleCategories/List.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5pc3RyYXRpb25cUGFnZXNcQmxvZ1xBcnRpY2xlQ2F0ZWdvcmllc1xMaXN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mahdi/source/repos/ShopFa/ServiceHost/Areas/administration/Pages/Blog/Articles/Create.cshtml]
+[C:/Users/Omen 15/source/repos/ShopFa/ServiceHost/Areas/administration/Pages/Blog/Articles/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5pc3RyYXRpb25cUGFnZXNcQmxvZ1xBcnRpY2xlc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mahdi/source/repos/ShopFa/ServiceHost/Areas/administration/Pages/Blog/Articles/Edit.cshtml]
+[C:/Users/Omen 15/source/repos/ShopFa/ServiceHost/Areas/administration/Pages/Blog/Articles/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5pc3RyYXRpb25cUGFnZXNcQmxvZ1xBcnRpY2xlc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mahdi/source/repos/ShopFa/ServiceHost/Areas/administration/Pages/Blog/Articles/Index.cshtml]
+[C:/Users/Omen 15/source/repos/ShopFa/ServiceHost/Areas/administration/Pages/Blog/Articles/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5pc3RyYXRpb25cUGFnZXNcQmxvZ1xBcnRpY2xlc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mahdi/source/repos/ShopFa/ServiceHost/Areas/administration/Pages/Comment/Index.cshtml]
+[C:/Users/Omen 15/source/repos/ShopFa/ServiceHost/Areas/administration/Pages/Comment/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5pc3RyYXRpb25cUGFnZXNcQ29tbWVudFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mahdi/source/repos/ShopFa/ServiceHost/Areas/administration/Pages/Discounts/ColleagueDiscounts/Create.cshtml]
+[C:/Users/Omen 15/source/repos/ShopFa/ServiceHost/Areas/administration/Pages/Discounts/ColleagueDiscounts/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5pc3RyYXRpb25cUGFnZXNcRGlzY291bnRzXENvbGxlYWd1ZURpc2NvdW50c1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mahdi/source/repos/ShopFa/ServiceHost/Areas/administration/Pages/Discounts/ColleagueDiscounts/Edit.cshtml]
+[C:/Users/Omen 15/source/repos/ShopFa/ServiceHost/Areas/administration/Pages/Discounts/ColleagueDiscounts/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5pc3RyYXRpb25cUGFnZXNcRGlzY291bnRzXENvbGxlYWd1ZURpc2NvdW50c1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mahdi/source/repos/ShopFa/ServiceHost/Areas/administration/Pages/Discounts/ColleagueDiscounts/Index.cshtml]
+[C:/Users/Omen 15/source/repos/ShopFa/ServiceHost/Areas/administration/Pages/Discounts/ColleagueDiscounts/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5pc3RyYXRpb25cUGFnZXNcRGlzY291bnRzXENvbGxlYWd1ZURpc2NvdW50c1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mahdi/source/repos/ShopFa/ServiceHost/Areas/administration/Pages/Discounts/CustomerDiscounts/Create.cshtml]
+[C:/Users/Omen 15/source/repos/ShopFa/ServiceHost/Areas/administration/Pages/Discounts/CustomerDiscounts/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5pc3RyYXRpb25cUGFnZXNcRGlzY291bnRzXEN1c3RvbWVyRGlzY291bnRzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mahdi/source/repos/ShopFa/ServiceHost/Areas/administration/Pages/Discounts/CustomerDiscounts/Edit.cshtml]
+[C:/Users/Omen 15/source/repos/ShopFa/ServiceHost/Areas/administration/Pages/Discounts/CustomerDiscounts/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5pc3RyYXRpb25cUGFnZXNcRGlzY291bnRzXEN1c3RvbWVyRGlzY291bnRzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mahdi/source/repos/ShopFa/ServiceHost/Areas/administration/Pages/Discounts/CustomerDiscounts/Index.cshtml]
+[C:/Users/Omen 15/source/repos/ShopFa/ServiceHost/Areas/administration/Pages/Discounts/CustomerDiscounts/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5pc3RyYXRpb25cUGFnZXNcRGlzY291bnRzXEN1c3RvbWVyRGlzY291bnRzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mahdi/source/repos/ShopFa/ServiceHost/Areas/administration/Pages/Index.cshtml]
+[C:/Users/Omen 15/source/repos/ShopFa/ServiceHost/Areas/administration/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5pc3RyYXRpb25cUGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mahdi/source/repos/ShopFa/ServiceHost/Areas/administration/Pages/Inventory/Create.cshtml]
+[C:/Users/Omen 15/source/repos/ShopFa/ServiceHost/Areas/administration/Pages/Inventory/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5pc3RyYXRpb25cUGFnZXNcSW52ZW50b3J5XENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mahdi/source/repos/ShopFa/ServiceHost/Areas/administration/Pages/Inventory/Edit.cshtml]
+[C:/Users/Omen 15/source/repos/ShopFa/ServiceHost/Areas/administration/Pages/Inventory/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5pc3RyYXRpb25cUGFnZXNcSW52ZW50b3J5XEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mahdi/source/repos/ShopFa/ServiceHost/Areas/administration/Pages/Inventory/Increase.cshtml]
+[C:/Users/Omen 15/source/repos/ShopFa/ServiceHost/Areas/administration/Pages/Inventory/Increase.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5pc3RyYXRpb25cUGFnZXNcSW52ZW50b3J5XEluY3JlYXNlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mahdi/source/repos/ShopFa/ServiceHost/Areas/administration/Pages/Inventory/Index.cshtml]
+[C:/Users/Omen 15/source/repos/ShopFa/ServiceHost/Areas/administration/Pages/Inventory/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5pc3RyYXRpb25cUGFnZXNcSW52ZW50b3J5XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mahdi/source/repos/ShopFa/ServiceHost/Areas/administration/Pages/Inventory/OperationLog.cshtml]
+[C:/Users/Omen 15/source/repos/ShopFa/ServiceHost/Areas/administration/Pages/Inventory/OperationLog.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5pc3RyYXRpb25cUGFnZXNcSW52ZW50b3J5XE9wZXJhdGlvbkxvZy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mahdi/source/repos/ShopFa/ServiceHost/Areas/administration/Pages/Inventory/Reduce.cshtml]
+[C:/Users/Omen 15/source/repos/ShopFa/ServiceHost/Areas/administration/Pages/Inventory/Reduce.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5pc3RyYXRpb25cUGFnZXNcSW52ZW50b3J5XFJlZHVjZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mahdi/source/repos/ShopFa/ServiceHost/Areas/administration/Pages/Shared/_SideMenu.cshtml]
+[C:/Users/Omen 15/source/repos/ShopFa/ServiceHost/Areas/administration/Pages/Shared/_SideMenu.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5pc3RyYXRpb25cUGFnZXNcU2hhcmVkXF9TaWRlTWVudS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mahdi/source/repos/ShopFa/ServiceHost/Areas/administration/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Omen 15/source/repos/ShopFa/ServiceHost/Areas/administration/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5pc3RyYXRpb25cUGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mahdi/source/repos/ShopFa/ServiceHost/Areas/administration/Pages/Shop/ProductCategories/Create.cshtml]
+[C:/Users/Omen 15/source/repos/ShopFa/ServiceHost/Areas/administration/Pages/Shop/ProductCategories/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5pc3RyYXRpb25cUGFnZXNcU2hvcFxQcm9kdWN0Q2F0ZWdvcmllc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mahdi/source/repos/ShopFa/ServiceHost/Areas/administration/Pages/Shop/ProductCategories/Edit.cshtml]
+[C:/Users/Omen 15/source/repos/ShopFa/ServiceHost/Areas/administration/Pages/Shop/ProductCategories/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5pc3RyYXRpb25cUGFnZXNcU2hvcFxQcm9kdWN0Q2F0ZWdvcmllc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mahdi/source/repos/ShopFa/ServiceHost/Areas/administration/Pages/Shop/ProductCategories/Index.cshtml]
+[C:/Users/Omen 15/source/repos/ShopFa/ServiceHost/Areas/administration/Pages/Shop/ProductCategories/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5pc3RyYXRpb25cUGFnZXNcU2hvcFxQcm9kdWN0Q2F0ZWdvcmllc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mahdi/source/repos/ShopFa/ServiceHost/Areas/administration/Pages/Shop/ProductPictures/Create.cshtml]
+[C:/Users/Omen 15/source/repos/ShopFa/ServiceHost/Areas/administration/Pages/Shop/ProductPictures/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5pc3RyYXRpb25cUGFnZXNcU2hvcFxQcm9kdWN0UGljdHVyZXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mahdi/source/repos/ShopFa/ServiceHost/Areas/administration/Pages/Shop/ProductPictures/Edit.cshtml]
+[C:/Users/Omen 15/source/repos/ShopFa/ServiceHost/Areas/administration/Pages/Shop/ProductPictures/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5pc3RyYXRpb25cUGFnZXNcU2hvcFxQcm9kdWN0UGljdHVyZXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mahdi/source/repos/ShopFa/ServiceHost/Areas/administration/Pages/Shop/ProductPictures/Index.cshtml]
+[C:/Users/Omen 15/source/repos/ShopFa/ServiceHost/Areas/administration/Pages/Shop/ProductPictures/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5pc3RyYXRpb25cUGFnZXNcU2hvcFxQcm9kdWN0UGljdHVyZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mahdi/source/repos/ShopFa/ServiceHost/Areas/administration/Pages/Shop/Products/Create.cshtml]
+[C:/Users/Omen 15/source/repos/ShopFa/ServiceHost/Areas/administration/Pages/Shop/Products/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5pc3RyYXRpb25cUGFnZXNcU2hvcFxQcm9kdWN0c1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mahdi/source/repos/ShopFa/ServiceHost/Areas/administration/Pages/Shop/Products/Edit.cshtml]
+[C:/Users/Omen 15/source/repos/ShopFa/ServiceHost/Areas/administration/Pages/Shop/Products/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5pc3RyYXRpb25cUGFnZXNcU2hvcFxQcm9kdWN0c1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mahdi/source/repos/ShopFa/ServiceHost/Areas/administration/Pages/Shop/Products/Index.cshtml]
+[C:/Users/Omen 15/source/repos/ShopFa/ServiceHost/Areas/administration/Pages/Shop/Products/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5pc3RyYXRpb25cUGFnZXNcU2hvcFxQcm9kdWN0c1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mahdi/source/repos/ShopFa/ServiceHost/Areas/administration/Pages/Shop/Slides/Create.cshtml]
+[C:/Users/Omen 15/source/repos/ShopFa/ServiceHost/Areas/administration/Pages/Shop/Slides/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5pc3RyYXRpb25cUGFnZXNcU2hvcFxTbGlkZXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mahdi/source/repos/ShopFa/ServiceHost/Areas/administration/Pages/Shop/Slides/Edit.cshtml]
+[C:/Users/Omen 15/source/repos/ShopFa/ServiceHost/Areas/administration/Pages/Shop/Slides/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5pc3RyYXRpb25cUGFnZXNcU2hvcFxTbGlkZXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mahdi/source/repos/ShopFa/ServiceHost/Areas/administration/Pages/Shop/Slides/Index.cshtml]
+[C:/Users/Omen 15/source/repos/ShopFa/ServiceHost/Areas/administration/Pages/Shop/Slides/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5pc3RyYXRpb25cUGFnZXNcU2hvcFxTbGlkZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mahdi/source/repos/ShopFa/ServiceHost/Areas/administration/Pages/_ViewImports.cshtml]
+[C:/Users/Omen 15/source/repos/ShopFa/ServiceHost/Areas/administration/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5pc3RyYXRpb25cUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mahdi/source/repos/ShopFa/ServiceHost/Areas/administration/Pages/_ViewStart.cshtml]
+[C:/Users/Omen 15/source/repos/ShopFa/ServiceHost/Areas/administration/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5pc3RyYXRpb25cUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mahdi/source/repos/ShopFa/ServiceHost/Pages/Article.cshtml]
+[C:/Users/Omen 15/source/repos/ShopFa/ServiceHost/Pages/Article.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXJ0aWNsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mahdi/source/repos/ShopFa/ServiceHost/Pages/ArticleCategory.cshtml]
+[C:/Users/Omen 15/source/repos/ShopFa/ServiceHost/Pages/ArticleCategory.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXJ0aWNsZUNhdGVnb3J5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mahdi/source/repos/ShopFa/ServiceHost/Pages/Components/ArticleCategoriesList/Default.cshtml]
+[C:/Users/Omen 15/source/repos/ShopFa/ServiceHost/Pages/Components/ArticleCategoriesList/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcG9uZW50c1xBcnRpY2xlQ2F0ZWdvcmllc0xpc3RcRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mahdi/source/repos/ShopFa/ServiceHost/Pages/Components/Footer/Default.cshtml]
+[C:/Users/Omen 15/source/repos/ShopFa/ServiceHost/Pages/Components/Footer/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcG9uZW50c1xGb290ZXJcRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mahdi/source/repos/ShopFa/ServiceHost/Pages/Components/Header/Default.cshtml]
+[C:/Users/Omen 15/source/repos/ShopFa/ServiceHost/Pages/Components/Header/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcG9uZW50c1xIZWFkZXJcRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mahdi/source/repos/ShopFa/ServiceHost/Pages/Components/LastArrivalProducts/Default.cshtml]
+[C:/Users/Omen 15/source/repos/ShopFa/ServiceHost/Pages/Components/LastArrivalProducts/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcG9uZW50c1xMYXN0QXJyaXZhbFByb2R1Y3RzXERlZmF1bHQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mahdi/source/repos/ShopFa/ServiceHost/Pages/Components/LastArticles/Default.cshtml]
+[C:/Users/Omen 15/source/repos/ShopFa/ServiceHost/Pages/Components/LastArticles/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcG9uZW50c1xMYXN0QXJ0aWNsZXNcRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mahdi/source/repos/ShopFa/ServiceHost/Pages/Components/ProductCategoryWithProducts/Default.cshtml]
+[C:/Users/Omen 15/source/repos/ShopFa/ServiceHost/Pages/Components/ProductCategoryWithProducts/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcG9uZW50c1xQcm9kdWN0Q2F0ZWdvcnlXaXRoUHJvZHVjdHNcRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mahdi/source/repos/ShopFa/ServiceHost/Pages/Components/ProductCategory/Default.cshtml]
+[C:/Users/Omen 15/source/repos/ShopFa/ServiceHost/Pages/Components/ProductCategory/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcG9uZW50c1xQcm9kdWN0Q2F0ZWdvcnlcRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mahdi/source/repos/ShopFa/ServiceHost/Pages/Components/RecentPost/Default.cshtml]
+[C:/Users/Omen 15/source/repos/ShopFa/ServiceHost/Pages/Components/RecentPost/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcG9uZW50c1xSZWNlbnRQb3N0XERlZmF1bHQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mahdi/source/repos/ShopFa/ServiceHost/Pages/Components/Slide/Default.cshtml]
+[C:/Users/Omen 15/source/repos/ShopFa/ServiceHost/Pages/Components/Slide/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcG9uZW50c1xTbGlkZVxEZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mahdi/source/repos/ShopFa/ServiceHost/Pages/Error.cshtml]
+[C:/Users/Omen 15/source/repos/ShopFa/ServiceHost/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mahdi/source/repos/ShopFa/ServiceHost/Pages/Index.cshtml]
+[C:/Users/Omen 15/source/repos/ShopFa/ServiceHost/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mahdi/source/repos/ShopFa/ServiceHost/Pages/Privacy.cshtml]
+[C:/Users/Omen 15/source/repos/ShopFa/ServiceHost/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mahdi/source/repos/ShopFa/ServiceHost/Pages/ProductCategory.cshtml]
+[C:/Users/Omen 15/source/repos/ShopFa/ServiceHost/Pages/ProductCategory.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdENhdGVnb3J5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mahdi/source/repos/ShopFa/ServiceHost/Pages/ProductDetails.cshtml]
+[C:/Users/Omen 15/source/repos/ShopFa/ServiceHost/Pages/ProductDetails.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mahdi/source/repos/ShopFa/ServiceHost/Pages/Search.cshtml]
+[C:/Users/Omen 15/source/repos/ShopFa/ServiceHost/Pages/Search.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VhcmNoLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mahdi/source/repos/ShopFa/ServiceHost/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Omen 15/source/repos/ShopFa/ServiceHost/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mahdi/source/repos/ShopFa/ServiceHost/Pages/_ViewImports.cshtml]
+[C:/Users/Omen 15/source/repos/ShopFa/ServiceHost/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mahdi/source/repos/ShopFa/ServiceHost/Pages/_ViewStart.cshtml]
+[C:/Users/Omen 15/source/repos/ShopFa/ServiceHost/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mahdi/source/repos/ShopFa/ServiceHost/Areas/administration/Pages/Shared/_AdminLayout.cshtml]
+[C:/Users/Omen 15/source/repos/ShopFa/ServiceHost/Areas/administration/Pages/Shared/_AdminLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5pc3RyYXRpb25cUGFnZXNcU2hhcmVkXF9BZG1pbkxheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = b-r67os9uo3w
 
-[C:/Users/Mahdi/source/repos/ShopFa/ServiceHost/Pages/Shared/_Layout.cshtml]
+[C:/Users/Omen 15/source/repos/ShopFa/ServiceHost/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-syt8izbppr

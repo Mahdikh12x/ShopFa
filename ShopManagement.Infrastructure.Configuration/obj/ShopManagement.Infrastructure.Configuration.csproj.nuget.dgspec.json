@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\ShopManagement.Infrastructure.Configuration\\ShopManagement.Infrastructure.Configuration.csproj": {}
+    "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\ShopManagement.Infrastructure.Configuration\\ShopManagement.Infrastructure.Configuration.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\01_ShopFaQuery\\01_ShopFaQuery.csproj": {
+    "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\01_ShopFaQuery\\01_ShopFaQuery.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\01_ShopFaQuery\\01_ShopFaQuery.csproj",
+        "projectUniqueName": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\01_ShopFaQuery\\01_ShopFaQuery.csproj",
         "projectName": "01_ShopFaQuery",
-        "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\01_ShopFaQuery\\01_ShopFaQuery.csproj",
-        "packagesPath": "C:\\Users\\Mahdi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\01_ShopFaQuery\\obj\\",
+        "projectPath": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\01_ShopFaQuery\\01_ShopFaQuery.csproj",
+        "packagesPath": "C:\\Users\\Omen 15\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\01_ShopFaQuery\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Mahdi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Omen 15\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,20 +28,20 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\BlogManagement.Infrastructure.EfCore\\BlogManagement.Infrastructure.EfCore.csproj": {
-                "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\BlogManagement.Infrastructure.EfCore\\BlogManagement.Infrastructure.EfCore.csproj"
+              "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\BlogManagement.Infrastructure.EfCore\\BlogManagement.Infrastructure.EfCore.csproj": {
+                "projectPath": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\BlogManagement.Infrastructure.EfCore\\BlogManagement.Infrastructure.EfCore.csproj"
               },
-              "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\CommentManagement.Infrastructure.EFCore\\CommentManagement.Infrastructure.EFCore.csproj": {
-                "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\CommentManagement.Infrastructure.EFCore\\CommentManagement.Infrastructure.EFCore.csproj"
+              "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\CommentManagement.Infrastructure.EFCore\\CommentManagement.Infrastructure.EFCore.csproj": {
+                "projectPath": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\CommentManagement.Infrastructure.EFCore\\CommentManagement.Infrastructure.EFCore.csproj"
               },
-              "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\DiscountManagement.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj": {
-                "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\DiscountManagement.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj"
+              "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\DiscountManagement.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj": {
+                "projectPath": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\DiscountManagement.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj"
               },
-              "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\InventoryManagement.EfCore\\InventoryManagement.Infrastructure.EfCore.csproj": {
-                "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\InventoryManagement.EfCore\\InventoryManagement.Infrastructure.EfCore.csproj"
+              "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\InventoryManagement.EfCore\\InventoryManagement.Infrastructure.EfCore.csproj": {
+                "projectPath": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\InventoryManagement.EfCore\\InventoryManagement.Infrastructure.EfCore.csproj"
               },
-              "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj": {
-                "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj"
+              "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj": {
+                "projectPath": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj"
               }
             }
           }
@@ -70,21 +70,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\0_Framework\\0_Framework.csproj": {
+    "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\0_Framework\\0_Framework.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\0_Framework\\0_Framework.csproj",
+        "projectUniqueName": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\0_Framework\\0_Framework.csproj",
         "projectName": "0_Framework",
-        "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\0_Framework\\0_Framework.csproj",
-        "packagesPath": "C:\\Users\\Mahdi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\0_Framework\\obj\\",
+        "projectPath": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\0_Framework\\0_Framework.csproj",
+        "packagesPath": "C:\\Users\\Omen 15\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\0_Framework\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Mahdi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Omen 15\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -138,21 +138,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\BlogManagement.Application.Contracts\\BlogManagement.Application.Contracts.csproj": {
+    "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\BlogManagement.Application.Contracts\\BlogManagement.Application.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\BlogManagement.Application.Contracts\\BlogManagement.Application.Contracts.csproj",
+        "projectUniqueName": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\BlogManagement.Application.Contracts\\BlogManagement.Application.Contracts.csproj",
         "projectName": "BlogManagement.Application.Contracts",
-        "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\BlogManagement.Application.Contracts\\BlogManagement.Application.Contracts.csproj",
-        "packagesPath": "C:\\Users\\Mahdi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\BlogManagement.Application.Contracts\\obj\\",
+        "projectPath": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\BlogManagement.Application.Contracts\\BlogManagement.Application.Contracts.csproj",
+        "packagesPath": "C:\\Users\\Omen 15\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\BlogManagement.Application.Contracts\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Mahdi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Omen 15\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -166,8 +166,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\0_Framework\\0_Framework.csproj": {
-                "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\0_Framework\\0_Framework.csproj"
+              "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\0_Framework\\0_Framework.csproj": {
+                "projectPath": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\0_Framework\\0_Framework.csproj"
               }
             }
           }
@@ -196,21 +196,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\BlogManagement.Domain\\BlogManagement.Domain.csproj": {
+    "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\BlogManagement.Domain\\BlogManagement.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\BlogManagement.Domain\\BlogManagement.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\BlogManagement.Domain\\BlogManagement.Domain.csproj",
         "projectName": "BlogManagement.Domain",
-        "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\BlogManagement.Domain\\BlogManagement.Domain.csproj",
-        "packagesPath": "C:\\Users\\Mahdi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\BlogManagement.Domain\\obj\\",
+        "projectPath": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\BlogManagement.Domain\\BlogManagement.Domain.csproj",
+        "packagesPath": "C:\\Users\\Omen 15\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\BlogManagement.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Mahdi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Omen 15\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -224,11 +224,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\0_Framework\\0_Framework.csproj": {
-                "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\0_Framework\\0_Framework.csproj"
+              "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\0_Framework\\0_Framework.csproj": {
+                "projectPath": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\0_Framework\\0_Framework.csproj"
               },
-              "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\BlogManagement.Application.Contracts\\BlogManagement.Application.Contracts.csproj": {
-                "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\BlogManagement.Application.Contracts\\BlogManagement.Application.Contracts.csproj"
+              "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\BlogManagement.Application.Contracts\\BlogManagement.Application.Contracts.csproj": {
+                "projectPath": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\BlogManagement.Application.Contracts\\BlogManagement.Application.Contracts.csproj"
               }
             }
           }
@@ -257,21 +257,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\BlogManagement.Infrastructure.EfCore\\BlogManagement.Infrastructure.EfCore.csproj": {
+    "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\BlogManagement.Infrastructure.EfCore\\BlogManagement.Infrastructure.EfCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\BlogManagement.Infrastructure.EfCore\\BlogManagement.Infrastructure.EfCore.csproj",
+        "projectUniqueName": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\BlogManagement.Infrastructure.EfCore\\BlogManagement.Infrastructure.EfCore.csproj",
         "projectName": "BlogManagement.Infrastructure.EfCore",
-        "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\BlogManagement.Infrastructure.EfCore\\BlogManagement.Infrastructure.EfCore.csproj",
-        "packagesPath": "C:\\Users\\Mahdi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\BlogManagement.Infrastructure.EfCore\\obj\\",
+        "projectPath": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\BlogManagement.Infrastructure.EfCore\\BlogManagement.Infrastructure.EfCore.csproj",
+        "packagesPath": "C:\\Users\\Omen 15\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\BlogManagement.Infrastructure.EfCore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Mahdi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Omen 15\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -285,8 +285,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\BlogManagement.Domain\\BlogManagement.Domain.csproj": {
-                "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\BlogManagement.Domain\\BlogManagement.Domain.csproj"
+              "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\BlogManagement.Domain\\BlogManagement.Domain.csproj": {
+                "projectPath": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\BlogManagement.Domain\\BlogManagement.Domain.csproj"
               }
             }
           }
@@ -331,21 +331,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\CommentManagement.Application.Contract\\CommentManagement.Application.Contract.csproj": {
+    "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\CommentManagement.Application.Contract\\CommentManagement.Application.Contract.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\CommentManagement.Application.Contract\\CommentManagement.Application.Contract.csproj",
+        "projectUniqueName": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\CommentManagement.Application.Contract\\CommentManagement.Application.Contract.csproj",
         "projectName": "CommentManagement.Application.Contract",
-        "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\CommentManagement.Application.Contract\\CommentManagement.Application.Contract.csproj",
-        "packagesPath": "C:\\Users\\Mahdi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\CommentManagement.Application.Contract\\obj\\",
+        "projectPath": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\CommentManagement.Application.Contract\\CommentManagement.Application.Contract.csproj",
+        "packagesPath": "C:\\Users\\Omen 15\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\CommentManagement.Application.Contract\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Mahdi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Omen 15\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -359,8 +359,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\0_Framework\\0_Framework.csproj": {
-                "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\0_Framework\\0_Framework.csproj"
+              "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\0_Framework\\0_Framework.csproj": {
+                "projectPath": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\0_Framework\\0_Framework.csproj"
               }
             }
           }
@@ -389,21 +389,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\CommentManagement.Domain\\CommentManagement.Domain.csproj": {
+    "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\CommentManagement.Domain\\CommentManagement.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\CommentManagement.Domain\\CommentManagement.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\CommentManagement.Domain\\CommentManagement.Domain.csproj",
         "projectName": "CommentManagement.Domain",
-        "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\CommentManagement.Domain\\CommentManagement.Domain.csproj",
-        "packagesPath": "C:\\Users\\Mahdi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\CommentManagement.Domain\\obj\\",
+        "projectPath": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\CommentManagement.Domain\\CommentManagement.Domain.csproj",
+        "packagesPath": "C:\\Users\\Omen 15\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\CommentManagement.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Mahdi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Omen 15\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -417,11 +417,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\0_Framework\\0_Framework.csproj": {
-                "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\0_Framework\\0_Framework.csproj"
+              "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\0_Framework\\0_Framework.csproj": {
+                "projectPath": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\0_Framework\\0_Framework.csproj"
               },
-              "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\CommentManagement.Application.Contract\\CommentManagement.Application.Contract.csproj": {
-                "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\CommentManagement.Application.Contract\\CommentManagement.Application.Contract.csproj"
+              "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\CommentManagement.Application.Contract\\CommentManagement.Application.Contract.csproj": {
+                "projectPath": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\CommentManagement.Application.Contract\\CommentManagement.Application.Contract.csproj"
               }
             }
           }
@@ -450,21 +450,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\CommentManagement.Infrastructure.EFCore\\CommentManagement.Infrastructure.EFCore.csproj": {
+    "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\CommentManagement.Infrastructure.EFCore\\CommentManagement.Infrastructure.EFCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\CommentManagement.Infrastructure.EFCore\\CommentManagement.Infrastructure.EFCore.csproj",
+        "projectUniqueName": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\CommentManagement.Infrastructure.EFCore\\CommentManagement.Infrastructure.EFCore.csproj",
         "projectName": "CommentManagement.Infrastructure.EFCore",
-        "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\CommentManagement.Infrastructure.EFCore\\CommentManagement.Infrastructure.EFCore.csproj",
-        "packagesPath": "C:\\Users\\Mahdi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\CommentManagement.Infrastructure.EFCore\\obj\\",
+        "projectPath": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\CommentManagement.Infrastructure.EFCore\\CommentManagement.Infrastructure.EFCore.csproj",
+        "packagesPath": "C:\\Users\\Omen 15\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\CommentManagement.Infrastructure.EFCore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Mahdi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Omen 15\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -478,17 +478,17 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\0_Framework\\0_Framework.csproj": {
-                "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\0_Framework\\0_Framework.csproj"
+              "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\0_Framework\\0_Framework.csproj": {
+                "projectPath": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\0_Framework\\0_Framework.csproj"
               },
-              "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\BlogManagement.Infrastructure.EfCore\\BlogManagement.Infrastructure.EfCore.csproj": {
-                "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\BlogManagement.Infrastructure.EfCore\\BlogManagement.Infrastructure.EfCore.csproj"
+              "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\BlogManagement.Infrastructure.EfCore\\BlogManagement.Infrastructure.EfCore.csproj": {
+                "projectPath": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\BlogManagement.Infrastructure.EfCore\\BlogManagement.Infrastructure.EfCore.csproj"
               },
-              "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\CommentManagement.Domain\\CommentManagement.Domain.csproj": {
-                "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\CommentManagement.Domain\\CommentManagement.Domain.csproj"
+              "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\CommentManagement.Domain\\CommentManagement.Domain.csproj": {
+                "projectPath": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\CommentManagement.Domain\\CommentManagement.Domain.csproj"
               },
-              "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj": {
-                "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj"
+              "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj": {
+                "projectPath": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj"
               }
             }
           }
@@ -533,21 +533,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\DiscountManagement.Application.Contracts\\DiscountManagement.Application.Contracts.csproj": {
+    "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\DiscountManagement.Application.Contracts\\DiscountManagement.Application.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\DiscountManagement.Application.Contracts\\DiscountManagement.Application.Contracts.csproj",
+        "projectUniqueName": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\DiscountManagement.Application.Contracts\\DiscountManagement.Application.Contracts.csproj",
         "projectName": "DiscountManagement.Application.Contracts",
-        "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\DiscountManagement.Application.Contracts\\DiscountManagement.Application.Contracts.csproj",
-        "packagesPath": "C:\\Users\\Mahdi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\DiscountManagement.Application.Contracts\\obj\\",
+        "projectPath": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\DiscountManagement.Application.Contracts\\DiscountManagement.Application.Contracts.csproj",
+        "packagesPath": "C:\\Users\\Omen 15\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\DiscountManagement.Application.Contracts\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Mahdi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Omen 15\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -561,11 +561,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\0_Framework\\0_Framework.csproj": {
-                "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\0_Framework\\0_Framework.csproj"
+              "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\0_Framework\\0_Framework.csproj": {
+                "projectPath": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\0_Framework\\0_Framework.csproj"
               },
-              "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj": {
-                "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj"
+              "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj": {
+                "projectPath": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj"
               }
             }
           }
@@ -594,21 +594,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj": {
+    "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj",
         "projectName": "DiscountManagement.Domain",
-        "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj",
-        "packagesPath": "C:\\Users\\Mahdi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\DiscountManagement.Domain\\obj\\",
+        "projectPath": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj",
+        "packagesPath": "C:\\Users\\Omen 15\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\DiscountManagement.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Mahdi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Omen 15\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -622,11 +622,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\0_Framework\\0_Framework.csproj": {
-                "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\0_Framework\\0_Framework.csproj"
+              "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\0_Framework\\0_Framework.csproj": {
+                "projectPath": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\0_Framework\\0_Framework.csproj"
               },
-              "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\DiscountManagement.Application.Contracts\\DiscountManagement.Application.Contracts.csproj": {
-                "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\DiscountManagement.Application.Contracts\\DiscountManagement.Application.Contracts.csproj"
+              "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\DiscountManagement.Application.Contracts\\DiscountManagement.Application.Contracts.csproj": {
+                "projectPath": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\DiscountManagement.Application.Contracts\\DiscountManagement.Application.Contracts.csproj"
               }
             }
           }
@@ -655,21 +655,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\DiscountManagement.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj": {
+    "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\DiscountManagement.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\DiscountManagement.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj",
+        "projectUniqueName": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\DiscountManagement.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj",
         "projectName": "DiscountManagement.Infrastructure.EFCore",
-        "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\DiscountManagement.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj",
-        "packagesPath": "C:\\Users\\Mahdi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\DiscountManagement.Infrastructure.EFCore\\obj\\",
+        "projectPath": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\DiscountManagement.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj",
+        "packagesPath": "C:\\Users\\Omen 15\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\DiscountManagement.Infrastructure.EFCore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Mahdi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Omen 15\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -683,11 +683,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj": {
-                "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj"
+              "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj": {
+                "projectPath": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj"
               },
-              "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj": {
-                "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj"
+              "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj": {
+                "projectPath": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj"
               }
             }
           }
@@ -732,21 +732,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\InventoryManagement.Application.Contract\\InventoryManagement.Application.Contract.csproj": {
+    "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\InventoryManagement.Application.Contract\\InventoryManagement.Application.Contract.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\InventoryManagement.Application.Contract\\InventoryManagement.Application.Contract.csproj",
+        "projectUniqueName": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\InventoryManagement.Application.Contract\\InventoryManagement.Application.Contract.csproj",
         "projectName": "InventoryManagement.Application.Contract",
-        "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\InventoryManagement.Application.Contract\\InventoryManagement.Application.Contract.csproj",
-        "packagesPath": "C:\\Users\\Mahdi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\InventoryManagement.Application.Contract\\obj\\",
+        "projectPath": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\InventoryManagement.Application.Contract\\InventoryManagement.Application.Contract.csproj",
+        "packagesPath": "C:\\Users\\Omen 15\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\InventoryManagement.Application.Contract\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Mahdi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Omen 15\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -760,8 +760,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\ShopManagement.Domain\\ShopManagement.Domain.csproj": {
-                "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\ShopManagement.Domain\\ShopManagement.Domain.csproj"
+              "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\ShopManagement.Domain\\ShopManagement.Domain.csproj": {
+                "projectPath": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\ShopManagement.Domain\\ShopManagement.Domain.csproj"
               }
             }
           }
@@ -790,21 +790,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj": {
+    "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj",
         "projectName": "InventoryManagement.Domain",
-        "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj",
-        "packagesPath": "C:\\Users\\Mahdi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\InventoryManagement.Domain\\obj\\",
+        "projectPath": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj",
+        "packagesPath": "C:\\Users\\Omen 15\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\InventoryManagement.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Mahdi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Omen 15\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -818,11 +818,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\0_Framework\\0_Framework.csproj": {
-                "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\0_Framework\\0_Framework.csproj"
+              "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\0_Framework\\0_Framework.csproj": {
+                "projectPath": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\0_Framework\\0_Framework.csproj"
               },
-              "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\InventoryManagement.Application.Contract\\InventoryManagement.Application.Contract.csproj": {
-                "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\InventoryManagement.Application.Contract\\InventoryManagement.Application.Contract.csproj"
+              "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\InventoryManagement.Application.Contract\\InventoryManagement.Application.Contract.csproj": {
+                "projectPath": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\InventoryManagement.Application.Contract\\InventoryManagement.Application.Contract.csproj"
               }
             }
           }
@@ -851,21 +851,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\InventoryManagement.EfCore\\InventoryManagement.Infrastructure.EfCore.csproj": {
+    "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\InventoryManagement.EfCore\\InventoryManagement.Infrastructure.EfCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\InventoryManagement.EfCore\\InventoryManagement.Infrastructure.EfCore.csproj",
+        "projectUniqueName": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\InventoryManagement.EfCore\\InventoryManagement.Infrastructure.EfCore.csproj",
         "projectName": "InventoryManagement.Infrastructure.EfCore",
-        "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\InventoryManagement.EfCore\\InventoryManagement.Infrastructure.EfCore.csproj",
-        "packagesPath": "C:\\Users\\Mahdi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\InventoryManagement.EfCore\\obj\\",
+        "projectPath": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\InventoryManagement.EfCore\\InventoryManagement.Infrastructure.EfCore.csproj",
+        "packagesPath": "C:\\Users\\Omen 15\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\InventoryManagement.EfCore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Mahdi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Omen 15\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -879,11 +879,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj": {
-                "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj"
+              "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj": {
+                "projectPath": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj"
               },
-              "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj": {
-                "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj"
+              "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj": {
+                "projectPath": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj"
               }
             }
           }
@@ -928,21 +928,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj": {
+    "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj",
+        "projectUniqueName": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj",
         "projectName": "ShopManagement.Application.Contracts",
-        "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj",
-        "packagesPath": "C:\\Users\\Mahdi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\ShopManagement.Application.Contracts\\obj\\",
+        "projectPath": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj",
+        "packagesPath": "C:\\Users\\Omen 15\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\ShopManagement.Application.Contracts\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Mahdi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Omen 15\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -956,8 +956,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\0_Framework\\0_Framework.csproj": {
-                "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\0_Framework\\0_Framework.csproj"
+              "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\0_Framework\\0_Framework.csproj": {
+                "projectPath": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\0_Framework\\0_Framework.csproj"
               }
             }
           }
@@ -992,21 +992,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\ShopManagement.Application\\ShopManagement.Application.csproj": {
+    "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\ShopManagement.Application\\ShopManagement.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\ShopManagement.Application\\ShopManagement.Application.csproj",
+        "projectUniqueName": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\ShopManagement.Application\\ShopManagement.Application.csproj",
         "projectName": "ShopManagement.Application",
-        "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\ShopManagement.Application\\ShopManagement.Application.csproj",
-        "packagesPath": "C:\\Users\\Mahdi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\ShopManagement.Application\\obj\\",
+        "projectPath": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\ShopManagement.Application\\ShopManagement.Application.csproj",
+        "packagesPath": "C:\\Users\\Omen 15\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\ShopManagement.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Mahdi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Omen 15\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -1020,11 +1020,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj": {
-                "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj"
+              "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj": {
+                "projectPath": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj"
               },
-              "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\ShopManagement.Domain\\ShopManagement.Domain.csproj": {
-                "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\ShopManagement.Domain\\ShopManagement.Domain.csproj"
+              "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\ShopManagement.Domain\\ShopManagement.Domain.csproj": {
+                "projectPath": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\ShopManagement.Domain\\ShopManagement.Domain.csproj"
               }
             }
           }
@@ -1053,21 +1053,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\ShopManagement.Domain\\ShopManagement.Domain.csproj": {
+    "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\ShopManagement.Domain\\ShopManagement.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\ShopManagement.Domain\\ShopManagement.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\ShopManagement.Domain\\ShopManagement.Domain.csproj",
         "projectName": "ShopManagement.Domain",
-        "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\ShopManagement.Domain\\ShopManagement.Domain.csproj",
-        "packagesPath": "C:\\Users\\Mahdi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\ShopManagement.Domain\\obj\\",
+        "projectPath": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\ShopManagement.Domain\\ShopManagement.Domain.csproj",
+        "packagesPath": "C:\\Users\\Omen 15\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\ShopManagement.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Mahdi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Omen 15\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -1081,11 +1081,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\0_Framework\\0_Framework.csproj": {
-                "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\0_Framework\\0_Framework.csproj"
+              "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\0_Framework\\0_Framework.csproj": {
+                "projectPath": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\0_Framework\\0_Framework.csproj"
               },
-              "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj": {
-                "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj"
+              "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj": {
+                "projectPath": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj"
               }
             }
           }
@@ -1114,21 +1114,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\ShopManagement.Infrastructure.Configuration\\ShopManagement.Infrastructure.Configuration.csproj": {
+    "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\ShopManagement.Infrastructure.Configuration\\ShopManagement.Infrastructure.Configuration.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\ShopManagement.Infrastructure.Configuration\\ShopManagement.Infrastructure.Configuration.csproj",
+        "projectUniqueName": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\ShopManagement.Infrastructure.Configuration\\ShopManagement.Infrastructure.Configuration.csproj",
         "projectName": "ShopManagement.Infrastructure.Configuration",
-        "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\ShopManagement.Infrastructure.Configuration\\ShopManagement.Infrastructure.Configuration.csproj",
-        "packagesPath": "C:\\Users\\Mahdi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\ShopManagement.Infrastructure.Configuration\\obj\\",
+        "projectPath": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\ShopManagement.Infrastructure.Configuration\\ShopManagement.Infrastructure.Configuration.csproj",
+        "packagesPath": "C:\\Users\\Omen 15\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\ShopManagement.Infrastructure.Configuration\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Mahdi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Omen 15\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -1142,17 +1142,17 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\01_ShopFaQuery\\01_ShopFaQuery.csproj": {
-                "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\01_ShopFaQuery\\01_ShopFaQuery.csproj"
+              "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\01_ShopFaQuery\\01_ShopFaQuery.csproj": {
+                "projectPath": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\01_ShopFaQuery\\01_ShopFaQuery.csproj"
               },
-              "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj": {
-                "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj"
+              "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj": {
+                "projectPath": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj"
               },
-              "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\ShopManagement.Application\\ShopManagement.Application.csproj": {
-                "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\ShopManagement.Application\\ShopManagement.Application.csproj"
+              "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\ShopManagement.Application\\ShopManagement.Application.csproj": {
+                "projectPath": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\ShopManagement.Application\\ShopManagement.Application.csproj"
               },
-              "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj": {
-                "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj"
+              "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj": {
+                "projectPath": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj"
               }
             }
           }
@@ -1187,21 +1187,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj": {
+    "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj",
+        "projectUniqueName": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj",
         "projectName": "ShopManagement.Infrastructure.EFCore",
-        "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj",
-        "packagesPath": "C:\\Users\\Mahdi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\ShopManagement.Infrastructure.EFCore\\obj\\",
+        "projectPath": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj",
+        "packagesPath": "C:\\Users\\Omen 15\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\ShopManagement.Infrastructure.EFCore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Mahdi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Omen 15\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -1215,8 +1215,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\ShopManagement.Domain\\ShopManagement.Domain.csproj": {
-                "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\ShopManagement.Domain\\ShopManagement.Domain.csproj"
+              "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\ShopManagement.Domain\\ShopManagement.Domain.csproj": {
+                "projectPath": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\ShopManagement.Domain\\ShopManagement.Domain.csproj"
               }
             }
           }
@@ -1261,7 +1261,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

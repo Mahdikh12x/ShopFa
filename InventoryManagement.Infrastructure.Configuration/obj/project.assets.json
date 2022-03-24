@@ -2194,19 +2194,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Mahdi\\.nuget\\packages\\": {}
+    "C:\\Users\\Omen 15\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\InventoryManagement.Infrastructure.Configuration\\InventoryManagement.Infrastructure.Configuration.csproj",
+      "projectUniqueName": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\InventoryManagement.Infrastructure.Configuration\\InventoryManagement.Infrastructure.Configuration.csproj",
       "projectName": "InventoryManagement.Infrastructure.Configuration",
-      "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\InventoryManagement.Infrastructure.Configuration\\InventoryManagement.Infrastructure.Configuration.csproj",
-      "packagesPath": "C:\\Users\\Mahdi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\InventoryManagement.Infrastructure.Configuration\\obj\\",
+      "projectPath": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\InventoryManagement.Infrastructure.Configuration\\InventoryManagement.Infrastructure.Configuration.csproj",
+      "packagesPath": "C:\\Users\\Omen 15\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\InventoryManagement.Infrastructure.Configuration\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Mahdi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Omen 15\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2220,14 +2220,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\InventoryManagement.Application\\InventoryManagement.Application.csproj": {
-              "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\InventoryManagement.Application\\InventoryManagement.Application.csproj"
+            "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\InventoryManagement.Application\\InventoryManagement.Application.csproj": {
+              "projectPath": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\InventoryManagement.Application\\InventoryManagement.Application.csproj"
             },
-            "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj": {
-              "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj"
+            "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj": {
+              "projectPath": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj"
             },
-            "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\InventoryManagement.EfCore\\InventoryManagement.Infrastructure.EfCore.csproj": {
-              "projectPath": "C:\\Users\\Mahdi\\source\\repos\\ShopFa\\InventoryManagement.EfCore\\InventoryManagement.Infrastructure.EfCore.csproj"
+            "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\InventoryManagement.EfCore\\InventoryManagement.Infrastructure.EfCore.csproj": {
+              "projectPath": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\InventoryManagement.EfCore\\InventoryManagement.Infrastructure.EfCore.csproj"
             }
           }
         }
@@ -2262,7 +2262,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

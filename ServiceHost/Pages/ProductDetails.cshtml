@@ -230,7 +230,7 @@
                                                    data-toggle="tab" href="#product-description" role="tab"
                                                    aria-selected="true">توضیحات</a>
                                                 <a class="nav-item nav-link" id="review-tab" data-toggle="tab"
-                                                   href="#review" role="tab" aria-selected="false">نظرات (@Model.Product.Comments!.Count) </a>
+                                                   href="#review" role="tab" aria-selected="false">نظرات (@Model.Product.Comments?.Count) </a>
                                             </div>
                                         </nav>
                                         <div class="tab-content" id="nav-tabContent">
@@ -293,28 +293,31 @@
                                                         </div>
                                                     </div>
                                                     <div class="ratings-wrapper">
-                                                        @foreach (var comment in Model.Product.Comments!)
-                                                       {
-                                                           <div class="sin-ratings">
-                                                               <div class="rating-author">
-                                                                   <h3>@comment.Name</h3>
-                                                                   <div class="rating-star">
-                                                                      @* <i class="fa fa-star"></i>
-                                                                       <i class="fa fa-star"></i>
-                                                                       <i class="fa fa-star"></i>
-                                                                       <i class="fa fa-star"></i>
-                                                                       <i class="fa fa-star"></i>*@
-                                                                       <span>(@comment.CreationDate)</span>
-                                                                   </div>
-                                                               </div>
-                                                               <p>
-                                                               @comment.Description
-                                                               </p>
-                                                           </div>
+                                                        @if (Model.Product.Comments != null)
+                                                        {
 
-                                                       }   
-                                                       
-                                                       
+                                                            @foreach (var comment in Model.Product.Comments)
+                                                            {
+                                                                <div class="sin-ratings">
+                                                                    <div class="rating-author">
+                                                                        <h3>@comment.Name</h3>
+                                                                        <div class="rating-star">
+                                                                            @* <i class="fa fa-star"></i>
+                                                                                <i class="fa fa-star"></i>
+                                                                                <i class="fa fa-star"></i>
+                                                                                <i class="fa fa-star"></i>
+                                                                                <i class="fa fa-star"></i>*@
+                                                                            <span>(@comment.CreationDate)</span>
+                                                                        </div>
+                                                                    </div>
+                                                                    <p>
+                                                                        @comment.Description
+                                                                    </p>
+                                                                </div>
+
+                                                            }
+
+                                                        }
                                                     </div>
                                                     <div class="rating-form-wrapper fix">
                                                         <h3>نظر دهید</h3>

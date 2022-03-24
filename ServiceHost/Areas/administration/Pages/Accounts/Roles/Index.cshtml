@@ -1,0 +1,30 @@
+﻿@page
+@model ServiceHost.Areas.administration.Pages.Accounts.Roles.IndexModel;
+@{
+}
+@{
+    //Layout = "Shared/_AdminLayout";
+    ViewData["title"] = "مدیریت نقش ها";
+}
+
+<div class="row">
+    <div class="col-sm-12">
+        <h4 class="page-title pull-right">@ViewData["title"]</h4>
+        <p class="pull-left">
+            <a class="btn btn-success btn-lg" href="#showmodal=@Url.Page("./Index","Create")">ایجاد نقش جدید</a>
+        </p>
+    </div>
+</div>
+
+<partial name="./List" model="Model.Roles"/>
+
+@section Scripts {
+<script src="~/adminTheme/assets/datatables/jquery.dataTables.min.js"></script>
+<script src="~/adminTheme/assets/datatables/dataTables.bootstrap.js"></script>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#datatable').dataTable();
+    });
+</script>
+}
