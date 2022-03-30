@@ -9,11 +9,13 @@ namespace AccountManagement.Application
         private readonly IUserRepository _userRepository;
         private readonly IFileUploader _fileUploader;
         private readonly IPasswordHasher _passwordHasher;
-        public UserApplication(IUserRepository userRepository, IFileUploader fileUploader, IPasswordHasher passwordHasher)
+        private readonly IAuthHelper _authHelper;
+        public UserApplication(IUserRepository userRepository, IFileUploader fileUploader, IPasswordHasher passwordHasher, IAuthHelper authHelper)
         {
             _userRepository = userRepository;
             _fileUploader = fileUploader;
             _passwordHasher = passwordHasher;
+            _authHelper = authHelper;
         }
 
         public bool Active(long id)
@@ -129,6 +131,37 @@ namespace AccountManagement.Application
         public List<UserViewModel> Search(UserSearchModel searchModel)
         {
             return _userRepository.Search(searchModel);
+        }
+
+        public OperationResult Login(LoginUser command)
+        {
+            var result = new OperationResult();
+            try
+            {
+                var user = _userRepository.GetBy(command.Username);
+
+                if(user == null)
+                    return result.Failed(ApplicationValidationMessages.WrongUserPass);
+
+                (bool Verified, bool NeedsUpgrade) = _passwordHasher.Check(user.Password, command.Password);
+                if (!Verified)
+                    return result.Failed(ApplicationValidationMessages.PasswordNotMatch);
+
+                var account = new AccountViewModel(user.Id, user.RoleId, user.Role.Name,user.Username,user.Fullname,user.Password,user.Mobile);
+                _authHelper.Signin(account);
+                return result.Succedded();
+
+            }
+            catch (Exception exp)
+            {
+                Console.WriteLine(exp);
+                throw;
+            }
+        }
+
+        public void SignOut()
+        {
+            _authHelper.SignOut();
         }
     }
 }

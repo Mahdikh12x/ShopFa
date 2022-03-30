@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "6sXDD0rTpprbU12N7PJiiRn/D9GJMtM+BPK8IbGgz4k=",
+  "Hash": "3HUAnve9TyVUddBluGeS7kSGXv3pvA9RqxZpLXNRB6s=",
   "Source": "ServiceHost",
   "BasePath": "_content/ServiceHost",
   "Mode": "Default",
@@ -8364,6 +8364,23 @@
       "OriginalItemSpec": "wwwroot\\UploadPictures\\profilePicture\\2022-03-25-00-38-46-testimor1-72x72.png"
     },
     {
+      "Identity": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\ServiceHost\\wwwroot\\UploadPictures\\profilePicture\\2022-03-25-01-03-45-testimor3-72x72.png",
+      "SourceId": "ServiceHost",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\ServiceHost\\wwwroot\\",
+      "BasePath": "_content/ServiceHost",
+      "RelativePath": "UploadPictures/profilePicture/2022-03-25-01-03-45-testimor3-72x72.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\UploadPictures\\profilePicture\\2022-03-25-01-03-45-testimor3-72x72.png"
+    },
+    {
       "Identity": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\ServiceHost\\wwwroot\\UploadPictures\\slides\\2022-02-19-20-13-05-slider2.jpg",
       "SourceId": "ServiceHost",
       "SourceType": "Discovered",
@@ -8481,6 +8498,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\UploadPictures\\دکوراتیون\\2022-03-23-15-55-53-img2-top-eposi1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\ServiceHost\\wwwroot\\UploadPictures\\دکوراتیون\\mamad\\2022-03-27-13-34-46-big1-4.jpg",
+      "SourceId": "ServiceHost",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\ServiceHost\\wwwroot\\",
+      "BasePath": "_content/ServiceHost",
+      "RelativePath": "UploadPictures/دکوراتیون/mamad/2022-03-27-13-34-46-big1-4.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\UploadPictures\\دکوراتیون\\mamad\\2022-03-27-13-34-46-big1-4.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\ServiceHost\\wwwroot\\UploadPictures\\دکوراتیون\\mamad\\2022-03-27-13-38-48-4_1-600x800.jpg",
+      "SourceId": "ServiceHost",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\ServiceHost\\wwwroot\\",
+      "BasePath": "_content/ServiceHost",
+      "RelativePath": "UploadPictures/دکوراتیون/mamad/2022-03-27-13-38-48-4_1-600x800.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\UploadPictures\\دکوراتیون\\mamad\\2022-03-27-13-38-48-4_1-600x800.jpg"
     },
     {
       "Identity": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\ServiceHost\\wwwroot\\UploadPictures\\دکوراتیون\\مبل\\2022-03-23-16-14-24-big1-5.jpg",

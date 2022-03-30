@@ -13,6 +13,7 @@ namespace CommentManagement.Infrastructure.EFCore.Repository
         private readonly CommentContext _context;
         private readonly ShopContext _shopContext;
         private readonly BlogContext _blogContext;
+
         public CommentRepository(CommentContext context, ShopContext shopContext, BlogContext blogContext):base(context)
         {
             _context = context;

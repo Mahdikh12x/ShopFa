@@ -1,4 +1,6 @@
-﻿@model _01_ShopFaQuery.Contracts.Menu.MenuModel
+﻿@using _0_Framework.Application
+@model _01_ShopFaQuery.Contracts.Menu.MenuModel
+@inject IAuthHelper AuthHelper
 @{
 
 }
@@ -21,7 +23,7 @@
                                 </li>
 
                                 <li class="menu-item-has-children">
-                                    <a >محصولات</a>
+                                    <a>محصولات</a>
                                     <ul class="sub-menu">
                                         @foreach (var category in Model.ProductCategories)
                                         {
@@ -33,7 +35,7 @@
                                 </li>
 
                                 <li class="menu-item-has-children">
-                                    <a >وبلاگ</a>
+                                    <a>وبلاگ</a>
                                     <ul class="sub-menu">
                                         @foreach (var category in Model.ArticleCategories)
                                         {
@@ -47,6 +49,19 @@
                                 <li>
                                     <a href="contact.html">ارتباط با ما</a>
                                 </li>
+                                @if (!AuthHelper.IsAuthenticated())
+                                {
+                                    <li>
+                                        <a asp-page="/Account">ورود</a>
+                                    </li>
+
+                                }
+                                else
+                                {
+                                    <li>
+                                        <a asp-page="/Account" asp-page-handler="SignOut">خروج</a>
+                                    </li>
+                                }
                             </ul>
                         </nav>
                     </div>
@@ -257,8 +272,8 @@
 
         <div class="offcanvas-inner-content">
             <div class="offcanvas-mobile-search-area">
-                <form asp-page="/Search"  method="get">
-                    <input type="search"  name="value" placeholder="جستجو...">
+                <form asp-page="/Search" method="get">
+                    <input type="search" name="value" placeholder="جستجو...">
                     <button type="submit">
                         <i class="fa fa-search"></i>
                     </button>
@@ -269,7 +284,7 @@
                     <li class="menu-item-has-children">
                         <a asp-page="/Index">خانه</a>
                         @*<ul class="sub-menu">
-                        </ul>*@
+                            </ul>*@
                     </li>
                     <li class="menu-item-has-children">
                         <a href="#">محصولات</a>
@@ -278,23 +293,23 @@
                             {
                                 <li class="menu-item-has-children">
                                     <a asp-page="ProductCategory" asp-route-id="@category.Slug">@category.Name</a>
-                              
+
                                 </li>
-                            }     
-                         
+                            }
+
                         </ul>
                     </li>
                     <li class="menu-item-has-children">
                         <a href="#">وبلاگ</a>
                         <ul class="sub-menu">
-                       @foreach (var category in Model.ArticleCategories)
-                       {
-                           <li class="menu-item-has-children">
-                               <a asp-page="ArticleCategory" asp-route-id="@category.Slug">@category.Name</a>
-                              
-                           </li>
-                       }     
-                         
+                            @foreach (var category in Model.ArticleCategories)
+                            {
+                                <li class="menu-item-has-children">
+                                    <a asp-page="ArticleCategory" asp-route-id="@category.Slug">@category.Name</a>
+
+                                </li>
+                            }
+
                         </ul>
                     </li>
                 </ul>

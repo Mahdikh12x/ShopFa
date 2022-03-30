@@ -7,6 +7,6 @@ namespace AccountManagement.Domain.UserAgg
     {
         EditUser? GetDetails(long id);
         List<UserViewModel> Search(UserSearchModel searchModel);
-
+        User? GetBy(string username);
     }
 }

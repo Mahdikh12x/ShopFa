@@ -6,13 +6,18 @@ using Microsoft.EntityFrameworkCore;
 
 namespace AccountManagement.Infrastructure.EFCore.Repository
 {
-    public class UserRepository:BaseRepository<long,User>,IUserRepository
+    public class UserRepository : BaseRepository<long, User>, IUserRepository
     {
         private readonly AccountContext _context;
 
         public UserRepository(AccountContext context):base(context)
         {
             _context = context;
+        }
+
+        public User? GetBy(string username)
+        {
+            return _context.Users.Include(x=>x.Role).FirstOrDefault(u => u.Username == username);
         }
 
         public EditUser? GetDetails(long id)
