@@ -5,5 +5,8 @@
         void SignOut();
         bool IsAuthenticated();
         void Signin(AccountViewModel account);
+        string? GetCurrentInfo();
+
+        AccountViewModel? GetAccountInfo();
     }
 }

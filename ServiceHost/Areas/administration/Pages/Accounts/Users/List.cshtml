@@ -15,8 +15,8 @@
                                 <tr>
 
                                     <th>#</th>
-                                    <th>نام کاربری</th>
                                     <th>پروفایل</th>
+                                    <th>نام کاربری</th>
                                     <th>موبایل</th>
                                     <th>نقش</th>
                                     <th>نام</th>
@@ -37,6 +37,7 @@
                                         <td>@item.Mobile</td>
                                         <td>@item.Role</td>
                                         <td>@item.Fullname</td>
+                                        <td>@item.CreationDate</td>
                                         <td>
                                             @if (item.IsActive)
                                             {
@@ -47,7 +48,6 @@
                                                 <i class="fa fa-remove fa-3x text-danger"></i>
                                             }
                                         </td>
-                                        <td>@item.CreationDate</td>
                                         <td>
                                             <a class="btn btn-warning pull-right m-rl-5"
                                            href="#showmodal=@Url.Page("./Index","Edit",new {id=item.Id})">

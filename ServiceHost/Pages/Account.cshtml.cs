@@ -1,3 +1,4 @@
+using _0_Framework.Application;
 using AccountManagement.Application.Contract.User;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
@@ -8,7 +9,12 @@ namespace ServiceHost.Pages
     {
         private readonly IUserApplication _userApplication;
         [TempData]
-        public string Message { get; set; }
+        public string LoginMessage { get; set; }
+        [TempData]
+        public string RegisterMessage { get; set; }
+
+        //public LoginUser LoginUser;
+        //public RegisterUser RegisterUser;
         public AccountModel(IUserApplication userApplication)
         {
             _userApplication = userApplication;
@@ -20,16 +26,34 @@ namespace ServiceHost.Pages
 
         public IActionResult OnPostLogin(LoginUser command)
         {
-            var result = _userApplication.Login(command);
-            if (!result.IsSuccess)
+            if (!ModelState.IsValid)
             {
-                Message = result.Message;
-                return RedirectToPage("./Account");
+                LoginMessage = ValidationMessages.Required;
+                return RedirectToPage("/Account");
             }
-
-            return RedirectToPage("/Index");
+            var result = _userApplication.Login(command);
+            if (result.IsSuccess)
+                return RedirectToPage("./Index");
+            LoginMessage = result.Message;
+            return RedirectToPage("/Account");
 
         }
+
+        public IActionResult OnPostRegister(RegisterUser user,string rePassword)
+        {
+            if (user.Password != rePassword)
+            {
+                RegisterMessage = ApplicationValidationMessages.PasswordNotMatch;
+                return RedirectToPage("/Account");
+            }
+            var result = _userApplication.Register(user);
+            if (result.IsSuccess)
+                return RedirectToPage("/Account");
+
+            RegisterMessage = result.Message;
+            return RedirectToPage("/Account");
+        }
+
         public void OnGetSignOut()
         {
             _userApplication.SignOut();

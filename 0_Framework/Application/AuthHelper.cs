@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Http;
 using System.Security.Claims;
+using AccountManagement.Infrastructure.Configuration;
 
 namespace _0_Framework.Application
 {
@@ -43,6 +44,32 @@ namespace _0_Framework.Application
             _contextAccessor.HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme,
                 new ClaimsPrincipal(claimsIdentity),
                 authProperties);
+        }
+
+        public string? GetCurrentInfo()
+        {
+            if (IsAuthenticated())
+            {
+                return _contextAccessor.HttpContext.User.Claims.FirstOrDefault(claim => claim.Type == ClaimTypes.Role)
+                    ?.Value;
+            }
+
+            return null;
+        }
+
+        public AccountViewModel? GetAccountInfo()
+        {
+            var result = new AccountViewModel();
+            if (!IsAuthenticated())
+                return result;
+
+            var claims=_contextAccessor.HttpContext.User.Claims.ToList();
+            result.Id = long.Parse(claims.FirstOrDefault(x => x.Type == "AccountId")?.Value!);
+            result.RoleId= long.Parse(claims.FirstOrDefault(x => x.Type == ClaimTypes.Role)?.Value!);
+            result.Fullname=claims.FirstOrDefault(x => x.Type == ClaimTypes.Name)?.Value!;
+            result.Username=claims.FirstOrDefault(x => x.Type == "Username")?.Value!;
+            result.Role = Roles.GetBy(result.RoleId);
+            return result;
         }
 
         public void SignOut()

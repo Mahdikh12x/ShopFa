@@ -13,7 +13,7 @@ namespace AccountManagement.Infrastructure.EFCore.Mapping
             builder.Property(x=>x.Fullname).HasMaxLength(100).IsRequired(true);
             builder.Property(x=>x.Username).HasMaxLength(100).IsRequired(true);
             builder.Property(x=>x.Password).HasMaxLength(1000).IsRequired(true);
-            builder.Property(x=>x.ProfilePicture).HasMaxLength(1000).IsRequired(true);
+            builder.Property(x=>x.ProfilePicture).HasMaxLength(1000).IsRequired(false);
             builder.Property(x=>x.Mobile).HasMaxLength(20).IsRequired(true);
         
             builder.HasOne(x=>x.Role).WithMany(x=>x.Users).HasForeignKey(x=>x.RoleId);

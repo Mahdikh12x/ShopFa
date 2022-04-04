@@ -1,6 +1,7 @@
 ﻿@page
 @model ServiceHost.Pages.AccountModel
 @{
+    ViewData["title"] = "ورود و ثبت نام";
 }
 
 
@@ -31,26 +32,22 @@
                     <div class="page-content-wrapper">
                         <div class="row">
                             <div class="col-sm-12 col-md-12 col-xs-12 col-lg-6">
+                                @if (Model.LoginMessage != null)
+                                {
+                                    <div class="alert alert-danger">@Model.LoginMessage</div>
+                                }
                                 <form asp-page-handler="Login">
                                     <div class="login-form">
                                         <h4 class="login-title">ورود</h4>
-                                        @if (Model.Message != null)
-                                        {
-                                            <div class="col-md-12 col-12 alert alert-danger">
-                                                <span>
-                                                    @Model.Message
-                                                </span>
-                                            </div>
-                                        }
                                         <div class="row">
 
                                             <div class="col-md-12 col-12">
                                                 <label>نام کاربری*</label>
-                                                <input type="text" name="username" placeholder="نام کاربری ">
+                                                <input type="text"  name="username" placeholder="نام کاربری ">
                                             </div>
                                             <div class="col-12">
                                                 <label>کلمه عبور</label>
-                                                <input type="password" name="password" placeholder="کلمه عبور">
+                                                <input type="password"  name="password" placeholder="کلمه عبور">
                                             </div>
                                             @*<div class="col-sm-6">
 
@@ -73,34 +70,42 @@
                                 </form>
                             </div>
                             <div class="col-sm-12 col-md-12 col-lg-6 col-xs-12">
-                                <form action="#">
+                                @if (!string.IsNullOrWhiteSpace(Model.LoginMessage))
+                                {
+                                    <div class="alert alert-danger">
+                                        <span>
+                                            @Model.RegisterMessage
+                                        </span>
+                                    </div>
+                                }
+                                <form method="post" asp-page-handler="Register">
 
                                     <div class="login-form">
                                         <h4 class="login-title">ثبت نام</h4>
 
                                         <div class="row">
                                             <div class="col-md-6 col-12 mb-20">
-                                                <label>First Name</label>
-                                                <input type="text" placeholder="First Name">
+                                                <label>نام و نام خانوادگی</label>
+                                                <input name="Fullname" type="text" placeholder="نام و نام خانوادگی ...">
                                             </div>
                                             <div class="col-md-6 col-12 mb-20">
-                                                <label>Last Name</label>
-                                                <input type="text" placeholder="Last Name">
+                                                <label>نام کاربری(Username)</label>
+                                                <input name="Username" type="text" placeholder="نام کاربری">
                                             </div>
                                             <div class="col-md-12 mb-20">
-                                                <label>Email Address*</label>
-                                                <input type="email" placeholder="Email Address">
+                                                <label>تلفن همراه</label>
+                                                <input name="Mobile" type="number" placeholder="تلفن همراه">
                                             </div>
                                             <div class="col-md-6 mb-20">
-                                                <label>Password</label>
-                                                <input type="password" placeholder="Password">
+                                                <label>رمز عبور</label>
+                                                <input name="Password" type="password" placeholder=">رمز عبور">
                                             </div>
                                             <div class="col-md-6 mb-20">
-                                                <label>Confirm Password</label>
-                                                <input type="password" placeholder="Confirm Password">
+                                                <label>تکرار رمز عبور</label>
+                                                <input name="RePassword" type="password" placeholder="تکرار رمز عبور">
                                             </div>
                                             <div class="col-12">
-                                                <button class="register-button mt-0">Register</button>
+                                                <button class="register-button mt-0">ثبت نام</button>
                                             </div>
                                         </div>
                                     </div>

@@ -10,11 +10,15 @@
         public string Password { get; set; }
         public string Mobile { get; set; }
 
-        public AccountViewModel(long id, long roleId, string role, string username,string fullname, string password, string mobile)
+        public AccountViewModel()
+        {
+            
+        }
+        public AccountViewModel(long id, long roleId, string username,string fullname, string password, string mobile)
         {
             Id = id;
             RoleId = roleId;
-            Role = role;
+            //Role = role;
             Username = username;
             Fullname= fullname;
             Password = password;

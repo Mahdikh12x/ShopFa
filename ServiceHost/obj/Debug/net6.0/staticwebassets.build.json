@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "3HUAnve9TyVUddBluGeS7kSGXv3pvA9RqxZpLXNRB6s=",
+  "Hash": "MDliklibY84N4l1JvsC/3uE6nLruxu1XjYM1NvYi+0M=",
   "Source": "ServiceHost",
   "BasePath": "_content/ServiceHost",
   "Mode": "Default",
@@ -6356,6 +6356,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Theme\\assets\\css\\Custom.css"
+    },
+    {
+      "Identity": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\ServiceHost\\wwwroot\\Theme\\assets\\css\\error.css",
+      "SourceId": "ServiceHost",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\ServiceHost\\wwwroot\\",
+      "BasePath": "_content/ServiceHost",
+      "RelativePath": "Theme/assets/css/error.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Theme\\assets\\css\\error.css"
     },
     {
       "Identity": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\ServiceHost\\wwwroot\\Theme\\assets\\css\\style.css",

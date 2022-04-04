@@ -17,23 +17,25 @@ builder.Services.AddHttpContextAccessor();
 
 var connectionString = builder.Configuration.GetConnectionString("ShopfaDB");
 ShopManagementBootstrapper.Configure(builder.Services, connectionString);
-DiscountManagementBootstrapper.Configure(builder.Services,connectionString);
-InventoryManagementBootstrapper.Configure(builder.Services,connectionString);
-BlogManagementBootstrapper.Configure(builder.Services,connectionString);
-CommentManagementBootstrapper.Configure(builder.Services,connectionString);
+DiscountManagementBootstrapper.Configure(builder.Services, connectionString);
+InventoryManagementBootstrapper.Configure(builder.Services, connectionString);
+BlogManagementBootstrapper.Configure(builder.Services, connectionString);
+CommentManagementBootstrapper.Configure(builder.Services, connectionString);
 AccountManagementBootstrapper.Configure(builder.Services, connectionString);
 
 builder.Services.AddTransient<IFileUploader, FileUploader>();
-builder.Services.AddSingleton<IPasswordHasher,PasswordHasher>();
+builder.Services.AddSingleton<IPasswordHasher, PasswordHasher>();
 builder.Services.AddSingleton(HtmlEncoder.Create(UnicodeRanges.BasicLatin, UnicodeRanges.Arabic));
 
-builder.Services.AddTransient<IAuthHelper,AuthHelper>();
+builder.Services.AddTransient<IAuthHelper, AuthHelper>();
 
 builder.Services.Configure<CookiePolicyOptions>(options =>
 {
     options.CheckConsentNeeded = context => true;
     options.MinimumSameSitePolicy = SameSiteMode.Lax;
+
 });
+
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
     .AddCookie(CookieAuthenticationDefaults.AuthenticationScheme, o =>
     {
@@ -41,6 +43,30 @@ builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationSc
         o.LogoutPath = new PathString("/Account");
         o.AccessDeniedPath = new PathString("/AccessDenied");
     });
+
+builder.Services.AddAuthorization(options =>
+{
+    options.AddPolicy("AdminArea",
+        policyBuilder => policyBuilder.RequireRole(new List<string> { Roles.Administrator, Roles.InventoryManager, Roles.ContentManager }));
+    
+    options.AddPolicy("ShopPolicy",
+policyBuilder => policyBuilder.RequireRole(new List<string> { Roles.Administrator }));
+
+    options.AddPolicy("InventoryPolicy", 
+        policyBuilder => policyBuilder.RequireRole(new List<string> { Roles.InventoryManager, Roles.Administrator }));
+    
+    options.AddPolicy("ContentPolicy", 
+        policyBuilder => policyBuilder.RequireRole(new List<string> { Roles.ContentManager, Roles.Administrator }));
+});
+
+builder.Services.AddRazorPages().AddRazorPagesOptions(options =>
+{
+    options.Conventions.AuthorizeAreaFolder("administration", "/", "AdminArea");
+    options.Conventions.AuthorizeAreaFolder("administration", "/Shop", "ShopPolicy");
+    options.Conventions.AuthorizeAreaFolder("administration", "/Inventory", "InventoryPolicy");
+    options.Conventions.AuthorizeAreaFolder("administration", "/Comment", "ContentPolicy");
+    options.Conventions.AuthorizeAreaFolder("administration", "/Blog", "ContentPolicy");
+});
 
 var app = builder.Build();
 

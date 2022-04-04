@@ -21,8 +21,9 @@ namespace AccountManagement.Domain.UserAgg
             Username = username;
             Password = password;
             Mobile = mobile;
-            RoleId = roleId;
-            ProfilePicture = profilePicture;
+            RoleId = roleId == 0 ? 10005 : roleId;
+            if(!string.IsNullOrWhiteSpace(profilePicture))
+                ProfilePicture = profilePicture;
             IsActive = true;
         }
 
@@ -32,9 +33,8 @@ namespace AccountManagement.Domain.UserAgg
             Username = username;
             Mobile = mobile;
             RoleId = roleId;
-
             if(!string.IsNullOrWhiteSpace(profilePicture))
-            ProfilePicture = profilePicture;
+                ProfilePicture = profilePicture;
         }
 
         public void ChangePassword(string password)

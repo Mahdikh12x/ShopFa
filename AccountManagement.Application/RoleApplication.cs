@@ -41,7 +41,7 @@ namespace AccountManagement.Application
                 if(role == null)
                     return result.Failed(ApplicationValidationMessages.NotExisted);
 
-                    if (_roleRepository.Exists(x => x.Name == command.Name))
+                    if (_roleRepository.Exists(x => x.Name == command.Name&&x.Id!=command.Id))
                     return result.Failed(ApplicationValidationMessages.Duplicated);
 
                 role.Edit(command.Name, command.Description);

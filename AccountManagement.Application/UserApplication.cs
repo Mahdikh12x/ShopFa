@@ -21,7 +21,7 @@ namespace AccountManagement.Application
         public bool Active(long id)
         {
             var user = _userRepository.Get(id);
-            if(user == null)
+            if (user == null)
                 return false;
 
             user.Active();
@@ -39,7 +39,7 @@ namespace AccountManagement.Application
                 if (user == null)
                     result.Failed(ApplicationValidationMessages.NotExisted);
 
-                if(command.Password!=command.RePassword)
+                if (command.Password != command.RePassword)
                     return result.Failed(ApplicationValidationMessages.PasswordNotMatch);
 
                 var password = _passwordHasher.Hash(command.Password);
@@ -56,16 +56,17 @@ namespace AccountManagement.Application
 
         public OperationResult Register(RegisterUser command)
         {
-           var result=new OperationResult();
+            var result = new OperationResult();
             try
             {
                 if (_userRepository.Exists(x => x.Username == command.Username && x.Mobile == command.Mobile))
                     return result.Failed(ApplicationValidationMessages.Duplicated);
 
+                
                 var password = _passwordHasher.Hash(command.Password);
-                var path = "profilePicture";
-                var picurteName = _fileUploader.Upload(command.ProfilePicture,path);
-                var user = new User(command.Fullname, command.Username, password, command.Mobile, command.RoleId, picurteName);
+                    var path = $"profilePicture";
+                    var pictureName = _fileUploader.Upload(command.ProfilePicture, path);
+                var user = new User(command.Fullname, command.Username, password, command.Mobile, command.RoleId,pictureName);
 
                 _userRepository.Create(user);
                 _userRepository.SaveChanges();
@@ -86,10 +87,10 @@ namespace AccountManagement.Application
             var user = _userRepository.Get(id);
             if (user == null)
                 return false;
-            
+
             user.DeActive();
             _userRepository.SaveChanges();
-            
+
             return true;
         }
 
@@ -99,26 +100,26 @@ namespace AccountManagement.Application
             try
             {
 
-                var user=_userRepository.Get(command.Id);
-                if(user == null)
+                var user = _userRepository.Get(command.Id);
+                if (user == null)
                     result.Failed(ApplicationValidationMessages.NotExisted);
 
-                if (_userRepository.Exists(x => (x.Username==command.Username||x.Fullname==command.Fullname)&&x.Id!=command.Id))
+                if (_userRepository.Exists(x => (x.Username == command.Username || x.Fullname == command.Fullname) && x.Id != command.Id))
                     return result.Failed(ApplicationValidationMessages.Duplicated);
 
                 var path = "profilePicture";
-                var picurteName = _fileUploader.Upload(command.ProfilePicture, path);
+                var pictureName = _fileUploader.Upload(command.ProfilePicture, path);
 
-                user.Edit(command.Fullname, command.Username, command.Mobile, command.RoleId, picurteName);
+                user.Edit(command.Fullname, command.Username, command.Mobile, command.RoleId, pictureName);
                 _userRepository.SaveChanges();
 
                 return result.Succedded();
 
 
             }
-            catch (Exception excption)
+            catch (Exception exception)
             {
-                Console.WriteLine(excption);
+                Console.WriteLine(exception);
                 return result.Failed(ApplicationValidationMessages.SystemFailed);
             }
         }
@@ -140,16 +141,17 @@ namespace AccountManagement.Application
             {
                 var user = _userRepository.GetBy(command.Username);
 
-                if(user == null)
+                if (user == null)
                     return result.Failed(ApplicationValidationMessages.WrongUserPass);
 
                 (bool Verified, bool NeedsUpgrade) = _passwordHasher.Check(user.Password, command.Password);
                 if (!Verified)
                     return result.Failed(ApplicationValidationMessages.PasswordNotMatch);
 
-                var account = new AccountViewModel(user.Id, user.RoleId, user.Role.Name,user.Username,user.Fullname,user.Password,user.Mobile);
+                var account = new AccountViewModel(user.Id,user.RoleId,user.Username,user.Fullname,user.Password,user.Mobile);
                 _authHelper.Signin(account);
                 return result.Succedded();
+
 
             }
             catch (Exception exp)

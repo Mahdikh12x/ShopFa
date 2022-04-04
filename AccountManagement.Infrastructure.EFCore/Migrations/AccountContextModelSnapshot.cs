@@ -77,7 +77,6 @@ namespace AccountManagement.Infrastructure.EFCore.Migrations
                         .HasColumnType("nvarchar(1000)");
 
                     b.Property<string>("ProfilePicture")
-                        .IsRequired()
                         .HasMaxLength(1000)
                         .HasColumnType("nvarchar(1000)");
 

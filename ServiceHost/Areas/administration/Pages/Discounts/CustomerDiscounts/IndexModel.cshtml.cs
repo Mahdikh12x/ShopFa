@@ -1,12 +1,14 @@
+using AccountManagement.Infrastructure.Configuration;
 using DiscountManagement.Application.Contracts.CustomerDiscount;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using ShopManagement.Application.Contracts.Product;
-using ShopManagement.Application.Contracts.ProductCategory;
 
 namespace ServiceHost.Areas.administration.Pages.Discounts.CustomerDiscounts
 {
+    [Authorize(Roles = Roles.Administrator)]
     public class IndexModel : PageModel
     {
         public List<CustomerDiscountViewModel> Discounts;

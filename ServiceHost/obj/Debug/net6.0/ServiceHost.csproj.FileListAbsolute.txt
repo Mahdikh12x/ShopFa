@@ -316,15 +316,6 @@ C:\Users\Mahdi\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\CommentManagemen
 C:\Users\Mahdi\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\CommentManagement.Application.Contract.pdb
 C:\Users\Mahdi\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\CommentManagement.Domain.pdb
 C:\Users\Mahdi\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\CommentManagement.Infrastructure.EFCore.pdb
-C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\obj\Debug\net6.0\ServiceHost.csproj.AssemblyReference.cache
-C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\obj\Debug\net6.0\ServiceHost.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\obj\Debug\net6.0\ServiceHost.AssemblyInfoInputs.cache
-C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\obj\Debug\net6.0\ServiceHost.AssemblyInfo.cs
-C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\obj\Debug\net6.0\ServiceHost.csproj.CoreCompileInputs.cache
-C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\obj\Debug\net6.0\ServiceHost.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\obj\Debug\net6.0\ServiceHost.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\obj\Debug\net6.0\ServiceHost.RazorAssemblyInfo.cache
-C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\obj\Debug\net6.0\ServiceHost.RazorAssemblyInfo.cs
 C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\appsettings.Development.json
 C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\appsettings.json
 C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\ServiceHost.staticwebassets.runtime.json
@@ -632,6 +623,15 @@ C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\ShopManagement
 C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\ShopManagement.Application.Contracts.pdb
 C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\ShopManagement.Domain.pdb
 C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\ShopManagement.Infrastructure.EFCore.pdb
+C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\obj\Debug\net6.0\ServiceHost.csproj.AssemblyReference.cache
+C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\obj\Debug\net6.0\ServiceHost.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\obj\Debug\net6.0\ServiceHost.AssemblyInfoInputs.cache
+C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\obj\Debug\net6.0\ServiceHost.AssemblyInfo.cs
+C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\obj\Debug\net6.0\ServiceHost.csproj.CoreCompileInputs.cache
+C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\obj\Debug\net6.0\ServiceHost.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\obj\Debug\net6.0\ServiceHost.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\obj\Debug\net6.0\ServiceHost.RazorAssemblyInfo.cache
+C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\obj\Debug\net6.0\ServiceHost.RazorAssemblyInfo.cs
 C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\obj\Debug\net6.0\staticwebassets.build.json
 C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\obj\Debug\net6.0\staticwebassets.development.json
 C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\obj\Debug\net6.0\scopedcss\Areas\administration\Pages\Shared\_AdminLayout.cshtml.rz.scp.css

@@ -26,11 +26,11 @@
                 <form class="form-inline" role="form" method="get">
                     <div class="form-group">
                         <label class="sr-only" asp-for="SearchModel.Username"></label>
-                        <input class="form-control" asp-for="SearchModel.Username" placeholder="نام کاربری" required="true">
+                        <input class="form-control" asp-for="SearchModel.Username" placeholder="نام کاربری" >
                     </div>
                     <div class="form-group">
                         <label class="sr-only" asp-for="SearchModel.Mobile"></label>
-                        <input class="form-control" asp-for="SearchModel.Mobile" placeholder="تلفن همراه" required="true">
+                        <input class="form-control" asp-for="SearchModel.Mobile" placeholder="تلفن همراه" >
                     </div>
 
                       <div class="form-group">
@@ -48,7 +48,7 @@
 </div>
 
 
-<partial name="./List" model="Model.Users"/>
+<partial name="List" model="Model.Users"/>
 
 @section Scripts {
 <script src="~/adminTheme/assets/datatables/jquery.dataTables.min.js"></script>
