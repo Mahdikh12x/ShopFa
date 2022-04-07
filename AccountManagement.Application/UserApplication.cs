@@ -1,5 +1,6 @@
 ﻿using _0_Framework.Application;
 using AccountManagement.Application.Contract.User;
+using AccountManagement.Domain.RoleAgg;
 using AccountManagement.Domain.UserAgg;
 
 namespace AccountManagement.Application
@@ -10,12 +11,14 @@ namespace AccountManagement.Application
         private readonly IFileUploader _fileUploader;
         private readonly IPasswordHasher _passwordHasher;
         private readonly IAuthHelper _authHelper;
-        public UserApplication(IUserRepository userRepository, IFileUploader fileUploader, IPasswordHasher passwordHasher, IAuthHelper authHelper)
+        private readonly IRoleRepository _roleRepository;
+        public UserApplication(IUserRepository userRepository, IFileUploader fileUploader, IPasswordHasher passwordHasher, IAuthHelper authHelper, IRoleRepository roleRepository)
         {
             _userRepository = userRepository;
             _fileUploader = fileUploader;
             _passwordHasher = passwordHasher;
             _authHelper = authHelper;
+            _roleRepository = roleRepository;
         }
 
         public bool Active(long id)
@@ -144,11 +147,13 @@ namespace AccountManagement.Application
                 if (user == null)
                     return result.Failed(ApplicationValidationMessages.WrongUserPass);
 
-                (bool Verified, bool NeedsUpgrade) = _passwordHasher.Check(user.Password, command.Password);
-                if (!Verified)
+                var (verified, needsUpgrade) = _passwordHasher.Check(user.Password, command.Password);
+                if (!verified)
                     return result.Failed(ApplicationValidationMessages.PasswordNotMatch);
 
-                var account = new AccountViewModel(user.Id,user.RoleId,user.Username,user.Fullname,user.Password,user.Mobile);
+                var permissions = _roleRepository.Get(user.RoleId).Permissions.Select(x => x.Code).ToList();
+                //var permissions = user.Role.Permissions.Select(x => x.Code).ToList();
+                var account = new AccountViewModel(user.Id,user.RoleId,user.Username,user.Fullname,user.Password,user.Mobile,permissions);
                 _authHelper.Signin(account);
                 return result.Succedded();
 

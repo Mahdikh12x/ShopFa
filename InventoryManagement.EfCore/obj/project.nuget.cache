@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "0wLqRM7zEfDLBr7OArcnM+q+yEhspg+3ZKm8D4KZqtmJRtI3kBkbW6O6Mion/9ntqOhr+7gA9XfTEqWhwjJDkQ==",
+  "dgSpecHash": "5W1LDmd2qh6sHjFImxkXOuR7TS46k6D3BX7Nix+djJT4xjTbrgJeAp7vDq7ggCq0CI0Nq/zdarC9T3hVTq6B8g==",
   "success": true,
   "projectFilePath": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\InventoryManagement.EfCore\\InventoryManagement.Infrastructure.EfCore.csproj",
   "expectedPackageFiles": [
@@ -54,6 +54,7 @@
     "C:\\Users\\Omen 15\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\Omen 15\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\Omen 15\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "C:\\Users\\Omen 15\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\Omen 15\\.nuget\\packages\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",
     "C:\\Users\\Omen 15\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
     "C:\\Users\\Omen 15\\.nuget\\packages\\system.configuration.configurationmanager\\4.7.0\\system.configuration.configurationmanager.4.7.0.nupkg.sha512",

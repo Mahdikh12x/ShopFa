@@ -11,12 +11,12 @@
     <div class="col-sm-12">
         <h4 class="page-title pull-right">@ViewData["title"]</h4>
         <p class="pull-left">
-            <a class="btn btn-success btn-lg" href="#showmodal=@Url.Page("./Index","Create")">ایجاد نقش جدید</a>
+            <a class="btn btn-success btn-lg" asp-page="./Create">ایجاد نقش جدید</a>
         </p>
     </div>
 </div>
 
-<partial name="./List" model="Model.Roles"/>
+<partial name="_List" model="Model.Roles"/>
 
 @section Scripts {
 <script src="~/adminTheme/assets/datatables/jquery.dataTables.min.js"></script>

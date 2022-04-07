@@ -316,13 +316,13 @@ C:\Users\Mahdi\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\CommentManagemen
 C:\Users\Mahdi\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\CommentManagement.Application.Contract.pdb
 C:\Users\Mahdi\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\CommentManagement.Domain.pdb
 C:\Users\Mahdi\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\CommentManagement.Infrastructure.EFCore.pdb
+C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\ServiceHost.dll
 C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\appsettings.Development.json
 C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\appsettings.json
 C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\ServiceHost.staticwebassets.runtime.json
 C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\ServiceHost.exe
 C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\ServiceHost.deps.json
 C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\ServiceHost.runtimeconfig.json
-C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\ServiceHost.dll
 C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\ServiceHost.pdb
 C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\Humanizer.dll
 C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\MessagePack.dll

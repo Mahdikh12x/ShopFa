@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "GncIswHSDy+8h1oZAwn+t9t+/wcdFBChVKu88UUFyhJ2503LwtCz8VDtCqjN2QB21R46QkUSQ5J0dN1tCk8zQA==",
+  "dgSpecHash": "F1086nbAShu9oA5yC8HPfs+BIM3Umz4xlhobvnE4yWdcVTQedFikOiML5egPA5d/6rCDACZXgBcnCJCkgkY9wQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\InventoryManagement.Application\\InventoryManagement.Application.csproj",
   "expectedPackageFiles": [
@@ -39,6 +39,7 @@
     "C:\\Users\\Omen 15\\.nuget\\packages\\microsoft.net.http.headers\\2.2.0\\microsoft.net.http.headers.2.2.0.nupkg.sha512",
     "C:\\Users\\Omen 15\\.nuget\\packages\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",
     "C:\\Users\\Omen 15\\.nuget\\packages\\microsoft.win32.registry\\4.5.0\\microsoft.win32.registry.4.5.0.nupkg.sha512",
+    "C:\\Users\\Omen 15\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\Omen 15\\.nuget\\packages\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",
     "C:\\Users\\Omen 15\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
     "C:\\Users\\Omen 15\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",

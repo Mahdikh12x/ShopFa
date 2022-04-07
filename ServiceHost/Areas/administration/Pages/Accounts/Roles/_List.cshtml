@@ -1,7 +1,7 @@
 ﻿@model List<AccountManagement.Application.Contract.Role.RoleViewModel>
 @{
 }
-<div class="row" >
+<div class="row">
     <div class="col-md-12">
         <div class="panel panel-default">
             <div class="panel-heading">
@@ -12,14 +12,14 @@
                     <div class="col-md-12 col-sm-12 col-xs-12">
                         <table id="datatable" class="table table-striped table-bordered">
                             <thead>
-                            <tr>
+                                <tr>
 
-                                <th>#</th>
-                                <th>نام</th>
-                                <th>توضیحات</th>
-                                <th>تاریخ تولید</th>
-                                <th>عملیات</th>
-                            </tr>
+                                    <th>#</th>
+                                    <th>نام</th>
+                                    <th>توضیحات</th>
+                                    <th>تاریخ تولید</th>
+                                    <th>عملیات</th>
+                                </tr>
                             </thead>
                             <tbody>
                                 @foreach (var item in Model)
@@ -31,7 +31,7 @@
                                         <td>@item.CreationDate</td>
                                         <td>
                                             <a class="btn btn-warning pull-right m-rl-5"
-                                           href="#showmodal=@Url.Page("./Index","Edit",new {id=item.Id})">
+                                           asp-page="./Edit" asp-route-id="@item.Id">
                                                 <i class="fa fa-edit"></i> ویرایش
                                             </a>
                                         </td>

@@ -59,7 +59,7 @@ policyBuilder => policyBuilder.RequireRole(new List<string> { Roles.Administrato
         policyBuilder => policyBuilder.RequireRole(new List<string> { Roles.ContentManager, Roles.Administrator }));
 });
 
-builder.Services.AddRazorPages().AddRazorPagesOptions(options =>
+builder.Services.AddRazorPages().AddMvcOptions(opt=>opt.Filters.Add<PageFilter>()).AddRazorPagesOptions(options =>
 {
     options.Conventions.AuthorizeAreaFolder("administration", "/", "AdminArea");
     options.Conventions.AuthorizeAreaFolder("administration", "/Shop", "ShopPolicy");

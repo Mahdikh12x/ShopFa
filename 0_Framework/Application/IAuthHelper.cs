@@ -6,7 +6,7 @@
         bool IsAuthenticated();
         void Signin(AccountViewModel account);
         string? GetCurrentInfo();
-
         AccountViewModel? GetAccountInfo();
+        List<int>? GetPermissions();
     }
 }

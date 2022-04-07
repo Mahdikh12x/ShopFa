@@ -27,8 +27,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5pc3RyYXRpb25cUGFnZXNcQWNjb3VudHNcUm9sZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Omen 15/source/repos/ShopFa/ServiceHost/Areas/administration/Pages/Accounts/Roles/List.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5pc3RyYXRpb25cUGFnZXNcQWNjb3VudHNcUm9sZXNcTGlzdC5jc2h0bWw=
+[C:/Users/Omen 15/source/repos/ShopFa/ServiceHost/Areas/administration/Pages/Accounts/Roles/_List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5pc3RyYXRpb25cUGFnZXNcQWNjb3VudHNcUm9sZXNcX0xpc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Omen 15/source/repos/ShopFa/ServiceHost/Areas/administration/Pages/Accounts/Users/ChangePassword.cshtml]

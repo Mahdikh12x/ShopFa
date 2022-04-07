@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Http;
 using System.Security.Claims;
 using AccountManagement.Infrastructure.Configuration;
+using Newtonsoft.Json;
 
 namespace _0_Framework.Application
 {
@@ -17,21 +18,19 @@ namespace _0_Framework.Application
 
         public bool IsAuthenticated()
         {
-            var claims = _contextAccessor.HttpContext.User.Claims.ToList();
-            //if (claims.Count > 0)
-            //    return true;
-            //return false;
-            return claims.Count > 0;
+            return _contextAccessor.HttpContext.User.Identity.IsAuthenticated;
         }
 
         public void Signin(AccountViewModel account)
         {
+            var permissions = JsonConvert.SerializeObject(account.Permissions);
             var claims = new List<Claim>
             {
-                new Claim("AccountId", account.Id.ToString()),
-                new Claim(ClaimTypes.Name, account.Fullname),
-                new Claim(ClaimTypes.Role, account.RoleId.ToString()),
-                new Claim("Username", account.Username)
+                new("AccountId", account.Id.ToString()),
+                new(ClaimTypes.Name, account.Fullname),
+                new(ClaimTypes.Role, account.RoleId.ToString()),
+                new("Username", account.Username),
+                new("permission",permissions)
             };
 
             var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
@@ -53,7 +52,6 @@ namespace _0_Framework.Application
                 return _contextAccessor.HttpContext.User.Claims.FirstOrDefault(claim => claim.Type == ClaimTypes.Role)
                     ?.Value;
             }
-
             return null;
         }
 
@@ -70,6 +68,15 @@ namespace _0_Framework.Application
             result.Username=claims.FirstOrDefault(x => x.Type == "Username")?.Value!;
             result.Role = Roles.GetBy(result.RoleId);
             return result;
+        }
+
+        public List<int>? GetPermissions()
+        {
+            if (!IsAuthenticated())
+                return new List<int>();
+            var permissions=_contextAccessor.HttpContext.User.Claims.FirstOrDefault(x=>x.Type=="permission")?.Value;
+
+            return JsonConvert.DeserializeObject<List<int>>(permissions);
         }
 
         public void SignOut()

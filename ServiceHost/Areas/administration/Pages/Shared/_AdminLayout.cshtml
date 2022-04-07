@@ -9,7 +9,7 @@
     <link rel="shortcut icon" href="~/AdminTheme/images/favicon_1.ico">
 
     <title>@ViewData["Title"]-پنل ادمین</title>
-
+    @RenderSectionAsync("CSS",false)
     <!-- Base Css Files -->
     <link href="~/AdminTheme/assets/css/bootstrap.min.css" rel="stylesheet" />
 
@@ -151,15 +151,15 @@
             </div>
         </div>
 
-                <partial name="_SideMenu" />
-            
+        <partial name="_SideMenu" />
+
         <div class="content-page">
             <!-- Start content -->
             <div class="content">
                 <div class="container">
                     @RenderBody()
 
-                </div> 
+                </div>
 
             </div>
 
@@ -168,7 +168,7 @@
             </footer>
 
         </div>
-                <div class="side-bar right-bar nicescroll">
+        <div class="side-bar right-bar nicescroll">
             <h4 class="text-center">Chat</h4>
             <div class="contact-list nicescroll">
                 <ul class="list-group contacts-list">
@@ -340,29 +340,30 @@
     <script src="~/AdminTheme/assets/js/persian-date.min.js"></script>
     <script src="~/AdminTheme/assets/js/persian-datepicker.min.js"></script>
     @RenderSectionAsync("Scripts", false)
-@*
-<script>
-    $('.persianDateInput').persianDatepicker({
+    @*
+        <script>
+        $('.persianDateInput').persianDatepicker({
         format: 'YYYY/MM/DD',
         autoClose: true
-    });
-</script>*@
+        });
+        </script>*@
 
-<script> $('.persianDatePickerFa').persianDatepicker({
-    format: 'YYYY/MM/DD',
-    autoClose: true
-});</script>
+    <script>
+         $('.persianDatePickerFa').persianDatepicker({
+            format: 'YYYY/MM/DD',
+            autoClose: true
+        });</script>
 
 
-<script src="https://cdn.tiny.cloud/1/mdmulyim6ke4wdh2oe1i2x2pzphz0jsmra4g4esy89dyc84q/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
+    <script src="https://cdn.tiny.cloud/1/mdmulyim6ke4wdh2oe1i2x2pzphz0jsmra4g4esy89dyc84q/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
 
-<script>
-    tinymce.init({
-        selector: '.textEditor',
-        language:'fa'
-    });
-</script>
-<!-- <script type="text/javascript"> -->
+    <script>
+        tinymce.init({
+            selector: '.textEditor',
+            language:'fa'
+        });
+    </script>
+    <!-- <script type="text/javascript"> -->
     <!-- /* ============================================== -->
     <!-- Counter Up -->
     <!-- =============================================== */ -->

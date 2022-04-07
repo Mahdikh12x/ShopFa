@@ -1,4 +1,5 @@
 ﻿@page
+@using InventoryManagement.Infrastructure.Configuration.Permissions
 @model ServiceHost.Areas.administration.Pages.Inventory.IndexModel
 @{
 }
@@ -8,7 +9,7 @@
 }
 
 
-<div class="row">
+<div class="row" permission="@InventoryPermission.CreateInventory">
     <div class="col-sm-12">
         <h4 class="page-title pull-right">@ViewData["title"]</h4>
         <p class="pull-left">
@@ -17,7 +18,7 @@
     </div>
 </div>
 
-<div class="row">
+<div class="row" permission="@InventoryPermission.SearchInventory">
     <div class="col-md-12">
         <div class="panel panel-default">
             <div class="panel-heading">
@@ -78,20 +79,20 @@
                                         <td>@item.CreationDate</td>
                                         <td>@item.UnitePrice</td>
                                         <td>
-                                            <a class="btn btn-warning pull-right m-rl-5"
+                                            <a permission="@InventoryPermission.EditInventory" class="btn btn-warning pull-right m-rl-5"
                                            href="#showmodal=@Url.Page("./Index", "Edit", new { id = item.Id})">
                                                 <i class="fa fa-edit"></i> ویرایش
                                             </a>
 
-                                        <a  class="btn btn-success waves-effect waves-light m-b-5"
+                                        <a permission="@InventoryPermission.IncreaseInventory" class="btn btn-success waves-effect waves-light m-b-5"
                                            href="#showmodal=@Url.Page("./Index", "Increase", new {id = item.Id})">
                                             <i class="fa fa-plus"></i> افزایش موجودی
                                         </a>
-                                        <a class="btn btn-danger waves-effect waves-light m-b-5"
+                                        <a permission="@InventoryPermission.DecreaseInventory" class="btn btn-danger waves-effect waves-light m-b-5"
                                            href="#showmodal=@Url.Page("./Index", "Reduce", new {id = item.Id})">
                                             <i class="fa fa-minus"></i> کاهش موجودی
                                         </a>
-                                        <a class="btn btn-primary waves-effect waves-light m-b-5"
+                                        <a permission="@InventoryPermission.OperationLogsInventory" class="btn btn-primary waves-effect waves-light m-b-5"
                                            href="#showmodal=@Url.Page("./Index", "Log", new {id = item.Id})"
                                            onclick="$('.modal-dialog').css('width', '60%')">
                                             <i class="fa fa-recycle"></i> مشاهده گردنش انبار
