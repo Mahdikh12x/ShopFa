@@ -73,13 +73,15 @@
                                 </a>
                             </li>
                             <li>
+                                
+
                                 <div class="header-cart-icon">
                                     <a href="#" id="minicart-trigger">
                                         <i class="ion-bag"></i>
-                                        <span class="counter">3</span>
+                                        <span class="counter" id="current_count_in_basket">0</span>
                                     </a>
                                     <div class="mini-cart" id="mini-cart">
-                                        <div class="cart-items-wrapper ps-scroll">
+                                        <div class="cart-items-wrapper ps-scroll" id="cart-item">
                                             <div class="single-cart-item">
                                                 <a href="javascript:void(0)" class="remove-icon">
                                                     <i class="ion-android-close"></i>
@@ -97,66 +99,32 @@
                                                     <p class="count"><span>1 x </span> $402</p>
                                                 </div>
                                             </div>
-                                            <div class="single-cart-item">
-                                                <a href="javascript:void(0)" class="remove-icon">
-                                                    <i class="ion-android-close"></i>
-                                                </a>
-                                                <div class="image">
-                                                    <a href="single-product.html">
-                                                        <img src="~/Theme/assets/img/products/product-2-80x106.jpg"
-                                                             class="img-fluid" alt="">
-                                                    </a>
-                                                </div>
-                                                <div class="content">
-                                                    <p class="product-title">
-                                                        <a href="single-product.html">Lorem ipsum furniture</a>
-                                                    </p>
-                                                    <p class="count"><span>1 x </span> $500</p>
-                                                </div>
-                                            </div>
-                                            <div class="single-cart-item">
-                                                <a href="javascript:void(0)" class="remove-icon">
-                                                    <i class="ion-android-close"></i>
-                                                </a>
-                                                <div class="image">
-                                                    <a href="single-product.html">
-                                                        <img src="~/Theme/assets/img/products/product-3-80x106.jpg"
-                                                             class="img-fluid" alt="">
-                                                    </a>
-                                                </div>
-                                                <div class="content">
-                                                    <p class="product-title">
-                                                        <a href="single-product.html">Cillum dolore tool</a>
-                                                    </p>
-                                                    <p class="count"><span>1 x </span> $607</p>
-                                                </div>
-                                            </div>
                                         </div>
                                         <div class="cart-calculation">
                                             <table class="table">
                                                 <tbody>
-                                                    <tr>
-                                                        <td class="text-right">Sub-Total :</td>
-                                                        <td class="text-left">$220.00</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td class="text-right">Eco Tax (-2.00) :</td>
-                                                        <td class="text-left">$6.00</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td class="text-right">VAT (20%) :</td>
-                                                        <td class="text-left">$44.00</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td class="text-right">Total :</td>
-                                                        <td class="text-left">$270.00</td>
-                                                    </tr>
+                                                <tr>
+                                                    <td class="text-right">Sub-Total :</td>
+                                                    <td class="text-left">$220.00</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-right">Eco Tax (-2.00) :</td>
+                                                    <td class="text-left">$6.00</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-right">VAT (20%) :</td>
+                                                    <td class="text-left">$44.00</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-right">Total :</td>
+                                                    <td class="text-left">$270.00</td>
+                                                </tr>
                                                 </tbody>
                                             </table>
                                         </div>
                                         <div class="cart-buttons">
-                                            <a href="cart.html">VIEW CART</a>
-                                            <a href="checkout.html">CHECKOUT</a>
+                                            <a asp-page="/Cart">VIEW CART</a>
+                                            <a asp-page="/Cart">CHECKOUT</a>
                                         </div>
                                     </div>
                                 </div>
@@ -178,11 +146,9 @@
                                             <h4 class="title">MY ACCOUNT </h4>
                                             <ul>
                                                 <li>
-                                                    <a href="login-register.html">Register</a>
+                                                    <a asp-page="/Account">ثبت نام-ورود</a>
                                                 </li>
-                                                <li>
-                                                    <a href="login-register.html">Login</a>
-                                                </li>
+                                                
                                             </ul>
                                         </div>
                                         <div class="single-settings-block">
@@ -235,9 +201,9 @@
                                     <ul class="icon-list justify-content-end">
                                         <li>
                                             <div class="header-cart-icon">
-                                                <a href="cart.html">
+                                                <a asp-page="/Cart" > 
                                                     <i class="ion-bag"></i>
-                                                    <span class="counter">3</span>
+                                                    <span class="counter" id="current_count_in_basket_mobile">0</span>
                                                 </a>
                                             </div>
                                         </li>
@@ -319,14 +285,12 @@
                 <nav class="offcanvas-navigation">
                     <ul>
                         <li class="menu-item-has-children">
-                            <a href="#">MY ACCOUNT </a>
+                            <a href="#">حساب من </a>
                             <ul class="sub-menu">
                                 <li>
-                                    <a href="login-register.html">Register</a>
+                                    <a asp-page="/Account">ورود-ثبت نام</a>
                                 </li>
-                                <li>
-                                    <a href="login-register.html">Login</a>
-                                </li>
+                              
                             </ul>
                         </li>
                         <li class="menu-item-has-children">

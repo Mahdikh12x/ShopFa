@@ -1,0 +1,157 @@
+﻿@page
+@using _0_Framework.Application
+@model ServiceHost.Pages.CartModel
+@{
+}
+
+<div class="breadcrumb-area section-space--half">
+    <div class="container wide">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="breadcrumb-wrapper breadcrumb-bg">
+                    <div class="breadcrumb-content">
+                        <h2 class="breadcrumb-content__title">Cart</h2>
+                        <ul class="breadcrumb-content__page-map">
+                            <li>
+                                <a asp-page="/Index">خانه</a>
+                            </li>
+                            <li class="active">سبد خرید</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="page-content-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="page-wrapper">
+                    @foreach (var item in (Model.Items).Where(x=>!x.IsInStock))
+                    {
+                        <div class="alert alert-warning">کالای <strong>@item.Name</strong> در  انبار موجود نمیباشد...لطفا دوباره تلاش کنید  </div>
+                    }
+                    <div class="page-content-wrapper">
+                        <div class="cart-table table-responsive">
+                            <table class="table">
+                                <tbody>
+                                @if (Model.Items != null)
+                                {
+                                    <thead>
+                                    <tr>
+                                        <th class="pro-thumbnail">تصویر</th>
+                                        <th class="pro-title">محصول</th>
+                                        <th class="pro-price">قیمت</th>
+                                        <th class="pro-quantity">تعداد</th>
+                                        <th class="pro-subtotal">قیمت نهایی</th>
+                                        <th class="pro-remove">حذف از سبد</th>
+                                    </tr>
+                                    </thead>
+                                    @foreach (var item in Model.Items)
+                                    {
+                                        <tr>
+                                            <td class="pro-thumbnail">
+                                                <a asp-page="/ProductDetails" asp-route-id="@item.Slug">
+                                                    <img width="600" height="800" src="~/UploadPictures/@item.Picture" class="img-fluid" alt="Product">
+                                                </a>
+                                            </td>
+                                            <td class="pro-title">
+                                                <a asp-page="/ProductDetails" asp-route-id="@item.Slug">@item.Name</a>
+                                            </td>
+                                            <td class="pro-price">
+                                                <span>@item.UnitPrice.ToMoney()</span>
+                                            </td>
+                                            <td class="pro-quantity">
+                                                <div class="quantity-selection">
+                                                    <input type="number" value="@item.Count" min="1" onchange="checkCountProduct('@item.Id','ItemtotalPrice-@item.Id',this.value)">
+                                                </div>
+                                            </td>
+                                            <td class="pro-subtotal">
+                                                <span id="ItemtotalPrice-@item.Id">@item.TotalPrice.ToMoney()</span>
+                                            </td>
+                                            <td class="pro-remove">
+                                                <a asp-page="/Cart" asp-page-handler="RemoveFromCart" asp-route-id="@item.Id" onclick="updateBasket()">
+                                                    <i class="fa fa-trash-o"></i>
+                                                </a>
+                                            </td>
+                                        </tr>
+                                    }
+
+                                }
+                                else
+                                {
+                                    <div class="alert alert-info"><h5>محصولی وجود ندارد لطفا ابتدا محصول مورد نظر خود را انتخاب کنید</h5></div>
+                                }
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="row">
+                            @*    <div class="col-lg-6 col-12">
+                                <div class="calculate-shipping">
+                                <h4>Calculate Shipping</h4>
+                                <form action="#">
+                                <div class="row">
+                                <div class="col-md-6 col-12">
+                                <select class="nice-select">
+                                <option>Bangladesh</option>
+                                <option>China</option>
+                                <option>country</option>
+                                <option>India</option>
+                                <option>Japan</option>
+                                </select>
+                                </div>
+                                <div class="col-md-6 col-12">
+                                <select class="nice-select">
+                                <option>Dhaka</option>
+                                <option>Barisal</option>
+                                <option>Khulna</option>
+                                <option>Comilla</option>
+                                <option>Chittagong</option>
+                                </select>
+                                </div>
+                                <div class="col-md-6 col-12">
+                                <input type="text" placeholder="Postcode / Zip">
+                                </div>
+                                <div class="col-md-6 col-12">
+                                <input type="submit" value="Estimate">
+                                </div>
+                                </div>
+                                </form>
+                                </div>
+                                <div class="discount-coupon">
+                                <h4>Discount Coupon Code</h4>
+                                <form action="#">
+                                <div class="row">
+                                <div class="col-md-6 col-12">
+                                <input type="text" placeholder="Coupon Code">
+                                </div>
+                                <div class="col-md-6 col-12">
+                                <input type="submit" value="Apply Code">
+                                </div>
+                                </div>
+                                </form>
+                                </div>
+                                </div>*@
+                            <div class="col-lg-6 col-12 d-flex">
+                                <div class="cart-summary">
+                                    <div class="cart-summary-wrap">
+                                        <h4>Cart Summary</h4>
+                                        <p>Sub Total <span>$1250.00</span></p>
+                                        <p>Shipping Cost <span>$00.00</span></p>
+                                        <h2>Grand Total <span>$1250.00</span></h2>
+                                    </div>
+                                    <div class="cart-summary-button">
+                                        <a asp-page-handler="Checkout" class="checkout-btn">Checkout</a>
+                                        <button class="update-btn">Update Cart</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -8,6 +8,7 @@ using CommentManagement.Infrastructure.EFCore;
 using DiscountManagement.Infrastructure.EFCore;
 using InventoryManagement.Infrastructure.EfCore;
 using Microsoft.EntityFrameworkCore;
+using ShopManagement.Application.Contracts.Order;
 using ShopManagement.Domain.ProductPictureAgg;
 using ShopManagement.Infrastructure.EFCore;
 
@@ -31,7 +32,7 @@ namespace _01_ShopFaQuery.Query
         public List<ProductQueryModel> GetArrivalsProducts()
         {
             var inventories = _inventoryContext.Inventory.Select(x => new { x.UnitePrice, x.ProductId }).ToList();
-            var discounts = _discountContext.CustomerDiscounts.Where(x =>  x.StartDate < DateTime.Now && x.EndDate > DateTime.Now).Select(x => new { x.ProductId, x.DiscountRate,x.EndDate }).ToList();
+            var discounts = _discountContext.CustomerDiscounts.Where(x => x.StartDate < DateTime.Now && x.EndDate > DateTime.Now).Select(x => new { x.ProductId, x.DiscountRate, x.EndDate }).ToList();
 
             var products = _shopContext.Products.Include(x => x.ProductCategory)
                 .Select(x => new ProductQueryModel
@@ -45,21 +46,21 @@ namespace _01_ShopFaQuery.Query
                     Category = x.ProductCategory.Name,
                     CategorySlug = x.ProductCategory.Slug
 
-                }).OrderByDescending(x=>x.Id).Take(6).ToList();
+                }).OrderByDescending(x => x.Id).Take(6).ToList();
 
             foreach (var product in products)
             {
 
                 var productPrice = inventories.FirstOrDefault(x => x.ProductId == product.Id);
 
-                if (productPrice != null) 
+                if (productPrice != null)
                 {
                     var price = productPrice.UnitePrice;
-                        product.Price = price.ToMoney();
+                    product.Price = price.ToMoney();
                     var productDiscount = discounts.FirstOrDefault(x => x.ProductId == product.Id);
                     if (productDiscount != null)
                     {
-                     var discount = productDiscount.DiscountRate;
+                        var discount = productDiscount.DiscountRate;
                         product.DiscountRate = discount;
                         if (product.DiscountRate > 0 && productDiscount.EndDate > DateTime.Now)
                         {
@@ -91,7 +92,7 @@ namespace _01_ShopFaQuery.Query
                 .Select(x => new { x.UnitePrice, x.InStock, x.ProductId })
                  .ToList();
             var discounts = _discountContext.CustomerDiscounts
-                .Where(x=>x.StartDate<DateTime.Now&&x.EndDate>DateTime.Now)
+                .Where(x => x.StartDate < DateTime.Now && x.EndDate > DateTime.Now)
                 .Select(x => new { x.DiscountRate, x.ProductId, x.EndDate }).ToList();
 
             var query = _shopContext.Products.Include(x => x.ProductCategory).Select(x => new ProductQueryModel
@@ -117,7 +118,7 @@ namespace _01_ShopFaQuery.Query
                 if (inventory == null) continue;
                 {
                     var price = inventory.UnitePrice;
-                    product.Price= price.ToMoney();
+                    product.Price = price.ToMoney();
 
                     var discount = discounts.FirstOrDefault(x => x.ProductId == product.Id);
                     if (discount == null) continue;
@@ -157,23 +158,22 @@ namespace _01_ShopFaQuery.Query
                     Code = x.Code,
                     Description = x.Description,
                     Keywords = x.Keywords,
-                    MetaDescription = x.MetaDescription,    
+                    MetaDescription = x.MetaDescription,
                     PictureAlt = x.PictureAlt,
                     Name = x.Name,
                     PictureTitle = x.PictureTitle,
                     Picture = x.Picture,
                     ShortDescription = x.ShortDescription,
-
                 }).FirstOrDefault(x => x.Slug == slug);
 
-                product!.Pictures = _shopContext.ProductPictures.Where(x=>x.ProductId==product.Id)
-                .Select(x => new ProductPictureQueryModel
-                {
-                    ProductId = x.ProductId,
-                    Picture = x.Picture,
-                    PictureAlt = x.PictureAlt,
-                    PictureTitle = x.PictureTitle
-                }).ToList();
+            product!.Pictures = _shopContext.ProductPictures.Where(x => x.ProductId == product.Id)
+            .Select(x => new ProductPictureQueryModel
+            {
+                ProductId = x.ProductId,
+                Picture = x.Picture,
+                PictureAlt = x.PictureAlt,
+                PictureTitle = x.PictureTitle
+            }).ToList();
 
             var productInventory = inventories.FirstOrDefault(x => x.ProductId == product.Id);
 
@@ -182,6 +182,7 @@ namespace _01_ShopFaQuery.Query
                 var price = productInventory.UnitePrice;
                 if (product == null) return product;
                 product.Price = price.ToMoney();
+                product.DoublePrice = price;
                 product.InStock = productInventory.InStock;
                 var productDiscount = discounts.FirstOrDefault(x => x.ProductId == product.Id);
                 if (productDiscount == null) return product;
@@ -201,19 +202,29 @@ namespace _01_ShopFaQuery.Query
 
             product.Comments = _commentContext.Comments.Where(x => !x.IsCanceled)
                 .Where(x => x.IsConfirmed)
-                .Where(x => x.Type == CommentType.Product).Where(x=>x.OwnerRecordId==product.Id)
+                .Where(x => x.Type == CommentType.Product).Where(x => x.OwnerRecordId == product.Id)
                 .Select(x => new CommentQueryModel
                 {
                     Id = x.Id,
                     Name = x.Name,
                     CreationDate = x.CreationDate.ToFarsi(),
                     Description = x.Description,
-                   
-                }).OrderByDescending(x=>x.Id).ToList();
+
+                }).OrderByDescending(x => x.Id).ToList();
 
             return product;
         }
 
-       
+        public List<CartItem>? CheckCartProductItems(List<CartItem>? cartItems)
+        {
+            var inventories = _inventoryContext.Inventory.ToList();
+
+            foreach (var item in cartItems.Where(cartItem => inventories.Any(inv => inv.ProductId == cartItem.Id && inv.InStock)))
+            {
+                var inventoryItem = inventories.Find(x => x.ProductId == item.Id);
+                if (inventoryItem != null) item.IsInStock = inventoryItem.CalculateCurrentCount() >= item.Count;
+            }
+            return cartItems;
+        }
     }
 }

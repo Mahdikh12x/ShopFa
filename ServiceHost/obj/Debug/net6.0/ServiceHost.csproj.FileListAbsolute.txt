@@ -323,7 +323,6 @@ C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\ServiceHost.st
 C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\ServiceHost.exe
 C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\ServiceHost.deps.json
 C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\ServiceHost.runtimeconfig.json
-C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\ServiceHost.pdb
 C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\Humanizer.dll
 C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\MessagePack.dll
 C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\MessagePack.Annotations.dll
@@ -346,12 +345,15 @@ C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\Microsoft.Code
 C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
 C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
 C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\Microsoft.DiaSymReader.dll
+C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
 C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\Microsoft.DotNet.Scaffolding.Shared.dll
 C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
 C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
 C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\Microsoft.Extensions.PlatformAbstractions.dll
 C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\Microsoft.Identity.Client.dll
 C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
 C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
@@ -367,6 +369,7 @@ C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\Microsoft.Visu
 C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
 C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
 C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\Nancy.dll
 C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\Newtonsoft.Json.dll
 C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\NuGet.Common.dll
 C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\NuGet.Configuration.dll
@@ -643,4 +646,11 @@ C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\obj\Debug\net6.0\ServiceHost.dl
 C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\obj\Debug\net6.0\refint\ServiceHost.dll
 C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\obj\Debug\net6.0\ServiceHost.pdb
 C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\obj\Debug\net6.0\ServiceHost.genruntimeconfig.cache
+C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\ServiceHost.pdb
 C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\obj\Debug\net6.0\ref\ServiceHost.dll
+C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\RestSharp.dll
+C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\Dto.dll
+C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\Service.dll
+C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\ZarinPal.dll
+C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\ShopManagement.Infrastructure.ACL.dll
+C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\ShopManagement.Infrastructure.ACL.pdb

@@ -129,6 +129,14 @@
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.1, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[107.3.0, )"
+            },
+            "Zarinpal": {
+              "target": "Package",
+              "version": "[3.0.1, )"
             }
           },
           "imports": [
@@ -1671,6 +1679,9 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+              "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\AccountManagement.Infrastructure.EFCore\\AccountManagement.Infrastructure.EFCore.csproj": {
+                "projectPath": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\AccountManagement.Infrastructure.EFCore\\AccountManagement.Infrastructure.EFCore.csproj"
+              },
               "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj": {
                 "projectPath": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj"
               },
@@ -1861,6 +1872,10 @@
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[6.0.1, )"
+            },
+            "Nancy": {
+              "target": "Package",
+              "version": "[2.0.0, )"
             }
           },
           "imports": [
@@ -2071,6 +2086,67 @@
         }
       }
     },
+    "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\ShopManagement.Infrastructure.ACL\\ShopManagement.Infrastructure.ACL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\ShopManagement.Infrastructure.ACL\\ShopManagement.Infrastructure.ACL.csproj",
+        "projectName": "ShopManagement.Infrastructure.ACL",
+        "projectPath": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\ShopManagement.Infrastructure.ACL\\ShopManagement.Infrastructure.ACL.csproj",
+        "packagesPath": "C:\\Users\\Omen 15\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\ShopManagement.Infrastructure.ACL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Omen 15\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\InventoryManagement.Application.Contract\\InventoryManagement.Application.Contract.csproj": {
+                "projectPath": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\InventoryManagement.Application.Contract\\InventoryManagement.Application.Contract.csproj"
+              },
+              "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\ShopManagement.Domain\\ShopManagement.Domain.csproj": {
+                "projectPath": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\ShopManagement.Domain\\ShopManagement.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\ShopManagement.Infrastructure.Configuration\\ShopManagement.Infrastructure.Configuration.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -2103,6 +2179,9 @@
               },
               "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\ShopManagement.Application\\ShopManagement.Application.csproj": {
                 "projectPath": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\ShopManagement.Application\\ShopManagement.Application.csproj"
+              },
+              "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\ShopManagement.Infrastructure.ACL\\ShopManagement.Infrastructure.ACL.csproj": {
+                "projectPath": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\ShopManagement.Infrastructure.ACL\\ShopManagement.Infrastructure.ACL.csproj"
               },
               "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj": {
                 "projectPath": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj"
@@ -2168,6 +2247,9 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+              "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\AccountManagement.Infrastructure.EFCore\\AccountManagement.Infrastructure.EFCore.csproj": {
+                "projectPath": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\AccountManagement.Infrastructure.EFCore\\AccountManagement.Infrastructure.EFCore.csproj"
+              },
               "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\ShopManagement.Domain\\ShopManagement.Domain.csproj": {
                 "projectPath": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\ShopManagement.Domain\\ShopManagement.Domain.csproj"
               }

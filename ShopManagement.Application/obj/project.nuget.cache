@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "D6HbHNuZgvf/TlB3hwQc6P5OBow9n3RmoVCnlAx5hlo0ITfI5Q8yaic5O2SMbmiXztg4UrCU9da4JJFXqOHTIw==",
+  "dgSpecHash": "/byHlGIDSjQXXH4czSM6h9xYcF4jpCBhEDKI80sq3UwYxbjs4UFDVwfobcI++CQfdPnizS8Pdrv2VGpLJ2JomQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\ShopManagement.Application\\ShopManagement.Application.csproj",
   "expectedPackageFiles": [
@@ -40,6 +40,7 @@
     "C:\\Users\\Omen 15\\.nuget\\packages\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",
     "C:\\Users\\Omen 15\\.nuget\\packages\\microsoft.win32.registry\\4.5.0\\microsoft.win32.registry.4.5.0.nupkg.sha512",
     "C:\\Users\\Omen 15\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\Omen 15\\.nuget\\packages\\restsharp\\107.3.0\\restsharp.107.3.0.nupkg.sha512",
     "C:\\Users\\Omen 15\\.nuget\\packages\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",
     "C:\\Users\\Omen 15\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
     "C:\\Users\\Omen 15\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
@@ -50,7 +51,8 @@
     "C:\\Users\\Omen 15\\.nuget\\packages\\system.security.cryptography.xml\\4.5.0\\system.security.cryptography.xml.4.5.0.nupkg.sha512",
     "C:\\Users\\Omen 15\\.nuget\\packages\\system.security.permissions\\4.5.0\\system.security.permissions.4.5.0.nupkg.sha512",
     "C:\\Users\\Omen 15\\.nuget\\packages\\system.security.principal.windows\\4.5.0\\system.security.principal.windows.4.5.0.nupkg.sha512",
-    "C:\\Users\\Omen 15\\.nuget\\packages\\system.text.encodings.web\\4.5.0\\system.text.encodings.web.4.5.0.nupkg.sha512"
+    "C:\\Users\\Omen 15\\.nuget\\packages\\system.text.encodings.web\\4.5.0\\system.text.encodings.web.4.5.0.nupkg.sha512",
+    "C:\\Users\\Omen 15\\.nuget\\packages\\zarinpal\\3.0.1\\zarinpal.3.0.1.nupkg.sha512"
   ],
   "logs": []
 }

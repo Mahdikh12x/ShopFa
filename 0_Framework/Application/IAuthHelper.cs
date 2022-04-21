@@ -8,5 +8,6 @@
         string? GetCurrentInfo();
         AccountViewModel? GetAccountInfo();
         List<int>? GetPermissions();
+        long GetAccountId();
     }
 }

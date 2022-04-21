@@ -658,6 +658,15 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
+      "RestSharp/107.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/RestSharp.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/RestSharp.dll": {}
+        }
+      },
       "System.Buffers/4.5.0": {
         "type": "package",
         "compile": {
@@ -933,6 +942,19 @@
           }
         }
       },
+      "ZarinPal/3.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp2.2/Dto.dll": {},
+          "lib/netcoreapp2.2/Service.dll": {},
+          "lib/netcoreapp2.2/ZarinPal.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.2/Dto.dll": {},
+          "lib/netcoreapp2.2/Service.dll": {},
+          "lib/netcoreapp2.2/ZarinPal.dll": {}
+        }
+      },
       "01_ShopFaQuery/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -958,13 +980,58 @@
           "Microsoft.AspNetCore.Http.Features": "2.2.0",
           "Microsoft.AspNetCore.Mvc.Abstractions": "2.2.0",
           "Microsoft.EntityFrameworkCore": "6.0.1",
-          "Newtonsoft.Json": "13.0.1"
+          "Newtonsoft.Json": "13.0.1",
+          "RestSharp": "107.3.0",
+          "Zarinpal": "3.0.1"
         },
         "compile": {
           "bin/placeholder/0_Framework.dll": {}
         },
         "runtime": {
           "bin/placeholder/0_Framework.dll": {}
+        }
+      },
+      "AccountManagement.Application.Contract/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "0_Framework": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/AccountManagement.Application.Contract.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AccountManagement.Application.Contract.dll": {}
+        }
+      },
+      "AccountManagement.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "0_Framework": "1.0.0",
+          "AccountManagement.Application.Contract": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/AccountManagement.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AccountManagement.Domain.dll": {}
+        }
+      },
+      "AccountManagement.Infrastructure.EFCore/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "0_Framework": "1.0.0",
+          "AccountManagement.Domain": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "6.0.1",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.1"
+        },
+        "compile": {
+          "bin/placeholder/AccountManagement.Infrastructure.EFCore.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AccountManagement.Infrastructure.EFCore.dll": {}
         }
       },
       "BlogManagement.Application.Contracts/1.0.0": {
@@ -1129,6 +1196,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "AccountManagement.Infrastructure.EFCore": "1.0.0",
           "InventoryManagement.Domain": "1.0.0",
           "Microsoft.EntityFrameworkCore": "6.0.1",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.1",
@@ -1183,10 +1251,25 @@
           "bin/placeholder/ShopManagement.Domain.dll": {}
         }
       },
+      "ShopManagement.Infrastructure.ACL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "InventoryManagement.Application.Contract": "1.0.0",
+          "ShopManagement.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ShopManagement.Infrastructure.ACL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ShopManagement.Infrastructure.ACL.dll": {}
+        }
+      },
       "ShopManagement.Infrastructure.EFCore/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "AccountManagement.Infrastructure.EFCore": "1.0.0",
           "Microsoft.EntityFrameworkCore": "6.0.1",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.1",
           "ShopManagement.Domain": "1.0.0"
@@ -2178,6 +2261,24 @@
         "packageIcon.png"
       ]
     },
+    "RestSharp/107.3.0": {
+      "sha512": "qu+A+VAnVLX3OeWVNm11UJz0aVErqSfYqIiOUbJM9x98uLymCOoL/oXRAjMb6XHra27WXxHmzy9EKEOKXWR6Pw==",
+      "type": "package",
+      "path": "restsharp/107.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net5.0/RestSharp.dll",
+        "lib/net5.0/RestSharp.xml",
+        "lib/net6.0/RestSharp.dll",
+        "lib/net6.0/RestSharp.xml",
+        "lib/netstandard2.0/RestSharp.dll",
+        "lib/netstandard2.0/RestSharp.xml",
+        "restsharp.107.3.0.nupkg.sha512",
+        "restsharp.nuspec",
+        "restsharp.png"
+      ]
+    },
     "System.Buffers/4.5.0": {
       "sha512": "pL2ChpaRRWI/p4LXyy4RgeWlYF2sgfj/pnVMvBqwNFr5cXg7CXNnWZWxrOONLg8VGdFB8oB+EG2Qw4MLgTOe+A==",
       "type": "package",
@@ -2764,6 +2865,20 @@
         "version.txt"
       ]
     },
+    "ZarinPal/3.0.1": {
+      "sha512": "1XPTvVdTa+ywa61JOK7TXVNqzHfwg/8bnMqKh9ISvHWk8HEhhrFXhuC/F5c/xDz9smay7254gD6T4WicgS+FeQ==",
+      "type": "package",
+      "path": "zarinpal/3.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netcoreapp2.2/Dto.dll",
+        "lib/netcoreapp2.2/Service.dll",
+        "lib/netcoreapp2.2/ZarinPal.dll",
+        "zarinpal.3.0.1.nupkg.sha512",
+        "zarinpal.nuspec"
+      ]
+    },
     "01_ShopFaQuery/1.0.0": {
       "type": "project",
       "path": "../01_ShopFaQuery/01_ShopFaQuery.csproj",
@@ -2773,6 +2888,21 @@
       "type": "project",
       "path": "../0_Framework/0_Framework.csproj",
       "msbuildProject": "../0_Framework/0_Framework.csproj"
+    },
+    "AccountManagement.Application.Contract/1.0.0": {
+      "type": "project",
+      "path": "../AccountManagement.Application.Contract/AccountManagement.Application.Contract.csproj",
+      "msbuildProject": "../AccountManagement.Application.Contract/AccountManagement.Application.Contract.csproj"
+    },
+    "AccountManagement.Domain/1.0.0": {
+      "type": "project",
+      "path": "../AccountManagement.Domain/AccountManagement.Domain.csproj",
+      "msbuildProject": "../AccountManagement.Domain/AccountManagement.Domain.csproj"
+    },
+    "AccountManagement.Infrastructure.EFCore/1.0.0": {
+      "type": "project",
+      "path": "../AccountManagement.Infrastructure.EFCore/AccountManagement.Infrastructure.EFCore.csproj",
+      "msbuildProject": "../AccountManagement.Infrastructure.EFCore/AccountManagement.Infrastructure.EFCore.csproj"
     },
     "BlogManagement.Application.Contracts/1.0.0": {
       "type": "project",
@@ -2849,6 +2979,11 @@
       "path": "../ShopManagement.Domain/ShopManagement.Domain.csproj",
       "msbuildProject": "../ShopManagement.Domain/ShopManagement.Domain.csproj"
     },
+    "ShopManagement.Infrastructure.ACL/1.0.0": {
+      "type": "project",
+      "path": "../ShopManagement.Infrastructure.ACL/ShopManagement.Infrastructure.ACL.csproj",
+      "msbuildProject": "../ShopManagement.Infrastructure.ACL/ShopManagement.Infrastructure.ACL.csproj"
+    },
     "ShopManagement.Infrastructure.EFCore/1.0.0": {
       "type": "project",
       "path": "../ShopManagement.Infrastructure.EFCore/ShopManagement.Infrastructure.EFCore.csproj",
@@ -2861,6 +2996,7 @@
       "Microsoft.Extensions.DependencyInjection.Abstractions >= 6.0.0",
       "ShopManagement.Application >= 1.0.0",
       "ShopManagement.Application.Contracts >= 1.0.0",
+      "ShopManagement.Infrastructure.ACL >= 1.0.0",
       "ShopManagement.Infrastructure.EFCore >= 1.0.0"
     ]
   },
@@ -2899,6 +3035,9 @@
             },
             "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\ShopManagement.Application\\ShopManagement.Application.csproj": {
               "projectPath": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\ShopManagement.Application\\ShopManagement.Application.csproj"
+            },
+            "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\ShopManagement.Infrastructure.ACL\\ShopManagement.Infrastructure.ACL.csproj": {
+              "projectPath": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\ShopManagement.Infrastructure.ACL\\ShopManagement.Infrastructure.ACL.csproj"
             },
             "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj": {
               "projectPath": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj"

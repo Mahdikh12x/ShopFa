@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿
+using System.ComponentModel.DataAnnotations;
 using _0_Framework.Application;
 using ShopManagement.Application.Contracts.Product;
 
@@ -12,6 +13,7 @@ public class DefineCustomerDiscount
     public string? StartDate { get; set; }
     [Required(ErrorMessage = ValidationMessages.Required)]
     public string? EndDate { get; set; }
+    [Required(ErrorMessage = ValidationMessages.Required)]
     public string? Reason { get; set; }
     [Range(1, 99, ErrorMessage = ValidationMessages.Required)]
     public int DiscountRate { get; set; }

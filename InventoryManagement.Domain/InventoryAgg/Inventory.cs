@@ -27,15 +27,15 @@ namespace InventoryManagement.Domain.InventoryAgg
             return plus - minus;
         }
 
-        public void Increase(long count, long operatorId, string description)
+        public void Increase(int count, long operatorId, string? description)
         {
             var currentCount = CalculateCurrentCount() + count;
             var operation = new InventoryOperation(true, operatorId, 0, description, count, currentCount, Id);
-            Operations.Add(operation);
+            Operations?.Add(operation);
             InStock = currentCount > 0;
         }
 
-        public void Reduce(long count, long operatorId, string description, long orderId)
+        public void Reduce(int count, long operatorId, string? description, long orderId)
         {
             var currentCount=CalculateCurrentCount() - count;
             var operation = new InventoryOperation(false, operatorId, orderId, description, count, currentCount, Id);

@@ -1,5 +1,6 @@
 ﻿@using _0_Framework.Application
 @using AccountManagement.Infrastructure.Configuration
+@using ShopManagement.Infrastructure.Configuration.Permissions
 @inject IAuthHelper _authHelper;
 @{
     var user = _authHelper.GetAccountInfo();
@@ -35,7 +36,10 @@
                 <li>
                     <a asp-area="administration" asp-page="/Comment/Index" class="waves-effect "><i class="md md-home"></i><span> کامنت </span></a>
                 </li>
-
+                
+                <li>
+                    <a asp-area="administration" asp-page="/Shop/Orders/Index" class="waves-effect "><i class="md md-shopping-basket"></i><span> سفارشات</span></a>
+                </li>
                 @if (_authHelper.GetCurrentInfo() == Roles.Administrator)
                 {
                     <li>
@@ -56,7 +60,7 @@
                         <ul class="list-unstyled">
                             <li><a asp-page="/Shop/productCategories/Index">گروه محصولات </a></li>
                             <li><a asp-page="/Shop/Slides/Index">اسلایدر</a></li>
-                            <li><a asp-page="/Shop/Products/Index">محصولات</a></li>
+                            <li><a permission="@ShopPermissions.ShowProducts" asp-page="/Shop/Products/Index">محصولات</a></li>
                             <li><a asp-page="/Shop/Productpictures/Index">عکس محصولات </a></li>
                         </ul>
                     </li>

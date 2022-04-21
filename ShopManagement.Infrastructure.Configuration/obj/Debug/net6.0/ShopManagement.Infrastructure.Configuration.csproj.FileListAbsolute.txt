@@ -96,3 +96,11 @@ C:\Users\Omen 15\source\repos\ShopFa\ShopManagement.Infrastructure.Configuration
 C:\Users\Omen 15\source\repos\ShopFa\ShopManagement.Infrastructure.Configuration\obj\Debug\net6.0\refint\ShopManagement.Infrastructure.Configuration.dll
 C:\Users\Omen 15\source\repos\ShopFa\ShopManagement.Infrastructure.Configuration\obj\Debug\net6.0\ShopManagement.Infrastructure.Configuration.pdb
 C:\Users\Omen 15\source\repos\ShopFa\ShopManagement.Infrastructure.Configuration\obj\Debug\net6.0\ref\ShopManagement.Infrastructure.Configuration.dll
+C:\Users\Omen 15\source\repos\ShopFa\ShopManagement.Infrastructure.Configuration\bin\Debug\net6.0\ShopManagement.Infrastructure.ACL.dll
+C:\Users\Omen 15\source\repos\ShopFa\ShopManagement.Infrastructure.Configuration\bin\Debug\net6.0\ShopManagement.Infrastructure.ACL.pdb
+C:\Users\Omen 15\source\repos\ShopFa\ShopManagement.Infrastructure.Configuration\bin\Debug\net6.0\AccountManagement.Application.Contract.dll
+C:\Users\Omen 15\source\repos\ShopFa\ShopManagement.Infrastructure.Configuration\bin\Debug\net6.0\AccountManagement.Domain.dll
+C:\Users\Omen 15\source\repos\ShopFa\ShopManagement.Infrastructure.Configuration\bin\Debug\net6.0\AccountManagement.Infrastructure.EFCore.dll
+C:\Users\Omen 15\source\repos\ShopFa\ShopManagement.Infrastructure.Configuration\bin\Debug\net6.0\AccountManagement.Application.Contract.pdb
+C:\Users\Omen 15\source\repos\ShopFa\ShopManagement.Infrastructure.Configuration\bin\Debug\net6.0\AccountManagement.Domain.pdb
+C:\Users\Omen 15\source\repos\ShopFa\ShopManagement.Infrastructure.Configuration\bin\Debug\net6.0\AccountManagement.Infrastructure.EFCore.pdb

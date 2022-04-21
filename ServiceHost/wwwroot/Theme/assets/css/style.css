@@ -4810,7 +4810,7 @@ select {
 				background-color: #e33;
 			}
 
-			.cart-summary .cart-summary-button button.checkout-btn {
+			.cart-summary .cart-summary-button a.checkout-btn {
 				font-weight: 400;
 				text-transform: uppercase;
 				color: #fff;
@@ -4818,7 +4818,7 @@ select {
 				background-color: #292929;
 			}
 
-				.cart-summary .cart-summary-button button.checkout-btn:hover {
+				.cart-summary .cart-summary-button a.checkout-btn:hover {
 					border-color: #e33;
 					background-color: #e33;
 				}

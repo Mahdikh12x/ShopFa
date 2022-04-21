@@ -1,6 +1,7 @@
 using System.Text.Encodings.Web;
 using System.Text.Unicode;
 using _0_Framework.Application;
+using _0_Framework.Application.ZarinPalService;
 using AccountManagement.Infrastructure.Configuration;
 using BlogManagement.Infrastructure.Configuration;
 using CommentManagement.Infrastructure.Configuration;
@@ -14,7 +15,6 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddRazorPages();
 builder.Services.AddHttpContextAccessor();
-
 var connectionString = builder.Configuration.GetConnectionString("ShopfaDB");
 ShopManagementBootstrapper.Configure(builder.Services, connectionString);
 DiscountManagementBootstrapper.Configure(builder.Services, connectionString);
@@ -24,6 +24,7 @@ CommentManagementBootstrapper.Configure(builder.Services, connectionString);
 AccountManagementBootstrapper.Configure(builder.Services, connectionString);
 
 builder.Services.AddTransient<IFileUploader, FileUploader>();
+builder.Services.AddTransient<IZarinPalFactory, ZarinPalFactory>();
 builder.Services.AddSingleton<IPasswordHasher, PasswordHasher>();
 builder.Services.AddSingleton(HtmlEncoder.Create(UnicodeRanges.BasicLatin, UnicodeRanges.Arabic));
 
@@ -47,13 +48,13 @@ builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationSc
 builder.Services.AddAuthorization(options =>
 {
     options.AddPolicy("AdminArea",
-        policyBuilder => policyBuilder.RequireRole(new List<string> { Roles.Administrator, Roles.InventoryManager, Roles.ContentManager }));
+        policyBuilder => policyBuilder.RequireRole(new List<string> { Roles.Administrator, Roles.InventoryManager, Roles.ContentManager, Roles.OrderManager}));
     
     options.AddPolicy("ShopPolicy",
 policyBuilder => policyBuilder.RequireRole(new List<string> { Roles.Administrator }));
 
     options.AddPolicy("InventoryPolicy", 
-        policyBuilder => policyBuilder.RequireRole(new List<string> { Roles.InventoryManager, Roles.Administrator }));
+        policyBuilder => policyBuilder.RequireRole(new List<string> { Roles.InventoryManager, Roles.Administrator,Roles.OrderManager }));
     
     options.AddPolicy("ContentPolicy", 
         policyBuilder => policyBuilder.RequireRole(new List<string> { Roles.ContentManager, Roles.Administrator }));

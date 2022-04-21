@@ -54,7 +54,7 @@
                                             <img src="~/UploadPictures/@product.Picture" class="img-fluid" alt="@product.PictureAlt" title="@product.PictureTitle">
                                         </a>
                                         <div class="hover-icons">
-                                            <a href="javascript:void(0)"><i class="ion-bag"></i></a>
+                                            <a @*onclick="addToBasket('@product.Id','@product.Name','@product.Picture','@product.Price')"*@ href="javascript:void(0)"><i class="ion-bag"></i></a>
                                             <a href="javascript:void(0)"><i class="ion-heart"></i></a>
                                             <a href="javascript:void(0)"><i class="ion-android-options"></i></a>
                                             <a href="javascript:void(0)" data-toggle="modal"

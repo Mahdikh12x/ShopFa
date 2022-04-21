@@ -4,16 +4,16 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    @if (ViewData["title"]==null)
+    @if (ViewData["title"] == null)
     {
         <title>لوازم خانگی محسن</title>
     }
     <title>لوازم خانگی محسن-@ViewData["title"] </title>
-    <meta name="description" content="@ViewData["metaDescription"]"/>
-    <meta name="keywords" content="@ViewData["keywords"]"/>
+    <meta name="description" content="@ViewData["metaDescription"]" />
+    <meta name="keywords" content="@ViewData["keywords"]" />
     @if (ViewData["canonical"] != null)
     {
-    <link rel="canonical" href="@ViewData["canonical"]" />
+        <link rel="canonical" href="@ViewData["canonical"]" />
     }
     <link href="~/Theme/assets/css/vendors.css" rel="stylesheet">
     <link href="~/Theme/assets/css/style.css" rel="stylesheet">
@@ -21,11 +21,11 @@
 </head>
 
 <body>
-@await Component.InvokeAsync("Header")
+    @await Component.InvokeAsync("Header")
 
-@RenderBody()
+    @RenderBody()
 
-@await Component.InvokeAsync("Footer")
+    @await Component.InvokeAsync("Footer")
 
 
     <div class="search-overlay" id="search-overlay">
@@ -53,12 +53,17 @@
 
     <script src="~/Theme/assets/js/active.js"></script>
 
-<script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
-<script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
-<script src="~/AdminTheme/assets/js/site.js"></script>
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+    <script src="~/AdminTheme/assets/js/site.js"></script>
+    <script src="~/Theme/assets/js/jquery.cookie.js"></script>
+    <script src="~/Theme/assets/js/custom.js"></script>
 
-
-
+    <script>
+        $(document).ready(function () {
+            updateBasket();
+        });
+    </script>
 </body>
 
 </html>

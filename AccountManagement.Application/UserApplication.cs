@@ -151,8 +151,7 @@ namespace AccountManagement.Application
                 if (!verified)
                     return result.Failed(ApplicationValidationMessages.PasswordNotMatch);
 
-                var permissions = _roleRepository.Get(user.RoleId).Permissions.Select(x => x.Code).ToList();
-                //var permissions = user.Role.Permissions.Select(x => x.Code).ToList();
+                var permissions = user.Role.Permissions.Select(x => x.Code).ToList();
                 var account = new AccountViewModel(user.Id,user.RoleId,user.Username,user.Fullname,user.Password,user.Mobile,permissions);
                 _authHelper.Signin(account);
                 return result.Succedded();

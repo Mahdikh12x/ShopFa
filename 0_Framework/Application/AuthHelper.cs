@@ -79,6 +79,18 @@ namespace _0_Framework.Application
             return JsonConvert.DeserializeObject<List<int>>(permissions);
         }
 
+        public long GetAccountId()
+        {
+            if (IsAuthenticated())
+            {
+                var value = _contextAccessor.HttpContext.User.Claims
+                    .FirstOrDefault(claim => claim.Type == "AccountId")
+                    ?.Value;
+                if (value != null) return long.Parse(value);
+            }
+            return 0;
+        }
+
         public void SignOut()
         {
             _contextAccessor.HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);

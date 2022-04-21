@@ -172,10 +172,10 @@
                                         <div class="product-actions">
                                             <div class="quantity-selection">
                                                 <label>تعداد</label>
-                                                <input type="number" value="1" min="1">
+                                                <input type="number" value="1" min="1" id="productCount">
                                             </div>
 
-                                            <div class="product-buttons">
+                                            <div class="product-buttons"  onclick="addToBasket('@Model.Product.Id','@Model.Product.Name','@Model.Product.Picture','@Model.Product.DoublePrice','@Model.Product.Slug')">
                                                 <a class="cart-btn" href="#">
                                                     <i class="ion-bag"></i>افزودن به سبد خرید
                                                 </a>

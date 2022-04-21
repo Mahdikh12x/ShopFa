@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "MDliklibY84N4l1JvsC/3uE6nLruxu1XjYM1NvYi+0M=",
+  "Hash": "oYZKQ2LwoFDZbWAmFFaMfkryc9JznWaUpUAnFMuzv3g=",
   "Source": "ServiceHost",
   "BasePath": "_content/ServiceHost",
   "Mode": "Default",
@@ -8177,12 +8177,12 @@
       "OriginalItemSpec": "wwwroot\\Theme\\assets\\js\\ajax-mail.js"
     },
     {
-      "Identity": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\ServiceHost\\wwwroot\\Theme\\assets\\js\\Site.js",
+      "Identity": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\ServiceHost\\wwwroot\\Theme\\assets\\js\\custom.js",
       "SourceId": "ServiceHost",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\ServiceHost\\wwwroot\\",
       "BasePath": "_content/ServiceHost",
-      "RelativePath": "Theme/assets/js/Site.js",
+      "RelativePath": "Theme/assets/js/custom.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -8191,7 +8191,24 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Theme\\assets\\js\\Site.js"
+      "OriginalItemSpec": "wwwroot\\Theme\\assets\\js\\custom.js"
+    },
+    {
+      "Identity": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\ServiceHost\\wwwroot\\Theme\\assets\\js\\jquery.cookie.js",
+      "SourceId": "ServiceHost",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\ServiceHost\\wwwroot\\",
+      "BasePath": "_content/ServiceHost",
+      "RelativePath": "Theme/assets/js/jquery.cookie.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Theme\\assets\\js\\jquery.cookie.js"
     },
     {
       "Identity": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\ServiceHost\\wwwroot\\Theme\\assets\\js\\vendors.js",
@@ -8500,6 +8517,40 @@
       "OriginalItemSpec": "wwwroot\\UploadPictures\\اتاق-خواب\\2022-03-23-15-39-56-img4-top-eposi1.jpg"
     },
     {
+      "Identity": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\ServiceHost\\wwwroot\\UploadPictures\\اتاق-خواب\\چراغ-خواب\\2022-04-10-11-55-23-big1-4.jpg",
+      "SourceId": "ServiceHost",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\ServiceHost\\wwwroot\\",
+      "BasePath": "_content/ServiceHost",
+      "RelativePath": "UploadPictures/اتاق-خواب/چراغ-خواب/2022-04-10-11-55-23-big1-4.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\UploadPictures\\اتاق-خواب\\چراغ-خواب\\2022-04-10-11-55-23-big1-4.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\ServiceHost\\wwwroot\\UploadPictures\\اتاق-خواب\\چراغ-مطالعه\\2022-04-11-12-59-18-4_1-600x800.jpg",
+      "SourceId": "ServiceHost",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\ServiceHost\\wwwroot\\",
+      "BasePath": "_content/ServiceHost",
+      "RelativePath": "UploadPictures/اتاق-خواب/چراغ-مطالعه/2022-04-11-12-59-18-4_1-600x800.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\UploadPictures\\اتاق-خواب\\چراغ-مطالعه\\2022-04-11-12-59-18-4_1-600x800.jpg"
+    },
+    {
       "Identity": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\ServiceHost\\wwwroot\\UploadPictures\\دکوراتیون\\2022-03-23-15-55-53-img2-top-eposi1.jpg",
       "SourceId": "ServiceHost",
       "SourceType": "Discovered",
@@ -8517,12 +8568,12 @@
       "OriginalItemSpec": "wwwroot\\UploadPictures\\دکوراتیون\\2022-03-23-15-55-53-img2-top-eposi1.jpg"
     },
     {
-      "Identity": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\ServiceHost\\wwwroot\\UploadPictures\\دکوراتیون\\mamad\\2022-03-27-13-34-46-big1-4.jpg",
+      "Identity": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\ServiceHost\\wwwroot\\UploadPictures\\دکوراتیون\\صندلی-راحتی\\2022-04-11-12-56-43-product-3-80x106.jpg",
       "SourceId": "ServiceHost",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\ServiceHost\\wwwroot\\",
       "BasePath": "_content/ServiceHost",
-      "RelativePath": "UploadPictures/دکوراتیون/mamad/2022-03-27-13-34-46-big1-4.jpg",
+      "RelativePath": "UploadPictures/دکوراتیون/صندلی-راحتی/2022-04-11-12-56-43-product-3-80x106.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -8531,15 +8582,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\UploadPictures\\دکوراتیون\\mamad\\2022-03-27-13-34-46-big1-4.jpg"
+      "OriginalItemSpec": "wwwroot\\UploadPictures\\دکوراتیون\\صندلی-راحتی\\2022-04-11-12-56-43-product-3-80x106.jpg"
     },
     {
-      "Identity": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\ServiceHost\\wwwroot\\UploadPictures\\دکوراتیون\\mamad\\2022-03-27-13-38-48-4_1-600x800.jpg",
+      "Identity": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\ServiceHost\\wwwroot\\UploadPictures\\دکوراتیون\\صندلی-راحتی\\2022-04-11-12-57-05-3-600x800.jpg",
       "SourceId": "ServiceHost",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\ServiceHost\\wwwroot\\",
       "BasePath": "_content/ServiceHost",
-      "RelativePath": "UploadPictures/دکوراتیون/mamad/2022-03-27-13-38-48-4_1-600x800.jpg",
+      "RelativePath": "UploadPictures/دکوراتیون/صندلی-راحتی/2022-04-11-12-57-05-3-600x800.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -8548,7 +8599,24 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\UploadPictures\\دکوراتیون\\mamad\\2022-03-27-13-38-48-4_1-600x800.jpg"
+      "OriginalItemSpec": "wwwroot\\UploadPictures\\دکوراتیون\\صندلی-راحتی\\2022-04-11-12-57-05-3-600x800.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\ServiceHost\\wwwroot\\UploadPictures\\دکوراتیون\\گلدان-خانگی\\2022-04-11-12-59-57-10_1-600x800.jpg",
+      "SourceId": "ServiceHost",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\ServiceHost\\wwwroot\\",
+      "BasePath": "_content/ServiceHost",
+      "RelativePath": "UploadPictures/دکوراتیون/گلدان-خانگی/2022-04-11-12-59-57-10_1-600x800.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\UploadPictures\\دکوراتیون\\گلدان-خانگی\\2022-04-11-12-59-57-10_1-600x800.jpg"
     },
     {
       "Identity": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\ServiceHost\\wwwroot\\UploadPictures\\دکوراتیون\\مبل\\2022-03-23-16-14-24-big1-5.jpg",
@@ -8634,6 +8702,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\UploadPictures\\لوازم-آشپزخانه\\2022-03-23-15-45-11-img1-top-eposi1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\ServiceHost\\wwwroot\\UploadPictures\\لوازم-آشپزخانه\\صننلی-راحتی-مدل-e32\\2022-04-11-12-58-22-2-600x800.jpg",
+      "SourceId": "ServiceHost",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\ServiceHost\\wwwroot\\",
+      "BasePath": "_content/ServiceHost",
+      "RelativePath": "UploadPictures/لوازم-آشپزخانه/صننلی-راحتی-مدل-e32/2022-04-11-12-58-22-2-600x800.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\UploadPictures\\لوازم-آشپزخانه\\صننلی-راحتی-مدل-e32\\2022-04-11-12-58-22-2-600x800.jpg"
     },
     {
       "Identity": "C:\\Users\\Omen 15\\source\\repos\\ShopFa\\ServiceHost\\wwwroot\\UploadPictures\\لوازم-آشپزخانه\\مبل\\2022-02-19-20-09-45-6-100x133.jpg",

@@ -143,6 +143,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5pc3RyYXRpb25cUGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Omen 15/source/repos/ShopFa/ServiceHost/Areas/administration/Pages/Shop/Orders/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5pc3RyYXRpb25cUGFnZXNcU2hvcFxPcmRlcnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Omen 15/source/repos/ShopFa/ServiceHost/Areas/administration/Pages/Shop/Orders/OrderItems.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5pc3RyYXRpb25cUGFnZXNcU2hvcFxPcmRlcnNcT3JkZXJJdGVtcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Omen 15/source/repos/ShopFa/ServiceHost/Areas/administration/Pages/Shop/ProductCategories/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5pc3RyYXRpb25cUGFnZXNcU2hvcFxQcm9kdWN0Q2F0ZWdvcmllc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -215,6 +223,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXJ0aWNsZUNhdGVnb3J5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Omen 15/source/repos/ShopFa/ServiceHost/Pages/Cart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Omen 15/source/repos/ShopFa/ServiceHost/Pages/Checkout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2hlY2tvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Omen 15/source/repos/ShopFa/ServiceHost/Pages/Components/ArticleCategoriesList/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcG9uZW50c1xBcnRpY2xlQ2F0ZWdvcmllc0xpc3RcRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -257,6 +273,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Omen 15/source/repos/ShopFa/ServiceHost/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Omen 15/source/repos/ShopFa/ServiceHost/Pages/PaymentResult.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGF5bWVudFJlc3VsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Omen 15/source/repos/ShopFa/ServiceHost/Pages/Privacy.cshtml]
