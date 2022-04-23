@@ -654,3 +654,5 @@ C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\Service.dll
 C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\ZarinPal.dll
 C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\ShopManagement.Infrastructure.ACL.dll
 C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\ShopManagement.Infrastructure.ACL.pdb
+C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\ShopManagement.Presentation.Api.dll
+C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\ShopManagement.Presentation.Api.pdb

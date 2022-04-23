@@ -10,6 +10,7 @@ using InventoryManagement.Infrastructure.Configuration;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using ServiceHost;
 using ShopManagement.Infrastructure.Configuration;
+using ShopManagement.Presentation.Api;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -34,8 +35,14 @@ builder.Services.Configure<CookiePolicyOptions>(options =>
 {
     options.CheckConsentNeeded = context => true;
     options.MinimumSameSitePolicy = SameSiteMode.Lax;
-
 });
+
+builder.Services
+    .AddCors(cors => cors
+        .AddPolicy("InventoryPolicy",
+            policy => policy
+                .AllowAnyOrigin()
+                .AllowAnyMethod()));
 
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
     .AddCookie(CookieAuthenticationDefaults.AuthenticationScheme, o =>
@@ -48,26 +55,28 @@ builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationSc
 builder.Services.AddAuthorization(options =>
 {
     options.AddPolicy("AdminArea",
-        policyBuilder => policyBuilder.RequireRole(new List<string> { Roles.Administrator, Roles.InventoryManager, Roles.ContentManager, Roles.OrderManager}));
-    
-    options.AddPolicy("ShopPolicy",
-policyBuilder => policyBuilder.RequireRole(new List<string> { Roles.Administrator }));
+        policyBuilder => policyBuilder.RequireRole(new List<string>
+            { Roles.Administrator, Roles.InventoryManager, Roles.ContentManager, Roles.OrderManager }));
 
-    options.AddPolicy("InventoryPolicy", 
-        policyBuilder => policyBuilder.RequireRole(new List<string> { Roles.InventoryManager, Roles.Administrator,Roles.OrderManager }));
-    
-    options.AddPolicy("ContentPolicy", 
+    options.AddPolicy("ShopPolicy",
+        policyBuilder => policyBuilder.RequireRole(new List<string> { Roles.Administrator }));
+
+    options.AddPolicy("InventoryPolicy",
+        policyBuilder => policyBuilder.RequireRole(new List<string>
+            { Roles.InventoryManager, Roles.Administrator, Roles.OrderManager }));
+
+    options.AddPolicy("ContentPolicy",
         policyBuilder => policyBuilder.RequireRole(new List<string> { Roles.ContentManager, Roles.Administrator }));
 });
 
-builder.Services.AddRazorPages().AddMvcOptions(opt=>opt.Filters.Add<PageFilter>()).AddRazorPagesOptions(options =>
+builder.Services.AddRazorPages().AddMvcOptions(opt => opt.Filters.Add<PageFilter>()).AddRazorPagesOptions(options =>
 {
     options.Conventions.AuthorizeAreaFolder("administration", "/", "AdminArea");
     options.Conventions.AuthorizeAreaFolder("administration", "/Shop", "ShopPolicy");
     options.Conventions.AuthorizeAreaFolder("administration", "/Inventory", "InventoryPolicy");
     options.Conventions.AuthorizeAreaFolder("administration", "/Comment", "ContentPolicy");
     options.Conventions.AuthorizeAreaFolder("administration", "/Blog", "ContentPolicy");
-});
+}).AddApplicationPart(typeof(ProductController).Assembly);
 
 var app = builder.Build();
 
@@ -85,7 +94,7 @@ app.UseCookiePolicy();
 app.UseRouting();
 
 app.UseAuthorization();
-
+app.UseCors("InventoryPolicy");
 app.MapRazorPages();
-
+app.MapControllers();
 app.Run();

@@ -1,15 +1,15 @@
 ﻿let cookieName = "basket-item";
-function addToBasket(id, name, picture, price,slug) {
+function addToBasket(id, name, picture, price, slug) {
     let products = $.cookie(cookieName);
 
     if (products !== undefined) {
         products = JSON.parse(products);
     }
     else {
-        products=[]
+        products = []
     }
     let count = $("#productCount").val()
-   
+
     let currentProduct = products.find(x => x.id === id);
     if (currentProduct !== undefined) {
         currentProduct.count = parseInt(currentProduct.count) + parseInt(count);
@@ -19,13 +19,13 @@ function addToBasket(id, name, picture, price,slug) {
             id,
             name,
             picture,
-            unitPrice:price,
+            unitPrice: price,
             count,
             slug
         }
         products.push(product);
     };
-    $.cookie(cookieName, JSON.stringify(products), { expires: 2, path: "/",});
+    $.cookie(cookieName, JSON.stringify(products), { expires: 2, path: "/", });
 
     updateBasket();
 }
@@ -66,9 +66,9 @@ function removeFromBasket(id) {
     products = JSON.parse(products);
     currentProduct = products.findIndex(x => x.id === id);
     if (currentProduct !== undefined) {
-        products.splice(currentProduct,1)
+        products.splice(currentProduct, 1)
     };
-    $.cookie(cookieName, JSON.stringify(products), {expires:2,path:"/"})
+    $.cookie(cookieName, JSON.stringify(products), { expires: 2, path: "/" })
     updateBasket();
 }
 
@@ -90,6 +90,39 @@ function checkCountProduct(id, totalPriceId, count) {
     $(`#${totalPriceId}`).text(totalPrice);
 
     $.cookie(cookieName, JSON.stringify(products), { expires: 2, path: "/" })
+
+    const settings = {
+        "url": "https://localhost:7105/api/Inventory",
+        "method": "POST",
+        "timeout": 0,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "data": JSON.stringify({ "productId": id, "count": count })
+    };
+
+    $.ajax(settings).done(function (data) {
+        if (data.inStock == false) {
+            const warningsMessage = $('#productStockWarnings');
+            debugger;
+            if ($(`#${id}`).length == 0) {
+                warningsMessage.append(`
+                    <div class="alert alert-warning" id="${id}">
+                        <i class="fa fa-warning"></i> کالای
+                        <strong>${data.productName}</strong>
+                        در انبار کمتر از تعداد درخواستی موجود است.
+                    </div>
+                `);
+            }
+        } else {
+            if ($(`#${id}`).length > 0) {
+                $(`#${id}`).remove();
+            }
+        }
+    });
+
+
+
     updateBasket()
 }
 
