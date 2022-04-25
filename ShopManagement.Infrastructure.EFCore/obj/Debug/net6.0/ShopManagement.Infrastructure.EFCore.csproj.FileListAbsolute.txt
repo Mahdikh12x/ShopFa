@@ -24,10 +24,16 @@ C:\Users\Omen 15\source\repos\ShopFa\ShopManagement.Infrastructure.EFCore\bin\De
 C:\Users\Omen 15\source\repos\ShopFa\ShopManagement.Infrastructure.EFCore\bin\Debug\net6.0\ShopManagement.Infrastructure.EFCore.dll
 C:\Users\Omen 15\source\repos\ShopFa\ShopManagement.Infrastructure.EFCore\bin\Debug\net6.0\ShopManagement.Infrastructure.EFCore.pdb
 C:\Users\Omen 15\source\repos\ShopFa\ShopManagement.Infrastructure.EFCore\bin\Debug\net6.0\0_Framework.dll
+C:\Users\Omen 15\source\repos\ShopFa\ShopManagement.Infrastructure.EFCore\bin\Debug\net6.0\AccountManagement.Application.Contract.dll
+C:\Users\Omen 15\source\repos\ShopFa\ShopManagement.Infrastructure.EFCore\bin\Debug\net6.0\AccountManagement.Domain.dll
+C:\Users\Omen 15\source\repos\ShopFa\ShopManagement.Infrastructure.EFCore\bin\Debug\net6.0\AccountManagement.Infrastructure.EFCore.dll
 C:\Users\Omen 15\source\repos\ShopFa\ShopManagement.Infrastructure.EFCore\bin\Debug\net6.0\ShopManagement.Application.Contracts.dll
 C:\Users\Omen 15\source\repos\ShopFa\ShopManagement.Infrastructure.EFCore\bin\Debug\net6.0\ShopManagement.Domain.dll
+C:\Users\Omen 15\source\repos\ShopFa\ShopManagement.Infrastructure.EFCore\bin\Debug\net6.0\AccountManagement.Infrastructure.EFCore.pdb
 C:\Users\Omen 15\source\repos\ShopFa\ShopManagement.Infrastructure.EFCore\bin\Debug\net6.0\ShopManagement.Domain.pdb
 C:\Users\Omen 15\source\repos\ShopFa\ShopManagement.Infrastructure.EFCore\bin\Debug\net6.0\0_Framework.pdb
+C:\Users\Omen 15\source\repos\ShopFa\ShopManagement.Infrastructure.EFCore\bin\Debug\net6.0\AccountManagement.Application.Contract.pdb
+C:\Users\Omen 15\source\repos\ShopFa\ShopManagement.Infrastructure.EFCore\bin\Debug\net6.0\AccountManagement.Domain.pdb
 C:\Users\Omen 15\source\repos\ShopFa\ShopManagement.Infrastructure.EFCore\bin\Debug\net6.0\ShopManagement.Application.Contracts.pdb
 C:\Users\Omen 15\source\repos\ShopFa\ShopManagement.Infrastructure.EFCore\obj\Debug\net6.0\ShopManagement.Infrastructure.EFCore.csproj.AssemblyReference.cache
 C:\Users\Omen 15\source\repos\ShopFa\ShopManagement.Infrastructure.EFCore\obj\Debug\net6.0\ShopManagement.Infrastructure.EFCore.GeneratedMSBuildEditorConfig.editorconfig
@@ -40,9 +46,3 @@ C:\Users\Omen 15\source\repos\ShopFa\ShopManagement.Infrastructure.EFCore\obj\De
 C:\Users\Omen 15\source\repos\ShopFa\ShopManagement.Infrastructure.EFCore\obj\Debug\net6.0\ShopManagement.Infrastructure.EFCore.pdb
 C:\Users\Omen 15\source\repos\ShopFa\ShopManagement.Infrastructure.EFCore\obj\Debug\net6.0\ShopManagement.Infrastructure.EFCore.genruntimeconfig.cache
 C:\Users\Omen 15\source\repos\ShopFa\ShopManagement.Infrastructure.EFCore\obj\Debug\net6.0\ref\ShopManagement.Infrastructure.EFCore.dll
-C:\Users\Omen 15\source\repos\ShopFa\ShopManagement.Infrastructure.EFCore\bin\Debug\net6.0\AccountManagement.Application.Contract.dll
-C:\Users\Omen 15\source\repos\ShopFa\ShopManagement.Infrastructure.EFCore\bin\Debug\net6.0\AccountManagement.Domain.dll
-C:\Users\Omen 15\source\repos\ShopFa\ShopManagement.Infrastructure.EFCore\bin\Debug\net6.0\AccountManagement.Infrastructure.EFCore.dll
-C:\Users\Omen 15\source\repos\ShopFa\ShopManagement.Infrastructure.EFCore\bin\Debug\net6.0\AccountManagement.Infrastructure.EFCore.pdb
-C:\Users\Omen 15\source\repos\ShopFa\ShopManagement.Infrastructure.EFCore\bin\Debug\net6.0\AccountManagement.Application.Contract.pdb
-C:\Users\Omen 15\source\repos\ShopFa\ShopManagement.Infrastructure.EFCore\bin\Debug\net6.0\AccountManagement.Domain.pdb

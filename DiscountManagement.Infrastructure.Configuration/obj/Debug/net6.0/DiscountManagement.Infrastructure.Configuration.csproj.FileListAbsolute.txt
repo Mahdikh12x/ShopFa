@@ -31,6 +31,9 @@ C:\Users\Omen 15\source\repos\ShopFa\DiscountManagement.Infrastructure.Configura
 C:\Users\Omen 15\source\repos\ShopFa\DiscountManagement.Infrastructure.Configuration\bin\Debug\net6.0\DiscountManagement.Infrastructure.Configuration.dll
 C:\Users\Omen 15\source\repos\ShopFa\DiscountManagement.Infrastructure.Configuration\bin\Debug\net6.0\DiscountManagement.Infrastructure.Configuration.pdb
 C:\Users\Omen 15\source\repos\ShopFa\DiscountManagement.Infrastructure.Configuration\bin\Debug\net6.0\0_Framework.dll
+C:\Users\Omen 15\source\repos\ShopFa\DiscountManagement.Infrastructure.Configuration\bin\Debug\net6.0\AccountManagement.Application.Contract.dll
+C:\Users\Omen 15\source\repos\ShopFa\DiscountManagement.Infrastructure.Configuration\bin\Debug\net6.0\AccountManagement.Domain.dll
+C:\Users\Omen 15\source\repos\ShopFa\DiscountManagement.Infrastructure.Configuration\bin\Debug\net6.0\AccountManagement.Infrastructure.EFCore.dll
 C:\Users\Omen 15\source\repos\ShopFa\DiscountManagement.Infrastructure.Configuration\bin\Debug\net6.0\DiscountManagement.Application.Contracts.dll
 C:\Users\Omen 15\source\repos\ShopFa\DiscountManagement.Infrastructure.Configuration\bin\Debug\net6.0\DiscountManagement.Application.dll
 C:\Users\Omen 15\source\repos\ShopFa\DiscountManagement.Infrastructure.Configuration\bin\Debug\net6.0\DiscountManagement.Domain.dll
@@ -42,6 +45,9 @@ C:\Users\Omen 15\source\repos\ShopFa\DiscountManagement.Infrastructure.Configura
 C:\Users\Omen 15\source\repos\ShopFa\DiscountManagement.Infrastructure.Configuration\bin\Debug\net6.0\DiscountManagement.Application.pdb
 C:\Users\Omen 15\source\repos\ShopFa\DiscountManagement.Infrastructure.Configuration\bin\Debug\net6.0\DiscountManagement.Infrastructure.EFCore.pdb
 C:\Users\Omen 15\source\repos\ShopFa\DiscountManagement.Infrastructure.Configuration\bin\Debug\net6.0\0_Framework.pdb
+C:\Users\Omen 15\source\repos\ShopFa\DiscountManagement.Infrastructure.Configuration\bin\Debug\net6.0\AccountManagement.Application.Contract.pdb
+C:\Users\Omen 15\source\repos\ShopFa\DiscountManagement.Infrastructure.Configuration\bin\Debug\net6.0\AccountManagement.Domain.pdb
+C:\Users\Omen 15\source\repos\ShopFa\DiscountManagement.Infrastructure.Configuration\bin\Debug\net6.0\AccountManagement.Infrastructure.EFCore.pdb
 C:\Users\Omen 15\source\repos\ShopFa\DiscountManagement.Infrastructure.Configuration\bin\Debug\net6.0\DiscountManagement.Domain.pdb
 C:\Users\Omen 15\source\repos\ShopFa\DiscountManagement.Infrastructure.Configuration\bin\Debug\net6.0\ShopManagement.Application.Contracts.pdb
 C:\Users\Omen 15\source\repos\ShopFa\DiscountManagement.Infrastructure.Configuration\bin\Debug\net6.0\ShopManagement.Domain.pdb
@@ -56,9 +62,3 @@ C:\Users\Omen 15\source\repos\ShopFa\DiscountManagement.Infrastructure.Configura
 C:\Users\Omen 15\source\repos\ShopFa\DiscountManagement.Infrastructure.Configuration\obj\Debug\net6.0\refint\DiscountManagement.Infrastructure.Configuration.dll
 C:\Users\Omen 15\source\repos\ShopFa\DiscountManagement.Infrastructure.Configuration\obj\Debug\net6.0\DiscountManagement.Infrastructure.Configuration.pdb
 C:\Users\Omen 15\source\repos\ShopFa\DiscountManagement.Infrastructure.Configuration\obj\Debug\net6.0\ref\DiscountManagement.Infrastructure.Configuration.dll
-C:\Users\Omen 15\source\repos\ShopFa\DiscountManagement.Infrastructure.Configuration\bin\Debug\net6.0\AccountManagement.Application.Contract.dll
-C:\Users\Omen 15\source\repos\ShopFa\DiscountManagement.Infrastructure.Configuration\bin\Debug\net6.0\AccountManagement.Domain.dll
-C:\Users\Omen 15\source\repos\ShopFa\DiscountManagement.Infrastructure.Configuration\bin\Debug\net6.0\AccountManagement.Infrastructure.EFCore.dll
-C:\Users\Omen 15\source\repos\ShopFa\DiscountManagement.Infrastructure.Configuration\bin\Debug\net6.0\AccountManagement.Application.Contract.pdb
-C:\Users\Omen 15\source\repos\ShopFa\DiscountManagement.Infrastructure.Configuration\bin\Debug\net6.0\AccountManagement.Domain.pdb
-C:\Users\Omen 15\source\repos\ShopFa\DiscountManagement.Infrastructure.Configuration\bin\Debug\net6.0\AccountManagement.Infrastructure.EFCore.pdb

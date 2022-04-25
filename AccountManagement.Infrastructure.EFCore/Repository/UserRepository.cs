@@ -20,6 +20,16 @@ namespace AccountManagement.Infrastructure.EFCore.Repository
             return _context.Users.Include(x=>x.Role).FirstOrDefault(u => u.Username == username);
         }
 
+        public UserViewModel? GetUserSmsInfo(long accountId)
+        {
+            return _context.Users.Select(user => new UserViewModel
+            {
+                Id = user.Id,
+                Fullname = user.Fullname,
+                Mobile = user.Mobile
+            }).FirstOrDefault(x=>x.Id == accountId);
+        }
+
         public EditUser? GetDetails(long id)
         {
             return _context.Users.Select(user=>new EditUser

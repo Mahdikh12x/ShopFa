@@ -1,5 +1,4 @@
-﻿using ShopManagement.Application.Contracts.Order;
-using ShopManagement.Domain.OrderAgg;
+﻿using ShopManagement.Domain.OrderAgg;
 
 namespace ShopManagement.Domain.Services;
 

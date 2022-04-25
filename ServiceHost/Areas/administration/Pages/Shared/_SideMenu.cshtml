@@ -34,7 +34,7 @@
                 </li>
 
                 <li>
-                    <a asp-area="administration" asp-page="/Comment/Index" class="waves-effect "><i class="md md-home"></i><span> کامنت </span></a>
+                    <a asp-area="administration" asp-page="/Comment/Index" class="waves-effect "><i class="md md-message"></i><span> کامنت </span></a>
                 </li>
                 
                 <li>
@@ -43,13 +43,13 @@
                 @if (_authHelper.GetCurrentInfo() == Roles.Administrator)
                 {
                     <li>
-                        <a asp-area="administration" asp-page="/Inventory/Index" class="waves-effect "><i class="md md-home"></i><span> انبار</span></a>
+                        <a asp-area="administration" asp-page="/Inventory/Index" class="waves-effect "><i class="md md-add-box"></i><span> انبار</span></a>
                     </li>
                 }
                 else if (_authHelper.GetCurrentInfo() == Roles.InventoryManager)
                 {
                     <li>
-                        <a asp-area="administration" asp-page="/Inventory/Index" class="waves-effect "><i class="md md-home"></i><span> انبار</span></a>
+                        <a asp-area="administration" asp-page="/Inventory/Index" class="waves-effect "><i class="md md-add-box"></i><span> انبار</span></a>
                     </li>
                 }
                 @if (_authHelper.GetCurrentInfo() == Roles.Administrator)
@@ -65,14 +65,14 @@
                         </ul>
                     </li>
                     <li class="has_sub">
-                        <a class="waves-effect"><i class="md md-redeem"></i><span> سیستم تخفیفات </span><span class="pull-right"><i class="md md-add"></i></span></a>
+                        <a class="waves-effect"><i class="md md-crop-free"></i><span> سیستم تخفیفات </span><span class="pull-right"><i class="md md-add"></i></span></a>
                         <ul class="list-unstyled">
                             <li><a asp-page="/Discounts/CustomerDiscounts/Index">تخفیفات مشتریان</a></li>
                             <li><a asp-page="/Discounts/ColleagueDiscounts/Index">تخفیفات همکاری</a></li>
                         </ul>
                     </li>
                     <li class="has_sub">
-                        <a class="waves-effect"><i class="md md-redeem"></i><span> مدیریت کاربران</span><span class="pull-right"><i class="md md-add"></i></span></a>
+                        <a class="waves-effect"><i class="md md-verified-user"></i><span> مدیریت کاربران</span><span class="pull-right"><i class="md md-add"></i></span></a>
                         <ul class="list-unstyled">
                             <li><a asp-page="/Accounts/Users/Index">کاربران</a></li>
                             <li><a asp-page="/Accounts/Roles/Index">نقش ها</a></li>
@@ -81,7 +81,7 @@
                 }
 
                 <li class="has_sub">
-                    <a class="waves-effect"><i class="md md-redeem"></i><span> سیستم بلاگینگ </span><span class="pull-right"><i class="md md-add"></i></span></a>
+                    <a class="waves-effect"><i class="md md-messenger"></i><span> سیستم بلاگینگ </span><span class="pull-right"><i class="md md-add"></i></span></a>
                     <ul class="list-unstyled">
                         <li><a asp-page="/Blog/ArticleCategories/Index">گروه مقالات</a></li>
                         <li><a asp-page="/Blog/Articles/Index">مقاله ها</a></li>

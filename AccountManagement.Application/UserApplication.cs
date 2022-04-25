@@ -32,6 +32,11 @@ namespace AccountManagement.Application
             return true;
         }
 
+        public UserViewModel? GetUserSmsInfo(long accountId)
+        {
+            return _userRepository.GetUserSmsInfo(accountId);
+        }
+
         public OperationResult ChangePassword(ChangePassword command)
         {
             var result = new OperationResult();

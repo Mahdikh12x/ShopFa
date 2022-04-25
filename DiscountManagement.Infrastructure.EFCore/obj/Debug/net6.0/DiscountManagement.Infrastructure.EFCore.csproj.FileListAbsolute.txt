@@ -30,6 +30,9 @@ C:\Users\Omen 15\source\repos\ShopFa\DiscountManagement.Infrastructure.EFCore\bi
 C:\Users\Omen 15\source\repos\ShopFa\DiscountManagement.Infrastructure.EFCore\bin\Debug\net6.0\DiscountManagement.Infrastructure.EFCore.dll
 C:\Users\Omen 15\source\repos\ShopFa\DiscountManagement.Infrastructure.EFCore\bin\Debug\net6.0\DiscountManagement.Infrastructure.EFCore.pdb
 C:\Users\Omen 15\source\repos\ShopFa\DiscountManagement.Infrastructure.EFCore\bin\Debug\net6.0\0_Framework.dll
+C:\Users\Omen 15\source\repos\ShopFa\DiscountManagement.Infrastructure.EFCore\bin\Debug\net6.0\AccountManagement.Application.Contract.dll
+C:\Users\Omen 15\source\repos\ShopFa\DiscountManagement.Infrastructure.EFCore\bin\Debug\net6.0\AccountManagement.Domain.dll
+C:\Users\Omen 15\source\repos\ShopFa\DiscountManagement.Infrastructure.EFCore\bin\Debug\net6.0\AccountManagement.Infrastructure.EFCore.dll
 C:\Users\Omen 15\source\repos\ShopFa\DiscountManagement.Infrastructure.EFCore\bin\Debug\net6.0\DiscountManagement.Application.Contracts.dll
 C:\Users\Omen 15\source\repos\ShopFa\DiscountManagement.Infrastructure.EFCore\bin\Debug\net6.0\DiscountManagement.Domain.dll
 C:\Users\Omen 15\source\repos\ShopFa\DiscountManagement.Infrastructure.EFCore\bin\Debug\net6.0\ShopManagement.Application.Contracts.dll
@@ -38,6 +41,9 @@ C:\Users\Omen 15\source\repos\ShopFa\DiscountManagement.Infrastructure.EFCore\bi
 C:\Users\Omen 15\source\repos\ShopFa\DiscountManagement.Infrastructure.EFCore\bin\Debug\net6.0\DiscountManagement.Domain.pdb
 C:\Users\Omen 15\source\repos\ShopFa\DiscountManagement.Infrastructure.EFCore\bin\Debug\net6.0\ShopManagement.Infrastructure.EFCore.pdb
 C:\Users\Omen 15\source\repos\ShopFa\DiscountManagement.Infrastructure.EFCore\bin\Debug\net6.0\0_Framework.pdb
+C:\Users\Omen 15\source\repos\ShopFa\DiscountManagement.Infrastructure.EFCore\bin\Debug\net6.0\AccountManagement.Application.Contract.pdb
+C:\Users\Omen 15\source\repos\ShopFa\DiscountManagement.Infrastructure.EFCore\bin\Debug\net6.0\AccountManagement.Domain.pdb
+C:\Users\Omen 15\source\repos\ShopFa\DiscountManagement.Infrastructure.EFCore\bin\Debug\net6.0\AccountManagement.Infrastructure.EFCore.pdb
 C:\Users\Omen 15\source\repos\ShopFa\DiscountManagement.Infrastructure.EFCore\bin\Debug\net6.0\DiscountManagement.Application.Contracts.pdb
 C:\Users\Omen 15\source\repos\ShopFa\DiscountManagement.Infrastructure.EFCore\bin\Debug\net6.0\ShopManagement.Application.Contracts.pdb
 C:\Users\Omen 15\source\repos\ShopFa\DiscountManagement.Infrastructure.EFCore\bin\Debug\net6.0\ShopManagement.Domain.pdb
@@ -52,9 +58,3 @@ C:\Users\Omen 15\source\repos\ShopFa\DiscountManagement.Infrastructure.EFCore\ob
 C:\Users\Omen 15\source\repos\ShopFa\DiscountManagement.Infrastructure.EFCore\obj\Debug\net6.0\DiscountManagement.Infrastructure.EFCore.pdb
 C:\Users\Omen 15\source\repos\ShopFa\DiscountManagement.Infrastructure.EFCore\obj\Debug\net6.0\DiscountManagement.Infrastructure.EFCore.genruntimeconfig.cache
 C:\Users\Omen 15\source\repos\ShopFa\DiscountManagement.Infrastructure.EFCore\obj\Debug\net6.0\ref\DiscountManagement.Infrastructure.EFCore.dll
-C:\Users\Omen 15\source\repos\ShopFa\DiscountManagement.Infrastructure.EFCore\bin\Debug\net6.0\AccountManagement.Application.Contract.dll
-C:\Users\Omen 15\source\repos\ShopFa\DiscountManagement.Infrastructure.EFCore\bin\Debug\net6.0\AccountManagement.Domain.dll
-C:\Users\Omen 15\source\repos\ShopFa\DiscountManagement.Infrastructure.EFCore\bin\Debug\net6.0\AccountManagement.Infrastructure.EFCore.dll
-C:\Users\Omen 15\source\repos\ShopFa\DiscountManagement.Infrastructure.EFCore\bin\Debug\net6.0\AccountManagement.Application.Contract.pdb
-C:\Users\Omen 15\source\repos\ShopFa\DiscountManagement.Infrastructure.EFCore\bin\Debug\net6.0\AccountManagement.Domain.pdb
-C:\Users\Omen 15\source\repos\ShopFa\DiscountManagement.Infrastructure.EFCore\bin\Debug\net6.0\AccountManagement.Infrastructure.EFCore.pdb

@@ -18,6 +18,7 @@ using ShopManagement.Domain.ProductCategoryAgg;
 using ShopManagement.Domain.ProductPictureAgg;
 using ShopManagement.Domain.Services;
 using ShopManagement.Domain.SlideAgg;
+using ShopManagement.Infrastructure.Account.ACL;
 using ShopManagement.Infrastructure.ACL;
 using ShopManagement.Infrastructure.Configuration.Permissions;
 using ShopManagement.Infrastructure.EFCore;
@@ -53,6 +54,7 @@ namespace ShopManagement.Infrastructure.Configuration
             services.AddTransient<IOrderRepository,OrderRepository>();
 
             services.AddTransient<IShopInventoryAcl,ShopInventoryAcl>();
+            services.AddTransient<IShopAccountAcl,ShopAccountAcl>();
 
             services.AddSingleton<ICartInformation, CartInformation>();
 

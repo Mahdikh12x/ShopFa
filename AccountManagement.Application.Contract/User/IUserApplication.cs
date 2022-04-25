@@ -8,6 +8,7 @@ namespace AccountManagement.Application.Contract.User
         OperationResult Edit(EditUser command);
         OperationResult  Login(LoginUser command); 
         EditUser? GetDetails(long id);
+        UserViewModel? GetUserSmsInfo(long accountId);
         OperationResult ChangePassword(ChangePassword command);
         List<UserViewModel> Search(UserSearchModel searchModel);
         bool Active(long id);

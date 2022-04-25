@@ -1,7 +1,10 @@
 using System.Text.Encodings.Web;
 using System.Text.Unicode;
 using _0_Framework.Application;
+using _0_Framework.Application.SmsService;
 using _0_Framework.Application.ZarinPalService;
+using _01_ShopFaQuery.Contracts.Report;
+using _01_ShopFaQuery.Query;
 using AccountManagement.Infrastructure.Configuration;
 using BlogManagement.Infrastructure.Configuration;
 using CommentManagement.Infrastructure.Configuration;
@@ -25,6 +28,8 @@ CommentManagementBootstrapper.Configure(builder.Services, connectionString);
 AccountManagementBootstrapper.Configure(builder.Services, connectionString);
 
 builder.Services.AddTransient<IFileUploader, FileUploader>();
+builder.Services.AddTransient<IReportQuery, ReportQuery>();
+builder.Services.AddTransient<ISmsServiceSender,SmsServiceSender>();
 builder.Services.AddTransient<IZarinPalFactory, ZarinPalFactory>();
 builder.Services.AddSingleton<IPasswordHasher, PasswordHasher>();
 builder.Services.AddSingleton(HtmlEncoder.Create(UnicodeRanges.BasicLatin, UnicodeRanges.Arabic));

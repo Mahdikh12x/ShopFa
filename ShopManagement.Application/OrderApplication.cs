@@ -1,4 +1,5 @@
 ﻿using _0_Framework.Application;
+using _0_Framework.Application.SmsService;
 using Microsoft.Extensions.Configuration;
 using ShopManagement.Application.Contracts.Order;
 using ShopManagement.Domain.OrderAgg;
@@ -12,12 +13,16 @@ public class OrderApplication:IOrderApplication
     private readonly IConfiguration  _configuration;
     private readonly IOrderRepository _orderRepository;
     private readonly IShopInventoryAcl _shopInventoryAcl;
-    public OrderApplication(IOrderRepository orderRepository, IAuthHelper authHelper, IConfiguration configuration, IShopInventoryAcl shopInventoryAcl)
+    private readonly ISmsServiceSender _serviceSender;
+    private readonly IShopAccountAcl _shopAccountAcl;
+    public OrderApplication(IOrderRepository orderRepository, IAuthHelper authHelper, IConfiguration configuration, IShopInventoryAcl shopInventoryAcl, ISmsServiceSender serviceSender, IShopAccountAcl shopAccountAcl)
     {
         _orderRepository = orderRepository;
         _authHelper = authHelper;
         _configuration = configuration;
         _shopInventoryAcl = shopInventoryAcl;
+        _serviceSender = serviceSender;
+        _shopAccountAcl = shopAccountAcl;
     }
 
     public long PlaceOrder(Cart cart)
@@ -54,6 +59,10 @@ public class OrderApplication:IOrderApplication
 
         _shopInventoryAcl.ReduceFromInventory(order.Items);
         _orderRepository.SaveChanges();
+
+        var (number, name) = _shopAccountAcl.GetUserInformation(order.AccountId);
+        _serviceSender.Send(number,$"{name}گرامی،سفارش شما با شماره پیگیری{issueTrackingNumber}ثبت شد و به زودی برای شما ارسال میگردد..ممنون از اعتماد شما");
+
         return issueTrackingNumber;
     }
 

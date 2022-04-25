@@ -40,6 +40,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "MailKit": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            },
             "Microsoft.AspNetCore.Authentication.Cookies": {
               "target": "Package",
               "version": "[2.2.0, )"
@@ -56,6 +60,10 @@
               "target": "Package",
               "version": "[6.0.1, )"
             },
+            "MimeKit": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.1, )"
@@ -63,6 +71,10 @@
             "RestSharp": {
               "target": "Package",
               "version": "[107.3.0, )"
+            },
+            "SmsIrRestful": {
+              "target": "Package",
+              "version": "[1.1.3, )"
             },
             "Zarinpal": {
               "target": "Package",

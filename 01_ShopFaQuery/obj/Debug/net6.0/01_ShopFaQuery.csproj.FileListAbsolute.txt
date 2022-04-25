@@ -47,6 +47,9 @@ C:\Users\Omen 15\source\repos\ShopFa\01_ShopFaQuery\bin\Debug\net6.0\01_ShopFaQu
 C:\Users\Omen 15\source\repos\ShopFa\01_ShopFaQuery\bin\Debug\net6.0\01_ShopFaQuery.dll
 C:\Users\Omen 15\source\repos\ShopFa\01_ShopFaQuery\bin\Debug\net6.0\01_ShopFaQuery.pdb
 C:\Users\Omen 15\source\repos\ShopFa\01_ShopFaQuery\bin\Debug\net6.0\0_Framework.dll
+C:\Users\Omen 15\source\repos\ShopFa\01_ShopFaQuery\bin\Debug\net6.0\AccountManagement.Application.Contract.dll
+C:\Users\Omen 15\source\repos\ShopFa\01_ShopFaQuery\bin\Debug\net6.0\AccountManagement.Domain.dll
+C:\Users\Omen 15\source\repos\ShopFa\01_ShopFaQuery\bin\Debug\net6.0\AccountManagement.Infrastructure.EFCore.dll
 C:\Users\Omen 15\source\repos\ShopFa\01_ShopFaQuery\bin\Debug\net6.0\BlogManagement.Application.Contracts.dll
 C:\Users\Omen 15\source\repos\ShopFa\01_ShopFaQuery\bin\Debug\net6.0\BlogManagement.Domain.dll
 C:\Users\Omen 15\source\repos\ShopFa\01_ShopFaQuery\bin\Debug\net6.0\BlogManagement.Infrastructure.EfCore.dll
@@ -68,6 +71,9 @@ C:\Users\Omen 15\source\repos\ShopFa\01_ShopFaQuery\bin\Debug\net6.0\DiscountMan
 C:\Users\Omen 15\source\repos\ShopFa\01_ShopFaQuery\bin\Debug\net6.0\InventoryManagement.Infrastructure.EfCore.pdb
 C:\Users\Omen 15\source\repos\ShopFa\01_ShopFaQuery\bin\Debug\net6.0\ShopManagement.Infrastructure.EFCore.pdb
 C:\Users\Omen 15\source\repos\ShopFa\01_ShopFaQuery\bin\Debug\net6.0\0_Framework.pdb
+C:\Users\Omen 15\source\repos\ShopFa\01_ShopFaQuery\bin\Debug\net6.0\AccountManagement.Application.Contract.pdb
+C:\Users\Omen 15\source\repos\ShopFa\01_ShopFaQuery\bin\Debug\net6.0\AccountManagement.Domain.pdb
+C:\Users\Omen 15\source\repos\ShopFa\01_ShopFaQuery\bin\Debug\net6.0\AccountManagement.Infrastructure.EFCore.pdb
 C:\Users\Omen 15\source\repos\ShopFa\01_ShopFaQuery\bin\Debug\net6.0\BlogManagement.Application.Contracts.pdb
 C:\Users\Omen 15\source\repos\ShopFa\01_ShopFaQuery\bin\Debug\net6.0\BlogManagement.Domain.pdb
 C:\Users\Omen 15\source\repos\ShopFa\01_ShopFaQuery\bin\Debug\net6.0\CommentManagement.Application.Contract.pdb
@@ -88,9 +94,3 @@ C:\Users\Omen 15\source\repos\ShopFa\01_ShopFaQuery\obj\Debug\net6.0\01_ShopFaQu
 C:\Users\Omen 15\source\repos\ShopFa\01_ShopFaQuery\obj\Debug\net6.0\refint\01_ShopFaQuery.dll
 C:\Users\Omen 15\source\repos\ShopFa\01_ShopFaQuery\obj\Debug\net6.0\01_ShopFaQuery.pdb
 C:\Users\Omen 15\source\repos\ShopFa\01_ShopFaQuery\obj\Debug\net6.0\ref\01_ShopFaQuery.dll
-C:\Users\Omen 15\source\repos\ShopFa\01_ShopFaQuery\bin\Debug\net6.0\AccountManagement.Application.Contract.dll
-C:\Users\Omen 15\source\repos\ShopFa\01_ShopFaQuery\bin\Debug\net6.0\AccountManagement.Domain.dll
-C:\Users\Omen 15\source\repos\ShopFa\01_ShopFaQuery\bin\Debug\net6.0\AccountManagement.Infrastructure.EFCore.dll
-C:\Users\Omen 15\source\repos\ShopFa\01_ShopFaQuery\bin\Debug\net6.0\AccountManagement.Application.Contract.pdb
-C:\Users\Omen 15\source\repos\ShopFa\01_ShopFaQuery\bin\Debug\net6.0\AccountManagement.Domain.pdb
-C:\Users\Omen 15\source\repos\ShopFa\01_ShopFaQuery\bin\Debug\net6.0\AccountManagement.Infrastructure.EFCore.pdb
