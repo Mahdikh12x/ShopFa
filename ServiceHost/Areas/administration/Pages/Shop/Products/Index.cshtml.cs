@@ -27,7 +27,7 @@ namespace ServiceHost.Areas.administration.Pages.Shop.Products
         public void OnGet(ProductSearchModel searchModel)
         {
             ProductCategories = new SelectList(_productCategoryApplication.GetProductCategories(), "Id", "Name");
-            Products = _productApplication.Search(searchModel);
+            Products = _productApplication.SearchAsync(searchModel)?.Result;
         }
 
         public IActionResult OnGetCreate()
@@ -40,25 +40,34 @@ namespace ServiceHost.Areas.administration.Pages.Shop.Products
         }
 
         [NeedsPermission(ShopPermissions.CreateProduct)]
-        public JsonResult OnPostCreate(CreateProduct command)
+        public IActionResult OnPostCreate(CreateProduct command)
         {
-            var result = _productApplication.Create(command);
-            return new JsonResult(result);
+            if (ModelState.IsValid)
+            {
+                var result = _productApplication.Create(command);
+                return new JsonResult(result);
+            }
+            return Page();
         }
 
         public IActionResult OnGetEdit(long id)
         {
             var product = _productApplication.GetDetails(id);
-            product.Categories =_productCategoryApplication.GetProductCategories();
-
+            product!.Categories =_productCategoryApplication.GetProductCategories();
             return Partial("./Edit", product);
         }
         [NeedsPermission(ShopPermissions.EditProduct)]
 
-        public JsonResult OnPostEdit(EditProduct command)
+        public IActionResult OnPostEdit(EditProduct command)
         {
-            var result = _productApplication.Edit(command);
-            return new JsonResult(result);
+            if (ModelState.IsValid)
+            {
+                var result = _productApplication.Edit(command);
+                return new JsonResult(result);
+
+            }
+
+            return Page();
         }
 
       

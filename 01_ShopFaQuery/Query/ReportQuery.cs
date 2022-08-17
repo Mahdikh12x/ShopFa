@@ -1,7 +1,9 @@
-﻿using _0_Framework.Application;
+﻿using System.Collections.ObjectModel;
+using _0_Framework.Application;
 using _01_ShopFaQuery.Contracts.Report;
 using AccountManagement.Infrastructure.EFCore;
 using InventoryManagement.Infrastructure.EfCore;
+using Microsoft.EntityFrameworkCore;
 using ShopManagement.Infrastructure.EFCore;
 
 namespace _01_ShopFaQuery.Query
@@ -18,14 +20,27 @@ namespace _01_ShopFaQuery.Query
             _accountContext = accountContext;
         }
 
-        public List<ChartViewModel> GetReports()
+        public Collection<List<ChartViewModel>> GetReports()
         {
-            var products = _shopContext.Products.Select(x => new { x.Name, x.Id }).ToList();
-            var orders = _shopContext.Orders.Where(x => x.CreationDate <= DateTime.Today).ToList();
-            var inventories = _inventoryContext.Inventory.Where(x => x.InStock).Take(10).ToList();
-            var charts = new List<ChartViewModel>();
+            var orders = _shopContext.Orders.Where(x => x.CreationDate>DateTime.Now.AddDays(-30)).ToList();
+            var chartList=new Collection<List<ChartViewModel>>();
 
-            return charts;
+            var waitingPayChart=orders.Where(x=>!x.IsCanceled&&!x.IsPayed).Select(x => new ChartViewModel
+            {
+                Label = "در انتظار پرداخت",
+                Data = orders.Count(x => !x.IsCanceled && !x.IsPayed)
+            }).ToList();
+            chartList.Add(waitingPayChart);
+
+            var PayChart = orders.Where(x=>x.IsPayed).Select(x => new ChartViewModel
+            {
+                Label = "پرداخت شده",
+                Data = orders.Count(x => x.IsPayed),
+                
+            }).ToList();
+            chartList.Add(PayChart);
+
+            return chartList;
         }
 
         public ReportCountViewModel GetReportCounts()

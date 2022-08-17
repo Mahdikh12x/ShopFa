@@ -17,7 +17,7 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
 
         public List<ProductPictureViewModel> Search(ProductPictureSearchModel searchModel)
         {
-            var query = _context.ProductPictures.Include(x=>x.Product).Select(x => new ProductPictureViewModel
+            var query = _context.ProductPictures.Include(x => x.Product).Select(x => new ProductPictureViewModel
             {
                 Id = x.Id,
                 IsRemoved = x.IsRemoved,
@@ -25,13 +25,12 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
                 Picture = x.Picture,
                 Product = x.Product.Name,
                 ProductId = x.ProductId
-            }
-            ).ToList();
+            });
 
             if (searchModel.ProductId != 0)
-                query = query.Where(x => x.ProductId == searchModel.ProductId).ToList();
+                query = query.Where(x => x.ProductId == searchModel.ProductId);
 
-            return query.OrderByDescending(x => x.Id).ToList();
+            return query.OrderByDescending(x => x.Id).AsNoTracking().ToList();
         }
 
         public ProductPicture GetProductWithCategory(long id)
@@ -53,7 +52,7 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
                         
                     })
                 .FirstOrDefault(x => x.Id==id);
-            return productPicture;
+            return productPicture ??new EditProductPicture();
         }
     }
 }

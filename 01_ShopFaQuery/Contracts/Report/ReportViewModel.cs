@@ -14,7 +14,7 @@ namespace _01_ShopFaQuery.Contracts.Report
         [JsonProperty(PropertyName ="borderColor")]
         public List<string>? BorderColor{ get; set; }
         [JsonProperty(PropertyName ="data")]
-        public List<int> Data { get; set; }
+        public int Data { get; set; }
 
 
         public void AddItem(string label)

@@ -8,16 +8,16 @@ namespace ShopManagement.Application.Contracts.Product
     public class CreateProduct
     {
         [Required(ErrorMessage = ValidationMessages.Required)]
-        public string? Name { get; set; }
+        public string Name { get; set; } = null!;
        
         [Required(ErrorMessage = ValidationMessages.Required)]
-        public string? Code { get; set; }
+        public string Code { get; set; } = null!;
 
         [Required(ErrorMessage = ValidationMessages.Required)]
-        public string? ShortDescription { get; set; }
-       
+        public string ShortDescription { get; set; } = null!;
+
         [Required(ErrorMessage = ValidationMessages.Required)]
-        public string Description { get; set; }
+        public string Description { get; set; } = null!;
 
         [ExtensionFiles(new string[] { ".jpg", ".png", ".jpeg" }, ErrorMessage = ValidationMessages.FileFormat)]
         [MaxFileSize(3 * 1024 * 1024, ErrorMessage = ValidationMessages.MaxFileSize)]
@@ -29,13 +29,14 @@ namespace ShopManagement.Application.Contracts.Product
         public long CategoryId { get; set; }
       
         [Required(ErrorMessage = ValidationMessages.Required)]
-        public string? Keywords { get; set; }
-        
+        public string Keywords { get; set; } = null!;
+
         [Required(ErrorMessage = ValidationMessages.Required)]
-        public string? Slug { get; set; }
-      
+        public string Slug { get; set; } = null!;
+
         [Required(ErrorMessage = ValidationMessages.Required)]
-        public string? MetaDescription { get; set; }
+        public string MetaDescription { get; set; } = null!;
+
         public List<ProductCategoryViewModel>? Categories { get; set; }
     }
 }

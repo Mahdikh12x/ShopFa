@@ -1,5 +1,6 @@
 ﻿using _0_Framework.Application;
 using _0_Framework.Infrastructure;
+using Microsoft.EntityFrameworkCore;
 using ShopManagement.Application.Contracts.ProductCategory;
 using ShopManagement.Domain.ProductCategoryAgg;
 
@@ -29,7 +30,7 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
                 Slug = r.Slug
             }).FirstOrDefault(x => x.Id == id);
 
-            return productCategory;
+            return productCategory ?? new EditProductCategory();
         }
 
         public List<ProductCategoryViewModel> GetProductCategories()
@@ -38,7 +39,7 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
             {
                 Id=x.Id,
                 Name=x.Name
-            }).ToList();
+            }).AsNoTracking().ToList();
         }
 
         public List<ProductCategoryViewModel> Search(ProductCategorySearchModel searchModel)
@@ -50,12 +51,12 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
                 Picture = x.Picture,
                 CreationDate = x.CreationDate.ToFarsi()
 
-            }).ToList();
+            });
 
             if (!string.IsNullOrWhiteSpace(searchModel.Name))
-                query = query.Where(x => x.Name.Contains(searchModel.Name)).ToList();
+                query = query.Where(x => x.Name.Contains(searchModel.Name));
 
-            return query.OrderByDescending(x=>x.Id).ToList();
+            return query.OrderByDescending(x=>x.Id).AsNoTracking().ToList();
         }
 
         public string GetCategoryWithSlug(long id)

@@ -60,8 +60,8 @@ public class OrderApplication:IOrderApplication
         _shopInventoryAcl.ReduceFromInventory(order.Items);
         _orderRepository.SaveChanges();
 
-        var (number, name) = _shopAccountAcl.GetUserInformation(order.AccountId);
-        _serviceSender.Send(number,$"{name}گرامی،سفارش شما با شماره پیگیری{issueTrackingNumber}ثبت شد و به زودی برای شما ارسال میگردد..ممنون از اعتماد شما");
+        //var (number, name) = _shopAccountAcl.GetUserInformation(order.AccountId);
+        //_serviceSender.Send(number,$"{name}گرامی،سفارش شما با شماره پیگیری{issueTrackingNumber}ثبت شد و به زودی برای شما ارسال میگردد..ممنون از اعتماد شما");
 
         return issueTrackingNumber;
     }
@@ -84,6 +84,7 @@ public class OrderApplication:IOrderApplication
         order.PaymentSucceeded(0);
         var symbol = _configuration.GetSection("Symbol").Value;
         var issueTrackingNumber = CodeGenerator.Generate(symbol);
+        _shopInventoryAcl.ReduceFromInventory(order.Items);
         order?.SetIssueTrackingNumber(issueTrackingNumber);
         _orderRepository.SaveChanges();
     }

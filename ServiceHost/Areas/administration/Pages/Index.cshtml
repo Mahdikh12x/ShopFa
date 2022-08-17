@@ -37,7 +37,7 @@
             <span class="mini-stat-icon bg-purple"><i class="ion-ios7-cart"></i></span>
             <div class="mini-stat-info text-right text-muted">
                 <span class="counter">@Model.Counts.OrderCount</span>
-               سفارشات در انتظار پرداخت
+                سفارشات در انتظار پرداخت
             </div>
             <div class="tiles-progress">
                 <div class="m-t-20">
@@ -166,13 +166,33 @@
 @section Scripts
 {
 <script>
+    var data = [];
+    var label= [];
+    var backgroundColor= [];
+    var borderColor= [];
+
+
+    @foreach (var item in Model.DataList)
+    {
+        foreach (var chart in item)
+        {
+        @:data.push(@chart.Data);
+        @:label.push("@chart.Label");
+        @:backgroundColor.push("@chart.BackgroundColors");
+        @:borderColor.push("@chart.BorderColor");
+        }
+
+    }
+
+
+
     const ctx = document.getElementById('myChart').getContext('2d');
-    const myData=@Html.Raw(JsonConvert.SerializeObject(Model.List));
+    const myData=@Html.Raw(JsonConvert.SerializeObject(Model.DataList));
     const myChart = new Chart(ctx, {
         type: 'bar',
         data: {
-            labels: [ 'My First Dataset', 'My First Dataset', 'My First Dataset',],
-            datasets: myData
+            labels:["پرداخت شده","در انتظار پرداخت"],
+            datasets:data
         },
 
         options: {

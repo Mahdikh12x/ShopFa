@@ -1,4 +1,5 @@
-﻿using _01_ShopFaQuery.Contracts.Report;
+﻿using System.Collections.ObjectModel;
+using _01_ShopFaQuery.Contracts.Report;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Newtonsoft.Json;
@@ -7,7 +8,7 @@ namespace ServiceHost.Areas.administration.Pages
 {
     public class IndexModel : PageModel
     {
-        public List<ChartViewModel> DataList;
+        public Collection<List<ChartViewModel>> DataList;
         private readonly IReportQuery _reportQuery;
         public List<Chart> List;
         public ReportCountViewModel Counts;

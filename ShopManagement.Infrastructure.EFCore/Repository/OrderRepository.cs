@@ -1,6 +1,7 @@
 ﻿using _0_Framework.Application;
 using _0_Framework.Infrastructure;
 using AccountManagement.Infrastructure.EFCore;
+using Microsoft.EntityFrameworkCore;
 using ShopManagement.Application.Contracts.Order;
 using ShopManagement.Domain.OrderAgg;
 
@@ -25,17 +26,17 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
 
         public List<OrderViewModel> Search(OrderSearchModel searchModel)
         {
-            var accounts = _accountContext.Users.Select(x => new { x.Id, x.Fullname }).ToList();
+            var accounts = _accountContext.Users.Select(x => new { x.Id, x.Fullname }).AsNoTracking().ToList();
             var query = _shopContext.Orders.Select(order => new OrderViewModel
             {
                 Id = order.Id,
                 AccountId = order.AccountId,
-                TotalAmount = order.TotalAmount.ToMoney(),
+                TotalAmount = order.TotalAmount.ToString("n0"),
                 RefId = order.RefId,
                 IssuesTrackingNum = order.IssuesTrackingNum,
-                DiscountAmount = order.DiscountAmount.ToMoney(),
+                DiscountAmount = order.DiscountAmount.ToString("n0"),
                 IsPayed = order.IsPayed,
-                PayAmount = order.PayAmount.ToMoney(),
+                PayAmount = order.PayAmount.ToString("n0"),
                 CreationDate = order.CreationDate.ToFarsi(),
                 IsCanceled = order.IsCanceled,
                 PaymentMethodId = order.PaymentMethod,
@@ -64,8 +65,8 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
 
         public List<OrderItemViewModel> GetItems(long id)
         {
-            var order = _shopContext.Orders.FirstOrDefault(x => x.Id == id);
-            var products = _shopContext.Products.Select(x => new { x.Id, x.Name }).ToList();
+            var order = _shopContext.Orders.Find(id);
+            var products = _shopContext.Products.Select(x => new { x.Id, x.Name }).AsNoTracking().ToList();
             var items = order?.Items.Select(x => new OrderItemViewModel
             {
                 Id = x.Id,
@@ -73,7 +74,7 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
                 DiscountRate = x.DiscountRate,
                 Count = x.Count,
                 ProductId = x.ProductId,
-                UnitePrice = x.UnitPrice.ToMoney(),
+                UnitePrice = x.UnitPrice.ToString("n0"),
             }).ToList();
             if (items == null) return new List<OrderItemViewModel>();
             {

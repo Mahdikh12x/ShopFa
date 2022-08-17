@@ -17,7 +17,7 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
 
         public EditProduct? GetDetails(long id)
         {
-            var product = _context.Products.Select(x => new EditProduct
+            var product = _context.Products?.Select(x => new EditProduct
             {
                 Name = x.Name,
                 CategoryId = x.CategoryId,
@@ -31,28 +31,28 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
                 ShortDescription = x.ShortDescription,
                 Slug = x.Slug,
 
-            }).FirstOrDefault(x => x.Id == id);
+            }).AsNoTracking().FirstOrDefault(x => x.Id == id);
             return product;
         }
 
         public Product? GetProductWithCategory(long id)
         {
-            return _context.Products.Include(x => x.ProductCategory).FirstOrDefault(x => x.Id == id);
+            return _context.Products?.Include(x => x.ProductCategory).FirstOrDefault(x => x.Id == id);
         }
 
-        public List<ProductViewModel> GetProducts()
+        public List<ProductViewModel>? GetProducts()
         {
-            return _context.Products.Select(x => new ProductViewModel
+            return _context.Products?.Select(x => new ProductViewModel
             {
                 Id = x.Id,
                 Name = x.Name
-            }).ToList();
+            }).AsNoTracking().ToList();
         }
 
 
-        public List<ProductViewModel> Search(ProductSearchModel searchModel)
+        public async Task<List<ProductViewModel>>? SearchAsync(ProductSearchModel searchModel)
         {
-            var query = _context.Products.Include(x => x.ProductCategory).Select(x => new ProductViewModel
+            var query =  _context.Products?.Include(x => x.ProductCategory).Select(x => new ProductViewModel
             {
                 Id = x.Id,
                 Code = x.Code,
@@ -61,18 +61,20 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
                 CreationDate = x.CreationDate.ToFarsi(),
                 Picture = x.Picture,
                 CategoryId = x.CategoryId
-            }).ToList();
+            });
 
             if (!string.IsNullOrWhiteSpace(searchModel.Name))
-                query = query.Where(x => x.Name.Contains(searchModel.Name)).ToList();
+                query = query?.Where(x => x.Name!.Contains(searchModel.Name));
 
             if (!string.IsNullOrWhiteSpace(searchModel.Code))
-                query = query.Where(x => x.Code.Contains(searchModel.Code)).ToList();
+                query = query?.Where(x => x.Code!.Contains(searchModel.Code));
 
             if (searchModel.CategoryId != 0)
-                query = query.Where(x => x.CategoryId == searchModel.CategoryId).ToList();
+                query = query?.Where(x => x.CategoryId == searchModel.CategoryId);
 
-            return query.OrderByDescending(x => x.Id).ToList();
+
+            return await query?.OrderByDescending(x => x.Id).AsNoTracking().ToListAsync()!;
+
         }
     }
 }

@@ -1,8 +1,10 @@
-﻿namespace _01_ShopFaQuery.Contracts.Report;
+﻿using System.Collections.ObjectModel;
+
+namespace _01_ShopFaQuery.Contracts.Report;
 
 public interface IReportQuery
 {
-    List<ChartViewModel> GetReports();
+    Collection<List<ChartViewModel>> GetReports();
 
     ReportCountViewModel GetReportCounts();
 }

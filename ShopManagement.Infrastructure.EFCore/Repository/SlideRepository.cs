@@ -1,6 +1,7 @@
 ﻿using System.Globalization;
 using _0_Framework.Application;
 using _0_Framework.Infrastructure;
+using Microsoft.EntityFrameworkCore;
 using ShopManagement.Application.Contracts.Slide;
 using ShopManagement.Domain.SlideAgg;
 
@@ -28,7 +29,7 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
                 Text = x.Text,
                 Link = x.Link
             }).FirstOrDefault(x => x.Id == id);
-            return slide;
+            return slide ??new EditSlide();
         }
 
         public List<SlideViewModel> GetList()
@@ -41,7 +42,7 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
                 IsRemoved = x.IsRemoved,
                 Title = x.Title
                 
-            }).ToList();
+            }).AsNoTracking().ToList();
         }
     }
 }
