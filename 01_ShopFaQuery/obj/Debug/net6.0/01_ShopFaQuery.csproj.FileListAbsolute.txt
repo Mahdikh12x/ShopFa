@@ -43,6 +43,11 @@ C:\Users\Mahdi\source\repos\ShopFa\01_ShopFaQuery\bin\Debug\net6.0\CommentManage
 C:\Users\Mahdi\source\repos\ShopFa\01_ShopFaQuery\bin\Debug\net6.0\CommentManagement.Infrastructure.EFCore.pdb
 C:\Users\Mahdi\source\repos\ShopFa\01_ShopFaQuery\bin\Debug\net6.0\CommentManagement.Application.Contract.pdb
 C:\Users\Mahdi\source\repos\ShopFa\01_ShopFaQuery\bin\Debug\net6.0\CommentManagement.Domain.pdb
+C:\Users\Omen 15\source\repos\ShopFa\01_ShopFaQuery\obj\Debug\net6.0\01_ShopFaQuery.csproj.AssemblyReference.cache
+C:\Users\Omen 15\source\repos\ShopFa\01_ShopFaQuery\obj\Debug\net6.0\01_ShopFaQuery.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Omen 15\source\repos\ShopFa\01_ShopFaQuery\obj\Debug\net6.0\01_ShopFaQuery.AssemblyInfoInputs.cache
+C:\Users\Omen 15\source\repos\ShopFa\01_ShopFaQuery\obj\Debug\net6.0\01_ShopFaQuery.AssemblyInfo.cs
+C:\Users\Omen 15\source\repos\ShopFa\01_ShopFaQuery\obj\Debug\net6.0\01_ShopFaQuery.csproj.CoreCompileInputs.cache
 C:\Users\Omen 15\source\repos\ShopFa\01_ShopFaQuery\bin\Debug\net6.0\01_ShopFaQuery.deps.json
 C:\Users\Omen 15\source\repos\ShopFa\01_ShopFaQuery\bin\Debug\net6.0\01_ShopFaQuery.dll
 C:\Users\Omen 15\source\repos\ShopFa\01_ShopFaQuery\bin\Debug\net6.0\01_ShopFaQuery.pdb
@@ -84,11 +89,6 @@ C:\Users\Omen 15\source\repos\ShopFa\01_ShopFaQuery\bin\Debug\net6.0\InventoryMa
 C:\Users\Omen 15\source\repos\ShopFa\01_ShopFaQuery\bin\Debug\net6.0\InventoryManagement.Domain.pdb
 C:\Users\Omen 15\source\repos\ShopFa\01_ShopFaQuery\bin\Debug\net6.0\ShopManagement.Application.Contracts.pdb
 C:\Users\Omen 15\source\repos\ShopFa\01_ShopFaQuery\bin\Debug\net6.0\ShopManagement.Domain.pdb
-C:\Users\Omen 15\source\repos\ShopFa\01_ShopFaQuery\obj\Debug\net6.0\01_ShopFaQuery.csproj.AssemblyReference.cache
-C:\Users\Omen 15\source\repos\ShopFa\01_ShopFaQuery\obj\Debug\net6.0\01_ShopFaQuery.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Omen 15\source\repos\ShopFa\01_ShopFaQuery\obj\Debug\net6.0\01_ShopFaQuery.AssemblyInfoInputs.cache
-C:\Users\Omen 15\source\repos\ShopFa\01_ShopFaQuery\obj\Debug\net6.0\01_ShopFaQuery.AssemblyInfo.cs
-C:\Users\Omen 15\source\repos\ShopFa\01_ShopFaQuery\obj\Debug\net6.0\01_ShopFaQuery.csproj.CoreCompileInputs.cache
 C:\Users\Omen 15\source\repos\ShopFa\01_ShopFaQuery\obj\Debug\net6.0\01_ShopFaQuery.csproj.CopyComplete
 C:\Users\Omen 15\source\repos\ShopFa\01_ShopFaQuery\obj\Debug\net6.0\01_ShopFaQuery.dll
 C:\Users\Omen 15\source\repos\ShopFa\01_ShopFaQuery\obj\Debug\net6.0\refint\01_ShopFaQuery.dll

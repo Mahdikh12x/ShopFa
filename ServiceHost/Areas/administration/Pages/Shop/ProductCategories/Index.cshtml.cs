@@ -8,22 +8,21 @@ namespace ServiceHost.Areas.administration.Pages.Shop.ProductCategories
 {
     public class IndexModel : PageModel
     {
-        public List<ProductCategoryViewModel> ProductCategories;
-        public ProductCategorySearchModel SearchModel;
+        public List<ProductCategoryViewModel>? ProductCategories;
+        public ProductCategorySearchModel? SearchModel;
         private readonly IProductCategoryApplication _productCategoryApplication;
         public IndexModel(IProductCategoryApplication productCategoryApplication, IFileUploader fileUploader)
         {
             _productCategoryApplication = productCategoryApplication;
         }
 
-        public void OnGet(ProductCategorySearchModel searchModel)
+        public async Task OnGet(ProductCategorySearchModel searchModel)
         {
-            ProductCategories = _productCategoryApplication.Search(searchModel);
+            ProductCategories = await _productCategoryApplication.SearchAsync(searchModel);
         }
 
         public IActionResult OnGetCreate()
         {
-
             return Partial("./Create");
         }
         public JsonResult OnPostCreate(CreateProductCategory command)

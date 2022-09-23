@@ -16,7 +16,6 @@
     <PackageReference Include="MimeKit" Version="3.2.0" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
     <PackageReference Include="RestSharp" Version="107.3.0" />
-    <PackageReference Include="SmsIrRestful" Version="1.1.3" />
     <PackageReference Include="Zarinpal" Version="3.0.1" />
   </ItemGroup>
 

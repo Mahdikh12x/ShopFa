@@ -27,6 +27,11 @@ C:\Users\Mahdi\source\repos\ShopFa\InventoryManagement.Infrastructure.Configurat
 C:\Users\Mahdi\source\repos\ShopFa\InventoryManagement.Infrastructure.Configuration\obj\Debug\net6.0\ref\InventoryManagement.Infrastructure.Configuration.dll
 C:\Users\Mahdi\source\repos\ShopFa\InventoryManagement.Infrastructure.Configuration\obj\Debug\net6.0\InventoryManagement.Infrastructure.Configuration.pdb
 C:\Users\Mahdi\source\repos\ShopFa\InventoryManagement.Infrastructure.Configuration\obj\Debug\net6.0\refint\InventoryManagement.Infrastructure.Configuration.dll
+C:\Users\Omen 15\source\repos\ShopFa\InventoryManagement.Infrastructure.Configuration\obj\Debug\net6.0\InventoryManagement.Infrastructure.Configuration.csproj.AssemblyReference.cache
+C:\Users\Omen 15\source\repos\ShopFa\InventoryManagement.Infrastructure.Configuration\obj\Debug\net6.0\InventoryManagement.Infrastructure.Configuration.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Omen 15\source\repos\ShopFa\InventoryManagement.Infrastructure.Configuration\obj\Debug\net6.0\InventoryManagement.Infrastructure.Configuration.AssemblyInfoInputs.cache
+C:\Users\Omen 15\source\repos\ShopFa\InventoryManagement.Infrastructure.Configuration\obj\Debug\net6.0\InventoryManagement.Infrastructure.Configuration.AssemblyInfo.cs
+C:\Users\Omen 15\source\repos\ShopFa\InventoryManagement.Infrastructure.Configuration\obj\Debug\net6.0\InventoryManagement.Infrastructure.Configuration.csproj.CoreCompileInputs.cache
 C:\Users\Omen 15\source\repos\ShopFa\InventoryManagement.Infrastructure.Configuration\bin\Debug\net6.0\InventoryManagement.Infrastructure.Configuration.deps.json
 C:\Users\Omen 15\source\repos\ShopFa\InventoryManagement.Infrastructure.Configuration\bin\Debug\net6.0\InventoryManagement.Infrastructure.Configuration.dll
 C:\Users\Omen 15\source\repos\ShopFa\InventoryManagement.Infrastructure.Configuration\bin\Debug\net6.0\InventoryManagement.Infrastructure.Configuration.pdb
@@ -72,11 +77,6 @@ C:\Users\Omen 15\source\repos\ShopFa\InventoryManagement.Infrastructure.Configur
 C:\Users\Omen 15\source\repos\ShopFa\InventoryManagement.Infrastructure.Configuration\bin\Debug\net6.0\ShopManagement.Application.Contracts.pdb
 C:\Users\Omen 15\source\repos\ShopFa\InventoryManagement.Infrastructure.Configuration\bin\Debug\net6.0\ShopManagement.Domain.pdb
 C:\Users\Omen 15\source\repos\ShopFa\InventoryManagement.Infrastructure.Configuration\bin\Debug\net6.0\ShopManagement.Infrastructure.EFCore.pdb
-C:\Users\Omen 15\source\repos\ShopFa\InventoryManagement.Infrastructure.Configuration\obj\Debug\net6.0\InventoryManagement.Infrastructure.Configuration.csproj.AssemblyReference.cache
-C:\Users\Omen 15\source\repos\ShopFa\InventoryManagement.Infrastructure.Configuration\obj\Debug\net6.0\InventoryManagement.Infrastructure.Configuration.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Omen 15\source\repos\ShopFa\InventoryManagement.Infrastructure.Configuration\obj\Debug\net6.0\InventoryManagement.Infrastructure.Configuration.AssemblyInfoInputs.cache
-C:\Users\Omen 15\source\repos\ShopFa\InventoryManagement.Infrastructure.Configuration\obj\Debug\net6.0\InventoryManagement.Infrastructure.Configuration.AssemblyInfo.cs
-C:\Users\Omen 15\source\repos\ShopFa\InventoryManagement.Infrastructure.Configuration\obj\Debug\net6.0\InventoryManagement.Infrastructure.Configuration.csproj.CoreCompileInputs.cache
 C:\Users\Omen 15\source\repos\ShopFa\InventoryManagement.Infrastructure.Configuration\obj\Debug\net6.0\InventoryManagement.Infrastructure.Configuration.csproj.CopyComplete
 C:\Users\Omen 15\source\repos\ShopFa\InventoryManagement.Infrastructure.Configuration\obj\Debug\net6.0\InventoryManagement.Infrastructure.Configuration.dll
 C:\Users\Omen 15\source\repos\ShopFa\InventoryManagement.Infrastructure.Configuration\obj\Debug\net6.0\refint\InventoryManagement.Infrastructure.Configuration.dll

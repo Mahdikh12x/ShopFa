@@ -316,6 +316,14 @@ C:\Users\Mahdi\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\CommentManagemen
 C:\Users\Mahdi\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\CommentManagement.Application.Contract.pdb
 C:\Users\Mahdi\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\CommentManagement.Domain.pdb
 C:\Users\Mahdi\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\CommentManagement.Infrastructure.EFCore.pdb
+C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\obj\Debug\net6.0\ServiceHost.csproj.AssemblyReference.cache
+C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\obj\Debug\net6.0\ServiceHost.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\obj\Debug\net6.0\ServiceHost.AssemblyInfoInputs.cache
+C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\obj\Debug\net6.0\ServiceHost.AssemblyInfo.cs
+C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\obj\Debug\net6.0\ServiceHost.csproj.CoreCompileInputs.cache
+C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\obj\Debug\net6.0\ServiceHost.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\obj\Debug\net6.0\ServiceHost.RazorAssemblyInfo.cache
+C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\obj\Debug\net6.0\ServiceHost.RazorAssemblyInfo.cs
 C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\appsettings.Development.json
 C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\appsettings.json
 C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\ServiceHost.staticwebassets.runtime.json
@@ -325,6 +333,7 @@ C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\ServiceHost.ru
 C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\ServiceHost.dll
 C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\ServiceHost.pdb
 C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\Humanizer.dll
+C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\MailKit.dll
 C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\MessagePack.dll
 C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\MessagePack.Annotations.dll
 C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\Microsoft.AspNetCore.Razor.Language.dll
@@ -370,6 +379,7 @@ C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\Microsoft.Visu
 C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
 C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
 C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\MimeKit.dll
 C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\Nancy.dll
 C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\Newtonsoft.Json.dll
 C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\NuGet.Common.dll
@@ -381,8 +391,8 @@ C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\NuGet.Packagin
 C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\NuGet.ProjectModel.dll
 C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\NuGet.Protocol.dll
 C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\NuGet.Versioning.dll
+C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\BouncyCastle.Crypto.dll
 C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\RestSharp.dll
-C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\SmsIrRestful.dll
 C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\System.Composition.AttributedModel.dll
 C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\System.Composition.Convention.dll
 C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\System.Composition.Hosting.dll
@@ -638,15 +648,6 @@ C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\ShopManagement
 C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\ShopManagement.Infrastructure.Account.ACL.pdb
 C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\ShopManagement.Infrastructure.ACL.pdb
 C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\ShopManagement.Infrastructure.EFCore.pdb
-C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\obj\Debug\net6.0\ServiceHost.csproj.AssemblyReference.cache
-C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\obj\Debug\net6.0\ServiceHost.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\obj\Debug\net6.0\ServiceHost.AssemblyInfoInputs.cache
-C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\obj\Debug\net6.0\ServiceHost.AssemblyInfo.cs
-C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\obj\Debug\net6.0\ServiceHost.csproj.CoreCompileInputs.cache
-C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\obj\Debug\net6.0\ServiceHost.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\obj\Debug\net6.0\ServiceHost.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\obj\Debug\net6.0\ServiceHost.RazorAssemblyInfo.cache
-C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\obj\Debug\net6.0\ServiceHost.RazorAssemblyInfo.cs
 C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\obj\Debug\net6.0\staticwebassets.build.json
 C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\obj\Debug\net6.0\staticwebassets.development.json
 C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\obj\Debug\net6.0\scopedcss\Areas\administration\Pages\Shared\_AdminLayout.cshtml.rz.scp.css
@@ -659,6 +660,3 @@ C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\obj\Debug\net6.0\refint\Service
 C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\obj\Debug\net6.0\ServiceHost.pdb
 C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\obj\Debug\net6.0\ServiceHost.genruntimeconfig.cache
 C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\obj\Debug\net6.0\ref\ServiceHost.dll
-C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\MailKit.dll
-C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\MimeKit.dll
-C:\Users\Omen 15\source\repos\ShopFa\ServiceHost\bin\Debug\net6.0\BouncyCastle.Crypto.dll

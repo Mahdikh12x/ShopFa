@@ -37,7 +37,7 @@ namespace ShopManagement.Application
             var operation = new OperationResult();
             var productCategory = _productCategoryRepository.Get(command.Id);
 
-            if (productCategory == null)
+            if (productCategory is null)
                 return operation.Failed(ApplicationValidationMessages.NotExisted);
             if (_productCategoryRepository.Exists(x => x.Name == command.Name&&x.Id !=command.Id))
                 return operation.Failed(ApplicationValidationMessages.Duplicated);
@@ -54,20 +54,16 @@ namespace ShopManagement.Application
 
         }
 
-        public EditProductCategory GetDetails(long id)
-        {
-            return _productCategoryRepository.GetDetails(id);
-        }
+        public EditProductCategory GetDetails(long id)=>
+            _productCategoryRepository.GetDetails(id);
+        
 
-        public List<ProductCategoryViewModel> GetProductCategories()
-        {
-            return _productCategoryRepository.GetProductCategories();
-        }
+        public async Task<List<ProductCategoryViewModel>?> GetProductCategoriesAsync()
+            =>await _productCategoryRepository.GetProductCategoriesAsync();
+        
 
-        public List<ProductCategoryViewModel> Search(ProductCategorySearchModel searchModel)
-        {
-            return _productCategoryRepository.Search(searchModel);
-
-        }
+        public async Task<List<ProductCategoryViewModel>?> SearchAsync(ProductCategorySearchModel searchModel)
+            =>await _productCategoryRepository.SearchAsync(searchModel);
+        
     }
 }

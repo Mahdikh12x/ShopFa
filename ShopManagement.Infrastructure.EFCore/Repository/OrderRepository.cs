@@ -20,14 +20,14 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
         public double GetPayAmountBy(long orderId)
         {
             return _shopContext.Orders
-                .Select(order => new { order.Id, order.PayAmount })
+                !.Select(order => new { order.Id, order.PayAmount })
                 .FirstOrDefault(x => x.Id == orderId)!.PayAmount;
         }
 
         public List<OrderViewModel> Search(OrderSearchModel searchModel)
         {
             var accounts = _accountContext.Users.Select(x => new { x.Id, x.Fullname }).AsNoTracking().ToList();
-            var query = _shopContext.Orders.Select(order => new OrderViewModel
+            var query = _shopContext.Orders?.Select(order => new OrderViewModel
             {
                 Id = order.Id,
                 AccountId = order.AccountId,

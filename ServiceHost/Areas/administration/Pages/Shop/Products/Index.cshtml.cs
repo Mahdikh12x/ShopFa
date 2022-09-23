@@ -24,17 +24,17 @@ namespace ServiceHost.Areas.administration.Pages.Shop.Products
         }
 
         [NeedsPermission(ShopPermissions.ShowProducts)]
-        public void OnGet(ProductSearchModel searchModel)
+        public async Task OnGet(ProductSearchModel searchModel)
         {
-            ProductCategories = new SelectList(_productCategoryApplication.GetProductCategories(), "Id", "Name");
+            ProductCategories = new SelectList(await _productCategoryApplication.GetProductCategoriesAsync(), "Id", "Name");
             Products = _productApplication.SearchAsync(searchModel)?.Result;
         }
 
-        public IActionResult OnGetCreate()
+        public  async Task<IActionResult>OnGetCreate()
         {
             var command = new CreateProduct
             {
-                Categories = _productCategoryApplication.GetProductCategories()
+                Categories =await _productCategoryApplication.GetProductCategoriesAsync()
             };
             return Partial("./Create", command);
         }
@@ -50,10 +50,10 @@ namespace ServiceHost.Areas.administration.Pages.Shop.Products
             return Page();
         }
 
-        public IActionResult OnGetEdit(long id)
+        public async Task<IActionResult> OnGetEdit(long id)
         {
             var product = _productApplication.GetDetails(id);
-            product!.Categories =_productCategoryApplication.GetProductCategories();
+            product!.Categories =await _productCategoryApplication.GetProductCategoriesAsync();
             return Partial("./Edit", product);
         }
         [NeedsPermission(ShopPermissions.EditProduct)]

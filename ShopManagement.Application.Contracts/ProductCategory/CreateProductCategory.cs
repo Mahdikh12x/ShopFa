@@ -9,9 +9,9 @@ namespace ShopManagement.Application.Contracts.ProductCategory
     {
 
         [Required(ErrorMessage = ValidationMessages.Required)]
-        public string Name { get; set; }
+        public string Name { get; set; } = null!;
 
-        [ExtensionFiles(new string[] { ".jpg", ".png", ".jpeg" }, ErrorMessage = ValidationMessages.FileFormat)]
+        [ExtensionFiles(new[] { ".jpg", ".png", ".jpeg" }, ErrorMessage = ValidationMessages.FileFormat)]
         [MaxFileSize(3 * 1024 * 1024,ErrorMessage =ValidationMessages.MaxFileSize)]
         //[Required(ErrorMessage = ValidationMessages.Required)]
         public IFormFile? Picture { get; set; }
@@ -21,13 +21,13 @@ namespace ShopManagement.Application.Contracts.ProductCategory
         public string? PictureAlt { get; set; }
 
         [Required(ErrorMessage = ValidationMessages.Required)]
-        public string Slug { get; set; }
+        public string Slug { get; set; } = null!;
 
         [Required(ErrorMessage = ValidationMessages.Required)]
-        public string Keywords { get; set; }
+        public string Keywords { get; set; } = null!;
 
         [Required(ErrorMessage = ValidationMessages.Required)]
-        public string MetaDescription { get; set; }
+        public string MetaDescription { get; set; } = null!;
 
     }
 }

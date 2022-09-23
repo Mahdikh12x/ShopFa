@@ -127,7 +127,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IM.Presentation", "IM.Prese
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InventoryManagement.Presentation.ApiApplication", "InventoryManagement.Presentation.ApiApplication\InventoryManagement.Presentation.ApiApplication.csproj", "{82524CEC-1E47-4E81-AF4C-289EBFFA7041}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopManagement.Infrastructure.Account.ACL", "ShopManagement.Infrastructure.Account.ACL\ShopManagement.Infrastructure.Account.ACL.csproj", "{5FA74D1F-8F22-4F5A-A7E6-9A20D870E2AC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShopManagement.Infrastructure.Account.ACL", "ShopManagement.Infrastructure.Account.ACL\ShopManagement.Infrastructure.Account.ACL.csproj", "{5FA74D1F-8F22-4F5A-A7E6-9A20D870E2AC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

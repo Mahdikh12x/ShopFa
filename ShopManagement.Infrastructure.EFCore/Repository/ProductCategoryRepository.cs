@@ -17,14 +17,13 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
 
         public EditProductCategory GetDetails(long id)
         {
-            var productCategory = _context.ProductCategories.Select(r => new EditProductCategory
+            var productCategory = _context.ProductCategories?.Select(r => new EditProductCategory
             {
                 Id = r.Id,
                 Name = r.Name,
                 Description = r.Description,
                 Keywords = r.Keywords,
                 MetaDescription = r.MetaDescription,
-                //Picture = r.Picture,
                 PictureTitle = r.PictureTitle,
                 PictureAlt = r.PictureAlt,
                 Slug = r.Slug
@@ -33,18 +32,19 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
             return productCategory ?? new EditProductCategory();
         }
 
-        public List<ProductCategoryViewModel> GetProductCategories()
+        public async Task<List<ProductCategoryViewModel>?> GetProductCategoriesAsync()
         {
-            return _context.ProductCategories.Select(x =>new ProductCategoryViewModel
-            {
-                Id=x.Id,
-                Name=x.Name
-            }).AsNoTracking().ToList();
+           return await _context.ProductCategories?.Select(x =>new ProductCategoryViewModel
+           {
+               Id=x.Id,
+               Name=x.Name
+           }).AsNoTracking().ToListAsync()!;
+
         }
 
-        public List<ProductCategoryViewModel> Search(ProductCategorySearchModel searchModel)
+        public async Task<List<ProductCategoryViewModel>?> SearchAsync(ProductCategorySearchModel searchModel)
         {
-            var query = _context.ProductCategories.Select(x => new ProductCategoryViewModel
+            var query = _context.ProductCategories?.Select(x => new ProductCategoryViewModel
             {
                 Id = x.Id,
                 Name = x.Name,
@@ -54,14 +54,15 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
             });
 
             if (!string.IsNullOrWhiteSpace(searchModel.Name))
-                query = query.Where(x => x.Name.Contains(searchModel.Name));
+                query =  query!.Where(x => x.Name.Contains(searchModel.Name));
 
-            return query.OrderByDescending(x=>x.Id).AsNoTracking().ToList();
+            return await query?.OrderByDescending(x=>x.Id).AsNoTracking().ToListAsync()!;
         }
 
         public string GetCategoryWithSlug(long id)
         {
-            return _context.ProductCategories.Select(x => new { x.Id, x.Slug }).FirstOrDefault(x => x.Id == id)!.Slug;
+            return _context.ProductCategories?.Select(x => new { x.Id, x.Slug }).FirstOrDefault(x => x.Id == id)!.Slug??string.Empty;
+            
         }
     }
 }
